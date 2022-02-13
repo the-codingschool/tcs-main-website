@@ -261,7 +261,7 @@ function Home() {
                                     <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with The Coding School to ensure their students receive the highest quality and most cutting-edge STEM education possible. The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. </p>
                                     <div className='row home-banner mt-30 p-0'>
                                         <div className='col-md-6 text-right'>
-                                            <a className='btn btn-primary link'>Bring Emerging Technology to Your Students</a>
+                                            <a className='btn btn-primary link'>CONNECT WITH US</a>
                                         </div>
                                         <div className='col-md-6 text-left'>
                                             <a className='btn btn-outline link'>SEE OUR PARTNER SCHOOLS</a>

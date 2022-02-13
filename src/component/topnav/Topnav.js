@@ -20,7 +20,7 @@ function Topnav() {
             active : false
         },
         {
-            label  : 'Get invovled',
+            label  : 'Get involved',
             link   : '/involved',
             active : false
         },
