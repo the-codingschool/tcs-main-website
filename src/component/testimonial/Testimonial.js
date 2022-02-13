@@ -334,7 +334,7 @@ function Testimonial() {
 
         </div>
         <div className='featured-logo'>
-            <div className='container container-1920'>
+            <div className='featured-in-section container-1920'>
             <div className='visual-text text-center mb-30'>
                 <h4>
                 Featured In

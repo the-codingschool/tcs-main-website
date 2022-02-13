@@ -57,9 +57,9 @@ var settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    centerMode:false
+    centerMode:true
   };
 
 const programPost = [
@@ -105,7 +105,12 @@ const keyPost = [
         anim:'right'
     }
 ];
-
+const imgContainerStyle = {
+  width: "440px"
+}
+const imageStyle = {
+  maxWidth: "100%"
+}
 function Home() {
 
     // function onLoad() {
@@ -195,7 +200,7 @@ function Home() {
                         <div className='col-lg-6 col-md-12 pr-0'>
                         <Fade right>
                             <div className='visual-text mt-50'>
-                                <h3>K-12 Programs</h3>
+                                <h3>For K-12 Programs</h3>
                             </div>
                         </Fade>
                             <div className='programPost'>
@@ -206,8 +211,8 @@ function Home() {
                                             return (
                                                 <Fade top>
                                         <li className='programPost-item'>
-                                            <div className='programPost-img'>
-                                                <img src={item["img"]} />
+                                            <div className='programPost-img' style={imgContainerStyle}>
+                                                <img src={item["img"]} style={imageStyle}/>
                                             </div>
                                             <div className='programPost-desc'>
                                                 <h4>{item["title"]}</h4>
