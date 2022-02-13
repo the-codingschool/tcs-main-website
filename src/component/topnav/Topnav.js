@@ -28,6 +28,11 @@ function Topnav() {
             label  : 'Donate',
             link   : '/donate',
             active : false
+        },
+        {
+            label  : 'Train',
+            link   : '/train',
+            active : false
         }
     ]
 
