@@ -16,7 +16,7 @@ import Fade from 'react-reveal/Fade'
 
 const schoolPartnersTestimonials = [
     {
-        title: 'Comptuer Science teacher, NJ',
+        title: 'Computer Science Teacher, NJ',
         description: '“The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need.”',
         tag: 'Bergen County Academies'
     },
