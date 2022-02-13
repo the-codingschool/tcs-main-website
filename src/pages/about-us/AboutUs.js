@@ -42,9 +42,9 @@ function AboutUs() {
                         <img className='position-absolute' style={{ top: '-11%', right: '-12%', width: '55px' }} src='/images/about.png' alt='' />
                     </Fade>
                     <div className='text-detail coding-school-block'>
-                        {/* <div className='sub-title'>
-                            <h1>The Coding School</h1>
-                        </div> */}
+                        <div className='sub-title'>
+                            <h1>Just because computer science education is available does not mean it is accessible. We’re changing that. </h1>
+                        </div>
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
                             The Coding School (TCS) is a 501(c)(3) nonprofit organization focused on preparing the next generation for the future of work through computer science training and workforce development. As pioneers in emerging technology education, we believe there is a critical - and unmet - need to provide students with the skills and knowledge in the technologies that will change the nature of how we conduct business, how we interact and connect, and society at large. We have a wide portfolio of initiatives, including flagship programs in Quantum Computing, Artificial Intelligence, and Big Data. To date, we have taught over 40,000 students from 125 countries, including K-12 students and educators, community college and university students, and members of the workforce.
@@ -70,7 +70,9 @@ function AboutUs() {
                         <Fade right>
                             <div className='sub-title'>Our Founder.</div>
                             <div>
-                                <b>Kiera Peltz</b> is on a mission to train the next generation for the jobs of the future today. She began learning how to code while she was working on the White House's Innovation & Technology team. She is a Gates-Cambridge and Schwarzman Scholar, receiving master's degrees from the University of Cambridge and Tsinghua University in Sociology and Economics & Business, respectively. Kiera graduated summa cum laude from Brown University with a double major in Political Science and Happiness, an independent major she designed that focuses on the interdisciplinary study of happy societies.
+                            <font size="4">
+                                <b>Kiera Peltz</b> is visionary on a mission to prepare the next generation for the future of work. She began learning how to code while working at the White House on the Innovation and Technology team and has been passionate about equitable computer science education ever since. With a background in policy, workforce development, and research, Kiera believes computer science education is critical for everyone, not just those planning on entering STEM fields, and is committed to ensuring every individual has access to high quality, accessible technical training. She is the lead PI on a 3-year grant from the U.S. Department of Defense NDEP and is on the advisory board for NSF-funded QuSTEAM. She graduated magna cum laude from Brown University and holds two master degrees from the University of Cambridge, where she graduated with Distinction, and Tsinghua University. She is a Gates-Cambridge and Schwarzman Scholar.
+                            </font>
                             </div>
                         </Fade>
                     </div>
@@ -91,68 +93,48 @@ function AboutUs() {
                         <Fade right>
                             <div className='row mt-40'>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Andrew Oliver</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Ben Isecke.JPG' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Ben Isecke</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Chief Master Sgt. James Fitch II..JPG' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Chief Master Sgt. James Fitch II</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Clarice Aiello - Director, UCLA_s Quantum Biology Tech (QuBiT) Lab.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Clarice Aiello</div>
-                                </div>
-                            </div>
-                        </Fade>
-                        <Fade left>
-                            <div className='row mt-20'>
-                                <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of eva_manolis_II.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Eva Manolis II</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Giselle Ragusa.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Giselle Ragusa</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of James D. Whitfield - Assistant Professor of Physics, Dartmouth University .jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>James D. Whitfield</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Jessica McKellar.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Jessica McKellar</div>
-                                </div>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className='row mt-20'>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Mark Redekopp.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Mark Redekopp</div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Pamit Surana.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Pamit Surana</div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ravi Pendse.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Ravi Pendse</div>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Giselle Ragusa.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Giselle Ragusa</div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ray Laflamme - Director of the UWaterloo Institute for Quantum Computing.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Ray Laflamme</div>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ravi Pendse.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Ravi Pendse</div>
                                 </div>
                             </div>
                         </Fade>
                         <Fade left>
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Mark Redekopp.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Mark Redekopp</div>
+                                </div>
+                                <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Scott Aaronson.png' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Scott Aaronson</div>
+                                </div>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Clarice Aiello - Director, UCLA_s Quantum Biology Tech (QuBiT) Lab.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Clarice Aiello</div>
+                                </div>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of James D. Whitfield - Assistant Professor of Physics, Dartmouth University .jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>James D. Whitfield</div>
+                                </div>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className='row mt-20'>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ray Laflamme - Director of the UWaterloo Institute for Quantum Computing.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Ray Laflamme</div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Spiros Michalakis - Physicist, CalTech_s Institute for Quantum Information and Matter (IQIM).jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -168,39 +150,55 @@ function AboutUs() {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade right>
+                        <Fade left>
                             <div className='row mt-20'>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Dave Touretzky.png' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Dr. Dave Touretzky</div>
-                                </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Hal Abelson.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Dr. Hal Abelson</div>
+                            <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Chief Master Sgt. James Fitch II..JPG' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Chief Master Sgt. James Fitch II</div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Manuela Veloso.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Manuela Veloso</div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Dr. Nathaniel D. Bastian</div>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Dave Touretzky.png' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Dr. Dave Touretzky</div>
                                 </div>
                             </div>
                         </Fade>
-                        <Fade left>
+                        <Fade right>
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Polina Golland.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Polina Golland</div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Yolanda Gil.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Dr. Yolanda Gil</div>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Dr. Nathaniel D. Bastian</div>
+                                </div>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Hal Abelson.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Dr. Hal Abelson</div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Jeremy Howard.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Jeremy Howard</div>
+                                </div>
+                            </div>
+                        </Fade>
+                        <Fade left>
+                            <div className='row mt-20'>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Yolanda Gil.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Dr. Yolanda Gil</div>
+                                </div>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Andrew Oliver</div>
+                                </div>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Ben Isecke.JPG' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Ben Isecke</div>
                                 </div>
                             </div>
                         </Fade>
@@ -314,9 +312,11 @@ function AboutUs() {
 
                 <div className='mt-80 our-leadership-block background2'>
                     <div className='detail-block'>
-                        <div className='title'>Our Sponsors and partners</div>
+                        <div className='title'>Our Sponsors and Partners</div>
                         <div>
+                        <font size="4.5">
                             It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the future tech-ready workforce is diverse, inclusive, and equitable.
+                        </font>
                         </div>
                     </div>
                 </div>
@@ -329,10 +329,11 @@ function AboutUs() {
                 <img className='position-absolute' style={{ top: '26%', left: '-18%' }} src="/images/Vector Smart Object copy 2.png" alt="" />
                 <div className='text-detail'>
                     <div className='sub-title'>
-                        <h1>Our Partners</h1>
+                        <h1>Our Sponsors and Partners</h1>
                     </div>
                     <div>
-                        To ensure the higest quality in development and delivery, we proudly work with the following organization.
+                        <h2>To ensure the higest quality in development and delivery, we proudly work with the following organization.
+                        </h2>
                     </div>
                 </div>
                 <div className='container'>
@@ -397,7 +398,7 @@ function AboutUs() {
                         <h1>School Partners</h1>
                     </div>
                     <div>
-                        To ensure the higest quality in development and delivery, we proudly work with the following organization.
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.
                     </div>
                 </div>
 
@@ -468,9 +469,6 @@ function AboutUs() {
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of Smoky Hill High School.png' || 'https://via.placeholder.com/80'} alt='' />
                             </div>
                             <div className='PartnerCard'>
-                                <img className='avatar' src={'/images/SchoolPartners/new/Copy of smoky-hill-high-with-head.png' || 'https://via.placeholder.com/80'} alt='' />
-                            </div>
-                            <div className='PartnerCard'>
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of St. Thomas Aquinas High School.jpg' || 'https://via.placeholder.com/80'} alt='' />
                             </div>
                             <div className='PartnerCard'>
@@ -499,9 +497,6 @@ function AboutUs() {
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of UNITElogo.PNG' || 'https://via.placeholder.com/80'} alt='' />
                             </div>
                             <div className='PartnerCard'>
-                                <img className='avatar' src={'/images/SchoolPartners/new/Copy of Tomujin.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                            </div>
-                            <div className='PartnerCard'>
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of TJCA.jpg' || 'https://via.placeholder.com/80'} alt='' />
                             </div>
                             <div className='PartnerCard'>
@@ -509,9 +504,6 @@ function AboutUs() {
                             </div>
                             <div className='PartnerCard'>
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of St. Thomas Aquinas High School.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                            </div>
-                            <div className='PartnerCard'>
-                                <img className='avatar' src={'/images/SchoolPartners/new/Copy of smoky-hill-high-with-head.png' || 'https://via.placeholder.com/80'} alt='' />
                             </div>
                             <div className='PartnerCard'>
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of Smoky Hill High School.png' || 'https://via.placeholder.com/80'} alt='' />
@@ -569,9 +561,6 @@ function AboutUs() {
                             </div>
                             <div className='PartnerCard'>
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of EOS_LOGO_H_BLUE (3).png' || 'https://via.placeholder.com/80'} alt='' />
-                            </div>
-                            <div className='PartnerCard'>
-                                <img className='avatar' src={'/images/SchoolPartners/new/Copy of Elite Open School VS. 1.png' || 'https://via.placeholder.com/80'} alt='' />
                             </div>
                             <div className='PartnerCard'>
                                 <img className='avatar' src={'/images/SchoolPartners/new/Copy of Eastside College Prep.gif' || 'https://via.placeholder.com/80'} alt='' />

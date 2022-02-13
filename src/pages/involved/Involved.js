@@ -50,9 +50,9 @@ function Involved() {
                 </div>
 
                 <div className='details mt-60'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <h2>
+                    Please fill out the form below if you are interested in learnign more about our programs and how to get involved!
+                    </h2>
                 </div>
 
                 <form className='mt-80 mb-80'>
@@ -78,12 +78,6 @@ function Involved() {
                                 <input placeholder='John@gmail.com' className='form-control' />
                             </div>
                         </div>
-                        <div className='col-md-6'>
-                            <div className='mb-7 fs-16'>Company Address:</div>
-                            <div>
-                                <input placeholder='123 ABC, Lorem ipsum, NYC, USA' className='form-control' />
-                            </div>
-                        </div>
                     </div>
 
                     <div className='row mt-20'>
@@ -107,7 +101,7 @@ function Involved() {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <div className='mb-7 fs-16'>How did you here about The Codin School:</div>
+                            <div className='mb-7 fs-16'>How did you here about The Coding School:</div>
                             <div>
                                 <input placeholder='Type Answer' className='form-control' />
                             </div>
