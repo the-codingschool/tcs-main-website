@@ -70,7 +70,9 @@ function AboutUs() {
                         <Fade right>
                             <div className='sub-title'>Our Founder.</div>
                             <div>
-                                <b>Kiera Peltz</b> is on a mission to train the next generation for the jobs of the future today. She began learning how to code while she was working on the White House's Innovation & Technology team. She is a Gates-Cambridge and Schwarzman Scholar, receiving master's degrees from the University of Cambridge and Tsinghua University in Sociology and Economics & Business, respectively. Kiera graduated summa cum laude from Brown University with a double major in Political Science and Happiness, an independent major she designed that focuses on the interdisciplinary study of happy societies.
+                            <font size="4">
+                                <b>Kiera Peltz</b> is visionary on a mission to prepare the next generation for the future of work. She began learning how to code while working at the White House on the Innovation and Technology team and has been passionate about equitable computer science education ever since. With a background in policy, workforce development, and research, Kiera believes computer science education is critical for everyone, not just those planning on entering STEM fields, and is committed to ensuring every individual has access to high quality, accessible technical training. She is the lead PI on a 3-year grant from the U.S. Department of Defense NDEP and is on the advisory board for NSF-funded QuSTEAM. She graduated magna cum laude from Brown University and holds two master degrees from the University of Cambridge, where she graduated with Distinction, and Tsinghua University. She is a Gates-Cambridge and Schwarzman Scholar.
+                            </font>
                             </div>
                         </Fade>
                     </div>
@@ -394,7 +396,7 @@ function AboutUs() {
                         <h1>School Partners</h1>
                     </div>
                     <div>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more. 
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.
                     </div>
                 </div>
 
