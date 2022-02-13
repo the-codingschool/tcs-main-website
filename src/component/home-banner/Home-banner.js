@@ -68,7 +68,7 @@ if( idd == 'Rectangle_1_copy_3' ){
                     </h2>
                     <p>Creating pipelines and pathways for learners at every stage K-16, educators and the workforce </p>
                     <a className='btn btn-primary-gradient btn-link'>Learn More</a>
-                    <p>Summer registration is now open!</p>
+                    <p>Summer registration for camps & courses is now open!</p>
                     <a className='btn btn-outline btn-link'>Register</a>
                     </Fade>
                 </div>
