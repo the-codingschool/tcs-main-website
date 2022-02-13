@@ -7,6 +7,10 @@ import { Link } from "react-router-dom"
 function Topnav() {
     const [nav, setNav] = useState(false)
     const toggleNav = () => setNav(!nav)
+    const topLogo = {
+      width: '100px',
+      marginLeft: '-50%'
+    }
 
     const Items = [
         {
@@ -45,7 +49,7 @@ function Topnav() {
         <nav id="Topnav" className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <Link class="navbar-brand" href="#">
-                    <img src={"/images/TCS_logo-1 copy.png" || "https://via.placeholder.com/80"} className='rounded-circle' />
+                    <img src={"/images/TCS_logo-1 copy.png" || "https://via.placeholder.com/80"} style={topLogo} className='rounded-circle' />
                 </Link>
                 <button onClick={toggleNav} className={`btn d-inline-block d-lg-none ml-auto ${!nav && 'collapsed'}`} type="button">
                     <span class="navbar-toggler-icon"></span>

@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 //import React, { useEffect } from 'react';
 
 
-import Fade from 'react-reveal/Fade'    
+import Fade from 'react-reveal/Fade'
 
 
 
@@ -99,7 +99,7 @@ var settings = {
 ]
   };
 
-  const showMore = true; 
+  const showMore = true;
   const featuredPost = [
     {
         name: '1',
@@ -112,14 +112,14 @@ var settings = {
         name: '1',
         title: 'IBM and The Coding School to offer free quantum education to 5000 students',
         img: '/images/pro-post1.png',
-        description:'',        
+        description:'',
         link:'https://content.techgig.com/ibm-and-the-coding-school-to-offer-free-quantum-education-to-5000-students/articleshow/78538803.cms'
     },
     {
         name: '1',
         title: 'TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce',
         img: '/images/pro-post1.png',
-        description:'',        
+        description:'',
         link:'https://thequantuminsider.com/2021/03/01/tqd-quantum-ethics-exclusive-qubit-by-qubits-mission-is-to-train-a-diverse-quantum-workforce/'
     }
     ,
@@ -127,33 +127,33 @@ var settings = {
         name: '1',
         title: 'Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible to High School Students This Summer',
         img: '/images/pro-post1.png',
-        description:'',        
+        description:'',
         link:'https://markets.businessinsider.com/news/stocks/preparing-for-the-jobs-of-the-future-the-coding-school-and-mit-physicists-are-making-quantum-computing-accessible-to-high-school-students-this-summer-1029279911'
     },
     {
         name: '1',
         title: 'MIT Researchers Lead High School Educational Initiative on Quantum Computing',
         img: '/images/pro-post1.png',
-        description:'',         
+        description:'',
         link:'https://cacm.acm.org/careers/246701-mit-researchers-lead-high-school-educational-initiative-on-quantum-computing/fulltext?mobile=false'
     },
     {
         name: '1',
         title: 'Two Juniors Accepted Into First-Ever Quantum Computing Course',
         img: '/images/pro-post1.png',
-        description:'',         
+        description:'',
         link:'https://www.agnesirwin.org/about/news/news-detail-page/~board/news/post/two-juniors-accepted-into-first-ever-quantum-computing-course'
     }
 ];
 const partnersLogo = [
     {
-        src: '/images/dod-stem.svg',
+        src: '/images/dod_stem.svg',
     },
     {
-        src: '/images/google.svg',
+        src: '/images/google.png',
     },
     {
-        src: '/images/ibm.svg',
+        src: '/images/ibm_q.png',
     },
     {
         src: '/images/ne.svg',
@@ -196,10 +196,10 @@ const featuredLogo = [
 
 function Testimonial() {
     function onLoad() {
-        
+
     }
 
-    
+
   return (
     <div id="" className="testimonia-sec"  >
         <Fade top><div className='container'>
@@ -207,20 +207,20 @@ function Testimonial() {
             <h3>
                 Testimonials
                 </h3>
-            
+
             </div>
-            
+
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#studenst" className='active'>Students</a></li>
                 <li><a data-toggle="tab" href="#partner-school">Partner Schools</a></li>
                 <li><a data-toggle="tab" href="#instructors">Instructors</a></li>
             </ul>
-            
+
         </div>
         </Fade>
         <div className='testimonia-sec-bg' style={{ backgroundImage: `url("/images/test-images.png")` }}>
                 <div className='container'>
-            
+
 
             <div class="tab-content mt-50">
                 <div id="studenst" class="tab-pane fade in active show">
@@ -229,12 +229,12 @@ function Testimonial() {
                     STUDENTS
                     </h4>
                 </div>
-                
+
                 <ul className='testimonials'>
                     <Slider {...settings}>
                     {studentTestimonials.map((item,index)=>{
                     return (
-                    
+
                     //<li key={index}>{item['title']}</li>
                     <li>
                         <p>{item['description']}</p>
@@ -257,7 +257,7 @@ function Testimonial() {
                     <Slider {...settings}>
                     {schoolPartnersTestimonials.map((item,index)=>{
                     return (
-                    
+
                     //<li key={index}>{item['title']}</li>
                     <li>
                         <p>{item['description']}</p>
@@ -279,7 +279,7 @@ function Testimonial() {
                     <Slider {...settings}>
                     {instructorTestimonials.map((item,index)=>{
                     return (
-                    
+
                     //<li key={index}>{item['title']}</li>
                     <li>
                         <p>{item['description']}</p>
@@ -304,8 +304,8 @@ function Testimonial() {
                     <p>It takes a village to create high quality, high impact STEM education and make it accessible to all. We are grateful to our sponsors and partners for helping make it happen.</p>
                     </Fade>
                 </div>
-             
-                
+
+
                 <ul >
                 {partnersLogo.map((item,index)=>{
                     return (
@@ -315,7 +315,7 @@ function Testimonial() {
                 </ul>
                 <div class="row home-banner mt-30 p-0">
                     <div class="col-md-6 text-right">
-                        <a class="btn btn-primary link" 
+                        <a class="btn btn-primary link"
         >SEE MORE</a>
                     </div>
                     <div class="col-md-6 text-left">
@@ -334,31 +334,31 @@ function Testimonial() {
 
         </div>
         <div className='featured-logo'>
-            <div className='container container-1920'>
+            <div className='featured-in-section container-1920'>
             <div className='visual-text text-center mb-30'>
                 <h4>
                 Featured In
                 </h4>
             </div>
-            
-                 
+
+
                 <ul className='featuredLogo'>
                 {featuredLogo.map((item,index)=>{
                     return (
-                        {...index / 2 ?  
+                        {...index / 2 ?
                             <Fade top>
                                 <li className={index >= 5 ? 'hide' : 'show'}  ><img src={item["src"]} /></li>
-                            </Fade>    
-                            : 
+                            </Fade>
+                            :
                         <Fade bottom>
                             <li className={index >= 5 ? 'hide' : 'show'}  ><img src={item["src"]} /></li>
                         </Fade>
                         }
-                        
+
                     )
                 })}
                 </ul>
-                
+
             </div>
             <div className='featured-post'>
                 <ul>
@@ -381,7 +381,7 @@ function Testimonial() {
                 </ul>
             </div>
         </div>
-        
+
     </div>
   )
 }
