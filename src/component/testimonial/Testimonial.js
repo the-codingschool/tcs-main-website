@@ -16,17 +16,17 @@ import Fade from 'react-reveal/Fade'
 
 const schoolPartnersTestimonials = [
     {
-        title: 'Ben Iseke',
+        title: 'Comptuer Science teacher, NJ',
         description: '“The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need.”',
         tag: 'Bergen County Academies'
     },
     {
-        title: 'Heather Pereira',
+        title: ' Director of Educational Options, CA',
         description: '“Qubit by Qubit has been a wonderful partner to work with. From assisting with ensuring that the course is approved by the University of California to providing a streamlined and straightforward enrollment process, the management of the course has been great.”',
         tag: ''
     },
     {
-        title: 'William K. Funderburk',
+        title: 'Physics Teacher, MS',
         description: '“My own participation in this course has resulted in an overall better physics curriculum at my school! and I`m very thankful I met them. I`m so pleased to recommend their high-school course in Quantum Computing to any high school.”',
         tag: ''
     }
@@ -34,29 +34,29 @@ const schoolPartnersTestimonials = [
 const instructorTestimonials = [
     {
         tag: 'Google',
-        title: 'Anthony Mirand',
+        title: 'Male instructor, Software Engineer at Google',
         description: '“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”'
     },
     {
         tag:'Amazon, TCS Advisory Board',
-        title: 'Kelly Ellis',
+        title: 'Amazon, TCS Advisory Board',
         description: '“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”'
     }
 ];
 const studentTestimonials = [
     {
         tag: '',
-        title: 'Faraz',
+        title: '12th grade male, Sydney Australia',
         description: '“This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing again. It would not only be a missed opportunity if I didn`t further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.”'
     },
     {
         tag:'',
-        title: 'Lucy',
+        title: 'College student, Minnesota ',
         description: '“I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.”'
     },
     {
         tag:'',
-        title: 'Michelle',
+        title: '11th grade female, New York',
         description: '“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”'
     }
 ];
@@ -205,7 +205,7 @@ function Testimonial() {
         <Fade top><div className='container'>
             <div className='visual-text text-center mb-30'>
             <h3>
-                Testimonial
+                Testimonials
                 </h3>
             
             </div>

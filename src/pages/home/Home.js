@@ -258,10 +258,10 @@ function Home() {
                                 </Fade>
                                 <Fade bottom>
                                     <p>Accredited by the Western Association of Schools and Colleges (WASC), your K-12 students can earn transcript credit in emerging technologies such as AI and Quantum Computing. </p>
-                                    <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with us in order to ensure their students have the opportunity to learn the most cutting-edge STEM skills. In addition to accreditation by WASC for all of our courses, The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. To learn more about bringing emerging technology STEM to your students for credit..  </p>
+                                    <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with The Coding School to ensure their students receive the highest quality and most cutting-edge STEM education possible. The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. </p>
                                     <div className='row home-banner mt-30 p-0'>
                                         <div className='col-md-6 text-right'>
-                                            <a className='btn btn-primary link'>CONNECT WITH US</a>
+                                            <a className='btn btn-primary link'>Bring Emerging Technology to Your Students</a>
                                         </div>
                                         <div className='col-md-6 text-left'>
                                             <a className='btn btn-outline link'>SEE OUR PARTNER SCHOOLS</a>
