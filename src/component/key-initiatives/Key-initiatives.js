@@ -76,7 +76,6 @@ function KeyInitiatives() {
         </div>
         <div className='container'>
         <div className='visual-text text-center mt-80'>
-        <img src={"/images/diverse_kids.png"} alt='/images/qubit.png' />
         <Fade left><h4 className='m-auto mb-30'>The future STEM workforce is <span className='highlight-underline'>diverse</span></h4></Fade>
         <Fade right><h4 className='w-80 m-auto'>We're making sure of it</h4></Fade>
         <Fade left><h4 className='m-auto mb-30'><span className='highlight-underline'>55%</span> of our students are from underrepresented backgrounds</h4></Fade>
