@@ -86,7 +86,7 @@ const keyPost = [
     {
         name: '1',
         title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
-        img: '/images/code-connect.png',
+        img: '../../images/code-connect.png',
         link:'#0',
         anim:'left'
     },
