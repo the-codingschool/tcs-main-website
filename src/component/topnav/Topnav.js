@@ -25,8 +25,13 @@ function Topnav() {
             active : false
         },
         {
-            label  : 'Donate',
-            link   : '/donate',
+            label  : 'CodeConnects',
+            link   : 'https://codeconnects.org',
+            active : false
+        },
+        {
+            label  : 'QubitxQubit',
+            link   : 'https://www.qubitbyqubit.org',
             active : false
         },
         {
