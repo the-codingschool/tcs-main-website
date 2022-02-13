@@ -160,7 +160,7 @@ function Home() {
                         
                     <img src={item["img"]} alt='students' />
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Read More</a>
+                    <a className='link' href={item["link"]} >Learn More</a>
                     </div>
                 </div>
                 </Fade>
