@@ -230,8 +230,10 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-6 col-md-12'>
                             <Fade left> 
-                            <h3>A New Scalable Model of STEM Education to Ensure Every Student Across the U.S. Has Access to High Quality Computer Science Education.</h3>
-                            <p>To expand the pool of qualified talent and increase diversity in tech, every students needs access to high quality computer science education. Taught by PhD researchers and professional software engineers, students gain in-depth knowledge and real world skills in emerging technologies, such as AI and Quantum Computing, that they would not otherwise have access to. We offer virtual courses with live instruction, we've taught close to 10,000 students in a single course with staggeringly impressive outcomes: over 80% completion rate, 98% of students would recommend the course to their friends, 99% of students are more likely to take a STEM class in college after the course, 95% of students are more interested in pursuing a STEM career. Through this model, every student in the U.S. can have access to high-quality computer science instruction.</p>
+                            <h3>We’ve Created a Learning Model That’s Making Real Impact.</h3>
+                            <p>To expand the pool of qualified talent and increase diversity in tech, every student needs access to high quality computer science education. We’re making that a reality. Taught by PhD researchers and professional software engineers, our students gain in-depth knowledge and real world skills in emerging technologies, such as AI and Quantum Computing, that they would not otherwise have access to. </p>
+                            <p>Our model offers virtual courses with live instruction, teaching nearly 10,000 students in a single course with staggeringly impressive outcomes.</p>
+                            <p>Through this model, every student in the U.S. can have access to high-quality computer science instruction.</p>
                             </Fade>
                         </div>
                         <div className='col-lg-6 col-md-12'>
