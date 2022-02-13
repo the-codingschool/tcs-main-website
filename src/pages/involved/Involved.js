@@ -78,12 +78,6 @@ function Involved() {
                                 <input placeholder='John@gmail.com' className='form-control' />
                             </div>
                         </div>
-                        <div className='col-md-6'>
-                            <div className='mb-7 fs-16'>Company Address:</div>
-                            <div>
-                                <input placeholder='123 ABC, Lorem ipsum, NYC, USA' className='form-control' />
-                            </div>
-                        </div>
                     </div>
 
                     <div className='row mt-20'>
