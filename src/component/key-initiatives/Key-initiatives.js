@@ -5,7 +5,7 @@ import './key-initiatives.scss'
 import Fade from 'react-reveal/Fade'
 function KeyInitiatives() {
     function onLoad() {
-        
+
     }
     let items=['Item 1','Item 2','Item 3','Item 4','Item 5'];
     const keyPost = [
@@ -31,7 +31,7 @@ function KeyInitiatives() {
             anim:'right'
         }
     ];
-    
+
   return (
     <div id="" className="KeyInitiatives mt-80 mb-80">
         <div className='container d-none'>
@@ -46,12 +46,12 @@ function KeyInitiatives() {
             {keyPost.map((item,index)=>{
                 return (
                 //<li key={index}>{item['title']}</li>
-                {...index / 2 ?  
-                
+                {...index / 2 ?
+
                 <Fade left>
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
-                        
+
                     <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
@@ -62,7 +62,7 @@ function KeyInitiatives() {
                 <Fade right>
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
-                        
+
                     <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
@@ -77,8 +77,8 @@ function KeyInitiatives() {
         <div className='container'>
         <div className='visual-text text-center mt-80'>
         <Fade left><h4 className='m-auto mb-30'>The future STEM workforce is <span className='highlight-underline'>diverse</span></h4></Fade>
-        <Fade right><h4 className='w-80 m-auto'>We're making sure of it
-55% of our students are from underrepresented backgrounds </h4></Fade>
+        <Fade right><h4 className='w-80 m-auto'>We're making sure of it</h4></Fade>
+        <Fade left><h4 className='m-auto mb-30'><span className='highlight-underline'>55%</span> of our students are from underrepresented backgrounds</h4></Fade>
             </div>
         </div>
     </div>
