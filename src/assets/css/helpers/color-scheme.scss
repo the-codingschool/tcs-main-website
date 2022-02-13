@@ -1,0 +1,16 @@
+$colors: (
+    "paragraph" : $paragraph,
+    "white"     : $white,
+    "black"     : $black
+);
+
+@each $name, $color in $colors {
+    .color-#{$name} {
+        color: #{$color} !important;
+    }
+
+    .bg-color-#{$name} {
+        background-color: #{$color} !important;
+    }
+}
+

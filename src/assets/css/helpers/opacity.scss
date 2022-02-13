@@ -1,0 +1,6 @@
+@each $name in $count {
+    .opacity-#{$name} {
+        opacity: #{$name/100} !important; 
+    }
+}
+

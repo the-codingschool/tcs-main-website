@@ -1,0 +1,6 @@
+@each $size in $count {
+    .h-#{$size} {
+        height: #{$size}% !important;
+    }
+}
+

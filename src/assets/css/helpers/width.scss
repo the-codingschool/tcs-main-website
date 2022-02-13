@@ -1,0 +1,6 @@
+@each $size in $count {
+    .w-#{$size} {
+        width: #{$size}% !important;
+    }
+}
+

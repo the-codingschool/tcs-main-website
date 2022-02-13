@@ -1,0 +1,6 @@
+
+@each $size in $count {
+    .fs-#{$size} {
+        font-size: calc(#{$size}px / 1) !important;
+    }
+}

@@ -1,0 +1,233 @@
+// #Topnav:before {content: '';background: #dedede;width: 100%;height: 50%;left: 0;right: 0;top: 0px;position: absolute;z-index: -1;}
+#AboutUs {
+    max-width: 1400px;
+    margin: auto;
+    .title {
+        text-align: center;
+        font-size: 86px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #88a0b9;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .sub-title {
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: #50759d;
+    }
+
+    .text-detail {
+        max-width: 680px;
+        text-align: justify;
+        text-align-last: center;
+        margin: auto;
+    }
+
+    .our-founder-block {
+        margin-top: 220px;
+    }
+
+    .avatar {
+        border-radius: 12px;
+    }
+
+    .Young {
+        width: 162px;
+        height: 162px;
+        object-fit: cover;
+    }
+
+    .Advisors {
+        width: 162px;
+        height: 162px;
+        object-fit: cover;
+        margin: 10px 15px 15px 0;
+    }
+
+    .PartnerCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px;
+    }
+
+    .ImageSlider {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SponsorAvatar {
+        width: 150px;
+        object-fit: contain;
+        height: 50px;
+        margin: 30px auto !important;
+    }
+
+    .Partner {
+        width: 80%;
+        object-fit: contain;
+    }
+
+    .our-leadership-block {
+        // &.background1 {
+        //     background: url("../../../public/images/our-leadership.png") center center;
+        //     background-size: cover;
+        // }
+        // &.background2 {
+        //     background: url("../../../public/images/our-sponsor.png") center center;
+        //     background-size: cover;
+        // }
+        color: #50759d;
+        padding: 40px 15px;
+        height: 400px;
+        margin-left: -300px;
+        margin-right: -300px;
+        .detail-block {
+            max-width: 700px;
+            margin: auto;
+            .title {
+                font-size: 34px;
+                margin-bottom: 16px;
+                text-align: left;
+                color: inherit;
+            }
+        }
+    }
+
+    .academic-block {
+        .sub-title {
+            font-size: 34px;
+            max-width: fit-content;
+            margin: auto;
+            line-height: 1;
+        }
+        .line {
+            max-width: 300px;
+            height: 2px;
+            background: #76b67b;
+            margin: 15px auto;
+        }
+    }
+
+    .advisor-block {
+        position: relative;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 400px;
+        margin-bottom: 550px;
+        .sub-title {
+            font-size: 34px;
+            z-index: 1;
+            position: relative;
+            background: white;
+            width: fit-content;
+        }
+        .advisors {
+            &.background {
+                background: url("../../../public/images/Vector Smart Object.png") center;
+                background-position-x: left;
+            }
+            position: absolute;
+            top: -625%;
+            left: 15%;
+            border: 2px solid #76b67b;
+            padding: 40px;
+            max-width: 1200px;
+            .list-block {
+                margin-left: 200px;
+                .row {
+                    margin-top: 20px;
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                }
+                .advisor-item {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Bottom {
+        margin-top: 350px !important;
+    }
+
+    .quantum-block {
+        &.bakcground {
+            background: url("../../../public/images/Vector Smart Object.png") center center;
+            background-size: auto;
+        }
+        .sub-title {
+            font-size: 34px;
+            max-width: fit-content;
+            margin: auto;
+            line-height: 1;
+        }
+        .detail {
+            max-width: 600px;
+            text-align: justify;
+            text-align-last: center;
+            margin: auto;
+        }
+    }
+
+    .professional-block {
+        .block {
+            position: relative;
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 80px;
+            background: #ededed;
+            padding-bottom: 30px;
+            .background {
+                background: url("../../../public/images/Advisory Board.png") center center;
+                background-size: cover;
+                box-shadow: 0px 26px 25px -20px rgba(0, 0, 0, 0.29);
+                -webkit-box-shadow: 0px 26px 25px -20px rgba(0, 0, 0, 0.29);
+                -moz-box-shadow: 0px 26px 25px -20px rgba(0, 0, 0, 0.29);
+                color: white;
+                font-size: 24px;
+                text-align: center;
+                padding: 60px 15px;
+                height: 300px;
+                margin-left: -25px;
+                margin-right: -25px;
+                margin-top: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-size: 26px;
+                font-weight: 600;
+            }
+            &::after,
+            &::before {
+                display: block;
+                content: "";
+                width: 60px;
+                height: 60px;
+                position: absolute;
+                background: #88a0b9;
+                z-index: -1;
+            }
+            &::after {
+                left: -2px;
+                bottom: -2px;
+            }
+            &::before {
+                right: -2px;
+                top: 32%;
+                height: 100px;
+            }
+        }
+    }
+}

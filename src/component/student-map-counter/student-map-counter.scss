@@ -1,0 +1,79 @@
+.StudentMapCounter{
+    .imageBox {
+        position: relative;
+        display: block;
+        text-align: center;
+        img {
+            margin-bottom: 15px;
+        }
+        h4 {
+            font-size: 70px;
+            font-weight: bold;
+            color: #D1A74C;
+            text-align: center;
+            div{
+                
+                @media screen and (max-width:768px) {
+                    height: 60px !important;
+                }
+            }
+            @media screen and (max-width:768px) {
+                font-size: 40px;
+            }
+        }
+        h6 {
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #346E8A;
+            line-height: 1;
+            @media screen and (max-width:768px) {
+                font-size: 30px;
+            }
+        }
+    }
+    .dot-map{
+        position: relative;
+        img{
+            pointer-events: none;
+            max-width: 100%;
+            width:auto;
+            display:block;
+            margin:0 auto;
+            min-height: 173px;
+        }
+        &:hover{
+            .imageBoxWrap {
+                opacity: 1;
+            }
+        } 
+        
+        .imageBoxWrap {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            padding-top: 100px;
+            opacity: 0;
+            transition: all 0.5s ease;
+            @media screen and   (max-width:767px) {
+                position: relative;
+                padding-top: 50px;
+                opacity: 1;
+            }
+        }
+        
+        
+        
+    }
+}
+.visual-text{
+    h3{
+        font-size:50px;
+        font-weight: bold;
+        color:#346E8A;
+    }
+    
+}

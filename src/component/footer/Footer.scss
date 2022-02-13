@@ -1,0 +1,32 @@
+#Footer {
+  background: #232323;
+  color: white;
+  margin-top: 80px;
+  padding: 20px 15px;
+  .subscriber-input {
+    position: relative;
+    width: 75%;
+    display: flex;
+    input {
+      border-radius: 0;
+      background: #3f3828;
+      border-color: #816830;
+      color: white;
+    }
+    button {
+      background: #ad8736;
+      position: absolute;
+      right: 3px;
+      bottom: 3px;
+      padding: 0.374rem 0.74rem;
+      border: none;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
+  .cp,
+  span {
+    font-size: 11px;
+  }
+}
