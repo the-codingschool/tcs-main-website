@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'SEGOEUI';
+  src: url('/path-to/SEGOEUI.woff2') format('woff2'),
+       url('/path-to/SEGOEUI.woff') format('woff'),
+       url('/path-to/SEGOEUI.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'SEGOEUI', sans-serif;
+}

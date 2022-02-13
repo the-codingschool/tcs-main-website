@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 
+import AOS from 'aos';
 
 // ----- CSS ----- //
 // Bootstrap
@@ -16,15 +17,21 @@ import Topnav from './component/topnav/Topnav';
 import Footer from './component/footer/Footer';
 import Involved from './pages/involved/Involved';
 import Home from './pages/home/Home';
+import Train from './pages/train/train';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  },[])
+
   return (
     <BrowserRouter>
         <Topnav />
         <Switch>
           <Route path={"/involved"} component={Involved} />
-          <Route path={"/"} component={Home} />
+          <Route path={"/"} component={Home} exact={true}/>
           <Route path={"/about_us"} component={AboutUs} />
+          <Route path={"/train"} component={Train} />
         </Switch>
         <Footer />
     </BrowserRouter>
