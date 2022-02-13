@@ -13,21 +13,21 @@ function KeyInitiatives() {
             name: '1',
             title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
             img: '/images/code-connect.png',
-            link:'#0',
+            link:'https://codeconnects.org/',
             anim:'left'
         },
         {
             name: '1',
             title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
             img: '/images/qubit.png',
-            link:'#0',
+            link:'https://www.qubitbyqubit.org',
             anim:'top'
         },
         {
             name: '1',
             title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
             img: '/images/train.png',
-            link:'#0',
+            link:'/train',
             anim:'right'
         }
     ];
@@ -52,7 +52,7 @@ function KeyInitiatives() {
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
                         
-                    <img src={item["img"]} alt='students' />
+                    <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Read More</a>
                     </div>
@@ -63,7 +63,7 @@ function KeyInitiatives() {
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
                         
-                    <img src={item["img"]} alt='students' />
+                    <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>

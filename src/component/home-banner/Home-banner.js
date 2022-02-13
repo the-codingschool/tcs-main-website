@@ -67,9 +67,9 @@ if( idd == 'Rectangle_1_copy_3' ){
                     Training the future workforce in emerging technologies
                     </h3>
                     <p>Creating pipelines and pathways for learners at every stage K-16, educators and the workforce </p>
-                    <a className='btn btn-primary-gradient btn-link'>Learn More</a>
+                    <a href="https://codeconnects.org/programs.html" className='btn btn-primary-gradient btn-link'>Learn More</a>
                     <p>Summer registration for camps & courses is now open!</p>
-                    <a href="https://codeconnects.org/programs.html" className='btn btn-outline btn-link'>Register</a>
+                    <a href="https://codeconnects.org/register.html" className='btn btn-outline btn-link'>Register</a>
                     </Fade>
                 </div>
                 <div className='col-lg-5 col-md-12 anim_img'>

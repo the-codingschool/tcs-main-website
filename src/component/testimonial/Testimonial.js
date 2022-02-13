@@ -299,7 +299,7 @@ function Testimonial() {
                 <div className='partner-sponsor-wrap'>
                 <div className='visual-text text-center mb-30'>
                 <Fade top><h3>
-                        Our Partners & <span className='highlight-underline'>Sponsors</span>
+                        Our Partners & Sponsors
                     </h3></Fade><Fade bottom>
                     <p>It takes a village to create high quality, high impact STEM education and make it accessible to all. We are grateful to our sponsors and partners for helping make it happen.</p>
                     </Fade>

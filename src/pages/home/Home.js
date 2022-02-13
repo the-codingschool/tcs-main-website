@@ -230,8 +230,8 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-6 col-md-12'>
                             <Fade left> 
-                            <h3>Emerging Technologies & Quantum Hub Training Center.</h3>
-                            <p>Breaking ground in spring 2022, TCS will create an emerging technologies center with the first ever global quantum training hub. Ideally situated on the campus of U of Maryland, a top 5 quantum research and computer science institute, TCS’s emerging technologies center will train K-12, university and professionals with the skills needed for the future of work</p>
+                            <h3>A New Scalable Model of STEM Education to Ensure Every Student Across the U.S. Has Access to High Quality Computer Science Education.</h3>
+                            <p>To expand the pool of qualified talent and increase diversity in tech, every students needs access to high quality computer science education. Taught by PhD researchers and professional software engineers, students gain in-depth knowledge and real world skills in emerging technologies, such as AI and Quantum Computing, that they would not otherwise have access to. We offer virtual courses with live instruction, we've taught close to 10,000 students in a single course with staggeringly impressive outcomes: over 80% completion rate, 98% of students would recommend the course to their friends, 99% of students are more likely to take a STEM class in college after the course, 95% of students are more interested in pursuing a STEM career. Through this model, every student in the U.S. can have access to high-quality computer science instruction.</p>
                             </Fade>
                         </div>
                         <div className='col-lg-6 col-md-12'>
