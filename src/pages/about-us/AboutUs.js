@@ -314,7 +314,9 @@ function AboutUs() {
                     <div className='detail-block'>
                         <div className='title'>Our Sponsors and Partners</div>
                         <div>
+                        <font size="4.5">
                             It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the future tech-ready workforce is diverse, inclusive, and equitable.
+                        </font>
                         </div>
                     </div>
                 </div>
