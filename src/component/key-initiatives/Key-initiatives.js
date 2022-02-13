@@ -11,21 +11,21 @@ function KeyInitiatives() {
     const keyPost = [
         {
             name: '1',
-            title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
+            title: 'CodeConnects is the online learning initiative that aims to empower the next generation through computer science education',
             img: '/images/code-connect.png',
             link:'https://codeconnects.org/',
             anim:'left'
         },
         {
             name: '1',
-            title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
+            title: 'Qubit by Qubit is our quantum computing program accessible to high school students. ',
             img: '/images/qubit.png',
             link:'https://www.qubitbyqubit.org',
             anim:'top'
         },
         {
             name: '1',
-            title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
+            title: 'TRAIN is offering two first-of-its-kind programs focused on Machine Learning (ML), a subfield of AI.',
             img: '/images/train.png',
             link:'/train',
             anim:'right'
@@ -54,7 +54,7 @@ function KeyInitiatives() {
 
                     <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Read More</a>
+                    <a className='link' href={item["link"]} >Learn More</a>
                     </div>
                 </div>
                 </Fade>

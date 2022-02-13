@@ -19,13 +19,13 @@ function Footer() {
 
                 <div className='row mt-15'>
                     <div className='col-md-4' style={{ lineHeight: 2, fontSize: 13 }}>
-                        CodeConnects is the online learning initiative of The Coding School, a 501(c)(3) organization that aims to empower the next generation through code.
-                        For more information about The Coding School's Qubit by Qubit Quantum Computing programs, visit qubitbyqubit.org
+                        The Coding School is a national 501(c)(3) dedicated to empowering the next generation through code. Our public charitable registration number is 46-5097610.
+
                     </div>
 
                     <div className='offset-md-1 col-md-3'>
-                        <div className='fs-16 fw-6 text-uppercase mb-10'>Usefull Links</div>
-                        <div className='mt-25 cp'>Home Page</div>
+                        <div className='fs-16 fw-6 text-uppercase mb-10'>Useful Links</div>
+                        <div className='mt-25 cp'>Home</div>
                         <div className='mt-10 cp'>About</div>
                         <div className='mt-10 cp'>Get Involved</div>
                         <div className='mt-10 cp'>Donate</div>
@@ -44,7 +44,7 @@ function Footer() {
                         </div>
                         <div className='mt-10 d-flex align-items-center col-10 px-0'>
                             <img className='mr-20' src='/images/location.png' />
-                            <span className='text-capitalize'>3940 laurel canyon blvd. Ste 153 los angeles, CA 91604</span>
+                            <span className='text-capitalize'> 3940 laurel canyon blvd. Ste 153 los angeles, CA 91604</span>
                         </div>
 
                     </div>

@@ -106,14 +106,14 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ravi Pendse.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Ravi Pendse</div>
                                 </div>
-                                <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Mark Redekopp.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Mark Redekopp</div>
-                                </div>
                             </div>
                         </Fade>
                         <Fade left>
                             <div className='row mt-20'>
+                                <div className='col-3 text-center'>
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Mark Redekopp.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <div>Mark Redekopp</div>
+                                </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Scott Aaronson.png' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Scott Aaronson</div>
@@ -122,11 +122,14 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Clarice Aiello - Director, UCLA_s Quantum Biology Tech (QuBiT) Lab.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Clarice Aiello</div>
                                 </div>
-                        
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of James D. Whitfield - Assistant Professor of Physics, Dartmouth University .jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>James D. Whitfield</div>
                                 </div>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ray Laflamme - Director of the UWaterloo Institute for Quantum Computing.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Ray Laflamme</div>
@@ -135,10 +138,6 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Spiros Michalakis - Physicist, CalTech_s Institute for Quantum Information and Matter (IQIM).jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Spiros Michalakis</div>
                                 </div>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Umesh Vazirani - Director, UC Berkeley_s Quantum Computation Center (BQIC).jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Umesh Vazirani</div>
@@ -147,7 +146,11 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Will Oliver - Director, MIT_s Center for Quantum Engineering.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Will Oliver</div>
                                 </div>
-                                <div className='col-3 text-center'>
+                            </div>
+                        </Fade>
+                        <Fade left>
+                            <div className='row mt-20'>
+                            <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Chief Master Sgt. James Fitch II..JPG' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Chief Master Sgt. James Fitch II</div>
                                 </div>
@@ -161,7 +164,7 @@ function AboutUs() {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade left>
+                        <Fade right>
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Polina Golland.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -171,19 +174,7 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Nathaniel D. Bastian</div>
                                 </div>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Hal Abelson.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Dr. Hal Abelson</div>
-                                </div>
-                            </div>
-                        </Fade>
-                        <Fade left>
-                            <div className='row mt-20'>
-                            <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Hal Abelson.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Hal Abelson</div>
                                 </div>
@@ -191,6 +182,10 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Jeremy Howard.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Jeremy Howard</div>
                                 </div>
+                            </div>
+                        </Fade>
+                        <Fade left>
+                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Yolanda Gil.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Yolanda Gil</div>
