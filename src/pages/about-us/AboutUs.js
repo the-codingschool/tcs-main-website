@@ -47,7 +47,7 @@ function AboutUs() {
                         </div> */}
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
-                                CodeConnects is the online learning initiative of The Coding School, a 501(c)(3) organization that aims to empower the next generation through computer science education. Founded by a Brown University undergraduate in 2014, The Coding School has grown into an international organization with 800+ instructors and students from over 125 countries participating in our programs. To ensure our programming and teaching is of the highest quality, we are sponsored by IBM Quantum and Google AI and we are partnered with higher educational institutions, including: UCLA, USC Viterbi School of Engineering, Brown University, and Villanova University.
+                            The Coding School (TCS) is a 501(c)(3) nonprofit organization focused on preparing the next generation for the future of work through computer science training and workforce development. As pioneers in emerging technology education, we believe there is a critical - and unmet - need to provide students with the skills and knowledge in the technologies that will change the nature of how we conduct business, how we interact and connect, and society at large. We have a wide portfolio of initiatives, including flagship programs in Quantum Computing, Artificial Intelligence, and Big Data. To date, we have taught over 40,000 students from 125 countries, including K-12 students and educators, community college and university students, and members of the workforce.
                             </div>
                         </Fade>
                     </div>
@@ -85,7 +85,7 @@ function AboutUs() {
 
                     <div className='detail-block'>
                         <div className='title text-center'>
-                            <h1>Board & Advisor</h1>
+                            <h1>Board & Advisors</h1>
                         </div>
 
                         <Fade right>
