@@ -29,7 +29,9 @@ function Footer() {
                         <div className='mt-10 cp'>About</div>
                         <div className='mt-10 cp'>Get Involved</div>
                         <div className='mt-10 cp'>Donate</div>
-
+                        <div className='mt-10 cp'>CodeConnects</div>
+                        <div className='mt-10 cp'>Qubit by Qubit</div>
+                        <div className='mt-10 cp'>TRAIN</div>
                     </div>
 
                     <div className='col-md-4'>

@@ -29,6 +29,11 @@ function Topnav() {
             active : false
         },
         {
+            label  : 'Donate',
+            link   : 'https://codeconnects.org/donate.html',
+            active : false
+        },
+        {
             label  : 'CodeConnects',
             link   : <Link to={{ pathname: "https://codeconnects.org" }} target="_blank" />,
             active : false
