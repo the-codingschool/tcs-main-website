@@ -13,7 +13,7 @@ function KeyInitiatives() {
             name: '1',
             title: 'CodeConnects is the online learning initiative that aims to empower the next generation through computer science education',
             img: '/images/code-connect.png',
-            link:'https://codeconnects.org/',
+            link:'https://codeconnects.org',
             anim:'left'
         },
         {

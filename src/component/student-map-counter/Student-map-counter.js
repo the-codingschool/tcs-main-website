@@ -29,7 +29,7 @@ function StudentMapCounter() {
                 <Fade left>
                     <div className='col-md-4'>
                         <div className='imageBox'>
-                        <img src='images/students-new.svg' alt='students' />
+                        {/* <img src='images/students-new.svg' alt='students' /> */}
                         <h4>
                         <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
@@ -47,7 +47,7 @@ function StudentMapCounter() {
                     <Fade top>
                     <div className='col-md-4'>
                         <div className='imageBox'>
-                        <img src='images/countries-new.svg' alt='students' />
+                        {/* <img src='images/countries-new.svg' alt='students' /> */}
                         <h4>
                         <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (
@@ -64,7 +64,7 @@ function StudentMapCounter() {
                     <Fade right>
                     <div className='col-md-4'>
                         <div className='imageBox'>
-                        <img src='images/states-new.svg' alt='students' />
+                        {/* <<img src='images/states-new.svg' alt='students' /> */}
                         <h4>
                         <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
         {({ isVisible }) => (

@@ -67,19 +67,19 @@ const programPost = [
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
         img: '/images/pro-post1.png',
-        link:'#0'
+        link:'https://www.qubitbyqubit.org'
     },
     {
         name: '1',
         title: 'Introduction to Machine Learning for high school students',
         img: '/images/ai III.jpg',
-        link:'#0'
+        link:'/train'
     },
     {
         name: '1',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
         img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
-        link:'#0'
+        link:'https://codeconnects.org'
     }
 ];
 const keyPost = [
@@ -87,7 +87,7 @@ const keyPost = [
         name: '1',
         title: 'CodeConnects is the online learning initiative that aims to empower the next generation through computer science education.',
         img: '../../../images/code-connect.png',
-        link:'#0',
+        link:'https://codeconnects.org',
         anim:'left'
     },
     {
@@ -101,7 +101,7 @@ const keyPost = [
         name: '1',
         title: 'TRAIN offers two first-of-its-kind programs focused on Machine Learning (ML), a subfield of AI.',
         img: '/images/train.png',
-        link:'#0',
+        link:'/train',
         anim:'right'
     }
 ];
@@ -154,7 +154,7 @@ function Home() {
                         
                     <img src={item["img"]} alt='students' />
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Read More</a>
+                    <a className='link' href={item["link"]} >Learn More</a>
                     </div>
                 </div>
                 </Fade>
@@ -216,7 +216,7 @@ function Home() {
                                             </div>
                                             <div className='programPost-desc'>
                                                 <h4>{item["title"]}</h4>
-                                                <a className='link' href='{item["link"]}'>Learn More</a>
+                                                <a className='link' href={item["link"]}>Learn More</a>
                                             </div>
                                         </li>
                                         </Fade>
@@ -268,10 +268,10 @@ function Home() {
                                     <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with The Coding School to ensure their students receive the highest quality and most cutting-edge STEM education possible. The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. </p>
                                     <div className='row home-banner mt-30 p-0'>
                                         <div className='col-md-6 text-right'>
-                                            <a className='btn btn-primary link'>CONNECT WITH US</a>
+                                            <a href= '/involved' className='btn btn-primary link'>CONNECT WITH US</a>
                                         </div>
                                         <div className='col-md-6 text-left'>
-                                            <a className='btn btn-outline link'>SEE OUR PARTNER SCHOOLS</a>
+                                            <a href= '/about_us' className='btn btn-outline link'>SEE OUR PARTNER SCHOOLS</a>
                                         </div>
                                     </div>
                                 </Fade>

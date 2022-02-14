@@ -106,7 +106,7 @@ var settings = {
         title: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS Computing: Summer Camps,Research Opportunities & Internships',
         img: '/images/pro-post1.png',
         description:'',
-        link:'https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/'
+        link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
     },
     {
         name: '1',
@@ -372,7 +372,8 @@ function Testimonial() {
                         <div className='featuredPost-desc'>
                             <h4>{item["title"]}</h4>
                             <p>{item["description"]}</p>
-                            <a className='link' href='{item["link"]}'>Read More</a>
+                            <a className='link' href={item["link"]}>Read More</a>
+                            href={item["link"]}
                         </div>
                     </li>
                         )
