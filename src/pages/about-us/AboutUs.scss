@@ -12,12 +12,11 @@
         color: #346E8A;
         font-weight: 800;
         text-align: center;
-        margin-bottom: 30px;
         color: #346E8A;
-        @media screen and   (max-width:768px) {
+        @media screen {
             font-size: 40px;
         }
-        @media screen and   (max-width:767px) {
+        @media screen {
             font-size: 30px;
         }
     }
@@ -119,7 +118,7 @@
         //     background-size: cover;
         // }
         &.background2 {
-            background: url("../../../public/images/quantumIBM-I.jpg") center center;
+            background: url("../../../public/images/our-sponsor.png") center center;
             background-size: cover;
             height: 280px;
             margin-left: -300px;

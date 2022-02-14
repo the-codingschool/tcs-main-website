@@ -57,14 +57,6 @@ const Train = (props) => {
                         </div>
                         <div class="offset-md-4"></div>
                         <div class="offset-md-4"></div>
-                        <div class="col-md-8">
-                            {/* <div class="box">
-                                <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
-                            </div> */}
-                            <div class="desc" data-aos="fade-up" data-aos-duration="700">
-                                <p>To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
-                            </div>
-                        </div>
                         <div class="offset-md-4"></div>
                         <div class="col-md-4">
                             <div class="main" data-aos="fade-left" data-aos-duration="500">
@@ -86,9 +78,14 @@ const Train = (props) => {
                                 </div>
                             </div>
                         </div>
-
-
-
+                        <div class="col-md-8">
+                            {/* <div class="box">
+                                <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
+                            </div> */}
+                            <div class="desc" data-aos="fade-up" data-aos-duration="700">
+                                <p>To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -121,10 +118,13 @@ const Train = (props) => {
                         <div class="col-md-6">
                             <div class="main" data-aos="fade-up" data-aos-duration="600">
                                 <div class="headline">
-                                    <h4>Offer As A For Credit Or After School Course</h4>
+                                    <h4>Offer As A For-Credit Or Afterschool Course</h4>
                                 </div>
                                 <div class="desc">
-                                    <p>Nationally accredited by WASC, we offer our two-semester Introduction to ML course for high school credit at participating schools and school districts. We provide the weekly instruction; assignments, including problem sets, homework and projects; and grading and transcripts; all that we require of participating schools is that they approve to offer the course for transcript credit. We work with individual schools, school districts, and statewide DOEs. To learn more about how to offer this course for credit, fill out this form or email <a href="#">Read More</a> </p>
+                                    <p>Nationally accredited by WASC, we offer our two-semester Introduction to ML course for high school credit at participating schools and school districts. We provide the weekly instruction; assignments, including problem sets, homework and projects; and grading and transcripts; all that we require of participating schools is that they approve to offer the course for transcript credit. We work with individual schools, school districts, and statewide DOEs. To learn more about how to offer this course for credit, fill out this form or email 
+                                        <a href="#">Read More</a> 
+                                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrtYbn1ghbtxvOdM?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -149,17 +149,18 @@ const Train = (props) => {
                             <div class="headline" data-aos="fade-up" data-aos-duration="500">
                                 <h2> <span> AI Board</span> &amp; Advisors</h2>
                             </div>
+                            <div> We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </div>
                             <ul>
                                 <li data-aos="fade-up" data-aos-duration="500">
                                     <div class="main">
                                         <div class="pic">
-                                            <img src={require('./images/team-1.png')} alt="" />
+                                            <img src={require('./images/team-4.png')} alt="" />
                                         </div>
                                         <div class="title">
-                                            <h4>Andrew Oliver</h4>
+                                            <h4>James Fitch II</h4>
                                         </div>
                                         <div class="position">
-                                            <p>Cloud and AI SWE at Microsoft</p>
+                                            <p>Chief Master Sgt Command Chief, Air Force Research Laboratory</p>
                                         </div>
                                     </div>
                                 </li>
@@ -179,30 +180,17 @@ const Train = (props) => {
                                 <li data-aos="fade-up" data-aos-duration="700">
                                     <div class="main">
                                         <div class="pic">
-                                            <img src={require('./images/team-3.png')} alt="" />
+                                            <img src={require('./images/team-9.png')} alt="" />
                                         </div>
                                         <div class="title">
-                                            <h4>Ben Isecke</h4>
+                                            <h4>Dr. Dave Touretzky</h4>
                                         </div>
                                         <div class="position">
-                                            <p>President of CSTA & CS Teacher at Bergen County Academies</p>
+                                            <p>USC, Director for Strategic AI and Data Science Initiatives & Professor</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li data-aos="fade-up" data-aos-duration="800">
-                                    <div class="main">
-                                        <div class="pic">
-                                            <img src={require('./images/team-4.png')} alt="" />
-                                        </div>
-                                        <div class="title">
-                                            <h4>James Fitch II</h4>
-                                        </div>
-                                        <div class="position">
-                                            <p>Chief Master Sgt Command Chief, Air Force Research Laboratory</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li data-aos="fade-up" data-aos-duration="900">
                                     <div class="main">
                                         <div class="pic">
                                             <img src={require('./images/team-5.png')} alt="" />
@@ -215,20 +203,20 @@ const Train = (props) => {
                                         </div>
                                     </div>
                                 </li>
-                                <li data-aos="fade-up" data-aos-duration="1000">
+                                <li data-aos="fade-up" data-aos-duration="900">
                                     <div class="main">
                                         <div class="pic">
-                                            <img src={require('./images/team-6.png')} alt="" />
+                                            <img src={require('./images/team-10.png')} alt="" />
                                         </div>
                                         <div class="title">
-                                            <h4>Jeremy Howard</h4>
+                                            <h4>Dr. Nathaniel D. Bastian</h4>
                                         </div>
                                         <div class="position">
-                                            <p>Assistant Professor at West Point</p>
+                                            <p>MIT, CS & EE Professor at MIT</p>
                                         </div>
                                     </div>
                                 </li>
-                                <li data-aos="fade-up" data-aos-duration="1100">
+                                <li data-aos="fade-up" data-aos-duration="1000">
                                     <div class="main">
                                         <div class="pic">
                                             <img src={require('./images/team-7.png')} alt="" />
@@ -238,6 +226,19 @@ const Train = (props) => {
                                         </div>
                                         <div class="position">
                                             <p>Computer Science Professor at MIT</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-aos="fade-up" data-aos-duration="1100">
+                                    <div class="main">
+                                        <div class="pic">
+                                            <img src={require('./images/team-6.png')} alt="" />
+                                        </div>
+                                        <div class="title">
+                                            <h4>Jeremy Howard</h4>
+                                        </div>
+                                        <div class="position">
+                                            <p>Assistant Professor at West Point</p>
                                         </div>
                                     </div>
                                 </li>
@@ -257,26 +258,26 @@ const Train = (props) => {
                                 <li data-aos="fade-up" data-aos-duration="1300">
                                     <div class="main">
                                         <div class="pic">
-                                            <img src={require('./images/team-9.png')} alt="" />
+                                            <img src={require('./images/team-3.png')} alt="" />
                                         </div>
                                         <div class="title">
-                                            <h4>Dr. Dave Touretzky</h4>
+                                            <h4>Ben Isecke</h4>
                                         </div>
                                         <div class="position">
-                                            <p>USC, Director for Strategic AI and Data Science Initiatives & Professor</p>
+                                            <p>President of CSTA & CS Teacher at Bergen County Academies</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li data-aos="fade-up" data-aos-duration="1400">
                                     <div class="main">
                                         <div class="pic">
-                                            <img src={require('./images/team-10.png')} alt="" />
+                                            <img src={require('./images/team-1.png')} alt="" />
                                         </div>
                                         <div class="title">
-                                            <h4>Dr. Nathaniel D. Bastian</h4>
+                                            <h4>Andrew Oliver</h4>
                                         </div>
                                         <div class="position">
-                                            <p>MIT, CS & EE Professor at MIT</p>
+                                            <p>Cloud and AI SWE at Microsoft</p>
                                         </div>
                                     </div>
                                 </li>
@@ -291,13 +292,13 @@ const Train = (props) => {
                         <div class="offset-md-2"></div>
                         <div class="col-md-6">
                             <div class="tagline" data-aos="fade-right" data-aos-duration="500">
-                                <h3>Our Partner</h3>
+                                <h3>Our Partners and Collaborators</h3>
                             </div>
                             <div class="tagline" data-aos="fade-right" data-aos-duration="600">
                                 <h2><span>DOD</span> partnership and USC</h2>
                             </div>
                             <div class="desc" data-aos="fade-right" data-aos-duration="700">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</p>
+                                <p> To ensure the most engaging AI experience, we are proudly partnered with </p>
                             </div>
                             <div class="img" data-aos="fade-up" data-aos-duration="800">
                                 <ul class="partners">
@@ -310,17 +311,15 @@ const Train = (props) => {
                                 </ul>
                             </div>
                             <div class="headline" data-aos="fade-up" data-aos-duration="900">
-                                <h2>Our Sponsors</h2>
+                                <h2>Our Sponsor</h2>
                             </div>
                             <div class="desc-2" data-aos="fade-up" data-aos-duration="`1000">
-                                <p>This project is proudly supported by a 3-year grant from the U.S. Department of Defense’s National Defense Education Program.</p>
+                                <p>We are honored that this project is supported by a three-year grant award from the United States Department of Defense’s National Defense Education Program
+</p>
                             </div>
                             <ul class="sponsor">
                                 <li data-aos="fade-right" data-aos-duration="500">
                                     <img src={require('./images/sponsors-logo.png')} alt="" />
-                                </li>
-                                <li data-aos="fade-right" data-aos-duration="600">
-                                    <img src={require('./images/flag.png')} alt="" />
                                 </li>
                             </ul>
                         </div>
@@ -339,7 +338,7 @@ const Train = (props) => {
                 </div>
             </section>
 
-            <section class="section_6">
+            {/*<section class="section_6">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -405,7 +404,7 @@ const Train = (props) => {
                         </div>
                     </div>
                 </div>
-            </section>
+                        </section> */}
         </>
     );
 }

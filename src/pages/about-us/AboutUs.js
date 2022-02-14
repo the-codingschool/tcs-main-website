@@ -340,6 +340,8 @@ function AboutUs() {
                         <div>
                         <font size="4.5">
                             “Their program was stellar, with some of the best student engagement I have ever encountered in my career.”
+                        </font>
+                        <font size="4.5">
                             -Ben Isecke, CSTA NJ President and Computer Science Teacher
                         </font>
                         </div>
