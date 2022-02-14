@@ -84,7 +84,7 @@
         // }
         color: #50759d;
         padding: 40px 15px;
-        height: 400px;
+        // height: 400px;
         margin-left: -300px;
         margin-right: -300px;
         .detail-block {
@@ -230,4 +230,13 @@
             }
         }
     }
+}
+.programPost-items {
+  .slick-track {
+    display: flex
+  }
+}
+
+.featuredPost-item {
+  min-height: 625px
 }
