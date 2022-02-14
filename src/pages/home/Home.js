@@ -71,14 +71,14 @@ const programPost = [
     },
     {
         name: '1',
-        title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/pro-post1.png',
+        title: 'Introduction to Machine Learning for high school students',
+        img: '/images/ai III.jpg',
         link:'#0'
     },
     {
         name: '1',
-        title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/pro-post1.png',
+        title: 'Classical coding: 1:1 lessons, camps, research opportunities',
+        img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
         link:'#0'
     }
 ];
@@ -200,7 +200,7 @@ function Home() {
                         <div className='col-lg-6 col-md-12 pr-0'>
                         <Fade right>
                             <div className='visual-text mt-50'>
-                                <h3>For K-12 Programs</h3>
+                                <h3>K-12 Programs</h3>
                             </div>
                         </Fade>
                             <div className='programPost'>
@@ -216,7 +216,7 @@ function Home() {
                                             </div>
                                             <div className='programPost-desc'>
                                                 <h4>{item["title"]}</h4>
-                                                <a className='link' href='{item["link"]}'>Read More</a>
+                                                <a className='link' href='{item["link"]}'>Learn More</a>
                                             </div>
                                         </li>
                                         </Fade>
