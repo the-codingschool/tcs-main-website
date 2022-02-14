@@ -35,7 +35,7 @@ function Topnav() {
         },
         {
             label  : 'CodeConnects',
-            link   : <Link to={{ pathname: "https://codeconnects.org" }} target="_blank" />,
+            link   : "https://codeconnects.org",
             active : false
         },
         {
@@ -62,7 +62,7 @@ function Topnav() {
 
                 <div className={`navbar-collapse collapse ${nav && 'show'}`}>
                     <ul className="nav navbar-nav ml-auto">
-                        {Items.map((item, idx)=><Element label={item.label} active={item.active} link={item.link} />)}
+                        {Items.map((item, idx)=><Element label={item.label} active={item.active} href={item["link"]}/>)}
                     </ul>
                 </div>
 
