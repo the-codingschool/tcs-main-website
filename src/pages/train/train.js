@@ -57,14 +57,6 @@ const Train = (props) => {
                         </div>
                         <div class="offset-md-4"></div>
                         <div class="offset-md-4"></div>
-                        <div class="col-md-8">
-                            {/* <div class="box">
-                                <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
-                            </div> */}
-                            <div class="desc" data-aos="fade-up" data-aos-duration="700">
-                                <p>To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
-                            </div>
-                        </div>
                         <div class="offset-md-4"></div>
                         <div class="col-md-4">
                             <div class="main" data-aos="fade-left" data-aos-duration="500">
@@ -84,6 +76,14 @@ const Train = (props) => {
                                 <div class="desc">
                                     <p>A four-week professional development (PD) course for high school educators and community college faculty in July 2022.</p>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            {/* <div class="box">
+                                <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
+                            </div> */}
+                            <div class="desc" data-aos="fade-up" data-aos-duration="700">
+                                <p>To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
                             </div>
                         </div>
 
@@ -124,7 +124,10 @@ const Train = (props) => {
                                     <h4>Offer As A For Credit Or After School Course</h4>
                                 </div>
                                 <div class="desc">
-                                    <p>Nationally accredited by WASC, we offer our two-semester Introduction to ML course for high school credit at participating schools and school districts. We provide the weekly instruction; assignments, including problem sets, homework and projects; and grading and transcripts; all that we require of participating schools is that they approve to offer the course for transcript credit. We work with individual schools, school districts, and statewide DOEs. To learn more about how to offer this course for credit, fill out this form or email <a href="#">Read More</a> </p>
+                                    <p>Nationally accredited by WASC, we offer our two-semester Introduction to ML course for high school credit at participating schools and school districts. We provide the weekly instruction; assignments, including problem sets, homework and projects; and grading and transcripts; all that we require of participating schools is that they approve to offer the course for transcript credit. We work with individual schools, school districts, and statewide DOEs. To learn more about how to offer this course for credit, fill out this form or email 
+                                        <a href="#">Read More</a> 
+                                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrtYbn1ghbtxvOdM?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                                    </p>
                                 </div>
                             </div>
                         </div>
