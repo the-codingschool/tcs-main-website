@@ -353,8 +353,16 @@
 .k2-collage {
     position: relative;
     max-width: 750px;
-    height: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 0;
+    @media (min-width: 1199px) {
+        height: calc(100vh - 200px);
+    }
+    @media (max-width: 991px) {
+        height: 50vh;
+    }
     @media screen and (max-width: 768px) {
         height: auto;
         min-height: 700px;
@@ -362,23 +370,32 @@
         max-width: 100%;
     }
     a {
-        position: absolute;
+        // position: absolute;
         background-color: transparent !important;
         border: 0 !important;
         color: transparent !important;
+        position: relative;
+        width: 50%;
+        img {
+            width: 100%;
+        }
+
         &:nth-child(1) {
             z-index: 3;
             left: 0;
-            top: 40px;
+            // top: 40px;
         }
         &:nth-child(2) {
             z-index: 2;
-            right: 0;
-            top: -30px;
+            // right: 0;
+            // top: -30px;
+            top: -10%;
+            left: -20%;
         }
         &:nth-child(3) {
             z-index: 1;
-            top: 50%;
+            // top: 50%;
+            top: -35%;
             left: 0;
             right: 0;
             margin: 0 auto;
@@ -394,24 +411,24 @@
             top: unset !important;
             max-width: 100%;
         }
-        @media screen and (min-width: 768px) and (max-width: 991px) {
-            max-width: 70%;
-            &:nth-child(1) {
-                left: 0;
-                top: 60px !important;
-            }
-            &:nth-child(2) {
-                right: 0;
-                top: -30px !important;
-            }
-            &:nth-child(3) {
-                top: 30% !important;
-                left: 0;
-                right: 0;
-                margin: 0 auto;
-                transform: translateY(0%);
-            }
-        }
+        // @media screen and (min-width: 768px) and (max-width: 991px) {
+        //     max-width: 70%;
+        //     &:nth-child(1) {
+        //         left: 0;
+        //         top: 60px !important;
+        //     }
+        //     &:nth-child(2) {
+        //         right: 0;
+        //         top: -30px !important;
+        //     }
+        //     &:nth-child(3) {
+        //         top: 30% !important;
+        //         left: 0;
+        //         right: 0;
+        //         margin: 0 auto;
+        //         transform: translateY(0%);
+        //     }
+        // }
     }
 }
 

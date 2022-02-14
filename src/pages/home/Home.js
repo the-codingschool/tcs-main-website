@@ -1,6 +1,7 @@
 import './Home.scss'
 //import React, { useEffect } from 'react';
 import Marquee from "react-fast-marquee";
+import CountUp from 'react-countup';
 
 import Fade from 'react-reveal/Fade'
 import Slider from "react-slick";
@@ -209,7 +210,6 @@ function Home() {
             </div>
 
             <div className='brown-sec'>
-                <img src='/images/arrow-down.svg' className='before' alt="" />
                 <div className='container'>
                     <h2>Upcoming Programs</h2>
                 </div>
@@ -217,7 +217,7 @@ function Home() {
             <div className='student_programs'>
                 <div className='student_programs-wrap'>
                     <div className='row mt-50 ml-0'>
-                        <div className='col-lg-6 col-md-12'>
+                        <div className='col-lg-6 col-md-12 mb-50 mb-lg-0'>
                             <div className='k2-collage nav nav-tabs' role="tablist">
                                 <a className="active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
                                     <Fade left><img src='images/k2-1.png'  alt=""/></Fade>
@@ -236,7 +236,7 @@ function Home() {
                                 <div class="tab-pane fade show active" id="k2-pro" role="tabpanel" aria-labelledby="k2-pro-tab">
                                     <Fade right>
                                         <div className='visual-text mt-50'>
-                                            <h3>For K-12 Programs</h3>
+                                            <h3 className="home-up-title">For K-12 Programs</h3>
                                         </div>
                                     </Fade>
                                     <div className='programPost'>
@@ -266,7 +266,7 @@ function Home() {
                                 <div class="tab-pane fade" id="k2-pro2" role="tabpanel" aria-labelledby="k2-pro2-tab">
                                     <Fade right>
                                         <div className='visual-text mt-50'>
-                                            <h3>For University Programs</h3>
+                                            <h3 className="home-up-title">For University Programs</h3>
                                         </div>
                                     </Fade>
                                     <div className='programPost'>
@@ -296,7 +296,7 @@ function Home() {
                                 <div class="tab-pane fade" id="k2-pro3" role="tabpanel" aria-labelledby="k2-pro3-tab">
                                     <Fade right>
                                         <div className='visual-text mt-50'>
-                                            <h3>For Educators Programs</h3>
+                                            <h3 className="home-up-title">For Educators Programs</h3>
                                         </div>
                                     </Fade>
                                     <div className='programPost'>
@@ -342,6 +342,24 @@ function Home() {
                         <Fade right>
                             <img className='img-responsive' src='/images/eng-bg-hand.png' alt="" />
                         </Fade>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-50 eng-bg-bottom">
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <h5><CountUp end={80} duration={3.75} />%+</h5>
+                            <p>Over 80% completion rate in 8-month virtual courses</p>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <h5><CountUp end={99} duration={3.75} />%</h5>
+                            <p>of students are more likely to take a STEM class in college after the course</p>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <h5><CountUp end={98} duration={3.75} />%</h5>
+                            <p>of students would recommend the course to their friends</p>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center">
+                            <h5><CountUp end={95} duration={3.75} />%</h5>
+                            <p>of students are more interested in pursuing a STEM career.</p>
                         </div>
                     </div>
                 </div>

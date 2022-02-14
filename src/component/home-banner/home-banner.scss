@@ -98,6 +98,9 @@
             font-size: 18px;
         }
     }
+    .home-up-title {
+        font-size: 30px;
+    }
 }
 span {
     &.highlight-underline {
@@ -126,26 +129,27 @@ span {
 }
 .brown-sec {
     background-color: #ad8736;
-    padding: 40px 15px 50px;
+    // padding: 40px 15px 50px;
+    padding: 15px 15px 30px;
     position: relative;
-    .before {
-        display: flex;
-        margin: 0 auto;
+    &:after {
+        content: "";
+        display: block;
+        margin: auto;
+        border-top: 20px solid #ad8736;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        width: 40px;
         position: absolute;
         left: 0;
         right: 0;
-        justify-content: center;
-        bottom: -30px;
-        width: 70px;
-        height: 70px;
-        //background-image: url('./images/arrow-down.svg');
-        background-size: contain;
+        bottom: -20px;
     }
     h2 {
         display: block;
         margin: 0 auto;
-        font-size: 62px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 46px;
         font-weight: bold;
         color: #fff;
         text-align: center;
@@ -170,16 +174,24 @@ span {
         .programPost-desc {
             h4 {
                 color: #346e8a;
-                font-size: 24px;
-                line-height: 30px;
+                font-size: 20px;
+                line-height: 26px;
             }
             .link {
                 color: #346e8a;
-                font-size: 23px;
-                line-height: 41px;
+                font-size: 20px;
+                line-height: 26px;
                 text-decoration: underline;
                 text-transform: uppercase;
             }
+        }
+    }
+    .programPost-img {
+        margin-bottom: 30px;
+        border-radius: 8px;
+        overflow: hidden;
+        img {
+            width: 100%;
         }
     }
     .slick-list {
@@ -212,8 +224,8 @@ span {
     }
     .slick-dots {
         width: auto;
-        margin-left: 20%;
-        bottom: -80px;
+        margin-left: 0;
+        bottom: -40px;
     }
 }
 
@@ -233,60 +245,37 @@ span {
     }
 }
 
-.programPost-item {
-    position: relative;
-    .programPost-img {
-        margin-bottom: 30px;
-    }
-    .programPost-desc {
-        h4 {
-            font-size: 28px;
-            line-height: 41px;
-            color: #346e8a;
-            min-height: 90px;
-        }
-        .link {
-            font-size: 23px;
-            line-height: 41px;
-            color: #346e8a;
-            text-decoration: underline;
-            text-transform: uppercase;
-        }
-    }
-    img {
-        max-width: 100%;
-    }
-}
-
 .eng-bg {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 150px 0px;
+    // padding: 150px 0px;
+    padding: 50px 0px;
     //height: 741px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 60px 0px #000;
-    margin-top: 100px;
+    // margin-top: 100px;
     margin-bottom: 100px;
     @media screen and (max-width: 991px) {
-        padding: 50px 0px !important;
+        // padding: 50px 0px !important;
         //height: 1000px;
         margin-top: 50px !important;
     }
     @media screen and (max-width: 767px) {
         height: auto;
         margin-bottom: 100px !important;
-        padding: 50px 0px !important;
+        // padding: 50px 0px !important;
     }
     h3 {
         color: #fff;
-        font-size: 62px;
+        // font-size: 62px;
+        font-size: 40px;
+        line-height: 46px;
         font-weight: bold;
         margin-bottom: 30px;
-        line-height: 70px;
         @media screen and (max-width: 991px) {
             font-size: 30px;
             line-height: 40px;
@@ -298,14 +287,17 @@ span {
         }
     }
     p {
-        font-size: 20px;
+        font-size: 18px;
         color: #fff;
-        line-height: 30px;
+        line-height: 24px;
     }
     img {
         max-width: 100%;
         width: auto;
         height: auto;
+        max-height: 60vh;
+        display: block;
+        margin: auto;
         @media screen and (max-width: 991px) {
             max-width: 100%;
             width: 400px;
@@ -313,11 +305,20 @@ span {
             display: block;
         }
     }
+    .eng-bg-bottom {
+        h5 {
+            font-size: 32px;
+            line-height: 38px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
 }
 .school-box {
     border: 3px dashed #346e8a;
     box-shadow: 0 0 25px -2px #dedede;
-    padding: 100px 40px;
+    // padding: 100px 40px;
+    padding: 40px;
     @media screen and (max-width: 767px) {
         padding: 40px 15px;
     }
