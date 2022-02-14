@@ -43,7 +43,7 @@ function AboutUs() {
                     </Fade>
                     <div className='text-detail coding-school-block'>
                         <div className='one-liner'>
-                            <h1>Just because computer science education is available does not mean it is accessible. We’re changing that. </h1>
+                            Just because computer science education is available does not mean it is accessible. We’re changing that.
                         </div>
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
@@ -97,18 +97,22 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of eva_manolis_II.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Eva Manolis II</div>
+                                    <div>Co Founder of ShutterFly</div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Pamit Surana.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Pamit Surana</div>
+                                    <div>Managing Director at Teneo</div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Giselle Ragusa.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Giselle Ragusa</div>
+                                    <div> Professor of Engineering at USC Co-chair of USC STEM Education Consortium </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ravi Pendse.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Ravi Pendse</div>
+                                    <div> Chief Information Officer and Vice President of Information Technology at University of Michigan </div>
                                 </div>
                             </div>
                         </Fade>
@@ -166,14 +170,14 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Dave Touretzky.png' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Dave Touretzky</div>
                                 </div>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Polina Golland.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Polina Golland</div>
                                 </div>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Nathaniel D. Bastian</div>
@@ -186,14 +190,14 @@ function AboutUs() {
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Jeremy Howard.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Jeremy Howard</div>
                                 </div>
-                            </div>
-                        </Fade>
-                        <Fade left>
-                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Yolanda Gil.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Yolanda Gil</div>
                                 </div>
+                            </div>
+                        </Fade>
+                        <Fade left>
+                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Andrew Oliver</div>
