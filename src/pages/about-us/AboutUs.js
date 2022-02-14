@@ -426,7 +426,7 @@ function AboutUs() {
                     </div>
                     <div className="about-us-small-heading">
                         <h2>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.</h2>
                     </div>
                 </div>
 
