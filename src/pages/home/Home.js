@@ -259,7 +259,7 @@ function Home() {
                         </div>
                         <div className='col-lg-7 col-md-12'>
                             <div className='school-box'>
-                                <div className='visual-text text-center'>
+                                <div className='visual-text'>
                                 <Fade top>
                                     <h3>School <span className='highlight-underline font-normal'>Partners</span></h3>
                                 </Fade>
