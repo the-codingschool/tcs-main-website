@@ -1,4 +1,4 @@
-.StudentMapCounter{
+.StudentMapCounter {
     .imageBox {
         position: relative;
         display: block;
@@ -9,44 +9,46 @@
         h4 {
             font-size: 70px;
             font-weight: bold;
-            color: #D1A74C;
+            color: #d1a74c;
             text-align: center;
-            div{
-                
-                @media screen and (max-width:768px) {
+            div {
+                @media screen and (max-width: 768px) {
                     height: 60px !important;
                 }
             }
-            @media screen and (max-width:768px) {
+            @media screen and (max-width: 768px) {
                 font-size: 40px;
             }
         }
         h6 {
             font-size: 40px;
             text-transform: uppercase;
-            color: #346E8A;
+            color: #346e8a;
             line-height: 1;
-            @media screen and (max-width:768px) {
+            @media screen and (max-width: 768px) {
                 font-size: 30px;
             }
         }
     }
-    .dot-map{
+    .dot-map {
         position: relative;
-        img{
+        @media (min-width: 1199px) {
+            height: calc(100vh - 120px);
+        }
+        img {
             pointer-events: none;
             max-width: 100%;
-            width:auto;
-            display:block;
-            margin:0 auto;
-            min-height: 173px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+            height: 100%;
         }
-        &:hover{
+        &:hover {
             .imageBoxWrap {
                 opacity: 1;
             }
-        } 
-        
+        }
+
         .imageBoxWrap {
             position: absolute;
             left: 0;
@@ -58,22 +60,18 @@
             padding-top: 100px;
             opacity: 0;
             transition: all 0.5s ease;
-            @media screen and   (max-width:767px) {
+            @media screen and (max-width: 767px) {
                 position: relative;
                 padding-top: 50px;
                 opacity: 1;
             }
         }
-        
-        
-        
     }
 }
-.visual-text{
-    h3{
-        font-size:50px;
+.visual-text {
+    h3 {
+        font-size: 50px;
         font-weight: bold;
-        color:#346E8A;
+        color: #346e8a;
     }
-    
 }

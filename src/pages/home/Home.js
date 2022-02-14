@@ -1,6 +1,7 @@
 import './Home.scss'
 //import React, { useEffect } from 'react';
 import Marquee from "react-fast-marquee";
+import CountUp from 'react-countup';
 
 import Fade from 'react-reveal/Fade'
 import Slider from "react-slick";
@@ -55,32 +56,60 @@ const users = [
 ];
 var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    centerMode: false
+    centerMode: false,
   };
 
 const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/pro-post1.png',
+        img: '/images/upcoming-programs-1.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
-        name: '1',
+        name: '2',
         title: 'Introduction to Machine Learning for high school students',
-        img: '/images/ai III.jpg',
+        img: '/images/upcoming-programs-2.jpg',
         link:'/train'
     },
     {
-        name: '1',
+        name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
+        img: '/images/upcoming-programs-3.jpg',
         link:'https://codeconnects.org'
     }
+];
+const programPostUniversity = [
+    {
+        name: '1',
+        title: 'Quantum Computing: year-long course, research opportunities, internships',
+        img: '/images/upcoming-programs-4.jpg',
+        link:'https://www.qubitbyqubit.org'
+    },
+    {
+        id: '2',
+        title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
+        img: '/images/upcoming-programs-5.jpg',
+        link:'/train'
+    },
+    {
+        id: '3',
+        title: 'Artificial intelligence: year-long course',
+        img: '/images/upcoming-programs-1.jpg',
+        link:'https://codeconnects.org'
+    }
+];
+const programPostEducators = [
+    {
+        name: '1',
+        title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
+        img: '/images/upcoming-programs-6.jpg',
+        link:'https://www.qubitbyqubit.org'
+    },
 ];
 const keyPost = [
     {
@@ -131,7 +160,7 @@ function Home() {
         <div id='Home'>
             <div className='container'>
                 <HomeBanner></HomeBanner>
-                    
+
             </div>
             <div id="" className="KeyInitiatives mb-80">
         <div className='container'>
@@ -146,12 +175,12 @@ function Home() {
             {keyPost.map((item,index)=>{
                 return (
                 //<li key={index}>{item['title']}</li>
-                {...index / 2 ?  
-                
+                {...index / 2 ?
+
                 <Fade left>
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
-                        
+
                     <img src={item["img"]} alt='students' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
@@ -162,7 +191,7 @@ function Home() {
                 <Fade right>
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
-                        
+
                     <img src={item["img"]} alt='students' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
@@ -181,7 +210,6 @@ function Home() {
             </div>
 
             <div className='brown-sec'>
-                <img src='/images/arrow-down.svg' className='before' />
                 <div className='container'>
                     <h2>Upcoming Programs</h2>
                 </div>
@@ -189,43 +217,112 @@ function Home() {
             <div className='student_programs'>
                 <div className='student_programs-wrap'>
                     <div className='row mt-50 ml-0'>
-                        <div className='col-lg-6 col-md-12'>
-                            <div className='k2-collage'>
-                            <Fade left><img src='images/k2-1.png'  /></Fade>
-                            <Fade right><img src='images/k2-2.png'  /></Fade>
-                            <Fade top><img src='images/k2-3.png'  /></Fade>
+                        <div className='col-lg-6 col-md-12 mb-50 mb-lg-0'>
+                            <div className='k2-collage nav nav-tabs' role="tablist">
+                                <a className="active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
+                                    <Fade left><img src='images/k2-1.png'  alt=""/></Fade>
+                                </a>
+                                <a className="" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
+                                    <Fade right><img src='images/k2-2.png'  alt=""/></Fade>
+                                </a>
+                                <a className="" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
+                                    <Fade top><img src='images/k2-3.png'  alt=""/></Fade>
+                                </a>
                             </div>
-                            
+
                         </div>
                         <div className='col-lg-6 col-md-12 pr-0'>
-                        <Fade right>
-                            <div className='visual-text mt-50'>
-                                <h3>K-12 Programs</h3>
-                            </div>
-                        </Fade>
-                            <div className='programPost'>
-                                <div className='programPost-wrap'>
-                                    <ul className='programPost-items'>
-                                    <Slider {...settings}>
-                                        {programPost.map((item,index)=>{
-                                            return (
-                                                <Fade top>
-                                        <li className='programPost-item'>
-                                            <div className='programPost-img' style={imgContainerStyle}>
-                                                <img src={item["img"]} style={imageStyle}/>
-                                            </div>
-                                            <div className='programPost-desc'>
-                                                <h4>{item["title"]}</h4>
-                                                <a className='link' href={item["link"]}>Learn More</a>
-                                            </div>
-                                        </li>
-                                        </Fade>
-                                            )
-                                        })}
-                                    </Slider>
-                                    </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="k2-pro" role="tabpanel" aria-labelledby="k2-pro-tab">
+                                    <Fade right>
+                                        <div className='visual-text mt-50'>
+                                            <h3 className="home-up-title">For K-12 Programs</h3>
+                                        </div>
+                                    </Fade>
+                                    <div className='programPost'>
+                                        <div className='programPost-wrap'>
+                                            <ul className='programPost-items'>
+                                                <Slider {...settings}>
+                                                    {programPost.map((item,index)=>{
+                                                        return (
+                                                            <Fade top>
+                                                                <li className='programPost-item'>
+                                                                    <div className='programPost-img'>
+                                                                        <img src={item["img"]} className="img-fluid" alt="" />
+                                                                    </div>
+                                                                    <div className='programPost-desc'>
+                                                                        <h4>{item["title"]}</h4>
+                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                    </div>
+                                                                </li>
+                                                            </Fade>
+                                                        )
+                                                    })}
+                                                </Slider>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="k2-pro2" role="tabpanel" aria-labelledby="k2-pro2-tab">
+                                    <Fade right>
+                                        <div className='visual-text mt-50'>
+                                            <h3 className="home-up-title">For University Programs</h3>
+                                        </div>
+                                    </Fade>
+                                    <div className='programPost'>
+                                        <div className='programPost-wrap'>
+                                            <ul className='programPost-items'>
+                                                <Slider {...settings}>
+                                                    {programPostUniversity.map((item,index)=>{
+                                                        return (
+                                                            <Fade top>
+                                                                <li className='programPost-item'>
+                                                                    <div className='programPost-img'>
+                                                                        <img src={item["img"]} className="img-fluid" alt="" />
+                                                                    </div>
+                                                                    <div className='programPost-desc'>
+                                                                        <h4>{item["title"]}</h4>
+                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                    </div>
+                                                                </li>
+                                                            </Fade>
+                                                        )
+                                                    })}
+                                                </Slider>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="k2-pro3" role="tabpanel" aria-labelledby="k2-pro3-tab">
+                                    <Fade right>
+                                        <div className='visual-text mt-50'>
+                                            <h3 className="home-up-title">For Educators Programs</h3>
+                                        </div>
+                                    </Fade>
+                                    <div className='programPost'>
+                                        <div className='programPost-wrap'>
+                                            <ul className='programPost-items row'>
+                                                    {programPostEducators.map((item,index)=>{
+                                                        return (
+                                                            <Fade top>
+                                                                <li className='programPost-item col-12 col-md-6'>
+                                                                    <div className='programPost-img'>
+                                                                        <img src={item["img"]} className="img-fluid" alt="" />
+                                                                    </div>
+                                                                    <div className='programPost-desc'>
+                                                                        <h4>{item["title"]}</h4>
+                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                    </div>
+                                                                </li>
+                                                            </Fade>
+                                                        )
+                                                    })}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -234,7 +331,7 @@ function Home() {
                 <div className='container container-1660'>
                     <div className='row align-items-center'>
                         <div className='col-lg-6 col-md-12'>
-                            <Fade left> 
+                            <Fade left>
                             <h3>We’ve Created a Learning Model That’s Making Real Impact.</h3>
                             <p>To expand the pool of qualified talent and increase diversity in tech, every student needs access to high quality computer science education. We’re making that a reality. Taught by PhD researchers and professional software engineers, our students gain in-depth knowledge and real world skills in emerging technologies, such as AI and Quantum Computing, that they would not otherwise have access to. </p>
                             <p>Our model offers virtual courses with live instruction, teaching nearly 10,000 students in a single course with staggeringly impressive outcomes.</p>
@@ -243,8 +340,26 @@ function Home() {
                         </div>
                         <div className='col-lg-6 col-md-12'>
                         <Fade right>
-                            <img className='img-responsive' src='/images/eng-bg-hand.png' />
+                            <img className='img-responsive' src='/images/eng-bg-hand.png' alt="" />
                         </Fade>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mt-50 eng-bg-bottom">
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <h5><CountUp end={80} duration={3.75} />%+</h5>
+                            <p>Over 80% completion rate in 8-month virtual courses</p>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <h5><CountUp end={99} duration={3.75} />%</h5>
+                            <p>of students are more likely to take a STEM class in college after the course</p>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <h5><CountUp end={98} duration={3.75} />%</h5>
+                            <p>of students would recommend the course to their friends</p>
+                        </div>
+                        <div class="col-6 col-lg-3 text-center">
+                            <h5><CountUp end={95} duration={3.75} />%</h5>
+                            <p>of students are more interested in pursuing a STEM career.</p>
                         </div>
                     </div>
                 </div>
@@ -254,7 +369,7 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-5 col-md-12'>
                         <Fade left>
-                            <img src='/images/k2-program.svg' />
+                            <img src='/images/k2-program.svg' alt="" />
                         </Fade>
                         </div>
                         <div className='col-lg-7 col-md-12'>
@@ -268,10 +383,10 @@ function Home() {
                                     <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with The Coding School to ensure their students receive the highest quality and most cutting-edge STEM education possible. The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. </p>
                                     <div className='row home-banner mt-30 p-0'>
                                         <div className='col-md-6 text-right'>
-                                        <Link className='btn btn-outline link' to='/about_us' > CONNECT WITH US</Link> 
+                                        <Link className='btn btn-outline link' to='/about_us' > CONNECT WITH US</Link>
                                         </div>
                                         <div className='col-md-6 text-left'>
-                                            <Link className='btn btn-outline link' to='/about_us' > SEE OUR PARTNER SCHOOLS</Link> 
+                                            <Link className='btn btn-outline link' to='/about_us' > SEE OUR PARTNER SCHOOLS</Link>
                                         </div>
                                     </div>
                                 </Fade>
@@ -282,20 +397,6 @@ function Home() {
                 </div>
             </div>
             <Testimonial />
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
         </div>
     );
 }

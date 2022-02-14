@@ -61,14 +61,23 @@ const studentTestimonials = [
     }
 ];
 
+var baseUrl = "/images/";
+
 var settings = {
-    dots: false,
+    dots: true,
     arrows:true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode:false
+    centerMode:false,
+    customPaging: function(i) {
+        return (
+          <a>
+            <img src={`${baseUrl}/abstract0${i + 1}.jpg`} />
+          </a>
+        );
+      },
   };
   var FeaturedSettings = {
     dots: false,
