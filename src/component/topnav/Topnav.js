@@ -61,9 +61,9 @@ function Topnav() {
                     </ul>
                 </div>
 
-                <button className={`btn register-btn d-inline-block ml-16`} type="button">
+                {/*<button className={`btn register-btn d-inline-block ml-16`} type="button">
                     Register
-                </button>
+    </button>*/}
             </div>
         </nav>
     )

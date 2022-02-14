@@ -315,11 +315,11 @@ function Testimonial() {
                 </ul>
                 <div class="row home-banner mt-30 p-0">
                     <div class="col-md-6 text-right">
-                        <a class="btn btn-primary link"
+                        <a href='/about_us' class="btn btn-primary link"
         >SEE MORE</a>
                     </div>
                     <div class="col-md-6 text-left">
-                        <a class="btn btn-outline link">PARTNER WITH US</a>
+                        <a href='/involved' class="btn btn-outline link">PARTNER WITH US</a>
                     </div>
                 </div>
             </div>

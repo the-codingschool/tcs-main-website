@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 import Fade from 'react-reveal/Fade'
 import Slider from "react-slick";
-
+import {Link} from "react-router-dom";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -268,10 +268,10 @@ function Home() {
                                     <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with The Coding School to ensure their students receive the highest quality and most cutting-edge STEM education possible. The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. </p>
                                     <div className='row home-banner mt-30 p-0'>
                                         <div className='col-md-6 text-right'>
-                                            <a href= '/involved' className='btn btn-primary link'>CONNECT WITH US</a>
+                                        <Link className='btn btn-outline link' to='/about_us' > CONNECT WITH US</Link> 
                                         </div>
                                         <div className='col-md-6 text-left'>
-                                            <a href= '/about_us' className='btn btn-outline link'>SEE OUR PARTNER SCHOOLS</a>
+                                            <Link className='btn btn-outline link' to='/about_us' > SEE OUR PARTNER SCHOOLS</Link> 
                                         </div>
                                     </div>
                                 </Fade>
