@@ -85,21 +85,21 @@ const programPost = [
 const keyPost = [
     {
         name: '1',
-        title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
+        title: 'CodeConnects is the online learning initiative that aims to empower the next generation through computer science education.',
         img: '../../../images/code-connect.png',
         link:'#0',
         anim:'left'
     },
     {
         name: '1',
-        title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
+        title: 'Qubit by Qubit is a first-of-its kind course designed to make quantum computing accessible to high school students. ',
         img: '/images/qubit.png',
-        link:'#0',
+        link:'https://www.qubitbyqubit.org',
         anim:'top'
     },
     {
         name: '1',
-        title: 'Proin et lorem lectus. Nam ac lacus vel metus lobortis aliquet.',
+        title: 'TRAIN offers two first-of-its-kind programs focused on Machine Learning (ML), a subfield of AI.',
         img: '/images/train.png',
         link:'#0',
         anim:'right'

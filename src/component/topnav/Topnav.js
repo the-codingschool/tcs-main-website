@@ -30,11 +30,11 @@ function Topnav() {
         },
         {
             label  : 'CodeConnects',
-            link   : 'https://codeconnects.org',
+            link   : <Link to={{ pathname: "https://codeconnects.org" }} target="_blank" />,
             active : false
         },
         {
-            label  : 'QubitxQubit',
+            label  : 'Qubit by Qubit',
             link   : 'https://www.qubitbyqubit.org',
             active : false
         },

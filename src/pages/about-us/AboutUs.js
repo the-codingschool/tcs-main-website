@@ -42,7 +42,7 @@ function AboutUs() {
                         <img className='position-absolute' style={{ top: '-11%', right: '-12%', width: '55px' }} src='/images/about.png' alt='' />
                     </Fade>
                     <div className='text-detail coding-school-block'>
-                        <div className='sub-title'>
+                        <div className='one-liner'>
                             <h1>Just because computer science education is available does not mean it is accessible. We’re changing that. </h1>
                         </div>
                         <Fade left>
@@ -318,7 +318,7 @@ function AboutUs() {
                         <div>
                         <font size="4.5">
                             “Their program was stellar, with some of the best student engagement I have ever encountered in my career.”
-                            It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the future tech-ready workforce is diverse, inclusive, and equitable.
+                            -Ben Isecke, CSTA NJ President and Computer Science Teacher
                         </font>
                         </div>
                     </div>

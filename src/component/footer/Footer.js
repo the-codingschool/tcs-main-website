@@ -36,11 +36,11 @@ function Footer() {
                         <div className='fs-16 fw-6 text-uppercase mb-10'>Contact Info</div>
                         <div className='mt-25'>
                             <img className='mr-20' src='/images/phone.png' />
-                            <span>(422) 329 4279</span>
+                            <span>(424) 339 3977</span>
                         </div>
                         <div className='mt-10'>
                             <img className='mr-20' src='/images/message.png' />
-                            <span>info@email.com</span>
+                            <span>info@the-cs.org</span>
                         </div>
                         <div className='mt-10 d-flex align-items-center col-10 px-0'>
                             <img className='mr-20' src='/images/location.png' />

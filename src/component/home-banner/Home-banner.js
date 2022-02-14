@@ -63,9 +63,9 @@ if( idd == 'Rectangle_1_copy_3' ){
             <div className='row align-items-center'>
                 <div className="col-lg-7 col-md-12">
                 <Fade left>
-                    <h3>
+                    <h2>
                     Training the future workforce in emerging technologies
-                    </h3>
+                    </h2>
                     <p>Creating pipelines and pathways for learners at every stage K-16, educators and the workforce </p>
                     <a href="https://codeconnects.org/programs.html" className='btn btn-primary-gradient btn-link'>Learn More</a>
                     <p>Summer registration for camps & courses is now open!</p>
