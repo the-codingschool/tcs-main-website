@@ -149,6 +149,7 @@ const Train = (props) => {
                             <div class="headline" data-aos="fade-up" data-aos-duration="500">
                                 <h2> <span> AI Board</span> &amp; Advisors</h2>
                             </div>
+                            <div> We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </div>
                             <ul>
                                 <li data-aos="fade-up" data-aos-duration="500">
                                     <div class="main">
