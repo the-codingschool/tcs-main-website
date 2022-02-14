@@ -380,7 +380,6 @@ function Testimonial() {
                             <h4>{item["title"]}</h4>
                             <p>{item["description"]}</p>
                             <a className='link' href={item["link"]}>Read More</a>
-                            href={item["link"]}
                         </div>
                     </li>
                         )

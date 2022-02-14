@@ -156,7 +156,9 @@ const Train = (props) => {
                             <div className="headline" data-aos="fade-up" data-aos-duration="500">
                                 <h2> <span> AI Board</span> &amp; Advisors</h2>
                             </div>
-                            <div> We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </div>
+                            <div> 
+                                <h4> We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </h4>
+                            </div>
                             <ul>
                                 <li data-aos="fade-up" data-aos-duration="500">
                                     <div className="main">
@@ -300,7 +302,7 @@ const Train = (props) => {
                         <div className="offset-md-2"></div>
                         <div className="col-md-6">
                             <div className="tagline" data-aos="fade-right" data-aos-duration="500">
-                                <h3>Our Partners and Collaborators</h3>
+                                <h3>Our Partners & Collaborators</h3>
                             </div>
                             <div className="tagline" data-aos="fade-right" data-aos-duration="600">
                                 <h2><span>DOD</span> partnership and USC</h2>
@@ -319,7 +321,7 @@ const Train = (props) => {
                                 </ul>
                             </div>
                             <div className="headline" data-aos="fade-up" data-aos-duration="900">
-                                <h2>Our Sponsor</h2>
+                                <h3>Our Sponsor</h3>
                             </div>
                             <div className="desc-2" data-aos="fade-up" data-aos-duration="`1000">
                                 <p>We are honored that this project is supported by a three-year grant award from the United States Department of Defense’s National Defense Education Program</p>
