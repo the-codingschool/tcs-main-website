@@ -233,22 +233,25 @@ span {
     }
 }
 
-.programPost .slick-dots li .programPost-item {
+.programPost-item {
     position: relative;
     .programPost-img {
         margin-bottom: 30px;
     }
-    .programPost-desc h4 {
-        font-size: 28px;
-        line-height: 41px;
-        color: #346e8a;
-    }
-    .link {
-        font-size: 23px;
-        line-height: 41px;
-        color: #346e8a;
-        text-decoration: underline;
-        text-transform: uppercase;
+    .programPost-desc {
+        h4 {
+            font-size: 28px;
+            line-height: 41px;
+            color: #346e8a;
+            min-height: 90px;
+        }
+        .link {
+            font-size: 23px;
+            line-height: 41px;
+            color: #346e8a;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
     }
     img {
         max-width: 100%;

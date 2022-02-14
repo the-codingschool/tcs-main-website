@@ -66,19 +66,19 @@ const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/pro-post1.png',
+        img: '/images/upcoming-programs-1.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
-        name: '1',
+        name: '2',
         title: 'Introduction to Machine Learning for high school students',
-        img: '/images/ai III.jpg',
+        img: '/images/upcoming-programs-2.jpg',
         link:'/train'
     },
     {
-        name: '1',
+        name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
+        img: '/images/upcoming-programs-3.jpg',
         link:'https://codeconnects.org'
     }
 ];
@@ -86,19 +86,19 @@ const programPostUniversity = [
     {
         name: '1',
         title: 'Quantum Computing: year-long course, research opportunities, internships',
-        img: '/images/pro-post1.png',
+        img: '/images/upcoming-programs-4.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
-        img: '/images/ai III.jpg',
+        img: '/images/upcoming-programs-5.jpg',
         link:'/train'
     },
     {
         id: '3',
         title: 'Artificial intelligence: year-long course',
-        img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
+        img: '/images/upcoming-programs-1.jpg',
         link:'https://codeconnects.org'
     }
 ];
@@ -106,7 +106,7 @@ const programPostEducators = [
     {
         name: '1',
         title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
-        img: '/images/pro-post1.png',
+        img: '/images/upcoming-programs-6.jpg',
         link:'https://www.qubitbyqubit.org'
     },
 ];
@@ -209,7 +209,7 @@ function Home() {
             </div>
 
             <div className='brown-sec'>
-                <img src='/images/arrow-down.svg' className='before' />
+                <img src='/images/arrow-down.svg' className='before' alt="" />
                 <div className='container'>
                     <h2>Upcoming Programs</h2>
                 </div>
@@ -219,14 +219,14 @@ function Home() {
                     <div className='row mt-50 ml-0'>
                         <div className='col-lg-6 col-md-12'>
                             <div className='k2-collage nav nav-tabs' role="tablist">
-                                    <a className="nav-link active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
-                                    <Fade left><img src='images/k2-1.png'  /></Fade>
+                                <a className="active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
+                                    <Fade left><img src='images/k2-1.png'  alt=""/></Fade>
                                 </a>
-                                <a className="nav-link" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
-                                    <Fade right><img src='images/k2-2.png'  /></Fade>
+                                <a className="" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
+                                    <Fade right><img src='images/k2-2.png'  alt=""/></Fade>
                                 </a>
-                                <a className="nav-link" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
-                                    <Fade top><img src='images/k2-3.png'  /></Fade>
+                                <a className="" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
+                                    <Fade top><img src='images/k2-3.png'  alt=""/></Fade>
                                 </a>
                             </div>
 
@@ -248,7 +248,7 @@ function Home() {
                                                             <Fade top>
                                                                 <li className='programPost-item'>
                                                                     <div className='programPost-img'>
-                                                                        <img src={item["img"]} className="img-fluid" />
+                                                                        <img src={item["img"]} className="img-fluid" alt="" />
                                                                     </div>
                                                                     <div className='programPost-desc'>
                                                                         <h4>{item["title"]}</h4>
@@ -278,7 +278,7 @@ function Home() {
                                                             <Fade top>
                                                                 <li className='programPost-item'>
                                                                     <div className='programPost-img'>
-                                                                        <img src={item["img"]} className="img-fluid" />
+                                                                        <img src={item["img"]} className="img-fluid" alt="" />
                                                                     </div>
                                                                     <div className='programPost-desc'>
                                                                         <h4>{item["title"]}</h4>
@@ -307,7 +307,7 @@ function Home() {
                                                             <Fade top>
                                                                 <li className='programPost-item col-12 col-md-6'>
                                                                     <div className='programPost-img'>
-                                                                        <img src={item["img"]} className="img-fluid" />
+                                                                        <img src={item["img"]} className="img-fluid" alt="" />
                                                                     </div>
                                                                     <div className='programPost-desc'>
                                                                         <h4>{item["title"]}</h4>
@@ -340,7 +340,7 @@ function Home() {
                         </div>
                         <div className='col-lg-6 col-md-12'>
                         <Fade right>
-                            <img className='img-responsive' src='/images/eng-bg-hand.png' />
+                            <img className='img-responsive' src='/images/eng-bg-hand.png' alt="" />
                         </Fade>
                         </div>
                     </div>
@@ -351,7 +351,7 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-5 col-md-12'>
                         <Fade left>
-                            <img src='/images/k2-program.svg' />
+                            <img src='/images/k2-program.svg' alt="" />
                         </Fade>
                         </div>
                         <div className='col-lg-7 col-md-12'>
