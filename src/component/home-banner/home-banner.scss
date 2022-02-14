@@ -1,21 +1,22 @@
-.home-banner{
-    padding:50px 0px 100px;
-    .col-md-6{
-        &.text-right,&.text-left{
-            @media screen and   (max-width:767px) {
+.home-banner {
+    padding: 50px 0px 100px;
+    .col-md-6 {
+        &.text-right,
+        &.text-left {
+            @media screen and (max-width: 767px) {
                 text-align: center !important;
             }
         }
     }
-    h2{
+    h2 {
         font-size: 46px;
         color: #346e8a;
         font-weight: bold;
         margin-bottom: 30px;
-        @media screen and (max-width:991px) {
+        @media screen and (max-width: 991px) {
             font-size: 36px;
         }
-        @media screen and (max-width:767px) {
+        @media screen and (max-width: 767px) {
             font-size: 28px;
         }
     }
@@ -24,26 +25,30 @@
         line-height: 30px;
         color: #232323;
         margin-bottom: 30px;
-        @media screen and (max-width:991px) {
+        @media screen and (max-width: 991px) {
             font-size: 20px;
         }
-        @media screen and (max-width:767px) {
+        @media screen and (max-width: 767px) {
             font-size: 18px;
         }
     }
-    .btn{
+    .btn {
         &.btn-primary {
-            background-color: #346E8A;
+            background-color: #346e8a;
         }
-        &.btn-primary-gradient{
-            background: #346E8A;
-            background: linear-gradient(94deg, rgba(52,110,138,1) 0%, rgba(122,205,246,1) 100%);
+        &.btn-primary-gradient {
+            background: #346e8a;
+            background: linear-gradient(
+                94deg,
+                rgba(52, 110, 138, 1) 0%,
+                rgba(122, 205, 246, 1) 100%
+            );
         }
 
         &.btn-outline {
             background-color: transparent;
-            border: 2px solid #346E8A;
-            color: #346E8A;
+            border: 2px solid #346e8a;
+            color: #346e8a;
         }
         min-width: 100px;
         line-height: 40px;
@@ -54,7 +59,7 @@
         color: #fff;
         text-transform: uppercase;
         border-radius: 0px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
         font-weight: bold;
         text-decoration: none;
     }
@@ -65,44 +70,43 @@
             display: block;
         }
     }
-    
 }
 .visual-text {
     h4 {
         font-size: 54px;
-        color: #346E8A;
+        color: #346e8a;
         font-weight: 800;
         text-align: center;
         margin-bottom: 30px;
-        color: #346E8A;
-        @media screen and   (max-width:768px) {
+        color: #346e8a;
+        @media screen and (max-width: 768px) {
             font-size: 40px;
         }
-        @media screen and   (max-width:767px) {
+        @media screen and (max-width: 767px) {
             font-size: 30px;
         }
     }
-    h3{
-        @media screen and   (max-width:767px) {
+    h3 {
+        @media screen and (max-width: 767px) {
             font-size: 30px !important;
             text-align: center;
         }
     }
-    p{
+    p {
         font-size: 20px;
-        @media screen and   (max-width:767px) {
+        @media screen and (max-width: 767px) {
             font-size: 18px;
         }
     }
 }
-span{
-    &.highlight-underline{
-        position:relative;
+span {
+    &.highlight-underline {
+        position: relative;
         display: inline-block;
         font-style: italic;
-        &:before{
-            background-color: #D1A74C;
-            content: '';
+        &:before {
+            background-color: #d1a74c;
+            content: "";
             width: 100%;
             bottom: 10px;
             left: 4px;
@@ -114,18 +118,17 @@ span{
         }
     }
 }
-.container-1660{
+.container-1660 {
     max-width: 1660px;
 }
-.container-1920{
+.container-1920 {
     max-width: 1920px;
 }
-.brown-sec{
-    background-color: #AD8736;
+.brown-sec {
+    background-color: #ad8736;
     padding: 40px 15px 50px;
     position: relative;
-    .before{
-        
+    .before {
         display: flex;
         margin: 0 auto;
         position: absolute;
@@ -138,15 +141,15 @@ span{
         //background-image: url('./images/arrow-down.svg');
         background-size: contain;
     }
-    h2{
-        display:block;
-        margin:0 auto;
-        font-size:62px;
+    h2 {
+        display: block;
+        margin: 0 auto;
+        font-size: 62px;
         line-height: 70px;
         font-weight: bold;
-        color:#fff;
+        color: #fff;
         text-align: center;
-        @media screen and   (max-width:767px) {
+        @media screen and (max-width: 767px) {
             font-size: 30px !important;
         }
     }
@@ -154,43 +157,56 @@ span{
 
 .programPost {
     position: relative;
-    // &:before {
-    //     content: '';
-    //     display: block;
-    //     width: 50%;
-    //     height: 100%;
-    //     position: absolute;
-    //     right: 0;
-    //     top: 0;
-    //     background: #ffffff94;
-    //     z-index: 1;
-    // }
-    .programPost-items{
-        li{
+    .programPost-items {
+        li {
             list-style: none;
         }
-        padding-left:0;
-        @media screen and   (max-width:767px) {
+        padding-left: 0;
+        @media screen and (max-width: 767px) {
             overflow-x: hidden;
-            padding-left:15px;
-            padding-right:15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .programPost-desc {
+            h4 {
+                color: #346e8a;
+                font-size: 24px;
+                line-height: 30px;
+            }
+            .link {
+                color: #346e8a;
+                font-size: 23px;
+                line-height: 41px;
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
         }
     }
-    .slick-slide {
-        max-width: 540px;
-        margin-right: 80px;
-        height:auto;
-        @media screen and   (max-width:767px) {
-            margin-right: 0px;
-            max-width: 100%;
-        }
-        &.slick-active {
-            margin-right: 70px;
-            @media screen and   (max-width:767px) {
+    .slick-list {
+        padding: 0 !important;
+        .slick-slide {
+            max-width: 540px;
+            height: auto;
+            margin-right: 50px;
+            @media screen and (max-width: 767px) {
                 margin-right: 0px;
+                max-width: 100%;
             }
-            &.slick-center.slick-current {
-                max-width: 550px;
+            // &.slick-active {
+            //     @media screen and (max-width: 767px) {
+            //         margin-right: 0px;
+            //     }
+            //     &.slick-center.slick-current {
+            //         max-width: 550px;
+            //     }
+            // }
+            .programPost-img {
+                margin-bottom: 30px;
+                border-radius: 8px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
             }
         }
     }
@@ -199,13 +215,10 @@ span{
         margin-left: 20%;
         bottom: -80px;
     }
-    
 }
 
-
-
 .slick-dots {
-    li{
+    li {
         &.slick-active {
             button:before {
                 color: #346e8a;
@@ -218,14 +231,9 @@ span{
             font-size: 14px;
         }
     }
-    
 }
 
-.programPost .slick-dots li 
-
-
-
-.programPost-item {
+.programPost .slick-dots li .programPost-item {
     position: relative;
     .programPost-img {
         margin-bottom: 30px;
@@ -233,12 +241,12 @@ span{
     .programPost-desc h4 {
         font-size: 28px;
         line-height: 41px;
-        color: #346E8A;
+        color: #346e8a;
     }
     .link {
         font-size: 23px;
         line-height: 41px;
-        color: #346E8A;
+        color: #346e8a;
         text-decoration: underline;
         text-transform: uppercase;
     }
@@ -246,8 +254,6 @@ span{
         max-width: 100%;
     }
 }
-
-
 
 .eng-bg {
     background-size: cover;
@@ -260,14 +266,14 @@ span{
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 60px 0px #000;
-    margin-top:100px;
-    margin-bottom:100px;
-    @media screen and   (max-width:991px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    @media screen and (max-width: 991px) {
         padding: 50px 0px !important;
         //height: 1000px;
         margin-top: 50px !important;
     }
-    @media screen and   (max-width:767px) {
+    @media screen and (max-width: 767px) {
         height: auto;
         margin-bottom: 100px !important;
         padding: 50px 0px !important;
@@ -278,11 +284,11 @@ span{
         font-weight: bold;
         margin-bottom: 30px;
         line-height: 70px;
-        @media screen and   (max-width:991px) {
+        @media screen and (max-width: 991px) {
             font-size: 30px;
             line-height: 40px;
         }
-        @media screen and   (max-width:767px) {
+        @media screen and (max-width: 767px) {
             font-size: 24px;
             line-height: 36px;
             margin-top: 40px;
@@ -297,10 +303,10 @@ span{
         max-width: 100%;
         width: auto;
         height: auto;
-        @media screen and   (max-width:991px) {
+        @media screen and (max-width: 991px) {
             max-width: 100%;
-            width:400px;
-            margin:0 auto;
+            width: 400px;
+            margin: 0 auto;
             display: block;
         }
     }
@@ -308,32 +314,32 @@ span{
 .school-box {
     border: 3px dashed #346e8a;
     box-shadow: 0 0 25px -2px #dedede;
-    padding: 100px 40px; 
-    @media screen and   (max-width:767px) {
+    padding: 100px 40px;
+    @media screen and (max-width: 767px) {
         padding: 40px 15px;
     }
 }
 
-.school-partner{
-    img{
+.school-partner {
+    img {
         width: 380px;
         margin: 0 auto;
         display: block;
-        @media screen and   (max-width:991px) {
-            max-width:100%;
-            margin-bottom:30px;
+        @media screen and (max-width: 991px) {
+            max-width: 100%;
+            margin-bottom: 30px;
         }
     }
 }
 
-.student_programs{
-    img{
-        @media screen and   (max-width:767px) {
-            max-width:100%;
+.student_programs {
+    img {
+        @media screen and (max-width: 767px) {
+            max-width: 100%;
         }
     }
-    .col-md-6.pr-0{
-        @media screen and   (max-width:767px) {
+    .col-md-6.pr-0 {
+        @media screen and (max-width: 767px) {
             padding-right: 15px !important;
         }
     }
@@ -342,39 +348,38 @@ span{
 @function randomNum($min, $max) {
     $rand: random();
     $randomNum: $min + floor($rand * (($max - $min) + 1));
-  
+
     @return $randomNum;
-  }
+}
 
-
-  .cls-1 {
+.cls-1 {
     clip-path: url(#clip-Canvas);
-  }
+}
 
-  .cls-2 {
+.cls-2 {
     fill: #eaeaea;
-  }
+}
 
-  .cls-3 {
-    fill: rgba(0,0,0,0);
-  }  
+.cls-3 {
+    fill: rgba(0, 0, 0, 0);
+}
 
-  .svg-laptop{
-      overflow: visible;
-      opacity: 0;
-      width: 650px;
-        @media screen and   (max-width:767px) {
-            max-width: 100%;
-            height: auto;
-        }
-      &.shown{
+.svg-laptop {
+    overflow: visible;
+    opacity: 0;
+    width: 650px;
+    @media screen and (max-width: 767px) {
+        max-width: 100%;
+        height: auto;
+    }
+    &.shown {
         opacity: 1;
         transition: all 3s cubic-bezier(0.22, 0.61, 0.36, 1);
-      }
-    image{
+    }
+    image {
         opacity: 0;
         transition: all 3s cubic-bezier(0.22, 0.61, 0.36, 1);
-        // &:nth-child(1){ 
+        // &:nth-child(1){
         //     transform: translateX( #{randomNum(8, 18)}rem ) translateY( #{randomNum(4, 28)}rem );
         // }
         // &:nth-child(2){ transform: translateX( -#{randomNum(8, 18)}rem ) translateY( -#{randomNum(4, 28)}rem ); }
@@ -400,12 +405,9 @@ span{
         // &:nth-child(21){ transform: translateX(-19rem) translateY(-20rem); }
         // &:nth-child(22){ transform: translateX(19rem) translateY(20rem); }
         // &:nth-child(23){ transform: translateX(-19rem) translateY(-20rem); }
-
-       
- 
     }
     &.show {
-        image{
+        image {
             opacity: 1;
             // transform: translateX(0px) translateY(0px) !important;
         }

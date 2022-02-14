@@ -59,7 +59,7 @@ var settings = {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    centerMode: false
+    centerMode: false,
   };
 
 const programPost = [
@@ -81,6 +81,34 @@ const programPost = [
         img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
         link:'https://codeconnects.org'
     }
+];
+const programPostUniversity = [
+    {
+        name: '1',
+        title: 'Quantum Computing: year-long course, research opportunities, internships',
+        img: '/images/pro-post1.png',
+        link:'https://www.qubitbyqubit.org'
+    },
+    {
+        id: '2',
+        title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
+        img: '/images/ai III.jpg',
+        link:'/train'
+    },
+    {
+        id: '3',
+        title: 'Artificial intelligence: year-long course',
+        img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
+        link:'https://codeconnects.org'
+    }
+];
+const programPostEducators = [
+    {
+        name: '1',
+        title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
+        img: '/images/pro-post1.png',
+        link:'https://www.qubitbyqubit.org'
+    },
 ];
 const keyPost = [
     {
@@ -190,42 +218,111 @@ function Home() {
                 <div className='student_programs-wrap'>
                     <div className='row mt-50 ml-0'>
                         <div className='col-lg-6 col-md-12'>
-                            <div className='k2-collage'>
-                            <Fade left><img src='images/k2-1.png'  /></Fade>
-                            <Fade right><img src='images/k2-2.png'  /></Fade>
-                            <Fade top><img src='images/k2-3.png'  /></Fade>
+                            <div className='k2-collage nav nav-tabs' role="tablist">
+                                    <a className="nav-link active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
+                                    <Fade left><img src='images/k2-1.png'  /></Fade>
+                                </a>
+                                <a className="nav-link" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
+                                    <Fade right><img src='images/k2-2.png'  /></Fade>
+                                </a>
+                                <a className="nav-link" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
+                                    <Fade top><img src='images/k2-3.png'  /></Fade>
+                                </a>
                             </div>
 
                         </div>
                         <div className='col-lg-6 col-md-12 pr-0'>
-                        <Fade right>
-                            <div className='visual-text mt-50'>
-                                <h3>K-12 Programs</h3>
-                            </div>
-                        </Fade>
-                            <div className='programPost'>
-                                <div className='programPost-wrap'>
-                                    <ul className='programPost-items'>
-                                    <Slider {...settings}>
-                                        {programPost.map((item,index)=>{
-                                            return (
-                                                <Fade top>
-                                        <li className='programPost-item'>
-                                            <div className='programPost-img' style={imgContainerStyle}>
-                                                <img src={item["img"]} style={imageStyle}/>
-                                            </div>
-                                            <div className='programPost-desc'>
-                                                <h4>{item["title"]}</h4>
-                                                <a className='link' href={item["link"]}>Learn More</a>
-                                            </div>
-                                        </li>
-                                        </Fade>
-                                            )
-                                        })}
-                                    </Slider>
-                                    </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="k2-pro" role="tabpanel" aria-labelledby="k2-pro-tab">
+                                    <Fade right>
+                                        <div className='visual-text mt-50'>
+                                            <h3>For K-12 Programs</h3>
+                                        </div>
+                                    </Fade>
+                                    <div className='programPost'>
+                                        <div className='programPost-wrap'>
+                                            <ul className='programPost-items'>
+                                                <Slider {...settings}>
+                                                    {programPost.map((item,index)=>{
+                                                        return (
+                                                            <Fade top>
+                                                                <li className='programPost-item'>
+                                                                    <div className='programPost-img'>
+                                                                        <img src={item["img"]} className="img-fluid" />
+                                                                    </div>
+                                                                    <div className='programPost-desc'>
+                                                                        <h4>{item["title"]}</h4>
+                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                    </div>
+                                                                </li>
+                                                            </Fade>
+                                                        )
+                                                    })}
+                                                </Slider>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="k2-pro2" role="tabpanel" aria-labelledby="k2-pro2-tab">
+                                    <Fade right>
+                                        <div className='visual-text mt-50'>
+                                            <h3>For University Programs</h3>
+                                        </div>
+                                    </Fade>
+                                    <div className='programPost'>
+                                        <div className='programPost-wrap'>
+                                            <ul className='programPost-items'>
+                                                <Slider {...settings}>
+                                                    {programPostUniversity.map((item,index)=>{
+                                                        return (
+                                                            <Fade top>
+                                                                <li className='programPost-item'>
+                                                                    <div className='programPost-img'>
+                                                                        <img src={item["img"]} className="img-fluid" />
+                                                                    </div>
+                                                                    <div className='programPost-desc'>
+                                                                        <h4>{item["title"]}</h4>
+                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                    </div>
+                                                                </li>
+                                                            </Fade>
+                                                        )
+                                                    })}
+                                                </Slider>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="k2-pro3" role="tabpanel" aria-labelledby="k2-pro3-tab">
+                                    <Fade right>
+                                        <div className='visual-text mt-50'>
+                                            <h3>For Educators Programs</h3>
+                                        </div>
+                                    </Fade>
+                                    <div className='programPost'>
+                                        <div className='programPost-wrap'>
+                                            <ul className='programPost-items row'>
+                                                    {programPostEducators.map((item,index)=>{
+                                                        return (
+                                                            <Fade top>
+                                                                <li className='programPost-item col-12 col-md-6'>
+                                                                    <div className='programPost-img'>
+                                                                        <img src={item["img"]} className="img-fluid" />
+                                                                    </div>
+                                                                    <div className='programPost-desc'>
+                                                                        <h4>{item["title"]}</h4>
+                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                    </div>
+                                                                </li>
+                                                            </Fade>
+                                                        )
+                                                    })}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -282,20 +379,6 @@ function Home() {
                 </div>
             </div>
             <Testimonial />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     );
 }
