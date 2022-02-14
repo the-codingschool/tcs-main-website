@@ -55,7 +55,7 @@ const users = [
 ];
 var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -131,7 +131,7 @@ function Home() {
         <div id='Home'>
             <div className='container'>
                 <HomeBanner></HomeBanner>
-                    
+
             </div>
             <div id="" className="KeyInitiatives mb-80">
         <div className='container'>
@@ -146,12 +146,12 @@ function Home() {
             {keyPost.map((item,index)=>{
                 return (
                 //<li key={index}>{item['title']}</li>
-                {...index / 2 ?  
-                
+                {...index / 2 ?
+
                 <Fade left>
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
-                        
+
                     <img src={item["img"]} alt='students' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
@@ -162,7 +162,7 @@ function Home() {
                 <Fade right>
                 <div className='col-md-4 postBox'>
                     <div className='postBox-wrap'>
-                        
+
                     <img src={item["img"]} alt='students' />
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
@@ -195,7 +195,7 @@ function Home() {
                             <Fade right><img src='images/k2-2.png'  /></Fade>
                             <Fade top><img src='images/k2-3.png'  /></Fade>
                             </div>
-                            
+
                         </div>
                         <div className='col-lg-6 col-md-12 pr-0'>
                         <Fade right>
@@ -234,7 +234,7 @@ function Home() {
                 <div className='container container-1660'>
                     <div className='row align-items-center'>
                         <div className='col-lg-6 col-md-12'>
-                            <Fade left> 
+                            <Fade left>
                             <h3>We’ve Created a Learning Model That’s Making Real Impact.</h3>
                             <p>To expand the pool of qualified talent and increase diversity in tech, every student needs access to high quality computer science education. We’re making that a reality. Taught by PhD researchers and professional software engineers, our students gain in-depth knowledge and real world skills in emerging technologies, such as AI and Quantum Computing, that they would not otherwise have access to. </p>
                             <p>Our model offers virtual courses with live instruction, teaching nearly 10,000 students in a single course with staggeringly impressive outcomes.</p>
@@ -268,10 +268,10 @@ function Home() {
                                     <p>Hundreds of schools and districts across the U.S. from the Hawaii Department of Education to the Cleveland School District have partnered with The Coding School to ensure their students receive the highest quality and most cutting-edge STEM education possible. The Coding School's Qubit by Qubit Introduction to Quantum Computing Course is also A-G approved by the University of California as an accepted college preparatory course. </p>
                                     <div className='row home-banner mt-30 p-0'>
                                         <div className='col-md-6 text-right'>
-                                        <Link className='btn btn-outline link' to='/about_us' > CONNECT WITH US</Link> 
+                                        <Link className='btn btn-outline link' to='/about_us' > CONNECT WITH US</Link>
                                         </div>
                                         <div className='col-md-6 text-left'>
-                                            <Link className='btn btn-outline link' to='/about_us' > SEE OUR PARTNER SCHOOLS</Link> 
+                                            <Link className='btn btn-outline link' to='/about_us' > SEE OUR PARTNER SCHOOLS</Link>
                                         </div>
                                     </div>
                                 </Fade>
@@ -295,7 +295,7 @@ function Home() {
 
 
 
-        
+
         </div>
     );
 }
