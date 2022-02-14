@@ -68,7 +68,9 @@ function AboutUs() {
 
                     <div className='col-md-6'>
                         <Fade right>
-                            <div className='sub-title'>Our Founder.</div>
+                            <div className='sub-title'>
+                                <h1>Our Founder</h1>
+                            </div>
                             <div>
                             <font size="4">
                                 <b>Kiera Peltz</b> is visionary on a mission to prepare the next generation for the future of work. She began learning how to code while working at the White House on the Innovation and Technology team and has been passionate about equitable computer science education ever since. With a background in policy, workforce development, and research, Kiera believes computer science education is critical for everyone, not just those planning on entering STEM fields, and is committed to ensuring every individual has access to high quality, accessible technical training. She is the lead PI on a 3-year grant from the U.S. Department of Defense NDEP and is on the advisory board for NSF-funded QuSTEAM. She graduated magna cum laude from Brown University and holds two master degrees from the University of Cambridge, where she graduated with Distinction, and Tsinghua University. She is a Gates-Cambridge and Schwarzman Scholar.
@@ -367,7 +369,7 @@ function AboutUs() {
                                         <img className='avatar Partner' src={'/images/new assets/Sponsors _ Partners/Q12.png' || 'https://via.placeholder.com/80'} alt='' />
                                     </div>
                                     <div className='col-md-3 Sponsor'>
-                                        <img className='avatar Partner' src={'/images/new assets/Sponsors _ Partners/Quantum-Logo-Setup-Flat-e1606181992938.jpeg' || 'https://via.placeholder.com/80'} alt='' />
+                                        <img className='avatar Partner' src={'/images/new assets/Sponsors _ Partners/QuSTEAM logo.png' || 'https://via.placeholder.com/80'} alt='' />
                                     </div>
                                 </div>
                             </Fade>
@@ -398,13 +400,7 @@ function AboutUs() {
                         <h1>School Partners</h1>
                     </div>
                     <div>
-<<<<<<< HEAD
-                        <h2>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more. 
-                        </h2>
-=======
                         As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.
->>>>>>> 43ff6ca5b14249cb288c42832276d0e8fd46da2d
                     </div>
                 </div>
 
