@@ -107,12 +107,12 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Giselle Ragusa.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Giselle Ragusa</div>
-                                    <div> Professor of Engineering at USC Co-chair of USC STEM Education Consortium </div>
+                                    <div>Co-chair of USC STEM Education Consortium </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ravi Pendse.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Ravi Pendse</div>
-                                    <div> Chief Information Officer and Vice President of Information Technology at University of Michigan </div>
+                                    <div> CIO and VP of Information Tech at University of Michigan </div>
                                 </div>
                             </div>
                         </Fade>
@@ -121,18 +121,22 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Mark Redekopp.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Mark Redekopp</div>
+                                    <div> Associate Professor of Engineering Practice at USC </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Scott Aaronson.png' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Scott Aaronson</div>
+                                    <div> Director, UT Austin's QuantumInformation Center </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Clarice Aiello - Director, UCLA_s Quantum Biology Tech (QuBiT) Lab.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Clarice Aiello</div>
+                                    <div> Assistant Professor of ECE, UCLA QuBiT Lab </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of James D. Whitfield - Assistant Professor of Physics, Dartmouth University .jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>James D. Whitfield</div>
+                                    <div> Assistant Professor of Physics,Dartmouth University </div>
                                 </div>
                             </div>
                         </Fade>
@@ -141,18 +145,22 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ray Laflamme - Director of the UWaterloo Institute for Quantum Computing.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Ray Laflamme</div>
+                                    <div> Director, UWaterloo Institute for Quantum Computing </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Spiros Michalakis - Physicist, CalTech_s Institute for Quantum Information and Matter (IQIM).jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Spiros Michalakis</div>
+                                    <div> Physicist, CalTech's Institute for Quantum Information and Matter </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Umesh Vazirani - Director, UC Berkeley_s Quantum Computation Center (BQIC).jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Umesh Vazirani</div>
+                                    <div> Director, UC Berkeley's Quantum Computation Center </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Will Oliver - Director, MIT_s Center for Quantum Engineering.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Will Oliver</div>
+                                    <div> Director, MIT's Center for Quantum Engineering </div>
                                 </div>
                             </div>
                         </Fade>
@@ -161,18 +169,22 @@ function AboutUs() {
                             <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Chief Master Sgt. James Fitch II..JPG' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Chief Master Sgt. James Fitch II</div>
+                                    <div> Command Chief, Air Force Research Laboratory </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Manuela Veloso.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Manuela Veloso</div>
+                                    <div>  Head of AI Research at J.P. Morgan & President AAAI </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Dave Touretzky.png' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Dave Touretzky</div>
+                                    <div> Research Professor at Carnegie Mellon University and Chair of AI4K12 </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Polina Golland.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Polina Golland</div>
+                                    <div> MIT, CS & EE Professor at MIT </div>
                                 </div>
                             </div>
                         </Fade>
@@ -181,18 +193,22 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Nathaniel D. Bastian</div>
+                                    <div>Assistant Professor at West Point </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Hal Abelson.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Hal Abelson</div>
+                                    <div> Computer Science Professor at MIT </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Jeremy Howard.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Jeremy Howard</div>
+                                    <div> Co-Founder at fast.ai </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Yolanda Gil.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Yolanda Gil</div>
+                                    <div> Director for Strategic AI and Data Science Initiatives & Professor at USC  </div>
                                 </div>
                             </div>
                         </Fade>
@@ -201,10 +217,12 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Andrew Oliver</div>
+                                    <div> Cloud and AI SWE at Microsoft </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Ben Isecke.JPG' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Ben Isecke</div>
+                                    <div>Ben Isecke</div> 
+                                    <div> President of CSTA & CS Teacher at Bergen County Academies </div>
                                 </div>
                             </div>
                         </Fade>
