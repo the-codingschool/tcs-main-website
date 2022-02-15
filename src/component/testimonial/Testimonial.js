@@ -213,21 +213,21 @@ const featuredPost = [
     {
         name: '1',
         title: 'ACE-Ed',
-        img: '/images/pro-post1.png',
+        img: '/images/american-council-on-education-ace-logo-vector.png',
         description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
         link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
     },
     {
         name: '1',
         title: 'TechGig',
-        img: '/images/pro-post1.png',
+        img: '/images/Ol6sXv5b_400x400.jpg',
         description: 'IBM and The Coding School to offer free quantum education to 5000 students',
         link:'https://content.techgig.com/ibm-and-the-coding-school-to-offer-free-quantum-education-to-5000-students/articleshow/78538803.cms'
     },
     {
         name: '1',
         title: 'Quantum Insider',
-        img: '/images/pro-post1.png',
+        img: '/images/FOR-SOCIALS-CLASSIC.png',
         description: 'TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce',
         link:'https://thequantuminsider.com/2021/03/01/tqd-quantum-ethics-exclusive-qubit-by-qubits-mission-is-to-train-a-diverse-quantum-workforce/'
     }
@@ -235,21 +235,21 @@ const featuredPost = [
     {
         name: '1',
         title: 'Business Insider',
-        img: '/images/pro-post1.png',
+        img: '/images/BI_blue_background_vertical.png',
         description: 'Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible',
         link:'https://markets.businessinsider.com/news/stocks/preparing-for-the-jobs-of-the-future-the-coding-school-and-mit-physicists-are-making-quantum-computing-accessible-to-high-school-students-this-summer-1029279911'
     },
     {
         name: '1',
         title: 'Communications of ACM',
-        img: '/images/pro-post1.png',
+        img: '/images/2014-communications-of-the-acm.png',
         description:'MIT Researchers Lead High School Educational Initiative on Quantum Computing',
         link:'https://cacm.acm.org/careers/246701-mit-researchers-lead-high-school-educational-initiative-on-quantum-computing/fulltext?mobile=false'
     },
     {
         name: '1',
         title: 'Agnes Irwin School',
-        img: '/images/pro-post1.png',
+        img: '/images/The-Agnes-Irwin-School-logo.png',
         description:'Two Juniors Accepted Into First-Ever Quantum Computing Course',
         link:'https://www.agnesirwin.org/about/news/news-detail-page/~board/news/post/two-juniors-accepted-into-first-ever-quantum-computing-course'
     }
