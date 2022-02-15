@@ -313,16 +313,16 @@ const Train = (props) => {
                             <div className="img mb-60" data-aos="fade-up" data-aos-duration="800">
                                 <ul className="partners">
                                     <li>
+                                        <img src={require('./images/2e77697f538befb44e5e9a40f5775d2a.png')} />
+                                    </li>
+                                    <li>
                                         <img src={require('./images/partner-1.png')} />
                                     </li>
                                     <li>
                                         <img src={require('./images/partner-2.png')} />
                                     </li>
                                     <li>
-                                        <img src={require('./images/partner-1.png')} />
-                                    </li>
-                                    <li>
-                                        <img src={require('./images/2e77697f538befb44e5e9a40f5775d2a.png')} />
+                                        <img src={require('./images/Devcom-logo.jpg')} />
                                     </li>
                                 </ul>
                             </div>
