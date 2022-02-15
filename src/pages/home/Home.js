@@ -67,7 +67,7 @@ const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/upcoming-programs-1.jpg',
+        img: '/images/upcoming-programs-3.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
@@ -79,7 +79,7 @@ const programPost = [
     {
         name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/upcoming-programs-3.jpg',
+        img: '/images/upcoming-programs-1.jpg',
         link:'https://codeconnects.org'
     }
 ];
@@ -87,13 +87,13 @@ const programPostUniversity = [
     {
         name: '1',
         title: 'Quantum Computing: year-long course, research opportunities, internships',
-        img: '/images/upcoming-programs-4.jpg',
+        img: '/images/upcoming-programs-5.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
-        img: '/images/upcoming-programs-5.jpg',
+        img: '/images/upcoming-programs-4.jpg',
         link:'/train'
     },
     {
