@@ -15,8 +15,8 @@ function StudentMapCounter() {
   return (
     <div id="" className="StudentMapCounter">
         <div className='container'>
-            <div className='visual-text'>
-                <h3 className="mb-0">
+            <div className='visual-text mb-30'>
+                <h3>
                 We're reaching students around <span className='highlight-underline'> the world</span>
                 </h3>
             </div>

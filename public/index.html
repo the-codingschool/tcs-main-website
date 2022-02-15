@@ -15,27 +15,6 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script>
-      document.onload = (function(w, d, t, h, s, n) {
-        w.FlodeskObject = n;
-        var fn = function() {
-          (w[n].q = w[n].q || []).push(arguments);
-        };
-        w[n] = w[n] || fn;
-        var f = d.getElementsByTagName(t)[0];
-        var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-        var sm = d.createElement(t);
-        sm.async = true;
-        sm.type = 'module';
-        sm.src = h + s + '.mjs' + v;
-        f.parentNode.insertBefore(sm, f);
-        var sn = d.createElement(t);
-        sn.async = true;
-        sn.noModule = true;
-        sn.src = h + s + '.js' + v;
-        f.parentNode.insertBefore(sn, f);
-      })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-    </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -63,14 +42,6 @@
     -->
 
     <script src="https://particleslider.com/js/particleslider/current/particleslider.js"></script>
-    <script>
-      window.onload = function(){
-        window.fd('form', {
-            formId: '6088a1d675b152316cddc99f',
-            containerEl: '#fd-form-6088a1d675b152316cddc99f'
-        });
-      }
-      </script>
 
   </body>
 </html>

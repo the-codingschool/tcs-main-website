@@ -2,44 +2,95 @@
   background: #346e8a;
   color: white;
   margin-top: 80px;
-  padding: 20px 15px;
-  .subscribe-btn {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+  padding: 100px 60px;
 
-    form {
-      margin: 0;
-      padding: 0;
-    }
+.mainRow{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: start;
+  .imgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 20%;
+  }
+  .div1{
+    margin-right: 5%;
+     display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 30%;
+  }
+  
+}
+  .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .subscriber-input {
     position: relative;
     width: 100%;
     display: flex;
     input {
+      width: 100%;
       border-radius: 0;
-      background: #3f3828;
-      border-color: #816830;
-      color: white;
-      &::placeholder {
-        color: white;
-      }
+      background: #c1dbe7;
+      color: black;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
     }
     button {
-      background: #ad8736;
-      position: absolute;
-      right: 3px;
-      bottom: 3px;
+      background: #016da3;
+      height: 38px;
       padding: 0.374rem 0.74rem;
       border: none;
-      color: white;
+      color: black;
       text-transform: uppercase;
       font-weight: 500;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
   }
   .cp,
   span {
     font-size: 11px;
   }
+}
+
+.footerText{
+  color:white;
+  text-decoration:none
+}
+.footerText:hover{
+  color: white;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  #Footer {
+  margin-top: 0px;
+  padding: 30px 20px;
+
+.mainRow{
+  flex-direction: column;
+  .imgDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .div1{
+    margin-bottom: 40px;
+    width: 100%;
+  }
+    .subscriber-input {
+  
+   align-items: flex-start;
+  }
+  
+}
+ 
+}
 }

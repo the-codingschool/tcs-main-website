@@ -1,7 +1,6 @@
 import './Home.scss'
 //import React, { useEffect } from 'react';
 import Marquee from "react-fast-marquee";
-import CountUp from 'react-countup';
 
 import Fade from 'react-reveal/Fade'
 import Slider from "react-slick";
@@ -60,56 +59,28 @@ var settings = {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    centerMode: false,
+    centerMode: false
   };
 
 const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/upcoming-programs-1.jpg',
+        img: '/images/pro-post1.png',
         link:'https://www.qubitbyqubit.org'
     },
     {
-        name: '2',
+        name: '1',
         title: 'Introduction to Machine Learning for high school students',
-        img: '/images/upcoming-programs-2.jpg',
+        img: '/images/ai III.jpg',
         link:'/train'
     },
     {
-        name: '3',
+        name: '1',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/upcoming-programs-3.jpg',
+        img: '/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg',
         link:'https://codeconnects.org'
     }
-];
-const programPostUniversity = [
-    {
-        name: '1',
-        title: 'Quantum Computing: year-long course, research opportunities, internships',
-        img: '/images/upcoming-programs-4.jpg',
-        link:'https://www.qubitbyqubit.org'
-    },
-    {
-        id: '2',
-        title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
-        img: '/images/upcoming-programs-5.jpg',
-        link:'/train'
-    },
-    {
-        id: '3',
-        title: 'Artificial intelligence: year-long course',
-        img: '/images/upcoming-programs-1.jpg',
-        link:'https://codeconnects.org'
-    }
-];
-const programPostEducators = [
-    {
-        name: '1',
-        title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
-        img: '/images/upcoming-programs-6.jpg',
-        link:'https://www.qubitbyqubit.org'
-    },
 ];
 const keyPost = [
     {
@@ -210,6 +181,7 @@ function Home() {
             </div>
 
             <div className='brown-sec'>
+                <img src='/images/arrow-down.svg' className='before' />
                 <div className='container'>
                     <h2>Upcoming Programs</h2>
                 </div>
@@ -217,112 +189,43 @@ function Home() {
             <div className='student_programs'>
                 <div className='student_programs-wrap'>
                     <div className='row mt-50 ml-0'>
-                        <div className='col-lg-6 col-md-12 mb-50 mb-lg-0'>
-                            <div className='k2-collage nav nav-tabs' role="tablist">
-                                <a className="active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
-                                    <Fade left><img src='images/k2-1.png'  alt=""/></Fade>
-                                </a>
-                                <a className="" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
-                                    <Fade right><img src='images/k2-2.png'  alt=""/></Fade>
-                                </a>
-                                <a className="" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
-                                    <Fade top><img src='images/k2-3.png'  alt=""/></Fade>
-                                </a>
+                        <div className='col-lg-6 col-md-12'>
+                            <div className='k2-collage'>
+                            <Fade left><img src='images/k2-1.png'  /></Fade>
+                            <Fade right><img src='images/k2-2.png'  /></Fade>
+                            <Fade top><img src='images/k2-3.png'  /></Fade>
                             </div>
 
                         </div>
                         <div className='col-lg-6 col-md-12 pr-0'>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="k2-pro" role="tabpanel" aria-labelledby="k2-pro-tab">
-                                    <Fade right>
-                                        <div className='visual-text mt-50'>
-                                            <h3 className="home-up-title">K-12 Programs</h3>
-                                        </div>
-                                    </Fade>
-                                    <div className='programPost'>
-                                        <div className='programPost-wrap'>
-                                            <ul className='programPost-items'>
-                                                <Slider {...settings}>
-                                                    {programPost.map((item,index)=>{
-                                                        return (
-                                                            <Fade top>
-                                                                <li className='programPost-item'>
-                                                                    <div className='programPost-img'>
-                                                                        <img src={item["img"]} className="img-fluid" alt="" />
-                                                                    </div>
-                                                                    <div className='programPost-desc'>
-                                                                        <h4>{item["title"]}</h4>
-                                                                        <a className='link' href={item["link"]}>Learn More</a>
-                                                                    </div>
-                                                                </li>
-                                                            </Fade>
-                                                        )
-                                                    })}
-                                                </Slider>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="k2-pro2" role="tabpanel" aria-labelledby="k2-pro2-tab">
-                                    <Fade right>
-                                        <div className='visual-text mt-50'>
-                                            <h3 className="home-up-title">University Programs</h3>
-                                        </div>
-                                    </Fade>
-                                    <div className='programPost'>
-                                        <div className='programPost-wrap'>
-                                            <ul className='programPost-items'>
-                                                <Slider {...settings}>
-                                                    {programPostUniversity.map((item,index)=>{
-                                                        return (
-                                                            <Fade top>
-                                                                <li className='programPost-item'>
-                                                                    <div className='programPost-img'>
-                                                                        <img src={item["img"]} className="img-fluid" alt="" />
-                                                                    </div>
-                                                                    <div className='programPost-desc'>
-                                                                        <h4>{item["title"]}</h4>
-                                                                        <a className='link' href={item["link"]}>Learn More</a>
-                                                                    </div>
-                                                                </li>
-                                                            </Fade>
-                                                        )
-                                                    })}
-                                                </Slider>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="k2-pro3" role="tabpanel" aria-labelledby="k2-pro3-tab">
-                                    <Fade right>
-                                        <div className='visual-text mt-50'>
-                                            <h3 className="home-up-title">Educators Programs</h3>
-                                        </div>
-                                    </Fade>
-                                    <div className='programPost'>
-                                        <div className='programPost-wrap'>
-                                            <ul className='programPost-items row'>
-                                                    {programPostEducators.map((item,index)=>{
-                                                        return (
-                                                            <Fade top>
-                                                                <li className='programPost-item col-12 col-md-6'>
-                                                                    <div className='programPost-img'>
-                                                                        <img src={item["img"]} className="img-fluid" alt="" />
-                                                                    </div>
-                                                                    <div className='programPost-desc'>
-                                                                        <h4>{item["title"]}</h4>
-                                                                        <a className='link' href={item["link"]}>Learn More</a>
-                                                                    </div>
-                                                                </li>
-                                                            </Fade>
-                                                        )
-                                                    })}
-                                            </ul>
-                                        </div>
-                                    </div>
+                        <Fade right>
+                            <div className='visual-text mt-50'>
+                                <h3>K-12 Programs</h3>
+                            </div>
+                        </Fade>
+                            <div className='programPost'>
+                                <div className='programPost-wrap'>
+                                    <ul className='programPost-items'>
+                                    <Slider {...settings}>
+                                        {programPost.map((item,index)=>{
+                                            return (
+                                                <Fade top>
+                                        <li className='programPost-item'>
+                                            <div className='programPost-img' style={imgContainerStyle}>
+                                                <img src={item["img"]} style={imageStyle}/>
+                                            </div>
+                                            <div className='programPost-desc'>
+                                                <h4>{item["title"]}</h4>
+                                                <a className='link' href={item["link"]}>Learn More</a>
+                                            </div>
+                                        </li>
+                                        </Fade>
+                                            )
+                                        })}
+                                    </Slider>
+                                    </ul>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -340,26 +243,8 @@ function Home() {
                         </div>
                         <div className='col-lg-6 col-md-12'>
                         <Fade right>
-                            <img className='img-responsive' src='/images/eng-bg-hand.png' alt="" />
+                            <img className='img-responsive' src='/images/eng-bg-hand.png' />
                         </Fade>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mt-50 eng-bg-bottom">
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5><CountUp end={80} duration={3.75} />%+</h5>
-                            <p>Over 80% completion rate in 8-month virtual courses</p>
-                        </div>
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5><CountUp end={99} duration={3.75} />%</h5>
-                            <p>of students are more likely to take a STEM class in college after the course</p>
-                        </div>
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5><CountUp end={98} duration={3.75} />%</h5>
-                            <p>of students would recommend the course to their friends</p>
-                        </div>
-                        <div class="col-6 col-lg-3 text-center">
-                            <h5><CountUp end={95} duration={3.75} />%</h5>
-                            <p>of students are more interested in pursuing a STEM career.</p>
                         </div>
                     </div>
                 </div>
@@ -369,7 +254,7 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-5 col-md-12'>
                         <Fade left>
-                            <img src='/images/k2-program.svg' alt="" />
+                            <img src='/images/k2-program.svg' />
                         </Fade>
                         </div>
                         <div className='col-lg-7 col-md-12'>
@@ -397,6 +282,20 @@ function Home() {
                 </div>
             </div>
             <Testimonial />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     );
 }
