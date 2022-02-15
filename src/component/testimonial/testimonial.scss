@@ -38,9 +38,12 @@
         margin-bottom: 3rem;
 
         .tab-content {
-            margin-top: 200px !important;
+            margin-top: 200px;
             display: block;
             position: relative;
+            @media screen and (max-width: 991px) {
+                margin-top: 0;
+            }
         }
         @media screen and (max-width: 991px) {
             margin-top: 50px;
@@ -70,6 +73,17 @@
             text-align: center;
             @media screen and (max-width: 767px) {
                 font-size: 16px;
+            }
+        }
+        img {
+            max-width: 60px;
+            width: 100%;
+            height: 60px;
+            border-radius: 50%;
+            display: block;
+            margin: 15px auto;
+            @media (min-width: 992px) {
+                display: none;
             }
         }
         h6 {
@@ -225,6 +239,8 @@
             height: 250px;
             object-fit: cover;
             object-position: center;
+            object-fit: cover;
+            object-position: top center;
             @media screen and (max-width: 768px) {
                 height: auto;
             }
@@ -443,4 +459,158 @@
 
 .featured-in-section {
     max-width: 1920px;
+}
+
+.go-to-slide {
+    @media (max-width: 991px) {
+        display: none;
+    }
+    a {
+        position: absolute;
+        display: inline-block;
+        img {
+            object-fit: cover;
+            object-position: top center;
+            border-radius: 50%;
+            filter: grayscale(1);
+            transform: scale(1);
+            transition: 0.3s ease all;
+        }
+        &.active {
+            img {
+                filter: grayscale(0);
+                transform: scale(1.2);
+            }
+        }
+        &:nth-child(1) {
+            top: 14%;
+            left: -23%;
+            img {
+                width: 110px;
+                height: 110px;
+            }
+        }
+        &:nth-child(2) {
+            top: -55%;
+            left: -13%;
+            img {
+                width: 160px;
+                height: 160px;
+            }
+        }
+        &:nth-child(3) {
+            top: -100%;
+            left: -24%;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        &:nth-child(4) {
+            top: -95%;
+            left: -1%;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        &:nth-child(5) {
+            top: -145%;
+            left: -9%;
+            img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+        &:nth-child(6) {
+            top: -150%;
+            left: 8%;
+            img {
+                width: 130px;
+                height: 130px;
+            }
+        }
+
+        &:nth-child(7) {
+            top: -102%;
+            left: 26%;
+            img {
+                width: 130px;
+                height: 130px;
+            }
+        }
+
+        &:nth-child(8) {
+            top: -148%;
+            left: 31%;
+            img {
+                width: 95px;
+                height: 95px;
+            }
+        }
+        &:nth-child(9) {
+            top: -117%;
+            left: 46%;
+            img {
+                width: 110px;
+                height: 110px;
+            }
+        }
+        &:nth-child(10) {
+            top: -155%;
+            right: 28%;
+            img {
+                width: 130px;
+                height: 130px;
+            }
+        }
+        &:nth-child(11) {
+            top: -102%;
+            right: 17%;
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        &:nth-child(12) {
+            top: -135%;
+            right: 6%;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        &:nth-child(13) {
+            top: -155%;
+            right: -12%;
+            img {
+                width: 130px;
+                height: 130px;
+            }
+        }
+        &:nth-child(14) {
+            top: -70%;
+            right: -8.5%;
+            img {
+                width: 160px;
+                height: 160px;
+            }
+        }
+        &:nth-child(15) {
+            top: -100%;
+            right: -22%;
+            img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+        &:nth-child(16) {
+            top: 0%;
+            right: -23%;
+            img {
+                width: 160px;
+                height: 160px;
+            }
+        }
+    }
 }
