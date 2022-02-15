@@ -20,6 +20,21 @@ const schoolPartnersTestimonials = [
         testimony: "My own participation in this course has resulted in an overall better physics curriculum at my school! and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
         image: "images/testimonials/william.jpg"
     },
+    {
+        name: "Ben Iseke, Bergen County Academies",
+        testimony: "The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need.",
+        image: "images/testimonials/ben-iseke.jpg"
+    },
+    {
+        name: "Heather Pereira",
+        testimony: "Qubit by Qubit has been a wonderful partner to work with. From assisting with ensuring that the course is approved by the University of California to providing a streamlined and straightforward enrollment process, the management of the course has been great.",
+        image: "images/testimonials/heather.jpeg"
+    },
+    {
+        name: "William K. Funderburk",
+        testimony: "My own participation in this course has resulted in an overall better physics curriculum at my school! and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
+        image: "images/testimonials/william.jpg"
+    },
 ];
 
 const instructorTestimonials = [
