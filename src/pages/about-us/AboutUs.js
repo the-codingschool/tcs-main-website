@@ -179,7 +179,7 @@ function AboutUs() {
                                     <div>  Head of AI Research at J.P. Morgan & President AAAI </div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Dave Touretzky.png' || 'https://via.placeholder.com/80'} alt='' />
+                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/david-s-touretzky.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Dave Touretzky</div>
                                     <div> Research Professor at Carnegie Mellon University and Chair of AI4K12 </div>
                                 </div>
