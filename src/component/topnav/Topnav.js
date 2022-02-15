@@ -31,17 +31,20 @@ function Topnav() {
         {
             label  : 'Donate',
             link   : 'https://codeconnects.org/donate.html',
-            active : false
+            active : false,
+            external: true
         },
         {
             label  : 'CodeConnects',
             link   : "https://codeconnects.org",
-            active : false
+            active : false,
+            external: true
         },
         {
             label  : 'Qubit by Qubit',
             link   : 'https://www.qubitbyqubit.org',
-            active : false
+            active : false,
+            external: true
         },
         {
             label  : 'Train',
@@ -62,7 +65,7 @@ function Topnav() {
 
                 <div className={`navbar-collapse collapse ${nav && 'show'}`}>
                     <ul className="nav navbar-nav ml-auto">
-                        {Items.map((item, idx)=><Element label={item.label} active={item.active} link={item.link}/>)}
+                        {Items.map((item, idx)=><Element label={item.label} active={item.active} link={item.link} external={item.external}/>)}
                     </ul>
                 </div>
 
@@ -74,10 +77,11 @@ function Topnav() {
     )
 }
 
-function Element({link, label, active}) {
+function Element({link, label, active, external}) {
     return (
         <li className={`nav-item px-8 text-uppercase ${active && 'active'}`}>
-            <Link to={link} className="nav-link" >{label}</Link>
+            {external ? <a href={link} className="nav-link">{label}</a> : 
+            <Link to={link} className="nav-link" >{label}</Link>}
         </li>
     )
 }
