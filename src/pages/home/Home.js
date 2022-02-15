@@ -357,7 +357,7 @@ function Home() {
                             <h5><CountUp end={98} duration={3.75} />%</h5>
                             <p>of students would recommend the course to their friends</p>
                         </div>
-                        <div class="col-6 col-lg-3 text-center">
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
                             <h5><CountUp end={95} duration={3.75} />%</h5>
                             <p>of students are more interested in pursuing a STEM career.</p>
                         </div>

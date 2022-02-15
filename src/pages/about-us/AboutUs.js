@@ -1,5 +1,6 @@
 import './AboutUs.scss'
 import React, { useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 
 import Fade from 'react-reveal/Fade'
@@ -44,7 +45,7 @@ function AboutUs() {
                     <div className='text-detail coding-school-block'>
                         <div className='one-liner'>
                             Just because computer science education is available does not mean it is accessible. 
-                            We’re changing that.
+                            <span className="highlight-underline">We’re changing that</span>.
                         </div>
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
@@ -101,7 +102,7 @@ function AboutUs() {
                                     <div>Co Founder of ShutterFly</div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Pamit Surana.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <img className='avatar Advisors w-100 advisor-pamit' src={'/images/Board _ Advisors/Copy of Pamit Surana.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Pamit Surana</div>
                                     <div>Managing Director at Teneo</div>
                                 </div>
@@ -360,7 +361,7 @@ function AboutUs() {
                         <h1>Our Sponsors and Partners</h1>
                     </div>
                     <div className="about-us-small-heading">
-                        <h2>It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the future tech-ready workforce is diverse, inclusive, and equitable.
+                        <h2>It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the <span className="text-brand">future tech-ready workforce is diverse, inclusive, and equitable.</span>
                         </h2>
                     </div>
                 </div>
@@ -427,7 +428,7 @@ function AboutUs() {
                     </div>
                     <div className="about-us-small-heading">
                         <h2>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to connect with us.</h2>
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? <Link className="text-gold" to="involved">Click here to connect with us.</Link></h2>
                     </div>
                 </div>
 
