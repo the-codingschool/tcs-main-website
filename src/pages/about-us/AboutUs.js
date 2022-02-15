@@ -43,7 +43,8 @@ function AboutUs() {
                     </Fade>
                     <div className='text-detail coding-school-block'>
                         <div className='one-liner'>
-                            Just because computer science education is available does not mean it is accessible. We’re changing that.
+                            Just because computer science education is available does not mean it is accessible. 
+                            We’re changing that.
                         </div>
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
@@ -165,7 +166,7 @@ function AboutUs() {
                             </div>
                         </Fade>
                         <Fade left>
-                            <div className='row mt-20 setStyle'>
+                            <div className='row mt-20'>
                             <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Chief Master Sgt. James Fitch II..JPG' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Chief Master Sgt. James Fitch II</div>
@@ -189,7 +190,7 @@ function AboutUs() {
                             </div>
                         </Fade>
                         <Fade right>
-                            <div className='row mt-20 setStyle'>
+                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Dr. Nathaniel D. Bastian</div>
@@ -213,7 +214,7 @@ function AboutUs() {
                             </div>
                         </Fade>
                         <Fade left>
-                            <div className='row mt-20 setStyle'>
+                            <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Andrew Oliver</div>
@@ -274,7 +275,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Francisca Vasconcelos</div>
                                         <div>Rhodes Scholar</div>
-                                        <img src={'/images/Layer 16 copy 3.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/rhodes.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>
@@ -336,12 +337,12 @@ function AboutUs() {
 
                 <div className='mt-80 our-leadership-block background2'>
                     <div className='detail-block'>
-                        <div className='title'>Our Sponsors and Partners</div>
+                        {/*<div className='title'>Our Sponsors and Partners</div>*/}
                         <div>
-                        <font size="4.5">
+                        <font size="6.5">
                             “Their program was stellar, with some of the best student engagement I have ever encountered in my career.”
                         </font>
-                        <font size="4.5">
+                        <font size="6.5">
                             -Ben Isecke, CSTA NJ President and Computer Science Teacher
                         </font>
                         </div>
@@ -358,8 +359,9 @@ function AboutUs() {
                     <div className='sub-title'>
                         <h1>Our Sponsors and Partners</h1>
                     </div>
-                    <div>
-                        It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the future tech-ready workforce is diverse, inclusive, and equitable.
+                    <div className="about-us-small-heading">
+                        <h2>It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the future tech-ready workforce is diverse, inclusive, and equitable.
+                        </h2>
                     </div>
                 </div>
                 <div className='container'>
@@ -423,8 +425,9 @@ function AboutUs() {
                     <div className='sub-title'>
                         <h1>School Partners</h1>
                     </div>
-                    <div>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.
+                    <div className="about-us-small-heading">
+                        <h2>
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to connect with us.</h2>
                     </div>
                 </div>
 

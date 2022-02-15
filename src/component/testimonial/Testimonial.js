@@ -1,8 +1,7 @@
-import './testimonial.scss'
-
-
+import React from 'react';
+import {Link} from "react-router-dom";
 import Slider from "react-slick";
-
+import './testimonial.scss'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,7 +10,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import Fade from 'react-reveal/Fade'
-import {Link} from 'react-router-dom'
 
 
 
@@ -62,14 +60,23 @@ const studentTestimonials = [
     }
 ];
 
+var baseUrl = "/images/";
+
 var settings = {
-    dots: false,
+    dots: true,
     arrows:true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode:false
+    centerMode:false,
+    customPaging: function(i) {
+        return (
+          <a>
+            <img src={`${baseUrl}/abstract0${i + 1}.jpg`} />
+          </a>
+        );
+      },
   };
   var FeaturedSettings = {
     dots: false,
@@ -104,45 +111,45 @@ var settings = {
   const featuredPost = [
     {
         name: '1',
-        title: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS Computing: Summer Camps,Research Opportunities & Internships',
+        title: 'ACE-Ed',
         img: '/images/pro-post1.png',
-        description:'',
+        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
         link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
     },
     {
         name: '1',
-        title: 'IBM and The Coding School to offer free quantum education to 5000 students',
+        title: 'TechGig',
         img: '/images/pro-post1.png',
-        description:'',
+        description: 'IBM and The Coding School to offer free quantum education to 5000 students',
         link:'https://content.techgig.com/ibm-and-the-coding-school-to-offer-free-quantum-education-to-5000-students/articleshow/78538803.cms'
     },
     {
         name: '1',
-        title: 'TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce',
+        title: 'Quantum Insider',
         img: '/images/pro-post1.png',
-        description:'',
+        description: 'TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce',
         link:'https://thequantuminsider.com/2021/03/01/tqd-quantum-ethics-exclusive-qubit-by-qubits-mission-is-to-train-a-diverse-quantum-workforce/'
     }
     ,
     {
         name: '1',
-        title: 'Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible to High School Students This Summer',
+        title: 'Business Insider',
         img: '/images/pro-post1.png',
-        description:'',
+        description: 'Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible',
         link:'https://markets.businessinsider.com/news/stocks/preparing-for-the-jobs-of-the-future-the-coding-school-and-mit-physicists-are-making-quantum-computing-accessible-to-high-school-students-this-summer-1029279911'
     },
     {
         name: '1',
-        title: 'MIT Researchers Lead High School Educational Initiative on Quantum Computing',
+        title: 'Communications of ACM',
         img: '/images/pro-post1.png',
-        description:'',
+        description:'MIT Researchers Lead High School Educational Initiative on Quantum Computing',
         link:'https://cacm.acm.org/careers/246701-mit-researchers-lead-high-school-educational-initiative-on-quantum-computing/fulltext?mobile=false'
     },
     {
         name: '1',
-        title: 'Two Juniors Accepted Into First-Ever Quantum Computing Course',
+        title: 'Agnes Irwin School',
         img: '/images/pro-post1.png',
-        description:'',
+        description:'Two Juniors Accepted Into First-Ever Quantum Computing Course',
         link:'https://www.agnesirwin.org/about/news/news-detail-page/~board/news/post/two-juniors-accepted-into-first-ever-quantum-computing-course'
     }
 ];
@@ -373,7 +380,6 @@ function Testimonial() {
                             <h4>{item["title"]}</h4>
                             <p>{item["description"]}</p>
                             <a className='link' href={item["link"]}>Read More</a>
-                            href={item["link"]}
                         </div>
                     </li>
                         )

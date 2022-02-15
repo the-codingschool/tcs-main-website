@@ -28,10 +28,10 @@ function App() {
     <BrowserRouter>
         <Topnav />
         <Switch>
-        <Route path={"/involved"} component={Involved} exact={true}/>
+          <Route path={"/involved"} component={Involved} />
           <Route path={"/"} component={Home} exact={true}/>
-        <Route path={"/about_us"} component={AboutUs} exact={true}/>
-        <Route path={"/train"} component={Train} exact={true}/>
+          <Route path={"/about_us"} component={AboutUs} />
+          <Route path={"/train"} component={Train} />
         </Switch>
         <Footer />
     </BrowserRouter>
