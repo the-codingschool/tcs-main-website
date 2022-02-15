@@ -1,8 +1,51 @@
 import './Footer.scss'
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
+    
+    const footerLinks = [
+        {
+            label  : 'Home',
+            link   : '/',
+            active : false
+        },
+        {
+            label  : 'About us',
+            link   : '/about_us',
+            active : false
+        },
+        {
+            label  : 'Get involved',
+            link   : '/involved',
+            active : false
+        },
+        {
+            label  : 'Donate',
+            link   : 'https://codeconnects.org/donate.html',
+            active : false,
+            external: true
+        },
+        {
+            label  : 'CodeConnects',
+            link   : "https://codeconnects.org",
+            active : false,
+            external: true
+        },
+        {
+            label  : 'Qubit by Qubit',
+            link   : 'https://www.qubitbyqubit.org',
+            active : false,
+            external: true
+        },
+        {
+            label  : 'Train',
+            link   : '/train',
+            active : false
+        }
+    ]
+
     return (
         <div id='Footer'>
             <div className='container'>
@@ -25,13 +68,10 @@ function Footer() {
 
                     <div className='offset-md-1 col-md-3'>
                         <div className='fs-16 fw-6 text-uppercase mb-10'>Useful Links</div>
-                        <div className='mt-25 cp'>Home</div>
-                        <div className='mt-10 cp'>About</div>
-                        <div className='mt-10 cp'>Get Involved</div>
-                        <div className='mt-10 cp'>Donate</div>
-                        <div className='mt-10 cp'>CodeConnects</div>
-                        <div className='mt-10 cp'>Qubit by Qubit</div>
-                        <div className='mt-10 cp'>TRAIN</div>
+                        {footerLinks.map((item) => <div className='mt-10 cp'>
+                            {item.external ? <a href={item.link}>{item.label}</a> : <Link to={item.link}>{item.label}</Link>}
+                        </div>)}
+                        
                     </div>
 
                     <div className='col-md-4'>
