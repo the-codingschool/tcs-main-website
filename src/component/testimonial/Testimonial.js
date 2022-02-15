@@ -137,9 +137,9 @@ const studentTestimonials = [
         image: "images/testimonials/Hasnain_Zane.jpg"
     },
     {
-        name: "Lucy",
-        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg"
+        name: "University student, Florida",
+        testimony: "I have always been passionate about the intersections of business and technology. Qubit by Qubit has opened my eyes on the current and future applications of quantum computing that will push the boundaries of the industries that we know today.",
+        image: "images/testimonials/IMG_4459-min 3.PNG"
     },
     {
         name: "Michelle",
@@ -147,19 +147,19 @@ const studentTestimonials = [
         image: "images/testimonials/michelle.jpg"
     },
     {
-        name: "Faraz",
-        testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
-        image: "images/testimonials/faraz.JPG"
+        name: "10th grade female, Massachusetts",
+        testimony: "Qubit by Qubit with IBM really changed my life! The course strengthened my math skills, increased my desire to explore STEM and hopefully one day become an Engineer or a student in college studying some type of math or programming heavy field!",
+        image: "images/testimonials/07F1A90A-8D94-47DE-AD63-435D496A81B8.jpeg"
     },
     {
-        name: "Lucy",
-        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg"
+        name: "University student, India",
+        testimony: "Technology should not become a tool in the hands of the elite and must be used as a weapon in the fight against illiteracy and poverty. A huge shoutout, to IBM and The Coding School for providing free online quantum computing course to 7,000 students across the globe. ",
+        image: "images/testimonials/IMG-6463 2.jpg"
     },
     {
-        name: "Michelle",
-        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
-        image: "images/testimonials/michelle.jpg"
+        name: "12th grade female, Australia",
+        testimony: "Prior to being a part of the course I planned to study quantum engineering in university based on my general understanding of quantum from personal research. Now, having actually gained a better understanding of the fundamentals of quantum computing, I find myself even more curious and excited to learn more!",
+        image: "images/testimonials/IMG_4503.jpg"
     },
     {
         name: "Faraz",
