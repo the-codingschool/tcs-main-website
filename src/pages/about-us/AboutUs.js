@@ -260,7 +260,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Christie Matthews</div>
                                         {/* <div>Focal Systems</div> */}
-                                        <img src={'/images/new assets/companies/Focal Systems.jpg' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/logo.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>

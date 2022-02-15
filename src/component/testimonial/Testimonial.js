@@ -219,8 +219,15 @@ const featuredPost = [
     },
     {
         name: '1',
+        title: 'ACE-Ed',
+        img: '/images/american-council-on-education-ace-logo-vector.png',
+        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
+        link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
+    },
+    {
+        name: '1',
         title: 'TechGig',
-        img: '/images/Ol6sXv5b_400x400.jpg',
+        img: '/images/TechGig.com_Logo.png',
         description: 'IBM and The Coding School to offer free quantum education to 5000 students',
         link:'https://content.techgig.com/ibm-and-the-coding-school-to-offer-free-quantum-education-to-5000-students/articleshow/78538803.cms'
     },
