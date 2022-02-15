@@ -322,7 +322,7 @@ const Train = (props) => {
                                         <img src={require('./images/partner-1.png')} />
                                     </li>
                                     <li>
-                                        <img src={require('./images/2e77697f538befb44e5e9a40f5775d2a.png.png')} />
+                                        <img src={require('./images/2e77697f538befb44e5e9a40f5775d2a.png')} />
                                     </li>
                                 </ul>
                             </div>

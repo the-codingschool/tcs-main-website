@@ -79,7 +79,7 @@ const programPost = [
     {
         name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/upcoming-programs-1.jpg',
+        img: '/images/upcoming-programs-4.jpg',
         link:'https://codeconnects.org'
     }
 ];
@@ -93,7 +93,7 @@ const programPostUniversity = [
     {
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
-        img: '/images/upcoming-programs-4.jpg',
+        img: '/images/upcoming-programs-1.jpg',
         link:'/train'
     },
     {
