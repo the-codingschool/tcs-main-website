@@ -52,10 +52,10 @@
 html {
     scroll-behavior: smooth !important;
 }
-body,
+/* body,
 html {
     font-family: "SEGOEUI", sans-serif !important;
-}
+} */
 html,
 html body {
     overflow-x: hidden;
@@ -637,7 +637,7 @@ a#hamburg i {
     color: #000000;
     font-family: "seguibl";
     text-align: center;
-    margin: 0 auto 30px;
+    margin: 70px auto 30px;
 }
 
 .banner .more {
@@ -1382,17 +1382,22 @@ footer .logo img {
     margin: 0;
     list-style: none;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .section_3 ul.partners li {
     display: inline-block;
-    width: 30%;
-    padding: 0 15px;
+    flex: 1;
 }
 
-.section_3 ul.partners li img {
-    filter: grayscale(1);
+.section_3 ul.partners li:not(:last-child) {
+    margin-right: 30px;
 }
+
+/* .section_3 ul.partners li img {
+    filter: grayscale(1);
+} */
 .section_5 .main .desc p a {
     font-weight: 700;
     color: #989898;

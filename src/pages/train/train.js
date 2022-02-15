@@ -30,7 +30,7 @@ const Train = (props) => {
                                 <h6>“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” -U.S. National Security Commission on Artificial Intelligence</h6>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="600">
-                                <p>Artificial Intelligence (AI) will change the world as we know it, shaping how business is done, how people connect, and how society functions. It will affect every industry and sector, making it critical that all members of the future workforce have an understanding of AI and its implications. So whether students plan on pursuing careers in politics, business, or healthcare, they all need to learn about AI. That’s why we’re providing in-depth, real-world AI skills and knowledge to thousands of high school students and educators around the United States.  </p>
+                                <p class="text-dark">Artificial Intelligence (AI) will change the world as we know it, shaping how business is done, how people connect, and how society functions. It will affect every industry and sector, making it critical that all members of the future workforce have an understanding of AI and its implications. So whether students plan on pursuing careers in politics, business, or healthcare, they all need to learn about AI. <span className="text-brand text-bold">That’s why we’re providing in-depth, real-world AI skills and knowledge to thousands of high school students and educators around the United States.</span></p>
                             </div>
 
                             <div className="more" data-aos="zoom-in">
@@ -52,7 +52,7 @@ const Train = (props) => {
                                 <h2>FUTURE AI LEADERS <span>PROGRAM</span> </h2>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                                <p>In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
+                                <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
                             </div>
                         </div>
                         {/* <div className="offset-md-4"></div> */}
@@ -301,7 +301,7 @@ const Train = (props) => {
                     <div className="row">
                         <div className="offset-md-2"></div>
                         <div className="col-md-6">
-                            <div className="tagline" data-aos="fade-right" data-aos-duration="500">
+                            <div className="tagline mb-20" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Partners & Collaborators</h3>
                             </div>
                             {/*<div className="tagline" data-aos="fade-right" data-aos-duration="600">
@@ -310,8 +310,14 @@ const Train = (props) => {
                             <div className="desc" data-aos="fade-right" data-aos-duration="700">
                                 <p> To ensure the most engaging AI experience, we are proudly partnered with </p>
                             </div>
-                            <div className="img" data-aos="fade-up" data-aos-duration="800">
+                            <div className="img mb-60" data-aos="fade-up" data-aos-duration="800">
                                 <ul className="partners">
+                                    <li>
+                                        <img src={require('./images/partner-1.png')} />
+                                    </li>
+                                    <li>
+                                        <img src={require('./images/partner-2.png')} />
+                                    </li>
                                     <li>
                                         <img src={require('./images/partner-1.png')} />
                                     </li>
@@ -322,10 +328,10 @@ const Train = (props) => {
                             </div>
                             <div>
                             </div>
-                            <div className="tagline" data-aos="fade-right" data-aos-duration="500">
+                            <div className="tagline mb-20" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Sponsor</h3>
                             </div>
-                            <div className="desc-2" data-aos="fade-up" data-aos-duration="`1000">
+                            <div className="desc" data-aos="fade-up" data-aos-duration="`1000">
                                 <p>We are honored that this project is supported by a three-year grant award from the United States Department of Defense’s National Defense Education Program</p>
                             </div>
                             <ul className="sponsor">

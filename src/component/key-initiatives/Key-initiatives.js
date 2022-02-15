@@ -75,11 +75,18 @@ function KeyInitiatives() {
             </div>
         </div>
         <div className='container'>
-        <div className='visual-text text-center mt-80'>
-        {/*<img src={"/images/boy-future quantum leader.jpg" || "https://via.placeholder.com/80"}></img> */}
-        <Fade left><h4 className='m-auto mb-30'>The future STEM workforce is <span className='highlight-underline'>diverse</span></h4></Fade>
-        <Fade right><h4 className='w-80 m-auto'>We're making sure of it</h4></Fade>
-        <Fade left><h4 className='m-auto mb-30'><span className='highlight-underline'>55%</span> of our students are from underrepresented backgrounds</h4></Fade>
+            <div className="row">
+                <div className="col-12 col-md-4 mb-30 mb-md-0">
+                    <img src="images/boy-future quantum leader.jpg" class="w-100" />
+                </div>
+                <div className="col-12 col-md-8">
+                    <div className='visual-text text-center mt-80'>
+                        {/*<img src={"/images/boy-future quantum leader.jpg" || "https://via.placeholder.com/80"}></img> */}
+                        <Fade left><h4 className='m-auto mb-30'>The future STEM workforce is <span className='highlight-underline'>diverse</span></h4></Fade>
+                        <Fade right><h4 className='w-80 m-auto'>We're making sure of it</h4></Fade>
+                        <Fade left><h4 className='m-auto mb-30'><span className='highlight-underline'>55%</span> of our students are from underrepresented backgrounds</h4></Fade>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
