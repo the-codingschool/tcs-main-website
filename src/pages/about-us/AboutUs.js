@@ -43,7 +43,8 @@ function AboutUs() {
                     </Fade>
                     <div className='text-detail coding-school-block'>
                         <div className='one-liner'>
-                            Just because computer science education is available does not mean it is accessible. We’re changing that.
+                            Just because computer science education is available does not mean it is accessible. 
+                            We’re changing that.
                         </div>
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
@@ -336,12 +337,12 @@ function AboutUs() {
 
                 <div className='mt-80 our-leadership-block background2'>
                     <div className='detail-block'>
-                        <div className='title'>Our Sponsors and Partners</div>
+                        {/*<div className='title'>Our Sponsors and Partners</div>*/}
                         <div>
-                        <font size="4.5">
+                        <font size="6.5">
                             “Their program was stellar, with some of the best student engagement I have ever encountered in my career.”
                         </font>
-                        <font size="4.5">
+                        <font size="6.5">
                             -Ben Isecke, CSTA NJ President and Computer Science Teacher
                         </font>
                         </div>
@@ -426,7 +427,7 @@ function AboutUs() {
                     </div>
                     <div className="about-us-small-heading">
                         <h2>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to learn more.</h2>
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? Click here to connect with us.</h2>
                     </div>
                 </div>
 

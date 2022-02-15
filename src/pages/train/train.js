@@ -26,7 +26,7 @@ const Train = (props) => {
                                 </a>
                             </div>
                             <div className="tagline" data-aos="fade-up" data-aos-duration="500">
-                                <h4>Thanks to our partnership with the Department of Defense we are offering scholarships to all accepted students and educators!</h4>
+                                <h4>Thanks to our partnership with the Department of Defense we are offering scholarships for this course to all accepted students and educators!</h4>
                                 <h6>“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” -U.S. National Security Commission on Artificial Intelligence</h6>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="600">
@@ -52,7 +52,7 @@ const Train = (props) => {
                                 <h2>FUTURE AI LEADERS <span>PROGRAM</span> </h2>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                                <p>In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of AI.</p>
+                                <p>In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
                             </div>
                         </div>
                         {/* <div className="offset-md-4"></div> */}
@@ -61,7 +61,7 @@ const Train = (props) => {
                         <div className="col-md-4">
                             <div className="main" data-aos="fade-left" data-aos-duration="500">
                                 <div className="tagline">
-                                    <h3>Introduction to Machine Learning course</h3>
+                                    <h3>Introduction to Machine Learning Course</h3>
                                 </div>
                                 <div className="desc">
                                     <p>A two-semester, for-credit course for high school students and educators beginning in September 2022. <a href="https://airtable.com/shrQcXGeOnE8o7Kxa" target="_blank">Learn More</a></p>
@@ -71,7 +71,7 @@ const Train = (props) => {
                         <div className="col-md-4">
                             <div className="main" data-aos="fade-left" data-aos-duration="600">
                                 <div className="tagline">
-                                    <h3>Summer intensive for educators</h3>
+                                    <h3>Summer Intensive for Educators</h3>
                                 </div>
                                 <div className="desc">
                                     <p>A four-week professional development (PD) course for high school educators and community college faculty in July 2022. <a href="https://airtable.com/shrIu7KQDjx1Tgvjz" target="_blank">Learn More</a></p>
@@ -304,9 +304,9 @@ const Train = (props) => {
                             <div className="tagline" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Partners & Collaborators</h3>
                             </div>
-                            <div className="tagline" data-aos="fade-right" data-aos-duration="600">
+                            {/*<div className="tagline" data-aos="fade-right" data-aos-duration="600">
                                 <h2><span>DOD</span> partnership and USC</h2>
-                            </div>
+                        </div>*/}
                             <div className="desc" data-aos="fade-right" data-aos-duration="700">
                                 <p> To ensure the most engaging AI experience, we are proudly partnered with </p>
                             </div>
@@ -319,6 +319,8 @@ const Train = (props) => {
                                         <img src={require('./images/partner-2.png')} />
                                     </li>
                                 </ul>
+                            </div>
+                            <div>
                             </div>
                             <div className="tagline" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Sponsor</h3>
