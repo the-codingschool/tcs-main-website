@@ -113,7 +113,7 @@ var settings = {
         name: '1',
         title: 'ACE-Ed',
         img: '/images/pro-post1.png',
-        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS Computing: Summer Camps,Research Opportunities & Internships',
+        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
         link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
     },
     {
@@ -135,7 +135,7 @@ var settings = {
         name: '1',
         title: 'Business Insider',
         img: '/images/pro-post1.png',
-        description: 'Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible to High School Students This Summer',
+        description: 'Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible',
         link:'https://markets.businessinsider.com/news/stocks/preparing-for-the-jobs-of-the-future-the-coding-school-and-mit-physicists-are-making-quantum-computing-accessible-to-high-school-students-this-summer-1029279911'
     },
     {
