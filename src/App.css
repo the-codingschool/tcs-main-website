@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.section_2 {
+    padding: 20px 0px 0;
+}
+.section_2 .headline h2 {
+    margin: 0 auto 20px;
+    font-size: 60px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
