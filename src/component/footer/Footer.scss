@@ -3,15 +3,28 @@
   color: white;
   margin-top: 80px;
   padding: 20px 15px;
+  .subscribe-btn {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    form {
+      margin: 0;
+      padding: 0;
+    }
+  }
   .subscriber-input {
     position: relative;
-    width: 75%;
+    width: 100%;
     display: flex;
     input {
       border-radius: 0;
       background: #3f3828;
       border-color: #816830;
       color: white;
+      &::placeholder {
+        color: white;
+      }
     }
     button {
       background: #ad8736;

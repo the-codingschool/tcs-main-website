@@ -52,11 +52,10 @@ function Footer() {
                 <div className='d-flex align-items-center'>
                     <img src="/images/TCS_logo-1 copy.png" style={{ width: '14%' }} />
                     <div className='w-75 ml-40'>
-                        <div className='fs-16 fw-6 text-uppercase mb-10'>Subscribe to our newsletter</div>
-                        <div className='subscriber-input'>
-                            <input value='Enter Email Address...' className='form-control' />
-                            <button>Subscribe Now</button>
-                        </div>
+                    <div className="subscribe-btn">                        
+                        <div className='fs-16 fw-6 text-uppercase'>Subscribe to our newsletter</div>
+                        <div id="fd-form-6088a1d675b152316cddc99f"></div>
+                    </div>
                     </div>
                 </div>
 
