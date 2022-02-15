@@ -83,19 +83,24 @@ const instructorTestimonials = [
         testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
         image: "images/testimonials/kelley-ellis.jpeg"
     },
-    {
-        name: "Anthony Mirand, Google",
-        testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg"
-    },
-    {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg"
-    },
 ];
 
 const studentTestimonials = [
+    {
+        name: "Lucy",
+        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
+        image: "images/testimonials/lucy.jpg"
+    },
+    {
+        name: "Michelle",
+        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
+        image: "images/testimonials/michelle.jpg"
+    },
+    {
+        name: "Faraz",
+        testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
+        image: "images/testimonials/faraz.JPG"
+    },
     {
         name: "10th grade female, Australia",
         testimony: "My favourite part is the people I've met! All are from crazy places I've never been to, but we all have one common interest that ties us together. I find myself coding complete joke-code just to joke around with friends.",
@@ -115,21 +120,6 @@ const studentTestimonials = [
         name: "University student, Virginia",
         testimony: "I definitely felt a sense of community, especially since the other students were from diverse backgrounds as well. Hearing the TA's talk about their experiences as underrepresented PhD students/graduates in academia, allyship, etc showed me how dedicated they are to making learning opportunities in quantum computing more accessible.",
         image: "images/testimonials/Hasnain_Zane.jpg"
-    },
-    {
-        name: "Lucy",
-        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg"
-    },
-    {
-        name: "Michelle",
-        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
-        image: "images/testimonials/michelle.jpg"
-    },
-    {
-        name: "Faraz",
-        testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
-        image: "images/testimonials/faraz.JPG"
     },
     {
         name: "Lucy",
