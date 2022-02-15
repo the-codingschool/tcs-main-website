@@ -97,39 +97,24 @@ const instructorTestimonials = [
 
 const studentTestimonials = [
     {
-        name: "Faraz",
-        testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
-        image: "images/testimonials/faraz.JPG"
+        name: "10th grade female, Australia",
+        testimony: "My favourite part is the people I've met! All are from crazy places I've never been to, but we all have one common interest that ties us together. I find myself coding complete joke-code just to joke around with friends.",
+        image: "images/testimonials/wooooo.jpg"
     },
     {
-        name: "Lucy",
-        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg"
+        name: "12th grade male, Australia",
+        testimony: "This course is absolutely beautiful, it is pact with the introductory information into the world of quantum.",
+        image: "images/testimonials/E204400A-5814-44A9-BD56-723354D6F74F.jpeg"
     },
     {
-        name: "Michelle",
-        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
-        image: "images/testimonials/michelle.jpg"
+        name: "University Student, Georgia",
+        testimony: "The instructors were passionate, knowledgeable and really cared about helping students understand the material. I loved meeting other students excited about the possibilities of quantum computing, and I've learned many topics that give me ideas about what to learn next! Really grateful to Qubit by Qubit for the experience.",
+        image: "images/testimonials/20220106_180858.jpg"
     },
     {
-        name: "Faraz",
-        testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
-        image: "images/testimonials/faraz.JPG"
-    },
-    {
-        name: "Lucy",
-        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg"
-    },
-    {
-        name: "Michelle",
-        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
-        image: "images/testimonials/michelle.jpg"
-    },
-    {
-        name: "Faraz",
-        testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
-        image: "images/testimonials/faraz.JPG"
+        name: "University student, Virginia",
+        testimony: "I definitely felt a sense of community, especially since the other students were from diverse backgrounds as well. Hearing the TA's talk about their experiences as underrepresented PhD students/graduates in academia, allyship, etc showed me how dedicated they are to making learning opportunities in quantum computing more accessible.",
+        image: "images/testimonials/Hasnain_Zane.jpg"
     },
     {
         name: "Lucy",
