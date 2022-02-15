@@ -84,7 +84,7 @@ const Train = (props) => {
                                 <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
                             </div> */}
                             <div className="desc" data-aos="fade-up" data-aos-duration="700">
-                                <p>To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
+                                <p class="text-dark">To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@ const Train = (props) => {
                                 <li data-aos="fade-up" data-aos-duration="700">
                                     <div className="main">
                                         <div className="pic">
-                                            <img src={require('./images/team-9.png')} alt="" />
+                                            <img src={require('./images/david-s-touretzky.jpg')} alt="" />
                                         </div>
                                         <div className="title">
                                             <h4>Dr. Dave Touretzky</h4>

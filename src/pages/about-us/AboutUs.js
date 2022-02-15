@@ -102,7 +102,7 @@ function AboutUs() {
                                     <div>Co Founder of ShutterFly</div>
                                 </div>
                                 <div className='col-3 text-center'>
-                                    <img className='avatar Advisors w-100 advisor-pamit' src={'/images/Board _ Advisors/Copy of Pamit Surana.jpg' || 'https://via.placeholder.com/80'} alt='' />
+                                    <img className='avatar Advisors w-100 advisor-pamit' src={'/images/Board _ Advisors/Kg8zPRwg_400x400.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Pamit Surana</div>
                                     <div>Managing Director at Teneo</div>
                                 </div>
