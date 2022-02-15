@@ -274,7 +274,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Francisca Vasconcelos</div>
                                         <div>Rhodes Scholar</div>
-                                        <img src={'/images/Layer 16 copy 3.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/rhodes.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>

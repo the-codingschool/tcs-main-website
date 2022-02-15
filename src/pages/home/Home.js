@@ -236,7 +236,7 @@ function Home() {
                                 <div class="tab-pane fade show active" id="k2-pro" role="tabpanel" aria-labelledby="k2-pro-tab">
                                     <Fade right>
                                         <div className='visual-text mt-50'>
-                                            <h3 className="home-up-title">For K-12 Programs</h3>
+                                            <h3 className="home-up-title">K-12 Programs</h3>
                                         </div>
                                     </Fade>
                                     <div className='programPost'>
@@ -266,7 +266,7 @@ function Home() {
                                 <div class="tab-pane fade" id="k2-pro2" role="tabpanel" aria-labelledby="k2-pro2-tab">
                                     <Fade right>
                                         <div className='visual-text mt-50'>
-                                            <h3 className="home-up-title">For University Programs</h3>
+                                            <h3 className="home-up-title">University Programs</h3>
                                         </div>
                                     </Fade>
                                     <div className='programPost'>
@@ -296,7 +296,7 @@ function Home() {
                                 <div class="tab-pane fade" id="k2-pro3" role="tabpanel" aria-labelledby="k2-pro3-tab">
                                     <Fade right>
                                         <div className='visual-text mt-50'>
-                                            <h3 className="home-up-title">For Educators Programs</h3>
+                                            <h3 className="home-up-title">Educators Programs</h3>
                                         </div>
                                     </Fade>
                                     <div className='programPost'>

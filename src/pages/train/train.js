@@ -320,7 +320,7 @@ const Train = (props) => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="headline" data-aos="fade-up" data-aos-duration="900">
+                            <div className="tagline" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Sponsor</h3>
                             </div>
                             <div className="desc-2" data-aos="fade-up" data-aos-duration="`1000">
