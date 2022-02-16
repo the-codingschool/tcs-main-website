@@ -128,7 +128,7 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Scott Aaronson.png' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Scott Aaronson</div>
-                                    <div> Director, UT Austin's QuantumInformation Center </div>
+                                    <div> Director, UT Austin's Quantum Information Center </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Clarice Aiello - Director, UCLA_s Quantum Biology Tech (QuBiT) Lab.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -147,7 +147,7 @@ function AboutUs() {
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ray Laflamme - Director of the UWaterloo Institute for Quantum Computing.jpg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Ray Laflamme</div>
-                                    <div> Director, UWaterloo Institute for Quantum Computing </div>
+                                    <div> Director, University of Waterloo Institute for Quantum Computing </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Spiros Michalakis - Physicist, CalTech_s Institute for Quantum Information and Matter (IQIM).jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -427,8 +427,8 @@ function AboutUs() {
                         <h1>School Partners</h1>
                     </div>
                     <div className="about-us-small-heading">
-                        <h3>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? <Link className="text-gold" to="involved">Click here to connect with us.</Link></h3>
+                        <h2>
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? <Link className="text-gold" to="involved">Click here to connect with us.</Link></h2>
                     </div>
                 </div>
 

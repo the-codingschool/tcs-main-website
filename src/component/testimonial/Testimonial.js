@@ -6,9 +6,9 @@ import Fade from 'react-reveal/Fade'
 
 const schoolPartnersTestimonials = [
     {
-        name: "Ben Iseke, Bergen County Academies",
-        testimony: "The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need.",
-        image: "images/testimonials/ben-iseke.jpg"
+        name: "Nimmi Arunachalam, Palm Beach County, Florida",
+        testimony: " I highly recommend this opportunity to all students and teachers who are curious about the role of quantum computing in our futures.",
+        image: "images/testimonials/Nimmi Photo new (6).jpg"
     },
     {
         name: "Heather Pereira",
@@ -79,9 +79,64 @@ const schoolPartnersTestimonials = [
 
 const instructorTestimonials = [
     {
-        name: "Anthony Mirand, Google",
+        name: "Anthony, Google",
         testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
         image: "images/testimonials/anthony-mirand.jpeg"
+    },
+    {
+        name: "Kelly, Amazon, TCS Advisory Board",
+        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
+        image: "images/testimonials/kelley-ellis.jpeg"
+    },
+    {
+        name: "Aziza, QxQ TA, MIT",
+        testimony: "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
+        image: "images/testimonials/Aziza-e1594246955302-300x300.jpg"
+    },
+    {
+        name: "Sanskriti - QxQ TA, North Carolina State University",
+        testimony: "I am sure I have multiple Noble Prize winners in my labs.",
+        image: "images/testimonials/Sanskriti.jpg"
+    },
+    {
+        name: "Shayda, QxQ TA, MIT",
+        testimony: "The more time I spent teaching, the more I learned about the impact I can have on someone’s future. I left this summer with a new passion to leverage the power of technology to bring students from diverse backgrounds together and teach each other that we all share so much more in common than we are different.",
+        image: "images/testimonials/Shayda.png"
+    },
+    {
+        name: "Ricky, QxQ TA, University of Connecticut",
+        testimony: "I can’t count how many times a student has asked a question that has me pause and think, ‘I’ve never thought of that.’ They prove to me over and over that they are the future of quantum.",
+        image: "images/testimonials/Ricky.png"
+    },
+    {
+        name: "Alev, QxQ TA, University of Waterloo ",
+        testimony: "I wish I had this kind of community when I first started.",
+        image: "images/testimonials/Alev.png"
+    },
+    {
+        name: "Yao, codeConnects instructor, Harvard",
+        testimony: "The best part about the codeConnects community is that all of the teaching staff believe in and are passionate about education advocacy and really making computer science accessible to everyone and making it fun at the same time.",
+        image: "images/testimonials/Yao.jpg"
+    },
+    {
+        name: "Isabelle, codeConnects instructor, Microsoft",
+        testimony: "What’s really awesome about the [codeConnects] program is that the instructors are mainly college students or recent grads close to the age of the students. I think it’s really important that students in middle and high school have someone close in age they can look up to as a mentor - especially if that person looks like them, talks like them and has a background similar to them.",
+        image: "images/testimonials/Isabelle.jpg"
+    },
+    {
+        name: "Jack, codeConnects instructor, Duke University",
+        testimony: "I think what The Coding School does with their 1:1 lessons format and having instructors be full time mentors and moving at any pace [for the student] results in learning in the most effective way. It’s something I’ve never experienced before and it’s super refreshing and effective.",
+        image: "images/testimonials/Jack Wood.jpg"
+    },
+    {
+        name: "Rishi, codeConnects instructor, Google",
+        testimony: "I think learning all the [tough] parts of coding and syntax is done better with a friend. I see myself as a friend and a mentor for the students I’ve had a chance to work with. And it’s been a really powerful experience.",
+        image: "images/testimonials/Rishi.jpg"
+    },
+    {
+        name: "Aaron, TCS instructor, Microsoft",
+        testimony: "It’s so exciting for me to be able to teach someone across the country. I see the excitement in his eyes every time he makes a circle bouncing across the screen. It’s immediately rewarding and inspiring. I love it.",
+        image: "images/testimonials/Aaron.png"
     },
     {
         name: "Kelly Ellis, Amazon, TCS Advisory Board",
@@ -92,51 +147,6 @@ const instructorTestimonials = [
         name: "Anthony Mirand, Google",
         testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
         image: "images/testimonials/anthony-mirand.jpeg"
-    },
-    {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg"
-    },
-    {
-        name: "Anthony Mirand, Google",
-        testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg"
-    },
-    {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg"
-    },
-    {
-        name: "Anthony Mirand, Google",
-        testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg"
-    },
-    {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg"
-    },
-    {
-        name: "Anthony Mirand, Google",
-        testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg"
-    },
-    {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg"
-    },
-    {
-        name: "Anthony Mirand, Google",
-        testimony: "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg"
-    },
-    {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg"
     },
 ];
 
@@ -202,7 +212,7 @@ const studentTestimonials = [
         image: "images/testimonials/IMG_4503.jpg"
     },
     {
-        name: "11th grade male, Pennsylvania",
+        name: "11th grade female, Pennsylvania",
         testimony: "When I heard about the Qubit by Qubit course, I knew I had to apply. This course has challenged my intuitions and exposed me to new realities of the micro-world. I love how this course and the field of quantum computing connect all of my favorite subjects: math; physics; and computer science.",
         image: "images/testimonials/etwitmyer.jpeg"
     },
