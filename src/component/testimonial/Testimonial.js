@@ -65,6 +65,16 @@ const schoolPartnersTestimonials = [
         testimony: "I must admit after experiencing the program, I was envious to see that The Coding School found the perfect mix allowing students to be actively engaged and continuously learning even while on a virtual platform! As a math educator of over 11 years, I found myself eager to be a student again, actively taking notes, and engaging in meaningful conversations while learning something new every day.",
         image: "images/testimonials/IMG_8696.JPG"
     },
+    {
+        name: "Dr. Narineh Makijan, Professor at USC, Rossier School of Education",
+        testimony: "The Coding School in collaboration with IBM Quantum has created an innovative introduction to quantum computing course for high school students that is taught by esteemed MIT and Oxford quantum scientists.",
+        image: "images/testimonials/Makijan Picture.jpg"
+    },
+    {
+        name: "Chris Lo, Math, Computer Science, Engineering teacher",
+        testimony: "The content was thorough, engaging, and very well designed with sparking curiosity and learning in mind. I strongly believe that any visiting teacher to the camp would approve of the pedagogy and method of delivery these lessons demonstrated.",
+        image: "images/testimonials/1516524787342.jpg"
+    },
 ];
 
 const instructorTestimonials = [
