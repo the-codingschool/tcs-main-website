@@ -343,7 +343,7 @@ function AboutUs() {
                         <font size="6.5">
                             “Their program was stellar, with some of the best student engagement I have ever encountered in my career.”
                         </font>
-                        <font size="6.5">
+                        <font size="4.5">
                             -Ben Isecke, CSTA NJ President and Computer Science Teacher
                         </font>
                         </div>
@@ -427,8 +427,8 @@ function AboutUs() {
                         <h1>School Partners</h1>
                     </div>
                     <div className="about-us-small-heading">
-                        <h2>
-                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? <Link className="text-gold" to="involved">Click here to connect with us.</Link></h2>
+                        <h3>
+                        As a nationally accredited organization, we partner with K-12 schools around the U.S. and globally to offer our courses for high school credit. We are partnered with 100+ school districts and schools who are some of the first schools globally to offer courses in emerging technologies, like AI or Quantum Computing. Interested in your school joining our network? <Link className="text-gold" to="involved">Click here to connect with us.</Link></h3>
                     </div>
                 </div>
 

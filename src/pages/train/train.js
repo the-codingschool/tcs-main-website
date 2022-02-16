@@ -27,7 +27,8 @@ const Train = (props) => {
                             </div>
                             <div className="tagline" data-aos="fade-up" data-aos-duration="500">
                                 <h4>Thanks to our partnership with the Department of Defense we are offering scholarships for this course to all accepted students and educators!</h4>
-                                <h6>“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” -U.S. National Security Commission on Artificial Intelligence</h6>
+                                <h6>“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” </h6>
+                                <h6>  -U.S. National Security Commission on Artificial Intelligence</h6>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="600">
                                 <p class="text-dark">Artificial Intelligence (AI) will change the world as we know it, shaping how business is done, how people connect, and how society functions. It will affect every industry and sector, making it critical that all members of the future workforce have an understanding of AI and its implications. So whether students plan on pursuing careers in politics, business, or healthcare, they all need to learn about AI. <span className="text-brand text-bold">That’s why we’re providing in-depth, real-world AI skills and knowledge to thousands of high school students and educators around the United States.</span></p>
@@ -308,7 +309,7 @@ const Train = (props) => {
                                 <h2><span>DOD</span> partnership and USC</h2>
                         </div>*/}
                             <div className="desc" data-aos="fade-right" data-aos-duration="700">
-                                <p> To ensure the most engaging AI experience, we are proudly partnered with </p>
+                                <p> To ensure the most engaging, high quality AI experience, we are proudly partnered with </p>
                             </div>
                             <div className="img mb-60" data-aos="fade-up" data-aos-duration="800">
                                 <ul className="partners">
