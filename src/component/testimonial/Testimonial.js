@@ -142,9 +142,9 @@ const studentTestimonials = [
         image: "images/testimonials/IMG_4459-min 3.PNG"
     },
     {
-        name: "Michelle",
-        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
-        image: "images/testimonials/michelle.jpg"
+        name: "University College, England",
+        testimony: "My time at QxQ has been nothing short of a truly incredible experience.",
+        image: "images/testimonials/Image.jpg"
     },
     {
         name: "10th grade female, Massachusetts",
@@ -160,6 +160,21 @@ const studentTestimonials = [
         name: "12th grade female, Australia",
         testimony: "Prior to being a part of the course I planned to study quantum engineering in university based on my general understanding of quantum from personal research. Now, having actually gained a better understanding of the fundamentals of quantum computing, I find myself even more curious and excited to learn more!",
         image: "images/testimonials/IMG_4503.jpg"
+    },
+    {
+        name: "11th grade male, Pennsylvania",
+        testimony: "When I heard about the Qubit by Qubit course, I knew I had to apply. This course has challenged my intuitions and exposed me to new realities of the micro-world. I love how this course and the field of quantum computing connect all of my favorite subjects: math; physics; and computer science.",
+        image: "images/testimonials/etwitmyer.jpeg"
+    },
+    {
+        name: "Lucy",
+        testimony: "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
+        image: "images/testimonials/lucy.jpg"
+    },
+    {
+        name: "Michelle",
+        testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
+        image: "images/testimonials/michelle.jpg"
     },
     {
         name: "Faraz",
