@@ -28,7 +28,7 @@ const schoolPartnersTestimonials = [
     {
         name: "Maajida Murdock, Math instructor, Baltimore County Public School",
         testimony: "I have seen how presenting opportunities to a student has broadened their vision of themself in a STEM field with determination. My students' experience with Qubit by Qubit brought out a sense of confidence in their ability as a coder.",
-        image: "images/testimonials/ben-iseke.jpg"
+        image: "images/testimonials/Maajida-nano.png"
     },
     {
         name: "William K. Funderburk",
