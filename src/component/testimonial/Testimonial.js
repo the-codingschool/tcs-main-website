@@ -26,14 +26,44 @@ const schoolPartnersTestimonials = [
         image: "images/testimonials/ben-iseke.jpg"
     },
     {
-        name: "Heather Pereira",
-        testimony: "Qubit by Qubit has been a wonderful partner to work with. From assisting with ensuring that the course is approved by the University of California to providing a streamlined and straightforward enrollment process, the management of the course has been great.",
-        image: "images/testimonials/heather.jpeg"
+        name: "Maajida Murdock, Math instructor, Baltimore County Public School",
+        testimony: "I have seen how presenting opportunities to a student has broadened their vision of themself in a STEM field with determination. My students' experience with Qubit by Qubit brought out a sense of confidence in their ability as a coder.",
+        image: "images/testimonials/ben-iseke.jpg"
     },
     {
         name: "William K. Funderburk",
         testimony: "My own participation in this course has resulted in an overall better physics curriculum at my school! and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
         image: "images/testimonials/william.jpg"
+    },
+    {
+        name: "Amanda Giuliani, STEM Coordinator and Teacher, Longmont, Colorado",
+        testimony: "Time is always of the essence for teachers, and this program provides everything I could possibly need to run the course in my school. The content is presented in an engaging way, and there are ample opportunities to make the online coursework align with my busy schedule. I am so thankful I learned about Qubit x Qubit!",
+        image: "images/testimonials/IMG_0081.jpg"
+    },
+    {
+        name: "Audrey Wei, CS teacher, Bishop Amat high school",
+        testimony: "I highly recommend all students all of the world to take the class to help them prepare for the quantum computing world.",
+        image: "images/testimonials/IMG_1363.jpg"
+    },
+    {
+        name: "Charles Shryock, Assistant Principal, Bishop McNamara High School",
+        testimony: "The Qubit by Qubit teachers have taken a mysterious, futuristic, complex subject and made it clear and accessible. Students say the pacing, workload, and engaging lectures and activities are perfect for them. I find it tremendously exciting to see their progress, and watch their confidence grow week by week. And I am grateful that Qubit by Qubit made it so easy to enroll and support new students.",
+        image: "images/testimonials/ShryockHeadshot_Qubit.jpg"
+    },
+    {
+        name: "Brett Tanaka, Computer Science Educational Specialist, Hawaii State Department of Education",
+        testimony: "We appreciate the Introduction to Quantum Computing virtual learning opportunities by Qubit by Qubit that are accessible to our students. This opportunity is very helpful for our rural schools that may not have the capacity to offer computer science courses in new emerging CS education areas such as quantum computing. Thank you to the Qubit by Qubit Team!",
+        image: "images/testimonials/Brett Tanaka Headshot (1).png"
+    },
+    {
+        name: "Chris Lynch, STEM Manager, Arkansas Department of Career Education",
+        testimony: "My students have grown tremendously in understanding quantum circuits, and I enjoy watching them explain concepts during the Zoom class meetings. This program is a very important first step in creating a cadre of quantum programmers and developers as quantum computing becomes moves into the mainstream of information processing.",
+        image: "images/testimonials/chris.jpg"
+    },
+    {
+        name: "Michelle Fujie",
+        testimony: "I must admit after experiencing the program, I was envious to see that The Coding School found the perfect mix allowing students to be actively engaged and continuously learning even while on a virtual platform! As a math educator of over 11 years, I found myself eager to be a student again, actively taking notes, and engaging in meaningful conversations while learning something new every day.",
+        image: "images/testimonials/IMG_8696.JPG"
     },
 ];
 
