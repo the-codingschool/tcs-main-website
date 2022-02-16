@@ -327,11 +327,11 @@ if( idd == 'Rectangle_1_copy_3' ){
                 </div>    
             </div>  
         </div>
-        <div className='container mt-50'>
-            <div className='visual-text'>
+        <div className='container mt-50 '>
+            <div className='visual-text shadowed-box'>
             <Fade right>
-                <h4>
-                We’re reimagining STEM education and training to ensure every student is equipped with the technical skills necessary for the<span className='highlight-underline'> future of work.</span>
+                <h4 className="text-brand">
+                We’re reimagining STEM education and training to ensure every student is equipped with the technical skills necessary for the<span className='highlight-text'> future of work.</span>
                 </h4>
                 </Fade>
                 <Fade left>

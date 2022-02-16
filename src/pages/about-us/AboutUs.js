@@ -42,10 +42,10 @@ function AboutUs() {
                     <Fade top>
                         <img className='position-absolute' style={{ top: '-11%', right: '-12%', width: '55px' }} src='/images/about.png' alt='' />
                     </Fade>
-                    <div className='text-detail coding-school-block'>
+                    <div className='text-detail coding-school-block shadowed-box'>
                         <div className='one-liner'>
                             Just because computer science education is available does not mean it is accessible. 
-                            <span className="highlight-underline">We’re changing that</span>.
+                            <span className="highlight-text d-block">We’re changing that.</span>
                         </div>
                         <Fade left>
                             <div className='mt-60' style={{ fontSize: 17 }}>
@@ -215,7 +215,7 @@ function AboutUs() {
                             </div>
                         </Fade>
                         <Fade left>
-                            <div className='row mt-20'>
+                            <div className='row mt-20 justify-content-center'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
                                     <div>Andrew Oliver</div>
@@ -356,12 +356,12 @@ function AboutUs() {
                     <img className='position-absolute' style={{ top: '15%', right: '5%  ', zIndex: '-1', width: '65px' }} src='/images/our Partners.png' alt='' />
                 </Fade>
                 <img className='position-absolute' style={{ top: '26%', left: '-18%' }} src="/images/Vector Smart Object copy 2.png" alt="" />
-                <div className='text-detail'>
+                <div className='text-detail shadowed-box'>
                     <div className='sub-title'>
                         <h1>Our Sponsors and Partners</h1>
                     </div>
                     <div className="about-us-small-heading">
-                        <h2>It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the <span className="text-brand">future tech-ready workforce is diverse, inclusive, and equitable.</span>
+                        <h2>It takes a village to develop 21st century education in emerging technologies. We are grateful for the support from our sponsors and partners who believe in our mission and help us ensure the <span className="highlight-text">future tech-ready workforce is diverse, inclusive, and equitable.</span>
                         </h2>
                     </div>
                 </div>
@@ -421,8 +421,8 @@ function AboutUs() {
                 </div>
             </div >
 
-            <div className='mt-80 quantum-block position-relative'>
-                <div className='text-detail'>
+            <div className='mt-80 quantum-block position-relative as-school-partners'>
+                <div className='text-detail shadowed-box'>
                     <div className='sub-title'>
                         <h1>School Partners</h1>
                     </div>
