@@ -27,10 +27,11 @@ const Train = (props) => {
                             </div>
                             <div className="tagline" data-aos="fade-up" data-aos-duration="500">
                                 <h4>Thanks to our partnership with the Department of Defense we are offering scholarships for this course to all accepted students and educators!</h4>
-                                <h6>“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” -U.S. National Security Commission on Artificial Intelligence</h6>
+                                <h6 className="mb-0">“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” </h6>
+                                <h6 className="my-0 text-thin">-U.S. National Security Commission on Artificial Intelligence</h6>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="600">
-                                <p>Artificial Intelligence (AI) will change the world as we know it, shaping how business is done, how people connect, and how society functions. It will affect every industry and sector, making it critical that all members of the future workforce have an understanding of AI and its implications. So whether students plan on pursuing careers in politics, business, or healthcare, they all need to learn about AI. That’s why we’re providing in-depth, real-world AI skills and knowledge to thousands of high school students and educators around the United States.  </p>
+                                <p class="text-dark">Artificial Intelligence (AI) will change the world as we know it, shaping how business is done, how people connect, and how society functions. It will affect every industry and sector, making it critical that all members of the future workforce have an understanding of AI and its implications. So whether students plan on pursuing careers in politics, business, or healthcare, they all need to learn about AI. <span className="text-brand text-bold">That’s why we’re providing in-depth, real-world AI skills and knowledge to thousands of high school students and educators around the United States.</span></p>
                             </div>
 
                             <div className="more" data-aos="zoom-in">
@@ -47,16 +48,16 @@ const Train = (props) => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="offset-md-4"></div>
-                        <div className="col-md-4">
+                        <div className="col-md-6">
                             <div className="headline" data-aos="fade-up" data-aos-duration="500">
                                 <h2>FUTURE AI LEADERS <span>PROGRAM</span> </h2>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                                <p>In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
+                                <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
                             </div>
                         </div>
                         {/* <div className="offset-md-4"></div> */}
-                        <div className="offset-md-4"></div>
+                        <div className="offset-md-2"></div>
                         <div className="offset-md-4"></div>
                         <div className="col-md-4">
                             <div className="main" data-aos="fade-left" data-aos-duration="500">
@@ -84,7 +85,7 @@ const Train = (props) => {
                                 <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
                             </div> */}
                             <div className="desc" data-aos="fade-up" data-aos-duration="700">
-                                <p>To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
+                                <p class="text-dark text-bold">To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
                             </div>
                         </div>
                     </div>
@@ -157,7 +158,7 @@ const Train = (props) => {
                                 <h2> <span> AI Board</span> &amp; Advisors</h2>
                             </div>
                             <div> 
-                                <h4> We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </h4>
+                                <h4 className="text-center">  We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </h4>
                             </div>
                             <ul>
                                 <li data-aos="fade-up" data-aos-duration="500">
@@ -189,7 +190,7 @@ const Train = (props) => {
                                 <li data-aos="fade-up" data-aos-duration="700">
                                     <div className="main">
                                         <div className="pic">
-                                            <img src={require('./images/team-9.png')} alt="" />
+                                            <img src={require('./images/david-s-touretzky.jpg')} alt="" />
                                         </div>
                                         <div className="title">
                                             <h4>Dr. Dave Touretzky</h4>
@@ -301,31 +302,37 @@ const Train = (props) => {
                     <div className="row">
                         <div className="offset-md-2"></div>
                         <div className="col-md-6">
-                            <div className="tagline" data-aos="fade-right" data-aos-duration="500">
+                            <div className="tagline mb-20" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Partners & Collaborators</h3>
                             </div>
                             {/*<div className="tagline" data-aos="fade-right" data-aos-duration="600">
                                 <h2><span>DOD</span> partnership and USC</h2>
                         </div>*/}
                             <div className="desc" data-aos="fade-right" data-aos-duration="700">
-                                <p> To ensure the most engaging AI experience, we are proudly partnered with </p>
+                                <p> To ensure the most engaging, high quality AI experience, we are proudly partnered with </p>
                             </div>
-                            <div className="img" data-aos="fade-up" data-aos-duration="800">
+                            <div className="img mb-60" data-aos="fade-up" data-aos-duration="800">
                                 <ul className="partners">
+                                    <li>
+                                        <img src={require('./images/2e77697f538befb44e5e9a40f5775d2a.png')} />
+                                    </li>
                                     <li>
                                         <img src={require('./images/partner-1.png')} />
                                     </li>
                                     <li>
                                         <img src={require('./images/partner-2.png')} />
                                     </li>
+                                    <li>
+                                        <img src={require('./images/Devcom-logo.jpg')} />
+                                    </li>
                                 </ul>
                             </div>
                             <div>
                             </div>
-                            <div className="tagline" data-aos="fade-right" data-aos-duration="500">
+                            <div className="tagline mb-20" data-aos="fade-right" data-aos-duration="500">
                                 <h3>Our Sponsor</h3>
                             </div>
-                            <div className="desc-2" data-aos="fade-up" data-aos-duration="`1000">
+                            <div className="desc" data-aos="fade-up" data-aos-duration="`1000">
                                 <p>We are honored that this project is supported by a three-year grant award from the United States Department of Defense’s National Defense Education Program</p>
                             </div>
                             <ul className="sponsor">

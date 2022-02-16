@@ -52,10 +52,10 @@
 html {
     scroll-behavior: smooth !important;
 }
-body,
+/* body,
 html {
     font-family: "SEGOEUI", sans-serif !important;
-}
+} */
 html,
 html body {
     overflow-x: hidden;
@@ -623,7 +623,7 @@ a#hamburg i {
     font-size: 20px;
     line-height: 30px;
     color: #a1a1a1;
-    font-family: "segoeuisl" !important;
+    /* font-family: "segoeuisl" !important; */
     text-align: center;
     max-width: 80%;
     margin: 25px auto 25px;
@@ -637,7 +637,7 @@ a#hamburg i {
     color: #000000;
     font-family: "seguibl";
     text-align: center;
-    margin: 0 auto 30px;
+    margin: 70px auto 30px;
 }
 
 .banner .more {
@@ -872,7 +872,6 @@ a#hamburg i {
     line-height: 23px;
     color: #818181;
     text-align: left;
-    padding-right: 45%;
 }
 
 .section_3 .img {
@@ -1374,25 +1373,32 @@ footer .logo img {
     background: url(../images/footer-before.png) no-repeat;
     top: 0;
 }
+/*
 .section_3 ul.sponsor li img {
     filter: grayscale(100%);
 }
+*/
 .section_3 ul.partners {
     padding: 0;
     margin: 0;
     list-style: none;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .section_3 ul.partners li {
     display: inline-block;
-    width: 30%;
-    padding: 0 15px;
+    flex: 1;
 }
 
-.section_3 ul.partners li img {
-    filter: grayscale(1);
+.section_3 ul.partners li:not(:last-child) {
+    margin-right: 30px;
 }
+
+/* .section_3 ul.partners li img {
+    filter: grayscale(1);
+} */
 .section_5 .main .desc p a {
     font-weight: 700;
     color: #989898;
@@ -1401,8 +1407,7 @@ footer .logo img {
 .banner .tagline h4 {
     font-size: 23px;
     line-height: 33px;
-    font-family: "seguibl";
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     margin: 20px auto;
     max-width: 70%;

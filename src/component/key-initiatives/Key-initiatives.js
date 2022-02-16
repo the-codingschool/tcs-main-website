@@ -33,7 +33,11 @@ function KeyInitiatives() {
     ];
 
   return (
-    <div id="" className="KeyInitiatives mt-80 mb-80">
+    <div id="" className="KeyInitiatives mt-80 pt-80 pb-80 position-relative">
+        <div className='overlay-img'>
+        <img src='images/diverse-bg.png' />
+        </div>
+        <div className='overlay'></div>
         <div className='container d-none'>
             <div className='visual-text text-center mb-30'>
                 <h3>
@@ -74,12 +78,19 @@ function KeyInitiatives() {
             })}
             </div>
         </div>
-        <div className='container'>
-        <div className='visual-text text-center mt-80'>
-        {/*<img src={"/images/boy-future quantum leader.jpg" || "https://via.placeholder.com/80"}></img> */}
-        <Fade left><h4 className='m-auto mb-30'>The future STEM workforce is <span className='highlight-underline'>diverse</span></h4></Fade>
-        <Fade right><h4 className='w-80 m-auto'>We're making sure of it</h4></Fade>
-        <Fade left><h4 className='m-auto mb-30'><span className='highlight-underline'>55%</span> of our students are from underrepresented backgrounds</h4></Fade>
+        <div className='container KeyInitiatives-content'>
+            <div className="row">
+                {/* <div className="col-12 col-md-4 mb-30 mb-md-0">
+                    <img src="images/boy-future quantum leader.jpg" class="w-100" />
+                </div> */}
+                <div className="col-12">
+                    <div className='visual-text text-center mt-80'>
+                        {/*<img src={"/images/boy-future quantum leader.jpg" || "https://via.placeholder.com/80"}></img> */}
+                        <Fade left><h4 className='m-auto mb-30'>The future STEM workforce is <span className='highlight-text'>diverse</span></h4></Fade>
+                        <Fade right><h4 className='w-80 m-auto'>We're making sure of it</h4></Fade>
+                        <Fade left><h4 className='m-auto mb-30'><span className='highlight-text'>55%</span> of our students are from underrepresented backgrounds in STEM</h4></Fade>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

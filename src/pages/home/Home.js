@@ -67,7 +67,7 @@ const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/upcoming-programs-1.jpg',
+        img: '/images/TA w circuit board in lab.png',
         link:'https://www.qubitbyqubit.org'
     },
     {
@@ -79,7 +79,7 @@ const programPost = [
     {
         name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/upcoming-programs-3.jpg',
+        img: '/images/upcoming-programs-4.jpg',
         link:'https://codeconnects.org'
     }
 ];
@@ -87,13 +87,13 @@ const programPostUniversity = [
     {
         name: '1',
         title: 'Quantum Computing: year-long course, research opportunities, internships',
-        img: '/images/upcoming-programs-4.jpg',
+        img: '/images/upcoming-programs-5.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
-        img: '/images/upcoming-programs-5.jpg',
+        img: '/images/upcoming-programs-1.jpg',
         link:'/train'
     },
     {
@@ -107,31 +107,34 @@ const programPostEducators = [
     {
         name: '1',
         title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
-        img: '/images/upcoming-programs-6.jpg',
+        img: '/images/upcoming-programs-3.jpg',
         link:'https://www.qubitbyqubit.org'
     },
 ];
 const keyPost = [
     {
         name: '1',
-        title: 'CodeConnects is the online learning initiative that aims to empower the next generation through computer science education.',
-        img: '../../../images/code-connect.png',
+        title: 'codeConnects empowers K-12 students with classical coding skills from Python to specialized tech areas including AI, cybersecurity, big data and more. ',
+        img: '../../../images/Screen Shot 2020-11-22 at 6.27.33 PM.png',
         link:'https://codeconnects.org',
-        anim:'left'
+        anim:'left',
+        subTitle: 'Classical Coding',
     },
     {
         name: '1',
-        title: 'Qubit by Qubit is a first-of-its kind course designed to make quantum computing accessible to high school students. ',
+        title: 'Qubit by Qubit makes quantum computing education accessible to K-12; university, and the workforce through camps, year-long courses, research and internships.',
         img: '/images/qubit.png',
         link:'https://www.qubitbyqubit.org',
-        anim:'top'
+        anim:'top',
+        subTitle: 'Quantum Computing',
     },
     {
         name: '1',
-        title: 'TRAIN offers two first-of-its-kind programs focused on Machine Learning (ML), a subfield of AI.',
+        title: 'TRAIN is creating the future AI leaders through a first-of-its-kind year-long course: Introduction to  Machine Learning (ML) for High School Students and Educators.',
         img: '/images/train.png',
         link:'/train',
-        anim:'right'
+        anim:'right',
+        subTitle: 'Artificial Intelligence',
     }
 ];
 const imgContainerStyle = {
@@ -182,6 +185,7 @@ function Home() {
                     <div className='postBox-wrap'>
 
                     <img src={item["img"]} alt='students' />
+                    <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>
@@ -193,6 +197,7 @@ function Home() {
                     <div className='postBox-wrap'>
 
                     <img src={item["img"]} alt='students' />
+                    <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>
@@ -205,9 +210,8 @@ function Home() {
         </div>
         </div>
             <StudentMapCounter></StudentMapCounter>
-            <div className='container container-1660'>
-                <KeyInitiatives></KeyInitiatives>
-            </div>
+            
+            <KeyInitiatives></KeyInitiatives>
 
             <div className='brown-sec'>
                 <div className='container'>
@@ -220,12 +224,15 @@ function Home() {
                         <div className='col-lg-6 col-md-12 mb-50 mb-lg-0'>
                             <div className='k2-collage nav nav-tabs' role="tablist">
                                 <a className="active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
+                                    <h6 className="tab-title">K-12</h6>
                                     <Fade left><img src='images/k2-1.png'  alt=""/></Fade>
                                 </a>
                                 <a className="" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
+                                    <h6 className="tab-title">University Programs</h6>
                                     <Fade right><img src='images/k2-2.png'  alt=""/></Fade>
                                 </a>
                                 <a className="" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
+                                    <h6 className="tab-title">Educators</h6>
                                     <Fade top><img src='images/k2-3.png'  alt=""/></Fade>
                                 </a>
                             </div>
@@ -357,7 +364,7 @@ function Home() {
                             <h5><CountUp end={98} duration={3.75} />%</h5>
                             <p>of students would recommend the course to their friends</p>
                         </div>
-                        <div class="col-6 col-lg-3 text-center">
+                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
                             <h5><CountUp end={95} duration={3.75} />%</h5>
                             <p>of students are more interested in pursuing a STEM career.</p>
                         </div>

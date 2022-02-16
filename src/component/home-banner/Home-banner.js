@@ -66,7 +66,7 @@ if( idd == 'Rectangle_1_copy_3' ){
                     <h2>
                     Training the future workforce in emerging technologies
                     </h2>
-                    <p>Creating pipelines and pathways for learners at every stage K-12, educators and the workforce </p>
+                    <p>Creating pipelines and pathways for learners at every stage K-16, educators and the workforce </p>
                     <a href="https://codeconnects.org/programs.html" className='btn btn-primary-gradient btn-link'>Learn More</a>
                     <p>Summer registration for camps & courses is now open!</p>
                     <a href="https://codeconnects.org/register.html" className='btn btn-outline btn-link'>Register</a>
@@ -336,11 +336,11 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAABBCAYAAAA6/T9KAAAACXBIWXMAAA
                 </div>    
             </div>  
         </div>
-        <div className='container mt-50'>
-            <div className='visual-text'>
+        <div className='container mt-50 '>
+            <div className='visual-text shadowed-box'>
             <Fade right>
-                <h4>
-                We’re reimagining STEM education and training to ensure every student is equipped with the technical skills necessary for the<span className='highlight-underline'> future of work.</span>
+                <h4 className="text-brand">
+                We’re reimagining STEM education and training to ensure every student is equipped with the technical skills necessary for the<span className='highlight-text'> future of work.</span>
                 </h4>
                 </Fade>
                 <Fade left>
