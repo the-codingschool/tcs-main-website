@@ -67,7 +67,7 @@ const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
-        img: '/images/upcoming-programs-1.jpg',
+        img: '/images/TA w circuit board in lab.png',
         link:'https://www.qubitbyqubit.org'
     },
     {
@@ -79,7 +79,7 @@ const programPost = [
     {
         name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
-        img: '/images/upcoming-programs-3.jpg',
+        img: '/images/upcoming-programs-4.jpg',
         link:'https://codeconnects.org'
     }
 ];
@@ -87,13 +87,13 @@ const programPostUniversity = [
     {
         name: '1',
         title: 'Quantum Computing: year-long course, research opportunities, internships',
-        img: '/images/upcoming-programs-4.jpg',
+        img: '/images/upcoming-programs-5.jpg',
         link:'https://www.qubitbyqubit.org'
     },
     {
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
-        img: '/images/upcoming-programs-5.jpg',
+        img: '/images/upcoming-programs-1.jpg',
         link:'/train'
     },
     {
@@ -107,28 +107,28 @@ const programPostEducators = [
     {
         name: '1',
         title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
-        img: '/images/upcoming-programs-6.jpg',
+        img: '/images/upcoming-programs-3.jpg',
         link:'https://www.qubitbyqubit.org'
     },
 ];
 const keyPost = [
     {
         name: '1',
-        title: 'CodeConnects is the online learning initiative that aims to empower the next generation through computer science education.',
+        title: 'codeConnects empowers K-12 students with classical coding skills from Python to specialized tech areas including AI, cybersecurity, big data and more. ',
         img: '../../../images/code-connect.png',
         link:'https://codeconnects.org',
         anim:'left'
     },
     {
         name: '1',
-        title: 'Qubit by Qubit is a first-of-its kind course designed to make quantum computing accessible to high school students. ',
+        title: 'Qubit by Qubit makes quantum computing education accessible to K-12; university, and the workforce through camps, year-long courses, research and internships.',
         img: '/images/qubit.png',
         link:'https://www.qubitbyqubit.org',
         anim:'top'
     },
     {
         name: '1',
-        title: 'TRAIN offers two first-of-its-kind programs focused on Machine Learning (ML), a subfield of AI.',
+        title: 'TRAIN is creating the future AI leaders through a first-of-its-kind year-long course: Introduction to  Machine Learning (ML) for High School Students and Educators.',
         img: '/images/train.png',
         link:'/train',
         anim:'right'

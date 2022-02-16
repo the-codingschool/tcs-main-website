@@ -1374,9 +1374,11 @@ footer .logo img {
     background: url(../images/footer-before.png) no-repeat;
     top: 0;
 }
+/*
 .section_3 ul.sponsor li img {
     filter: grayscale(100%);
 }
+*/
 .section_3 ul.partners {
     padding: 0;
     margin: 0;
