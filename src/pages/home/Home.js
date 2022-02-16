@@ -115,26 +115,23 @@ const keyPost = [
     {
         name: '1',
         title: 'codeConnects empowers K-12 students with classical coding skills from Python to specialized tech areas including AI, cybersecurity, big data and more. ',
-        img: '../../../images/Screen Shot 2020-11-22 at 6.27.33 PM.png',
+        img: '../../../images/code-connect.png',
         link:'https://codeconnects.org',
-        anim:'left',
-        subTitle: 'Classical Coding',
+        anim:'left'
     },
     {
         name: '1',
         title: 'Qubit by Qubit makes quantum computing education accessible to K-12; university, and the workforce through camps, year-long courses, research and internships.',
         img: '/images/qubit.png',
         link:'https://www.qubitbyqubit.org',
-        anim:'top',
-        subTitle: 'Quantum Computing',
+        anim:'top'
     },
     {
         name: '1',
         title: 'TRAIN is creating the future AI leaders through a first-of-its-kind year-long course: Introduction to  Machine Learning (ML) for High School Students and Educators.',
         img: '/images/train.png',
         link:'/train',
-        anim:'right',
-        subTitle: 'Artificial Intelligence',
+        anim:'right'
     }
 ];
 const imgContainerStyle = {
@@ -185,7 +182,6 @@ function Home() {
                     <div className='postBox-wrap'>
 
                     <img src={item["img"]} alt='students' />
-                    <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>
@@ -197,7 +193,6 @@ function Home() {
                     <div className='postBox-wrap'>
 
                     <img src={item["img"]} alt='students' />
-                    <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>
@@ -210,8 +205,9 @@ function Home() {
         </div>
         </div>
             <StudentMapCounter></StudentMapCounter>
-            
-            <KeyInitiatives></KeyInitiatives>
+            <div className='container container-1660'>
+                <KeyInitiatives></KeyInitiatives>
+            </div>
 
             <div className='brown-sec'>
                 <div className='container'>
@@ -224,15 +220,12 @@ function Home() {
                         <div className='col-lg-6 col-md-12 mb-50 mb-lg-0'>
                             <div className='k2-collage nav nav-tabs' role="tablist">
                                 <a className="active" id="k2-pro-tab" data-toggle="tab" href="#k2-pro" role="tab" aria-controls="k2-pro" aria-selected="true">
-                                    <h6 className="tab-title">K-12</h6>
                                     <Fade left><img src='images/k2-1.png'  alt=""/></Fade>
                                 </a>
                                 <a className="" id="k2-pro2-tab" data-toggle="tab" href="#k2-pro2" role="tab" aria-controls="k2-pro2" aria-selected="false">
-                                    <h6 className="tab-title">University Programs</h6>
                                     <Fade right><img src='images/k2-2.png'  alt=""/></Fade>
                                 </a>
                                 <a className="" id="k2-pro3-tab" data-toggle="tab" href="#k2-pro3" role="tab" aria-controls="k2-pro3" aria-selected="false">
-                                    <h6 className="tab-title">Educators</h6>
                                     <Fade top><img src='images/k2-3.png'  alt=""/></Fade>
                                 </a>
                             </div>
