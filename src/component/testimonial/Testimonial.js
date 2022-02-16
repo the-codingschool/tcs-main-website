@@ -240,8 +240,8 @@ infinite: true,
 speed: 500,
 slidesToShow: 5,
 slidesToScroll: 2,
-cssEase: 'ease-in-out',
-centerMode:false,
+centerMode:true,
+centerPadding: 0,
 responsive: [
     {
         breakpoint: 1024,
@@ -427,9 +427,6 @@ function Testimonial() {
                                     )
                                 })}
                             </div>
-                            <div className='visual-text text-center mb-30'>
-                                <h4>STUDENTS</h4>
-                            </div>
                             <ul className='testimonials'>
                                 <Slider {...settings} ref={sliderRefStudent}>
                                     {studentTestimonials.map((item,index)=>{
@@ -456,9 +453,6 @@ function Testimonial() {
                                     )
                                 })}
                             </div>
-                            <div className='visual-text text-center mb-30'>
-                                <h4>Partner Schools</h4>
-                            </div>
                             <ul className='testimonials'>
                                 <Slider {...settings} ref={sliderRefPartners}>
                                     {schoolPartnersTestimonials.map((item,index)=>{
@@ -482,9 +476,6 @@ function Testimonial() {
                                         </a>
                                     )
                                 })}
-                            </div>
-                            <div className='visual-text text-center mb-30'>
-                                <h4>Instructors</h4>
                             </div>
                             <ul className='testimonials'>
                                 <Slider {...settings} ref={sliderRefInstructors}>
@@ -564,24 +555,22 @@ function Testimonial() {
                 </div>
         
                 <div className='featured-post'>
-                    <ul>
-                        <Slider {...FeaturedSettings}>
-                            {featuredPost.map((item,index)=>{
-                                return (
-                                    <li className='featuredPost-item'>
-                                        <div className='featuredPost-img'>
-                                            <img src={item["img"]} />
-                                        </div>
-                                        <div className='featuredPost-desc'>
-                                            <h4>{item["title"]}</h4>
-                                            <p>{item["description"]}</p>
-                                            <a className='link' href={item["link"]}>Read More</a>
-                                        </div>
-                                    </li>
-                                )
-                            })}
-                        </Slider>
-                    </ul>
+                    <Slider {...FeaturedSettings}>
+                        {featuredPost.map((item,index)=>{
+                            return (
+                                <div className='featuredPost-item shadowed-box'>
+                                    <div className='featuredPost-img'>
+                                        <img src={item["img"]} />
+                                    </div>
+                                    <div className='featuredPost-desc'>
+                                        <h4>{item["title"]}</h4>
+                                        <p>{item["description"]}</p>
+                                        <a className='link' href={item["link"]}>Read More</a>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </Slider>
                 </div>
             </div>
         </div>

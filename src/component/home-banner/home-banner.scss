@@ -75,11 +75,10 @@
 .visual-text {
     h4 {
         font-size: 48px;
-        color: #346e8a;
         font-weight: 800;
         text-align: center;
         margin-bottom: 30px;
-        color: #346e8a;
+        color: #fff;
         @media screen and (max-width: 768px) {
             font-size: 40px;
         }
@@ -120,6 +119,11 @@ span {
             display: block;
             z-index: -1;
         }
+    }
+    &.highlight-text {
+        position: relative;
+        font-style: italic;
+        color: #d1a74c;
     }
 }
 .container-1660 {

@@ -27,8 +27,8 @@ const Train = (props) => {
                             </div>
                             <div className="tagline" data-aos="fade-up" data-aos-duration="500">
                                 <h4>Thanks to our partnership with the Department of Defense we are offering scholarships for this course to all accepted students and educators!</h4>
-                                <h6>“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” </h6>
-                                <h6>  -U.S. National Security Commission on Artificial Intelligence</h6>
+                                <h6 className="mb-0">“[Artificial Intelligence] will be the most powerful tool in generations for benefiting humanity.” </h6>
+                                <h6 className="my-0 text-thin">-U.S. National Security Commission on Artificial Intelligence</h6>
                             </div>
                             <div className="desc" data-aos="fade-up" data-aos-duration="600">
                                 <p class="text-dark">Artificial Intelligence (AI) will change the world as we know it, shaping how business is done, how people connect, and how society functions. It will affect every industry and sector, making it critical that all members of the future workforce have an understanding of AI and its implications. So whether students plan on pursuing careers in politics, business, or healthcare, they all need to learn about AI. <span className="text-brand text-bold">That’s why we’re providing in-depth, real-world AI skills and knowledge to thousands of high school students and educators around the United States.</span></p>
@@ -48,7 +48,7 @@ const Train = (props) => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="offset-md-4"></div>
-                        <div className="col-md-4">
+                        <div className="col-md-6">
                             <div className="headline" data-aos="fade-up" data-aos-duration="500">
                                 <h2>FUTURE AI LEADERS <span>PROGRAM</span> </h2>
                             </div>
@@ -57,7 +57,7 @@ const Train = (props) => {
                             </div>
                         </div>
                         {/* <div className="offset-md-4"></div> */}
-                        <div className="offset-md-4"></div>
+                        <div className="offset-md-2"></div>
                         <div className="offset-md-4"></div>
                         <div className="col-md-4">
                             <div className="main" data-aos="fade-left" data-aos-duration="500">
@@ -85,7 +85,7 @@ const Train = (props) => {
                                 <h4>Year long course  funded by <span> DoD </span>STEM to...</h4>
                             </div> */}
                             <div className="desc" data-aos="fade-up" data-aos-duration="700">
-                                <p class="text-dark">To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
+                                <p class="text-dark text-bold">To ensure accessibility, all programming is virtual, meaning students and educators from anywhere in the United States can participate.</p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@ const Train = (props) => {
                                 <h2> <span> AI Board</span> &amp; Advisors</h2>
                             </div>
                             <div> 
-                                <h4> We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </h4>
+                                <h4 className="text-center">  We work with leading experts in AI to ensure our students are inspired and receive the most cutting-edge, high quality education possible. </h4>
                             </div>
                             <ul>
                                 <li data-aos="fade-up" data-aos-duration="500">
