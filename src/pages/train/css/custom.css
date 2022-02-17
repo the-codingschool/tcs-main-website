@@ -619,18 +619,6 @@ a#hamburg i {
     -webkit-text-fill-color: transparent;
 }
 
-.banner .desc p {
-    font-size: 20px;
-    line-height: 30px;
-    color: #a1a1a1;
-    /* font-family: "segoeuisl" !important; */
-    text-align: center;
-    max-width: 80%;
-    margin: 25px auto 25px;
-    position: relative;
-    z-index: 9999;
-}
-
 .banner .tagline h6 {
     font-size: 18px;
     line-height: 28px;
@@ -1278,18 +1266,6 @@ footer .logo img {
     min-height: 280px;
     margin: 30px auto;
 }
-.banner .more {
-    animation: crescendo 1.5s alternate infinite ease-in;
-}
-
-@keyframes crescendo {
-    0% {
-        transform: scale(0.8);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
 .section_5 .main .rmore a {
     background: #fff;
     color: #000;
@@ -1403,12 +1379,4 @@ footer .logo img {
     font-weight: 700;
     color: #989898;
     text-decoration: underline;
-}
-.banner .tagline h4 {
-    font-size: 23px;
-    line-height: 33px;
-    text-transform: capitalize;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 70%;
 }

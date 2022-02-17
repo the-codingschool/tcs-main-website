@@ -1,0 +1,76 @@
+#trainPage {
+    .banner {
+        background: url("../../../public/images/flag.jpg") center center;
+        background-size: cover;
+        margin-top: -128px;
+        padding-top: 128px;
+        padding-bottom: 50px;
+    }
+    .train-banner-below {
+        .tagline {
+            h6 {
+                font-size: 18px;
+                line-height: 28px;
+                color: #000000;
+                font-family: "seguibl";
+                text-align: center;
+                margin: 70px auto 30px;
+            }
+        }
+        .desc {
+            p {
+                font-size: 20px;
+                line-height: 30px;
+                color: #a1a1a1;
+                /* font-family: "segoeuisl" !important; */
+                text-align: center;
+                max-width: 80%;
+                margin: 25px auto 25px;
+                position: relative;
+                z-index: 9999;
+            }
+        }
+        .more {
+            text-align: center;
+            animation: crescendo 1.5s alternate infinite ease-in;
+            a {
+                background: url(../../../public/images/more-bg.png) no-repeat;
+                background-size: 100% 100%;
+                background-position: center;
+                width: 44px;
+                height: 44px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                i {
+                    background: rgb(0, 93, 146);
+                    background: radial-gradient(
+                        circle,
+                        rgba(0, 93, 146, 1) 0%,
+                        rgba(56, 182, 255, 1) 78%
+                    );
+                    color: #fff;
+                    display: flex;
+                    width: 20px;
+                    height: 20px;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+}
+
+@keyframes crescendo {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

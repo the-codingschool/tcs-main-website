@@ -67,20 +67,23 @@ const programPost = [
     {
         name: '1',
         title: 'Quantum Computing: summer camps, research opportunities & internships',
-        img: '/images/TA w circuit board in lab.png',
-        link:'https://www.qubitbyqubit.org'
+        img: '/images/k12-image-1.jpg',
+        link:'https://www.qubitbyqubit.org',
+        isExternal: true
     },
     {
         name: '2',
         title: 'Introduction to Machine Learning for high school students',
         img: '/images/upcoming-programs-2.jpg',
-        link:'/train'
+        link:'/train',
+        isExternal: false
     },
     {
         name: '3',
         title: 'Classical coding: 1:1 lessons, camps, research opportunities',
         img: '/images/upcoming-programs-4.jpg',
-        link:'https://codeconnects.org'
+        link:'https://codeconnects.org',
+        isExternal: true
     }
 ];
 const programPostUniversity = [
@@ -88,19 +91,22 @@ const programPostUniversity = [
         name: '1',
         title: 'Quantum Computing: year-long course, research opportunities, internships',
         img: '/images/upcoming-programs-5.jpg',
-        link:'https://www.qubitbyqubit.org'
+        link:'https://www.qubitbyqubit.org',
+        isExternal: true
     },
     {
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
         img: '/images/upcoming-programs-1.jpg',
-        link:'https://codeconnects.org'
+        link:'https://codeconnects.org',
+        isExternal: true
     },
     {
         id: '3',
         title: 'Artificial intelligence: year-long course',
-        img: '/images/upcoming-programs-1.jpg',
-        link:'/train'
+        img: '/images/up-artificial-intelligence.jpg',
+        link:'/train',
+        isExternal: false
     }
 ];
 const programPostEducators = [
@@ -108,7 +114,8 @@ const programPostEducators = [
         name: '1',
         title: 'Educators Programs: Professional Development Training in Artificial Intelligence ',
         img: '/images/upcoming-programs-3.jpg',
-        link:'/train'
+        link:'/train',
+        isExternal: false
     },
 ];
 const keyPost = [
@@ -119,6 +126,7 @@ const keyPost = [
         link:'https://codeconnects.org',
         anim:'left',
         subTitle: 'Classical Coding',
+        isExternal: true
     },
     {
         name: '1',
@@ -127,6 +135,7 @@ const keyPost = [
         link:'https://www.qubitbyqubit.org',
         anim:'top',
         subTitle: 'Quantum Computing',
+        isExternal: true
     },
     {
         name: '1',
@@ -135,6 +144,7 @@ const keyPost = [
         link:'/train',
         anim:'right',
         subTitle: 'Artificial Intelligence',
+        isExternal: false
     }
 ];
 const imgContainerStyle = {
@@ -168,9 +178,7 @@ function Home() {
             <div id="" className="KeyInitiatives mb-80">
         <div className='container'>
             <div className='visual-text text-center mb-30'>
-                <h3>
-                Key Initiatives
-                </h3>
+                <h3>Key Initiatives</h3>
             </div>
         </div>
         <div className='container container-1660'>
@@ -187,7 +195,10 @@ function Home() {
                     <img src={item["img"]} alt='students' />
                     <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Learn More</a>
+                    { item['isExternal'] ? 
+                        <a href={item["link"]} className="link">Learn More</a> : 
+                        <Link to={item["link"]} className="link" >Learn More</Link>
+                    }
                     </div>
                 </div>
                 </Fade>
@@ -199,7 +210,10 @@ function Home() {
                     <img src={item["img"]} alt='students' />
                     <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Learn More</a>
+                    { item['isExternal'] ? 
+                        <a href={item["link"]} className="link">Learn More</a> : 
+                        <Link to={item["link"]} className="link" >Learn More</Link>
+                    }
                     </div>
                 </div>
                 </Fade>
@@ -258,7 +272,10 @@ function Home() {
                                                                     </div>
                                                                     <div className='programPost-desc'>
                                                                         <h4>{item["title"]}</h4>
-                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                        { item['isExternal'] ? 
+                                                                            <a href={item["link"]} className="link">Learn More</a> : 
+                                                                            <Link to={item["link"]} className="link" >Learn More</Link>
+                                                                        }
                                                                     </div>
                                                                 </li>
                                                             </Fade>
@@ -288,7 +305,10 @@ function Home() {
                                                                     </div>
                                                                     <div className='programPost-desc'>
                                                                         <h4>{item["title"]}</h4>
-                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                        { item['isExternal'] ? 
+                                                                            <a href={item["link"]} className="link">Learn More</a> : 
+                                                                            <Link to={item["link"]} className="link" >Learn More</Link>
+                                                                        }
                                                                     </div>
                                                                 </li>
                                                             </Fade>
@@ -317,7 +337,10 @@ function Home() {
                                                                     </div>
                                                                     <div className='programPost-desc'>
                                                                         <h4>{item["title"]}</h4>
-                                                                        <a className='link' href={item["link"]}>Learn More</a>
+                                                                        { item['isExternal'] ? 
+                                                                            <a href={item["link"]} className="link">Learn More</a> : 
+                                                                            <Link to={item["link"]} className="link" >Learn More</Link>
+                                                                        }
                                                                     </div>
                                                                 </li>
                                                             </Fade>
@@ -375,7 +398,8 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-5 col-md-12'>
                         <Fade left>
-                            <img src='/images/k2-program.svg' alt="" />
+                            <img src='/images/wasc.jpg' className="mb-30" alt="wasc" />
+                            <img src='/images/uc-ag-guide.jpg' alt="uc-ag-guide" />
                         </Fade>
                         </div>
                         <div className='col-lg-7 col-md-12'>

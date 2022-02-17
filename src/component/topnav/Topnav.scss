@@ -1,8 +1,18 @@
-#Topnav{
-  .register-btn {
-    background-color: #356E8B;
-    border-radius: 0;
-    color: white;
-    padding: 5px 25px;
-  }
+#Topnav {
+    position: relative;
+    z-index: 99999;
+    .register-btn {
+        background-color: #356e8b;
+        border-radius: 0;
+        color: white;
+        padding: 5px 25px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #000;
+        }
+    }
 }

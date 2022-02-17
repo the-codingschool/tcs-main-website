@@ -7,7 +7,7 @@ function Involved() {
             ptlGap: 0,
             mouseForce: 1000,
             monochrome: true,
-            color: '#86a1b2',
+            color: '#346e8a',
             ptlSize: 1,
         });
         var ptl = new ps.Particle(ps);
