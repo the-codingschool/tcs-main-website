@@ -94,13 +94,13 @@ const programPostUniversity = [
         id: '2',
         title: 'Classical Coding: 1:1 and small group lessons, research opportunities',
         img: '/images/upcoming-programs-1.jpg',
-        link:'/train'
+        link:'https://codeconnects.org'
     },
     {
         id: '3',
         title: 'Artificial intelligence: year-long course',
         img: '/images/upcoming-programs-1.jpg',
-        link:'https://codeconnects.org'
+        link:'/train'
     }
 ];
 const programPostEducators = [
@@ -108,7 +108,7 @@ const programPostEducators = [
         name: '1',
         title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
         img: '/images/upcoming-programs-3.jpg',
-        link:'https://www.qubitbyqubit.org'
+        link:'/train'
     },
 ];
 const keyPost = [

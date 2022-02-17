@@ -14,14 +14,16 @@ function KeyInitiatives() {
             title: 'codeConnects empowers K-12 students with classical coding skills from Python to specialized tech areas including AI, cybersecurity, big data and more. ',
             img: '/images/code-connect.png',
             link:'https://codeconnects.org',
-            anim:'left'
+            anim:'left',
+            external: true
         },
         {
             name: '1',
             title: 'Qubit by Qubit makes quantum computing education accessible to K-12; university, and the workforce through camps, year-long courses, research and internships.',
             img: '/images/qubit.png',
             link:'https://www.qubitbyqubit.org',
-            anim:'top'
+            anim:'top',
+            external: true
         },
         {
             name: '1',
