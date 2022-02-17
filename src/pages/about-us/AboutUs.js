@@ -244,7 +244,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>AJ DiDonato III.</div>
                                         {/* <div>JP Morgan</div> */}
-                                        <img src={'/images/new assets/companies/download1.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/jpm_chase_logo_final[2]-2.jpg' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>
