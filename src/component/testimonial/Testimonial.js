@@ -276,8 +276,8 @@ const featuredPost = [
         name: '1',
         title: 'ACE-Ed',
         img: '/images/american-council-on-education-ace-logo-vector.png',
-        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
-        link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
+        description: 'IBM Quantum and Qubit by Qubit partner again to offer quantum computing course',
+        link: "https://research.ibm.com/blog/quantum-coding-school"
     },
     {
         name: '1',

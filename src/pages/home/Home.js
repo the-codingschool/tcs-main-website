@@ -185,6 +185,7 @@ function Home() {
                     <div className='postBox-wrap'>
 
                     <img src={item["img"]} alt='students' />
+                    <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>
@@ -196,6 +197,7 @@ function Home() {
                     <div className='postBox-wrap'>
 
                     <img src={item["img"]} alt='students' />
+                    <h5 className='pbW-sub-title'>{item["subTitle"]}</h5>
                     <h6>{item["title"]}</h6>
                     <a className='link' href={item["link"]} >Learn More</a>
                     </div>
