@@ -89,7 +89,7 @@ function Footer() {
                         </div>
                         <div className='mt-10 d-flex align-items-center col-10 px-0'>
                             <img className='mr-20' src='/images/noun_textbook_3524915.png' />
-                            <a href="https://codeconnects.org/TCS_Privacy_Policy.pdf" > Privacy Policy</a>
+                            <a href="https://codeconnects.org/location.png" > Privacy Policy</a>
                         </div>
 
                     </div>

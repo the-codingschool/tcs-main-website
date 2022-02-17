@@ -60,13 +60,13 @@ function Involved() {
                         <div className='col-md-6'>
                             <div className='mb-7 fs-16'>First Name:</div>
                             <div>
-                                <input placeholder='John' className='form-control' />
+                                <input placeholder='First Name' className='form-control' />
                             </div>
                         </div>
                         <div className='col-md-6'>
                             <div className='mb-7 fs-16'>Last Name:</div>
                             <div>
-                                <input placeholder='Doe' className='form-control' />
+                                <input placeholder='Last Name' className='form-control' />
                             </div>
                         </div>
                     </div>

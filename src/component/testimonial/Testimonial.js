@@ -274,8 +274,8 @@ const featuredPost = [
     },
     {
         name: '1',
-        title: 'ACE-Ed',
-        img: '/images/american-council-on-education-ace-logo-vector.png',
+        title: 'IBM',
+        img: '/images/IBM-Logo-Design-1972-present-2.png',
         description: 'IBM Quantum and Qubit by Qubit partner again to offer quantum computing course',
         link: "https://research.ibm.com/blog/quantum-coding-school"
     },
