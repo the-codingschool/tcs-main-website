@@ -88,7 +88,7 @@ function Footer() {
                             <span className='text-capitalize'> 3940 laurel canyon blvd. Ste 153 los angeles, CA 91604</span>
                         </div>
                         <div className='mt-10 d-flex align-items-center col-10 px-0'>
-                            <img className='mr-20' src='/images/location.png' />
+                            <img className='mr-20' src='/images/noun_textbook_3524915.png' />
                             <a href="https://codeconnects.org/TCS_Privacy_Policy.pdf" > Privacy Policy</a>
                         </div>
 
