@@ -399,7 +399,7 @@ function Home() {
                         <div className='col-lg-5 col-md-12'>
                         <Fade left>
                                 <div className="sp-left">
-                                    <p>Nationally accredited by: </p>
+                                    <p>Nationally Accredited By: </p>
                                     <img src='/images/wasc.jpg' className="mb-50" alt="wasc" />
                                     <img src='/images/uc-ag-guide.jpg' alt="uc-ag-guide" />
                                 </div>

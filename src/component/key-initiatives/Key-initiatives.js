@@ -88,7 +88,7 @@ function KeyInitiatives() {
                 <div className="col-12">
                     <div className='visual-text text-center mt-80'>
                         {/*<img src={"/images/boy-future quantum leader.jpg" || "https://via.placeholder.com/80"}></img> */}
-                        <Fade left><h4 className='m-auto'>The future STEM workforce is. <span className='highlight-text'>diverse</span></h4></Fade>
+                        <Fade left><h4 className='m-auto'>The future STEM workforce is <span className='highlight-text'>diverse.</span></h4></Fade>
                         <Fade right><h4 className='w-80 m-auto text-italic mb-30'>We're making sure of it</h4></Fade>
                         <Fade left><h4 className='m-auto'><span className='highlight-text'>55%</span> of our students are from underrepresented backgrounds in STEM</h4></Fade>
                     </div>

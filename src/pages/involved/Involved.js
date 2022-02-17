@@ -80,7 +80,7 @@ function Involved() {
                         <div className='col-md-6'>
                             <div className='mb-7 fs-16'>How would you like to partner with us:</div>
                             <div>
-                                <input placeholder='Partner with Us' className='form-control' />
+                                <input placeholder='Partner with Us, Volunteer' className='form-control' />
                             </div>
                         </div>
                     </div>
