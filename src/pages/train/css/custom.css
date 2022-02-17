@@ -619,6 +619,18 @@ a#hamburg i {
     -webkit-text-fill-color: transparent;
 }
 
+.banner .desc p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #a1a1a1;
+    /* font-family: "segoeuisl" !important; */
+    text-align: center;
+    max-width: 80%;
+    margin: 25px auto 25px;
+    position: relative;
+    z-index: 9999;
+}
+
 .banner .tagline h6 {
     font-size: 18px;
     line-height: 28px;
@@ -682,14 +694,16 @@ a#hamburg i {
     color: #000000;
     font-family: "seguibl";
     position: relative;
+    display: inline-block;
 }
 
-.section_1 .headline h2:before {
+.section_1 .headline h2 span.bar-overline:before {
     position: absolute;
     content: "";
-    left: 10px;
-    top: 60%;
-    width: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
     height: 20px;
     background: rgb(0, 93, 146);
     background: radial-gradient(
@@ -697,6 +711,11 @@ a#hamburg i {
         rgba(0, 93, 146, 1) 0%,
         rgba(56, 182, 255, 1) 78%
     );
+}
+
+.section_1 .headline h2 .bo-text {
+    position: relative;
+    z-index: 2;
 }
 
 .section_1 .desc p {
@@ -877,8 +896,8 @@ a#hamburg i {
 }
 
 .section_4 .tagline h4 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 42px;
     font-family: "Segoe UI Bold";
     color: #fff;
 }
@@ -1266,6 +1285,18 @@ footer .logo img {
     min-height: 280px;
     margin: 30px auto;
 }
+.banner .more {
+    animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .section_5 .main .rmore a {
     background: #fff;
     color: #000;
@@ -1379,4 +1410,12 @@ footer .logo img {
     font-weight: 700;
     color: #989898;
     text-decoration: underline;
+}
+.banner .tagline h4 {
+    font-size: 23px;
+    line-height: 33px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 70%;
 }

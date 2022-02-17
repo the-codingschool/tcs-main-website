@@ -80,7 +80,7 @@ function Topnav() {
 function Element({link, label, active, external}) {
     return (
         <li className={`nav-item px-8 text-uppercase ${active && 'active'}`}>
-            {external ? <a href={link} className="nav-link">{label}</a> : 
+            {external ? <a href={link} className="nav-link" target="_blank">{label}</a> : 
             <Link to={link} className="nav-link" >{label}</Link>}
         </li>
     )

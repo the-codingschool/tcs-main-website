@@ -28,17 +28,14 @@
         }
     }
     .testimonia-sec-bg {
-        // min-height: 770px;
-        margin-top: -200px;
         background-repeat: no-repeat;
         background-size: contain;
-        padding-top: 30rem;
-        background-position: center;
+        padding-top: 25rem;
+        background-position: center bottom 20%;
         padding-bottom: 3rem;
         margin-bottom: 3rem;
 
         .tab-content {
-            margin-top: 200px;
             display: block;
             position: relative;
             @media screen and (max-width: 991px) {
