@@ -398,8 +398,11 @@ function Home() {
                     <div className='row align-items-center'>
                         <div className='col-lg-5 col-md-12'>
                         <Fade left>
-                            <img src='/images/wasc.jpg' className="mb-30" alt="wasc" />
-                            <img src='/images/uc-ag-guide.jpg' alt="uc-ag-guide" />
+                                <div className="sp-left">
+                                    <p>Nationally accredited by: </p>
+                                    <img src='/images/wasc.jpg' className="mb-50" alt="wasc" />
+                                    <img src='/images/uc-ag-guide.jpg' alt="uc-ag-guide" />
+                                </div>
                         </Fade>
                         </div>
                         <div className='col-lg-7 col-md-12'>

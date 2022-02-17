@@ -9,7 +9,7 @@
         }
     }
     h2 {
-        font-size: 46px;
+        font-size: 50px;
         color: #346e8a;
         font-weight: bold;
         margin-bottom: 30px;
@@ -51,7 +51,9 @@
             border: 2px solid #346e8a;
             color: #346e8a;
         }
-        min-width: 100px;
+        min-width: 130px;
+        max-width: 150px;
+        width: 100%;
         line-height: 40px;
         text-transform: uppercase;
         outline: none;
@@ -60,9 +62,11 @@
         color: #fff;
         text-transform: uppercase;
         border-radius: 0px;
-        margin-bottom: 20px;
         font-weight: bold;
         text-decoration: none;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
     .anim_img {
         img {
@@ -70,6 +74,13 @@
             max-width: 100%;
             display: block;
         }
+    }
+    .home-banner-text {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 20px;
+        display: inline-flex;
+        border: 2px solid #8b8b8b;
     }
 }
 .visual-text {
@@ -330,10 +341,12 @@ span {
 }
 
 .school-partner {
-    img {
+    .sp-left {
         max-width: 380px;
+        margin: auto;
+    }
+    img {
         width: 100%;
-        margin: 0 auto;
         display: block;
         @media screen and (max-width: 991px) {
             max-width: 100%;

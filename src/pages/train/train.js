@@ -61,7 +61,7 @@ const Train = (props) => {
                             <div className="offset-md-4"></div>
                             <div className="col-md-6">
                                 <div className="headline" data-aos="fade-up" data-aos-duration="500">
-                                    <h2>FUTURE AI LEADERS <span>PROGRAM</span> </h2>
+                                    <h2>FUTURE AI LEADERS <span class="bar-overline"><span className="bo-text">PROGRAM</span></span> </h2>
                                 </div>
                                 <div className="desc" data-aos="fade-up" data-aos-duration="1000">
                                     <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
