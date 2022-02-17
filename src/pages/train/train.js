@@ -76,7 +76,7 @@ const Train = (props) => {
                                         <h3>Introduction to Machine Learning Course</h3>
                                     </div>
                                     <div className="desc">
-                                        <p>A two-semester, for-credit course for high school students and educators beginning in September 2022. <a href="https://airtable.com/shrQcXGeOnE8o7Kxa" target="_blank">Learn More</a></p>
+                                        <p>A two-semester, for-credit course for high school students and educators beginning in September 2022. <a href="https://airtable.com/shrQcXGeOnE8o7Kxa" target="_blank">Sign Up</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ const Train = (props) => {
                                         <h3>Summer Intensive for Educators</h3>
                                     </div>
                                     <div className="desc">
-                                        <p>A four-week professional development (PD) course for high school educators and community college faculty in July 2022. <a href="https://airtable.com/shrIu7KQDjx1Tgvjz" target="_blank">Learn More</a></p>
+                                        <p>A four-week professional development (PD) course for high school educators and community college faculty in July 2022. <a href="https://airtable.com/shrIu7KQDjx1Tgvjz" target="_blank">Sign Up</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ const Train = (props) => {
                                         <h4>Offer As A For-Credit Or Afterschool Course</h4>
                                     </div>
                                     <div className="desc">
-                                        <p>Nationally accredited by WASC, we offer our two-semester Introduction to ML course for high school credit at participating schools and school districts. We provide the weekly instruction; assignments, including problem sets, homework and projects; and grading and transcripts; all that we require of participating schools is that they approve to offer the course for transcript credit. We work with individual schools, school districts, and statewide DOEs. To learn more about how to offer this course for credit, fill out this form or email <a href="https://airtable.com/shrtYbn1ghbtxvOdM" target="_blank">Learn More</a> 
+                                        <p>Nationally accredited by WASC, we offer our two-semester Introduction to ML course for high school credit at participating schools and school districts. We provide the weekly instruction; assignments, including problem sets, homework and projects; and grading and transcripts; all that we require of participating schools is that they approve to offer the course for transcript credit. We work with individual schools, school districts, and statewide DOEs. To learn more about how to offer this course for credit, fill out this form or email <a href="https://airtable.com/shrtYbn1ghbtxvOdM" target="_blank">Connect with Us</a> 
                                             {/* <iframe className="airtable-embed" src="https://airtable.com/embed/shrtYbn1ghbtxvOdM?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe> */}
                                         </p>
                                     </div>

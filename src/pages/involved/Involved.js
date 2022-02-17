@@ -88,12 +88,13 @@ function Involved() {
                     <div className='row mt-20'>
                         <div className='col-md-6'>
                             <div className='mb-7 fs-16'>
-                                Which programs(s) are you interested in?:
+                                Which program(s) are you interested in?:
                             </div>
                             <div className='buttons'>
                                 <div onClick={()=>setProgram('code')} className={`normal ${program == 'code' && 'gold'}`}>CodeConnects</div>
                                 <div onClick={()=>setProgram('qubit')} className={`normal ${program == 'qubit' && 'gold'}`}>Qubit by Qubit</div>
                                 <div onClick={()=>setProgram('train')} className={`normal ${program == 'train' && 'gold'}`}>TRAIN</div>
+                                <div onClick={()=>setProgram('train')} className={`normal ${program == 'train' && 'gold'}`}>ALL</div>
                             </div>
                         </div>
                     </div>
