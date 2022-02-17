@@ -66,7 +66,7 @@ var settings = {
 const programPost = [
     {
         name: '1',
-        title: 'Quantum Computing: Summer Camps,Research Opportunities & Internships',
+        title: 'Quantum Computing: summer camps, research opportunities & internships',
         img: '/images/TA w circuit board in lab.png',
         link:'https://www.qubitbyqubit.org'
     },
@@ -106,7 +106,7 @@ const programPostUniversity = [
 const programPostEducators = [
     {
         name: '1',
-        title: 'Educators Programs:   Professional Development Training in Artificial Intelligence ',
+        title: 'Educators Programs: Professional Development Training in Artificial Intelligence ',
         img: '/images/upcoming-programs-3.jpg',
         link:'/train'
     },

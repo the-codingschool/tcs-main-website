@@ -157,27 +157,27 @@ const studentTestimonials = [
         image: "images/testimonials/lucy.jpg"
     },
     {
-        name: "11th grade female, New York",
+        name: "11th grader, New York",
         testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
         image: "images/testimonials/michelle.jpg"
     },
     {
-        name: "12th grade male, Australia",
+        name: "12th grader, Australia",
         testimony: "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
         image: "images/testimonials/faraz.JPG"
     },
     {
-        name: "10th grade female, Australia",
+        name: "10th grader, Australia",
         testimony: "My favourite part is the people I've met! All are from crazy places I've never been to, but we all have one common interest that ties us together. I find myself coding complete joke-code just to joke around with friends.",
         image: "images/testimonials/wooooo.jpg"
     },
     {
-        name: "12th grade male, Australia",
+        name: "12th grader, Australia",
         testimony: "This course is absolutely beautiful, it is pact with the introductory information into the world of quantum.",
         image: "images/testimonials/E204400A-5814-44A9-BD56-723354D6F74F.jpeg"
     },
     {
-        name: "University Student, Georgia",
+        name: "University student, Georgia",
         testimony: "The instructors were passionate, knowledgeable and really cared about helping students understand the material. I loved meeting other students excited about the possibilities of quantum computing, and I've learned many topics that give me ideas about what to learn next! Really grateful to Qubit by Qubit for the experience.",
         image: "images/testimonials/20220106_180858.jpg"
     },
@@ -192,12 +192,12 @@ const studentTestimonials = [
         image: "images/testimonials/IMG_4459-min 3.PNG"
     },
     {
-        name: "University College, England",
+        name: "University student, England",
         testimony: "My time at QxQ has been nothing short of a truly incredible experience.",
         image: "images/testimonials/Image.jpg"
     },
     {
-        name: "10th grade female, Massachusetts",
+        name: "10th grader, Massachusetts",
         testimony: "Qubit by Qubit with IBM really changed my life! The course strengthened my math skills, increased my desire to explore STEM and hopefully one day become an Engineer or a student in college studying some type of math or programming heavy field!",
         image: "images/testimonials/07F1A90A-8D94-47DE-AD63-435D496A81B8.jpeg"
     },
@@ -207,12 +207,12 @@ const studentTestimonials = [
         image: "images/testimonials/IMG-6463 2.jpg"
     },
     {
-        name: "12th grade female, Australia",
+        name: "12th grader, Australia",
         testimony: "Prior to being a part of the course I planned to study quantum engineering in university based on my general understanding of quantum from personal research. Now, having actually gained a better understanding of the fundamentals of quantum computing, I find myself even more curious and excited to learn more!",
         image: "images/testimonials/IMG_4503.jpg"
     },
     {
-        name: "11th grade female, Pennsylvania",
+        name: "11th grader, Pennsylvania",
         testimony: "When I heard about the Qubit by Qubit course, I knew I had to apply. This course has challenged my intuitions and exposed me to new realities of the micro-world. I love how this course and the field of quantum computing connect all of my favorite subjects: math; physics; and computer science.",
         image: "images/testimonials/etwitmyer.jpeg"
     },
@@ -222,7 +222,7 @@ const studentTestimonials = [
         image: "images/testimonials/lucy.jpg"
     },
     {
-        name: "11th grade female, New York",
+        name: "11th grader, New York",
         testimony: "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
         image: "images/testimonials/michelle.jpg"
     },
