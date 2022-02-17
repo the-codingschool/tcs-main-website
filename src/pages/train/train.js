@@ -64,7 +64,7 @@ const Train = (props) => {
                                     <h2>FUTURE AI LEADERS <span>PROGRAM</span> </h2>
                                 </div>
                                 <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                                    <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
+                                    <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
                                 </div>
                             </div>
                             {/* <div className="offset-md-4"></div> */}
@@ -174,10 +174,10 @@ const Train = (props) => {
                                                 <img src={require('./images/team-4.png')} alt="" />
                                             </div>
                                             <div className="title">
-                                                <h4>James Fitch II</h4>
+                                                <h4>Chief Master Sgt. James Fitch II</h4>
                                             </div>
                                             <div className="position">
-                                                <p>Chief Master Sgt Command Chief, Air Force Research Laboratory</p>
+                                                <p>Command Chief, Air Force Research Laboratory</p>
                                             </div>
                                         </div>
                                     </li>
@@ -203,7 +203,7 @@ const Train = (props) => {
                                                 <h4>Dr. Dave Touretzky</h4>
                                             </div>
                                             <div className="position">
-                                                <p>USC, Director for Strategic AI and Data Science Initiatives & Professor</p>
+                                                <p>Research Professor at Carnegie Mellon University and Chair of AI4K12</p>
                                             </div>
                                         </div>
                                     </li>
@@ -229,14 +229,14 @@ const Train = (props) => {
                                                 <h4>Dr. Nathaniel D. Bastian</h4>
                                             </div>
                                             <div className="position">
-                                                <p>MIT, CS & EE Professor at MIT</p>
+                                                <p>Assistant Professor of Operations Research & Data Science at West Point</p>
                                             </div>
                                         </div>
                                     </li>
                                     <li data-aos="fade-up" data-aos-duration="1000">
                                         <div className="main">
                                             <div className="pic">
-                                                <img src={require('./images/team-7.png')} alt="" />
+                                                <img src={require('./images/team-6.png')} alt="" />
                                             </div>
                                             <div className="title">
                                                 <h4>Dr. Hal Abelson</h4>
@@ -249,13 +249,13 @@ const Train = (props) => {
                                     <li data-aos="fade-up" data-aos-duration="1100">
                                         <div className="main">
                                             <div className="pic">
-                                                <img src={require('./images/team-6.png')} alt="" />
+                                                <img src={require('./images/team-7.png')} alt="" />
                                             </div>
                                             <div className="title">
                                                 <h4>Jeremy Howard</h4>
                                             </div>
                                             <div className="position">
-                                                <p>Assistant Professor at West Point</p>
+                                                <p>Co-Founder at fast.ai</p>
                                             </div>
                                         </div>
                                     </li>
@@ -268,7 +268,7 @@ const Train = (props) => {
                                                 <h4>Dr. Yolanda Gil</h4>
                                             </div>
                                             <div className="position">
-                                                <p>Co-Founder at fast.ai</p>
+                                                <p>Director for Strategic AI and Data Science Initiatives & Professor at USC</p>
                                             </div>
                                         </div>
                                     </li>
