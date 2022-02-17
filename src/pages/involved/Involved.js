@@ -39,7 +39,6 @@ function Involved() {
                     </div>
                     <div className='col-3 involved-row'>
                         Bring a course to your school
-                        <div className='line'></div>
                     </div>
                     <div className='col-3 involved-row'>
                         Teacher or mentor
@@ -51,7 +50,7 @@ function Involved() {
 
                 <div className='details mt-60'>
                     <h2>
-                    Please fill out the form below if you are interested in learnign more about our programs and how to get involved!
+                    Please fill out the form below if you are interested in learning more about our programs and how to get involved!
                     </h2>
                 </div>
 

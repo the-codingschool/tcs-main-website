@@ -194,8 +194,8 @@ function AboutUs() {
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
-                                    <div>Dr. Nathaniel D. Bastian</div>
-                                    <div>Assistant Professor at West Point </div>
+                                    <div>Dr. Nathaniel Bastian</div>
+                                    <div>Assistant Professor of Operations Research & Data Science at West Point </div>
                                 </div>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Hal Abelson.jpg' || 'https://via.placeholder.com/80'} alt='' />

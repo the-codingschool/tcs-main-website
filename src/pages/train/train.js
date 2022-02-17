@@ -28,7 +28,7 @@ const Train = (props) => {
                                     </a>
                                 </div>
                                 <div className="tagline" data-aos="fade-up" data-aos-duration="500">
-                                    <h4>Thanks to our partnership with the Department of Defense we are offering scholarships for this course to all accepted students and educators!</h4>
+                                    <h4>This initiative is proudly funded by the Department of Defense National Defense Education Program</h4>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const Train = (props) => {
                                     <h2>FUTURE AI LEADERS <span class="bar-overline"><span className="bo-text">PROGRAM</span></span> </h2>
                                 </div>
                                 <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                                    <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence.</p>
+                                    <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence. Main components of our program include:</p>
                                 </div>
                             </div>
                             {/* <div className="offset-md-4"></div> */}
@@ -226,7 +226,7 @@ const Train = (props) => {
                                                 <img src={require('./images/team-10.png')} alt="" />
                                             </div>
                                             <div className="title">
-                                                <h4>Dr. Nathaniel D. Bastian</h4>
+                                                <h4>Dr. Nathaniel Bastian</h4>
                                             </div>
                                             <div className="position">
                                                 <p>Assistant Professor of Operations Research & Data Science at West Point</p>
