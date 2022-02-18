@@ -165,15 +165,8 @@ const instructorTestimonials = [
         image: "images/testimonials/Aaron.png",
     },
     {
-        name: "Kelly Ellis, Amazon, TCS Advisory Board",
-        testimony:
-            "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
-        image: "images/testimonials/kelley-ellis.jpeg",
-    },
-    {
         name: "Anthony Mirand, Google",
-        testimony:
-            "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
+        testimony:"“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
         image: "images/testimonials/anthony-mirand.jpeg",
     },
 ];
