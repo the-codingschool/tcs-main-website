@@ -64,13 +64,13 @@ function HomeBanner() {
                             <div className="d-flex mb-50">
                                 <a
                                     href="https://codeconnects.org/programs.html"
-                                    className="btn btn-brand"
+                                    className="btn btn-brand" target="_blank"
                                 >
                                     Learn More
                                 </a>
                                 <a
                                     href="https://codeconnects.org/register.html"
-                                    className="btn btn-outline"
+                                    className="btn btn-outline" target="_blank"
                                 >
                                     Register
                                 </a>
