@@ -35,11 +35,11 @@
         position: relative;
         img{
             pointer-events: none;
-            max-width: 100%;
+            max-width: 50%;
             width:auto;
             display:block;
             margin:0 auto;
-            min-height: 173px;
+            min-height: 87px;
         }
         &:hover{
             .imageBoxWrap {
@@ -75,5 +75,4 @@
         font-weight: bold;
         color:#346E8A;
     }
-    
 }

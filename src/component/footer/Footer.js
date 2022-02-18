@@ -2,6 +2,8 @@ import './Footer.scss'
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import privacy from "../../assets/privacy.svg"
+import PrivacyIcon from "./PrivacyIcon";
 
 function Footer() {
     
@@ -88,7 +90,7 @@ function Footer() {
                             <span className='text-capitalize'> 3940 laurel canyon blvd. Ste 153 los angeles, CA 91604</span>
                         </div>
                         <div className='mt-10 d-flex align-items-center col-10 px-0'>
-                            <img className='mr-20' src='/images/location.png' />
+                            <PrivacyIcon className='mr-20' />
                             <a href="https://codeconnects.org/TCS_Privacy_Policy.pdf" > Privacy Policy</a>
                         </div>
 
