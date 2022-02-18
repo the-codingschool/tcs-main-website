@@ -180,8 +180,7 @@ const Train = (props) => {
                                         <p className="text-white">
                                             A two-semester, for-credit course
                                             for high school students and
-                                            educators beginning in September
-                                            2022.
+                                            educators with weekly lecture + lab beginning in September 2022. 
                                         </p>
                                         <p className="text-white">
                                             Highlights:
@@ -233,7 +232,7 @@ const Train = (props) => {
                                             <li>Teaching support </li>
                                             <li>CEU opportunity</li>
                                             <li>Stipend provided</li>
-                                            <li>Community STEM educators</li>
+                                            <li>Community of STEM educators</li>
                                         </ul>
                                         <a
                                             className="btn btn-gradient-2 text-white"
