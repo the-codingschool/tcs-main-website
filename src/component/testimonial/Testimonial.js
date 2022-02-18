@@ -267,17 +267,31 @@ const showMore = true;
 const featuredPost = [
     {
         name: '1',
-        title: 'ACE-Ed',
-        img: '/images/american-council-on-education-ace-logo-vector.png',
-        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
-        link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
-    },
-    {
-        name: '1',
         title: 'IBM',
         img: '/images/IBM-Logo-Design-1972-present-2.png',
         description: 'IBM Quantum and Qubit by Qubit partner again to offer quantum computing course',
         link: "https://research.ibm.com/blog/quantum-coding-school"
+    },
+    {
+        name: '1',
+        title: 'Quantum London',
+        img: '/images/Logo_Banner_1920x700_whiteBG.webp',
+        description: 'Quantum summer-camp',
+        link: "https://quantum-london5.passle.net/post/102g9gf/quantum-summer-camp"
+    },
+    {
+        name: '1',
+        title: 'MIT News',
+        img: '/images/mitnews_logo-color.png',
+        description: 'MIT researchers lead high school educational initiative on quantum computing',
+        link: "https://news.mit.edu/2020/mit-researchers-lead-high-school-quantum-computing-educational-initiative-0810"
+    },
+    {
+        name: '1',
+        title: 'ACE-Ed',
+        img: '/images/american-council-on-education-ace-logo-vector.png',
+        description: 'THE CODING SCHOOL & IBM QUANTUM OFFERING FREE QUANTUM COURSE TO 5,000 STUDENTS',
+        link: "https://ace-ed.org/the-coding-school-ibm-quantum-offering-free-quantum-course-to-5000-students/"
     },
     {
         name: '1',
@@ -292,8 +306,14 @@ const featuredPost = [
         img: '/images/FOR-SOCIALS-CLASSIC.png',
         description: 'TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce',
         link:'https://thequantuminsider.com/2021/03/01/tqd-quantum-ethics-exclusive-qubit-by-qubits-mission-is-to-train-a-diverse-quantum-workforce/'
-    }
-    ,
+    },
+    {
+        name: '1',
+        title: 'Agnes Irwin School',
+        img: '/images/The-Agnes-Irwin-School-logo.png',
+        description:'Two Juniors Accepted Into First-Ever Quantum Computing Course',
+        link:'https://www.agnesirwin.org/about/news/news-detail-page/~board/news/post/two-juniors-accepted-into-first-ever-quantum-computing-course'
+    },
     {
         name: '1',
         title: 'Business Insider',
@@ -308,13 +328,6 @@ const featuredPost = [
         description:'MIT Researchers Lead High School Educational Initiative on Quantum Computing',
         link:'https://cacm.acm.org/careers/246701-mit-researchers-lead-high-school-educational-initiative-on-quantum-computing/fulltext?mobile=false'
     },
-    {
-        name: '1',
-        title: 'Agnes Irwin School',
-        img: '/images/The-Agnes-Irwin-School-logo.png',
-        description:'Two Juniors Accepted Into First-Ever Quantum Computing Course',
-        link:'https://www.agnesirwin.org/about/news/news-detail-page/~board/news/post/two-juniors-accepted-into-first-ever-quantum-computing-course'
-    }
 ];
 
 const partnersLogo = [

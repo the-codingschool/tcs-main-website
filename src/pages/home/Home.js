@@ -409,7 +409,7 @@ function Home() {
                             <div className='school-box'>
                                 <div className='visual-text'>
                                 <Fade top>
-                                    <h3>School <span className='highlight-underline font-normal'>Partners</span></h3>
+                                    <h3>School Partners</h3>
                                 </Fade>
                                 <Fade bottom>
                                     <p>Accredited by the Western Association of Schools and Colleges (WASC), your K-12 students can earn transcript credit in emerging technologies such as AI and Quantum Computing. </p>
