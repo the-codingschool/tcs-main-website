@@ -93,8 +93,6 @@ function AboutUs() {
                         <div className='title text-center'>
                             <h1>Board & Advisors</h1>
                         </div>
-
-                        <Fade right>
                             <div className='row mt-40'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of eva_manolis_II.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -117,8 +115,6 @@ function AboutUs() {
                                     <div> CIO and VP of Information Tech at University of Michigan </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade left>
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Mark Redekopp.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -141,8 +137,6 @@ function AboutUs() {
                                     <div> Assistant Professor of Physics,Dartmouth University </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade right>
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Copy of Ray Laflamme - Director of the UWaterloo Institute for Quantum Computing.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -165,8 +159,6 @@ function AboutUs() {
                                     <div> Director, MIT's Center for Quantum Engineering </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade left>
                             <div className='row mt-20'>
                             <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Chief Master Sgt. James Fitch II..JPG' || 'https://via.placeholder.com/80'} alt='' />
@@ -189,8 +181,6 @@ function AboutUs() {
                                     <div> MIT, CS & EE Professor at MIT </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade right>
                             <div className='row mt-20'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Dr. Nathaniel D. Bastian.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -213,8 +203,6 @@ function AboutUs() {
                                     <div> Director for Strategic AI and Data Science Initiatives & Professor at USC  </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade left>
                             <div className='row mt-20 justify-content-center'>
                                 <div className='col-3 text-center'>
                                     <img className='avatar Advisors w-100' src={'/images/Board _ Advisors/Andrew Oliver.jpeg' || 'https://via.placeholder.com/80'} alt='' />
@@ -227,7 +215,6 @@ function AboutUs() {
                                     <div> President of CSTA & CS Teacher at Bergen County Academies </div>
                                 </div>
                             </div>
-                        </Fade>
                     </div>
                 </div>
 
@@ -237,7 +224,6 @@ function AboutUs() {
                     <img className='position-absolute' style={{ top: '36%', left: '-50%' }} src="/images/Shape 1 copy 2.png" alt="" />
                     <div className='block'>
                         <div className='background'>Young Professional Advisory Board</div>
-                        <Fade right>
                             <div className='row px-25 text-center justify-content-center mt-40'>
                                 <div className='col-md-2'>
                                     <img className='avatar Young' src={'/images/new assets/Young Professional Advisory Board/Copy of AJ DiDonato III - JP Morgan.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -288,8 +274,6 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade left>
                             <div className='row px-25 text-center justify-content-center mt-40'>
                                 <div className='col-md-2'>
                                     <img className='avatar Young' src={'/images/new assets/Young Professional Advisory Board/Copy of Lauren Becker - Disney.jpg' || 'https://via.placeholder.com/80'} alt='' />
@@ -332,7 +316,6 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
-                        </Fade>
                     </div>
                 </div>
 
@@ -356,7 +339,7 @@ function AboutUs() {
                     <img className='position-absolute' style={{ top: '15%', right: '5%  ', zIndex: '-1', width: '65px' }} src='/images/our Partners.png' alt='' />
                 </Fade>
                 <img className='position-absolute' style={{ top: '26%', left: '-18%' }} src="/images/Vector Smart Object copy 2.png" alt="" />
-                <div className='text-detail shadowed-box'>
+                <div className='text-detail shadowed-box' id="partners">
                     <div className='sub-title'>
                         <h1>Our Sponsors and Partners</h1>
                     </div>
@@ -421,7 +404,7 @@ function AboutUs() {
                 </div>
             </div >
 
-            <div className='mt-80 quantum-block position-relative as-school-partners'>
+            <div className='mt-80 quantum-block position-relative as-school-partners' id="school-partners">
                 <div className='text-detail shadowed-box'>
                     <div className='sub-title'>
                         <h1>School Partners</h1>
