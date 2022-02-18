@@ -85,13 +85,13 @@ const instructorTestimonials = [
     },
     {
         name: "Kelly, Amazon, TCS Advisory Board",
-        testimony: "“Coding gives confidence to attack problems that seem larger than life and impossible otherwise. Entering into college CS classes is daunting. It’s a scary feeling being so far behind because you never learned any coding skills prior to college. I want to help young kids learn coding, because I know it will help them succeed in any discipline. These kids we’re teaching are going to be super well equipped.”",
+        testimony: "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
         image: "images/testimonials/kelley-ellis.jpeg"
     },
     {
-        name: "Aziza, QxQ TA, MIT",
+        name: "A.J., TCS instructor, JP Morgan Chase",
         testimony: "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
-        image: "images/testimonials/Aziza-e1594246955302-300x300.jpg"
+        image: "images/testimonials/AJ DiDonato III - JP Morgan.jpg"
     },
     {
         name: "Sanskriti - QxQ TA, North Carolina State University",
