@@ -1,3 +1,5 @@
+@import "../../assets/css/global.scss";
+
 #trainPage {
     .banner {
         // background: url("../../../public/images/flag.jpg") center center;
@@ -12,9 +14,9 @@
                 font-size: 18px;
                 line-height: 28px;
                 color: #000000;
-                font-family: "seguibl";
+                // font-family: "seguibl";
                 text-align: center;
-                margin: 70px auto 30px;
+                margin: 0 auto 30px;
             }
         }
         .desc {
@@ -67,40 +69,40 @@
 }
 span {
     &.highlight-underline-green {
-      position: relative;
-      display: inline-block;
-    //   font-style: italic;
-      &:before {
-        background-color: #2fda38;
-        content: "";
-        width: 100%;
-        bottom: 10px;
-        left: 4px;
-        position: absolute;
-        right: 0;
-        height: 34%;
-        display: block;
-        z-index: -1;
-      }
+        position: relative;
+        display: inline-block;
+        //   font-style: italic;
+        &:before {
+            background-color: #2fda38;
+            content: "";
+            width: 100%;
+            bottom: 10px;
+            left: 4px;
+            position: absolute;
+            right: 0;
+            height: 34%;
+            display: block;
+            z-index: -1;
+        }
     }
 }
 .btn-train {
     &.btn-train-primary {
-      background-color: #346e8a;
+        background-color: #346e8a;
     }
     &.btn-train-primary-gradient {
-      background: #346e8a;
-      background: linear-gradient(
-        94deg,
-        rgba(52, 110, 138, 1) 0%,
-        rgba(122, 205, 246, 1) 100%
-      );
+        background: #346e8a;
+        background: linear-gradient(
+            94deg,
+            rgba(52, 110, 138, 1) 0%,
+            rgba(122, 205, 246, 1) 100%
+        );
     }
 
     &.btn-train-outline {
-      background-color: transparent;
-      border: 2px solid #346e8a;
-      color: #346e8a;
+        background-color: transparent;
+        border: 2px solid #346e8a;
+        color: #346e8a;
     }
     line-height: 40px;
     text-transform: uppercase;
@@ -113,10 +115,10 @@ span {
     font-weight: bold;
     text-decoration: none;
     &:not(:last-child) {
-      margin-right: 30px;
+        margin-right: 30px;
     }
-  }
-  .link {
+}
+.link {
     color: #346e8a !important;
     font-size: 20px;
     line-height: 26px;
@@ -124,7 +126,32 @@ span {
     text-transform: uppercase;
     padding: 1vw 2vw;
     margin-top: 20px;
-  }
+}
+.train-page-tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        max-width: 150px;
+    }
+}
+
+.list-check {
+    padding-left: 10px;
+    li {
+        color: #fff;
+        list-style-type: none;
+        &:before {
+            content: "\2713";
+            margin-right: 10px;
+        }
+    }
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, #005d92 0%, #38b6ff 78%) !important;
+}
+
 @keyframes crescendo {
     0% {
         transform: scale(0.8);

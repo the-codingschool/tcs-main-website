@@ -719,14 +719,19 @@ a#hamburg i {
 }
 
 .section_1 .desc p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #a1a1a1;
+    font-size: 18px;
+    line-height: 24px;
+    color: #343a40;
 }
 
 .section_1 .desc p a {
     font-weight: 700;
-    color: #989898;
+    color: #000;
+    transition: 0.3s ease all;
+}
+
+.section_1 .desc p a:hover {
+    color: #333;
 }
 
 .section_1 .tagline h3 {
@@ -986,6 +991,7 @@ a#hamburg i {
     padding: 50px;
     border-radius: 21px;
     min-height: 450px;
+    height: 100%;
 }
 
 .section_5 .main .headline h4 {
@@ -996,8 +1002,8 @@ a#hamburg i {
 }
 
 .section_5 .main .desc p {
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 24px;
     color: #818181;
     margin: 15px 0;
     max-width: 95%;
@@ -1414,8 +1420,7 @@ footer .logo img {
 .banner .tagline h4 {
     font-size: 23px;
     line-height: 33px;
-    text-transform: capitalize;
     text-align: center;
-    margin: 20px auto;
+    margin-right: 20px;
     max-width: 70%;
 }
