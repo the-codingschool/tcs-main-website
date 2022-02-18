@@ -60,7 +60,7 @@ function KeyInitiatives() {
 
                     <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Learn More</a>
+                    <a className='link' target="_blank" href={item["link"]} >Learn More</a>
                     </div>
                 </div>
                 </Fade>
@@ -71,7 +71,7 @@ function KeyInitiatives() {
 
                     <img src={item["img"]} alt='/images/qubit.png' />
                     <h6>{item["title"]}</h6>
-                    <a className='link' href={item["link"]} >Learn More</a>
+                    <a className='link' target="_blank" href={item["link"]} >Learn More</a>
                     </div>
                 </div>
                 </Fade>

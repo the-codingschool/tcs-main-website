@@ -343,11 +343,11 @@ const featuredPost = [
     },
     {
         name: "1",
-        title: "Quantum Insider",
-        img: "/images/FOR-SOCIALS-CLASSIC.png",
+        title: "CACM",
+        img: "/images/2014-communications-of-the-acm.png",
         description:
-            "TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce",
-        link: "https://thequantuminsider.com/2021/03/01/tqd-quantum-ethics-exclusive-qubit-by-qubits-mission-is-to-train-a-diverse-quantum-workforce/",
+            "MIT Researchers Lead High School Educational Initiative on Quantum Computing",
+        link: "https://cacm.acm.org/careers/246701-mit-researchers-lead-high-school-educational-initiative-on-quantum-computing/fulltext?mobile=false",
     },
     {
         name: "1",
@@ -367,11 +367,11 @@ const featuredPost = [
     },
     {
         name: "1",
-        title: "Communications of ACM",
-        img: "/images/2014-communications-of-the-acm.png",
+        title: "Quantum Insider",
+        img: "/images/FOR-SOCIALS-CLASSIC.png",
         description:
-            "MIT Researchers Lead High School Educational Initiative on Quantum Computing",
-        link: "https://cacm.acm.org/careers/246701-mit-researchers-lead-high-school-educational-initiative-on-quantum-computing/fulltext?mobile=false",
+            "TQD Quantum Ethics Exclusive: Qubit by Qubit’s Mission is to Train a Diverse Quantum Workforce",
+        link: "https://thequantuminsider.com/2021/03/01/tqd-quantum-ethics-exclusive-qubit-by-qubits-mission-is-to-train-a-diverse-quantum-workforce/",
     },
 ];
 
