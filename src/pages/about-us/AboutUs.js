@@ -288,7 +288,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Natalie Ethell</div>
                                         {/* <div>Microsoft</div> */}
-                                        <img src={'/images/new assets/companies/Microsoft1.jpg' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/microsoft logo.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>
