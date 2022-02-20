@@ -1,19 +1,26 @@
 #Topnav {
-    position: relative;
-    z-index: 99999;
-    width: 100vw !important;
-    .register-btn {
-        background-color: #356e8b;
-        border-radius: 0;
-        color: white;
-        padding: 5px 25px;
-    }
+  width: 100vw !important;
+  .register-btn {
+    background-color: #356e8b;
+    border-radius: 0;
+    color: white;
+    padding: 5px 25px;
+    height: 40px;
+  }
 }
 
 .navbar-light {
-    .navbar-nav {
-        .nav-link {
-            color: #000;
-        }
+  .navbar-nav {
+    .nav-link {
+      color: #000;
     }
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .dropDown {
+    position: fixed;
+    z-index: 100 !important;
+    background-color: white;
+  }
 }
