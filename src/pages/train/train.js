@@ -146,7 +146,8 @@ const Train = (props) => {
                                     <p>
                                         In collaboration with USC’s Viterbi
                                         School of Engineering, we’re offering
-                                        two,{" "}
+                                        two,
+                                        <br />{" "}
                                         <span className="text-bold">
                                             first-of-its-kind programs
                                         </span>{" "}
@@ -180,7 +181,8 @@ const Train = (props) => {
                                         <p className="text-white">
                                             A two-semester, for-credit course
                                             for high school students and
-                                            educators with weekly lecture + lab beginning in September 2022. 
+                                            educators with weekly lecture + lab
+                                            beginning in September 2022.
                                         </p>
                                         <p className="text-white">
                                             Highlights:
@@ -751,7 +753,7 @@ const Train = (props) => {
                                         supported by a three-year grant award
                                         from the United States{" "}
                                         <a
-                                            className="text-blue-gradient-2"
+                                            className="text-blue-gradient-2 self-underlined"
                                             href="https://dodstem.us/about/partners/?tab=grantees"
                                             target="_blank"
                                         >
@@ -761,7 +763,7 @@ const Train = (props) => {
                                         <a
                                             href="https://www.cto.mil/news/47-million-grants-ndep/"
                                             target="_blank"
-                                            className="text-blue-gradient"
+                                            className="text-blue-gradient self-underlined"
                                         >
                                             National Defense Education Program
                                         </a>

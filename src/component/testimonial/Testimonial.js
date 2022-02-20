@@ -101,13 +101,15 @@ const instructorTestimonials = [
     },
     {
         name: "Kelly, Amazon, TCS Advisory Board",
-        testimony: "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
-        image: "images/testimonials/kelley-ellis.jpeg"
+        testimony:
+            "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
+        image: "images/testimonials/kelley-ellis.jpeg",
     },
     {
         name: "A.J., TCS instructor, JP Morgan Chase",
-        testimony: "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
-        image: "images/testimonials/AJ DiDonato III - JP Morgan.jpg"
+        testimony:
+            "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
+        image: "images/testimonials/AJ DiDonato III - JP Morgan.jpg",
     },
     {
         name: "Aziza, QxQ TA, MIT",
@@ -145,7 +147,8 @@ const instructorTestimonials = [
     },
     {
         name: "Isabelle, codeConnects instructor, Microsoft",
-        testimony: "What’s really awesome about the [codeConnects] program is that the instructors are mainly college students or recent grads close to the age of the students. I think it’s really important that students in middle and high school have someone close in age they can look up to as a mentor - especially if that person looks like them, talks like them and has a background similar to them.",
+        testimony:
+            "What’s really awesome about the [codeConnects] program is that the instructors are mainly college students or recent grads close to the age of the students. I think it’s really important that students in middle and high school have someone close in age they can look up to as a mentor - especially if that person looks like them, talks like them and has a background similar to them.",
         image: "images/testimonials/Isabelle.jpg",
     },
     {
@@ -156,17 +159,20 @@ const instructorTestimonials = [
     },
     {
         name: "Rishi, codeConnects instructor, Google",
-        testimony: "I think learning all the [tough] parts of coding and syntax is done better with a friend. I see myself as a friend and a mentor for the students I’ve had a chance to work with. And it’s been a really powerful experience.",
+        testimony:
+            "I think learning all the [tough] parts of coding and syntax is done better with a friend. I see myself as a friend and a mentor for the students I’ve had a chance to work with. And it’s been a really powerful experience.",
         image: "images/testimonials/Rishi.jpg",
     },
     {
         name: "Aaron, TCS instructor, Microsoft",
-        testimony: "It’s so exciting for me to be able to teach someone across the country. I see the excitement in his eyes every time he makes a circle bouncing across the screen. It’s immediately rewarding and inspiring. I love it.",
+        testimony:
+            "It’s so exciting for me to be able to teach someone across the country. I see the excitement in his eyes every time he makes a circle bouncing across the screen. It’s immediately rewarding and inspiring. I love it.",
         image: "images/testimonials/Aaron.png",
     },
     {
         name: "Anthony Mirand, Google",
-        testimony:"“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
+        testimony:
+            "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
         image: "images/testimonials/anthony-mirand.jpeg",
     },
 ];
@@ -462,6 +468,7 @@ function Testimonial() {
                 <div className="container">
                     <div className="visual-text text-center mb-30">
                         <h3>Testimonials</h3>
+                        {/* <h3>A lot of happy students</h3> */}
                     </div>
 
                     <ul class="nav nav-tabs">
