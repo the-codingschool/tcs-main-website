@@ -238,7 +238,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Annie Luc</div>
                                         {/* <div>Microsoft</div> */}
-                                        <img src={'/images/new assets/companies/Microsoft1.jpg' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/microsoft logo.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>
@@ -304,7 +304,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Trevor Gullstad</div>
                                         {/* <div>University of Michigan</div> */}
-                                        <img src={'/images/new assets/companies/Michigan.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/salesforce logo.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                                 <div className='col-md-2'>
@@ -312,7 +312,7 @@ function AboutUs() {
                                     <div className='mt-20'>
                                         <div>Kelly Ellis</div>
                                         {/* <div>Amazon</div> */}
-                                        <img src={'/images/new assets/companies/Amazon.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
+                                        <img src={'/images/new assets/companies/amazon logo.png' || 'https://via.placeholder.com/20'} className='mt-10' alt='' style={{ width: '80px' }} />
                                     </div>
                                 </div>
                             </div>
