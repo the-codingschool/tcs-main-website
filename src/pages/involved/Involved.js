@@ -34,10 +34,19 @@ function Involved() {
     https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?firstName=${firstName}?lastName=${lastName}}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
     `),{
       loading: "Processing",
-        error: "Error in sending emeil",
-        success: "Email send successfully...!",
+        error: "Error in sending form data",
+        success: "Thanks for reaching out!",
     })
-    console.log({ emailSend });
+    setFirstName("")
+    setLastName("")
+    setInterest("")
+    setEmail("")
+    setPartner("")
+    setOrganization("")
+    setAnswer("")
+    setTitle("")
+    setPhone("")
+    setComment("")
   };
   return (
     <div id="Involved">
