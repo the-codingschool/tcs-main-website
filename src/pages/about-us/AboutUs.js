@@ -546,7 +546,7 @@ function AboutUs() {
                                     {/* <div>JP Morgan</div> */}
                                     <img
                                         src={
-                                            "/images/new assets/companies/download1.png" ||
+                                            "/images/new assets/companies/JP Morgan logo.png" ||
                                             "https://via.placeholder.com/20"
                                         }
                                         className="mt-10"

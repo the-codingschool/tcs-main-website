@@ -170,6 +170,7 @@ const programPostUniversity = [
             { id: "2", listItem: "Run code in a quantum computer" },
             { id: "3", listItem: "Year-long course & winter intensives" },
             { id: "4", listItem: "Research & Internships" },
+            { id: "5", listItem: "Industry expert Q&As" },
         ],
         img: "/images/upcoming-programs-5.jpg",
         link: "https://www.qubitbyqubit.org/programs",
