@@ -42,7 +42,7 @@ function Involved() {
   return (
     <div id="Involved">
       <div className="get-involved-block">
-        {/* <h1>Replace with get involved image</h1> */}
+        <h1>Get Involved</h1>
         <div id="particle-slider">
           <div class="slides">
             <div
