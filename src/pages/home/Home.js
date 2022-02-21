@@ -63,7 +63,6 @@ var settings = {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -126,19 +125,6 @@ const programPost = [
     },
     {
         name: "3",
-        title: "Artificial Intelligence",
-        list: [
-            { id: "1", listItem: "For-credit course" },
-            { id: "2", listItem: "In-depth skills in AI/ML" },
-            { id: "3", listItem: "National lab tours" },
-            { id: "4", listItem: "Industry expert Q&A’s" },
-        ],
-        img: "/images/k-12-artificial-intelligence.jpg",
-        link: "/train",
-        isExternal: false,
-    },
-    {
-        name: "4",
         title: "Quantum Computing",
         list: [
             { id: "1", listItem: "Learn real quantum skills" },
@@ -152,6 +138,19 @@ const programPost = [
         img: "/images/TA w circuit board in lab.png",
         link: "https://www.qubitbyqubit.org/hs-college-camps",
         isExternal: true,
+    },
+    {
+        name: "4",
+        title: "Artificial Intelligence",
+        list: [
+            { id: "1", listItem: "For-credit course" },
+            { id: "2", listItem: "In-depth skills in AI/ML" },
+            { id: "3", listItem: "National lab tours" },
+            { id: "4", listItem: "Industry expert Q&A’s" },
+        ],
+        img: "/images/k-12-artificial-intelligence.jpg",
+        link: "/train",
+        isExternal: false,
     },
     {
         name: "5",
@@ -434,6 +433,7 @@ function Home() {
                                                     {item["isExternal"] ? (
                                                         <a
                                                             href={item["link"]}
+                                                            target="_blank"
                                                             className="btn btn-gradient-2 text-white rounded-0"
                                                         >
                                                             Learn More
@@ -465,7 +465,7 @@ function Home() {
                                 {programPostUniversity.map((item, index) => {
                                     return (
                                         <Fade bottom>
-                                            <div className="col-12 col-lg-6">
+                                            <div className="col-12 col-md-8 col-xl-6">
                                                 <div className="programPost-item non-carousel">
                                                     <div className="programPost-img">
                                                         <img

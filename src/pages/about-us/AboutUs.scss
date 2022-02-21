@@ -1,5 +1,6 @@
+@import "../../assets/css/global.scss";
+
 #AboutUs {
-    // max-width: 1400px;
     margin: auto;
     .about-block-image {
         background: url("../../../public/images/about-us-splash-bg.jpg") center
@@ -116,28 +117,37 @@
     }
 
     .our-leadership-block {
-        // &.background1 {
-        //     background: url("../../../public/images/our-leadership.png") center center;
-        //     background-size: cover;
-        // }
         &.background2 {
-            background: url("../../../public/images/our-sponsor.png") center
-                center;
+            background: url("../../../public/images/about-us-testimonial.jpg")
+                center center;
             background-size: cover;
             height: 280px;
-            margin-left: -300px;
-            margin-right: -300px;
             color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background-color: $btn;
+                opacity: 0.7;
+            }
+            .detail-block {
+                max-width: 1100px;
+            }
         }
         color: #50759d;
         padding: 40px 15px;
         position: relative;
-        // height: 400px;
-        // margin-left: -300px;
-        // margin-right: -300px;
         .detail-block {
             max-width: 700px;
             margin: auto;
+            position: relative;
+            z-index: 2;
             .title {
                 font-size: 34px;
                 margin-bottom: 16px;
@@ -293,4 +303,14 @@
         font-size: 22px;
         line-height: 28px;
     }
+}
+
+.founder-vertical-text {
+    left: -7%;
+}
+
+.founder-photo {
+    width: 80%;
+    border: 5px solid $gold;
+    padding: 5px;
 }
