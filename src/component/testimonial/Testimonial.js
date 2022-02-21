@@ -225,7 +225,7 @@ const studentTestimonials = [
         testimony:
             "I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free. This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
         image: "images/testimonials/testimonial photo-Scotland boy.png",
-    }
+    },
     {
         name: "11th grader, USA",
         testimony: "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, I was mentored by a female. Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM inspired me to believe in myself and chase after more complex sciences.",

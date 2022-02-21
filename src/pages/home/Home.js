@@ -99,7 +99,8 @@ var settings = {
 const programPost = [
     {
         name: "1",
-        title: "Research Opportunity",
+        title: "Data Science Research",
+        subTitle: "Grades 10 - 13",
         list: [
             { id: "1", listItem: "Columbia University professors" },
             { id: "2", listItem: "In-depth data science skills" },
@@ -277,10 +278,10 @@ function Home() {
                                                             src={item["img"]}
                                                             alt="students"
                                                         />
+                                                        <h6>{item["title"]}</h6>
                                                         <h5 className="pbW-sub-title">
                                                             {item["subTitle"]}
                                                         </h5>
-                                                        <h6>{item["title"]}</h6>
                                                         {item["isExternal"] ? (
                                                             <a
                                                                 href={
@@ -313,10 +314,10 @@ function Home() {
                                                             src={item["img"]}
                                                             alt="students"
                                                         />
+                                                        <h6>{item["title"]}</h6>
                                                         <h5 className="pbW-sub-title">
                                                             {item["subTitle"]}
                                                         </h5>
-                                                        <h6>{item["title"]}</h6>
                                                         {item["isExternal"] ? (
                                                             <a
                                                                 href={
