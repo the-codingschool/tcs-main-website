@@ -24,7 +24,7 @@ function AboutUs() {
     <div id="AboutUs">
       <div className="about-block-image">
         <div className="container">
-          <h1>Get Involved</h1>
+          <h1>About Us</h1>
           <div id="particle-slider">
             <div class="slides">
               <div
