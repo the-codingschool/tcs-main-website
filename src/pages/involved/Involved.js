@@ -2,6 +2,16 @@ import "./Involved.scss";
 import React, { useEffect, useState } from "react";
 
 function Involved() {
+  const [firstName, setFirstName] = useState();
+  const [lastName, setLastName] = useState();
+  const [email, setEmail] = useState();
+  const [interest, setInterest] = useState();
+  const [partner, setPartner] = useState();
+  const [organization, setOrganization] = useState();
+  const [title, setTitle] = useState();
+  const [comment, setComment] = useState();
+  const [phone, setPhone] = useState();
+  const [answer, setAnswer] = useState();
   function onLoad() {
     var ps = new window.ParticleSlider({
       ptlGap: 0,
@@ -18,7 +28,13 @@ function Involved() {
   const [program, setProgram] = useState("code");
 
   useEffect(onLoad, []);
-
+  const hanldeSubmit = async () => {
+    // https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?subject=something?comments=comments?interests=something?email=something@gmail.com?firstName=me?lastName=you
+    const emailSend = await fetch(`
+    https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?firstName=${firstName}?lastName=${lastName}}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
+    `);
+    console.log({ emailSend });
+  };
   return (
     <div id="Involved">
       <div className="get-involved-block">
@@ -50,18 +66,36 @@ function Involved() {
           </h2>
         </div>
 
-        <form className="mt-80 mb-80">
+        <form
+          className="mt-80 mb-80"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="row">
             <div className="col-md-6">
               <div className="mb-7 fs-16">First Name:</div>
               <div>
-                <input placeholder="First Name" className="form-control" />
+                <input
+                  placeholder="First Name"
+                  name="firstName"
+                  className="form-control"
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)}
+                />
               </div>
             </div>
             <div className="col-md-6">
               <div className="mb-7 fs-16">Last Name:</div>
               <div>
-                <input placeholder="Last Name" className="form-control" />
+                <input
+                  placeholder="Last Name"
+                  name="lastName"
+                  className="form-control"
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)}
+                />
               </div>
             </div>
           </div>
@@ -70,7 +104,13 @@ function Involved() {
             <div className="col-md-6">
               <div className="mb-7 fs-16">Email:</div>
               <div>
-                <input placeholder="John@gmail.com" className="form-control" />
+                <input
+                  placeholder="John@gmail.com"
+                  name="email"
+                  className="form-control"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </div>
             </div>
             <div className="col-md-6">
@@ -81,6 +121,9 @@ function Involved() {
                 <input
                   placeholder="Partner with Us, Volunteer"
                   className="form-control"
+                  name="partnerWithUs"
+                  value={partner}
+                  onChange={(e) => setPartner(e.target.value)}
                 />
               </div>
             </div>
@@ -92,30 +135,54 @@ function Involved() {
                 Which program(s) are you interested in?:
               </div>
               <div className="buttons">
-                <div
-                  onClick={() => setProgram("code")}
-                  className={`normal ${program == "code" && "gold"}`}
-                >
-                  CodeConnects
-                </div>
-                <div
-                  onClick={() => setProgram("qubit")}
-                  className={`normal ${program == "qubit" && "gold"}`}
-                >
-                  Qubit by Qubit
-                </div>
-                <div
-                  onClick={() => setProgram("train")}
-                  className={`normal ${program == "train" && "gold"}`}
-                >
-                  TRAIN
-                </div>
-                <div
-                  onClick={() => setProgram("all")}
-                  className={`normal ${program == "all" && "gold"}`}
-                >
-                  ALL
-                </div>
+                <input
+                  onClick={() => {
+                    setInterest("code");
+                    setProgram("code");
+                  }}
+                  name={program === "code" ? "interests" : ""}
+                  value="CodeConnects"
+                  className={`normal ${program === "code" && "gold"}`}
+                  contentEditable="false"
+                />
+
+                {/* </input> */}
+                <input
+                  onClick={() => {
+                    setInterest("qubit");
+                    setProgram("qubit");
+                  }}
+                  name={program === "qubit" ? "interests" : ""}
+                  value="Qubit by Qubit"
+                  className={`normal ${program === "qubit" && "gold"}`}
+                  contentEditable="false"
+                />
+
+                {/* </input> */}
+                <input
+                  onClick={() => {
+                    setInterest("train");
+                    setProgram("train");
+                  }}
+                  name={program === "train" ? "interests" : ""}
+                  value="TRAIN"
+                  className={`normal ${program === "train" && "gold"}`}
+                  contentEditable="false"
+                />
+
+                {/* </input> */}
+                <input
+                  onClick={() => {
+                    setInterest("all");
+                    setProgram("all");
+                  }}
+                  name={program === "all" ? "interests" : ""}
+                  value="All"
+                  className={`normal ${program === "all" && "gold"}`}
+                  contentEditable="false"
+                />
+
+                {/* </input> */}
               </div>
             </div>
           </div>
@@ -124,7 +191,13 @@ function Involved() {
             <div className="col-md-6">
               <div className="mb-7 fs-16">Company/Organization:</div>
               <div>
-                <input placeholder="ABC co." className="form-control" />
+                <input
+                  placeholder="ABC co."
+                  name="organization"
+                  className="form-control"
+                  value={organization}
+                  onChange={(e) => setOrganization(e.target.value)}
+                />
               </div>
             </div>
             <div className="col-md-6">
@@ -132,7 +205,13 @@ function Involved() {
                 How did you hear about The Coding School:
               </div>
               <div>
-                <input placeholder="Type Answer" className="form-control" />
+                <input
+                  placeholder="Type Answer"
+                  name="answer"
+                  className="form-control"
+                  value={answer}
+                  onChange={(e) => setAnswer(e.target.value)}
+                />
               </div>
             </div>
           </div>
@@ -143,7 +222,13 @@ function Involved() {
                 <div className="col-md-12 mt-15">
                   <div className="mb-7 fs-16">Title:</div>
                   <div>
-                    <input placeholder="CFO" className="form-control" />
+                    <input
+                      placeholder="title"
+                      name="title"
+                      className="form-control"
+                      value={title}
+                      onChange={(e) => setTitle(e.target.value)}
+                    />
                   </div>
                 </div>
                 <div className="col-md-12 mt-15">
@@ -152,6 +237,9 @@ function Involved() {
                     <input
                       placeholder="111-111-1111"
                       className="form-control"
+                      name="phone"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                 </div>
@@ -164,12 +252,17 @@ function Involved() {
                   placeholder="Type Here"
                   rows={5}
                   className="form-control"
+                  name="comments"
+                  value={comment}
+                  onChange={(e) => setComment(e.target.value)}
                 />
               </div>
             </div>
           </div>
           <div className="row mt-50">
-            <div className="submitButton">SUBMIT</div>
+            <buttom onClick={hanldeSubmit} className="submitButton">
+              SUBMIT
+            </buttom>
           </div>
         </form>
       </div>

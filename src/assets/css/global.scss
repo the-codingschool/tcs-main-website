@@ -79,41 +79,24 @@ a:hover {
         background: linear-gradient(to right, #005d92 0%, #38b6ff 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        &.self-underlined {
-            &:after {
-                background: linear-gradient(to right, #005d92 0%, #38b6ff 100%);
-            }
-        }
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     &blue-gradient-2 {
         background: #005d92;
         background: linear-gradient(to right, #38c1cf, #5bcbb8);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        &.self-underlined {
-            &:after {
-                background: linear-gradient(to right, #38c1cf, #5bcbb8);
-            }
-        }
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     &blue-gold-gradient {
         background: $btn;
         background: linear-gradient(to right, $btn, $gold);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    }
-}
-
-.self-underlined {
-    position: relative;
-    &:after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -5px;
-        width: 100%;
-        height: 1px;
-        margin-top: 5px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
@@ -181,8 +164,4 @@ span {
     &brand {
         background-color: $btn !important;
     }
-}
-
-.fz-60 {
-    font-size: 60px;
 }

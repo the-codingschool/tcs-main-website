@@ -22,6 +22,7 @@ const Train = (props) => {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="headline" data-aos="zoom-in">
+                                    <a href="https://trains.hailogics.com">
                                         <h1>
                                             <img
                                                 src={require("./images/site_logo.png")}
@@ -29,6 +30,7 @@ const Train = (props) => {
                                             <span>The Next Generation of</span>{" "}
                                             AI LEADERS AND EDUCATORS
                                         </h1>
+                                    </a>
                                 </div>
                                 <div
                                     className="tagline train-page-tagline mt-40"
@@ -144,8 +146,7 @@ const Train = (props) => {
                                     <p>
                                         In collaboration with USC’s Viterbi
                                         School of Engineering, we’re offering
-                                        two,
-                                        <br />{" "}
+                                        two,{" "}
                                         <span className="text-bold">
                                             first-of-its-kind programs
                                         </span>{" "}
@@ -179,8 +180,7 @@ const Train = (props) => {
                                         <p className="text-white">
                                             A two-semester, for-credit course
                                             for high school students and
-                                            educators with weekly lecture + lab
-                                            beginning in September 2022.
+                                            educators with weekly lecture + lab beginning in September 2022. 
                                         </p>
                                         <p className="text-white">
                                             Highlights:
@@ -751,7 +751,7 @@ const Train = (props) => {
                                         supported by a three-year grant award
                                         from the United States{" "}
                                         <a
-                                            className="text-blue-gradient-2 self-underlined"
+                                            className="text-blue-gradient-2"
                                             href="https://dodstem.us/about/partners/?tab=grantees"
                                             target="_blank"
                                         >
@@ -761,7 +761,7 @@ const Train = (props) => {
                                         <a
                                             href="https://www.cto.mil/news/47-million-grants-ndep/"
                                             target="_blank"
-                                            className="text-blue-gradient self-underlined"
+                                            className="text-blue-gradient"
                                         >
                                             National Defense Education Program
                                         </a>

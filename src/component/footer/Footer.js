@@ -70,7 +70,7 @@ function Footer() {
                     <div className='offset-md-1 col-md-3'>
                         <div className='fs-16 fw-6 text-uppercase mb-10'>Useful Links</div>
                         {footerLinks.map((item) => <div className='mt-10 cp'>
-                            {item.external ? <a href={item.link}>{item.label}</a> : <Link to={item.link}>{item.label}</Link>}
+                            {item.external ? <a target="_blank" href={item.link}>{item.label}</a> : <Link target="_blank" to={item.link}>{item.label}</Link>}
                         </div>)}
                         
                     </div>
