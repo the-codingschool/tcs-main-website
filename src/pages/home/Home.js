@@ -141,7 +141,7 @@ const programPost = [
                 id: "3",
                 listItem: "Industry Expert Q&As",
             },
-            { id: "4", listItem: "Run code in a quantum computer!" },
+            { id: "4", listItem: "Code in a quantum computer!" },
         ],
         img: "/images/TA w circuit board in lab.png",
         link: "https://www.qubitbyqubit.org/hs-college-camps",
