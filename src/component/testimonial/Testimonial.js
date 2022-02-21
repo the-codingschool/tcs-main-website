@@ -360,7 +360,7 @@ const featuredPost = [
         title: "Business Insider",
         img: "/images/BI_blue_background_vertical.png",
         description:
-            "Preparing for the Jobs of the Future: The Coding School and MIT Physicists Are Making Quantum Computing Accessible",
+            "Preparing for Jobs of the Future: TCS and MIT Physicists Are Making Quantum Computing Accessible",
         link: "https://markets.businessinsider.com/news/stocks/preparing-for-the-jobs-of-the-future-the-coding-school-and-mit-physicists-are-making-quantum-computing-accessible-to-high-school-students-this-summer-1029279911",
     },
     {
