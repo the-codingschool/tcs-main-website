@@ -148,7 +148,7 @@ const programPost = [
             { id: "3", listItem: "National lab tours" },
             { id: "4", listItem: "Industry expert Q&A’s" },
         ],
-        img: "/images/DSCF6613.jpg",
+        img: "/images/upcoming-programs-1.jpg",
         link: "/train",
         isExternal: false,
     },
