@@ -195,10 +195,10 @@ const studentTestimonials = [
         image: "images/testimonials/allsmiles._Love_and_smiles. (1).jpg",
     },
     {
-        name: "10th grader, Australia",
+        name: "12th grader, Texas",
         testimony:
-            "My favourite part is the people I've met! All are from crazy places I've never been to, but we all have one common interest that ties us together. I find myself coding complete joke-code just to joke around with friends.",
-        image: "images/testimonials/wooooo.jpg",
+            "I LOVED THE CAMP! There are many students such as myself whether that be minority, low income, etc. who, by nature of social and systematic marginalization, lack many opportunities and chances of exposure...I had never heard of Quantum Coding before this camp, let alone thought that I would enjoy it! This camp and this scholarship gave me an opportunity and a new liking for another field of STEM study that without it, I would not have known anything about!",
+        image: "images/testimonials/testimonial-12th grade boy TX.jpg",
     },
     {
         name: "12th grader, Australia",
@@ -213,10 +213,10 @@ const studentTestimonials = [
         image: "images/testimonials/testimonial-12th grade girl AZ.jpg",
     },
     {
-        name: "University student, Virginia",
+        name: "High school student, USA",
         testimony:
-            "I definitely felt a sense of community, especially since the other students were from diverse backgrounds as well. Hearing the TA's talk about their experiences as underrepresented PhD students/graduates in academia, allyship, etc showed me how dedicated they are to making learning opportunities in quantum computing more accessible.",
-        image: "images/testimonials/Hasnain_Zane.jpg",
+            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. [This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe in this community. ",
+        image: "images/testimonials/Sam - HS non-binary student.jpg",
     },
     {
         name: "High school student, Scotland",
@@ -237,10 +237,10 @@ const studentTestimonials = [
         image: "images/testimonials/07F1A90A-8D94-47DE-AD63-435D496A81B8.jpeg",
     },
     {
-        name: "University student, India",
+        name: "High school student family, California",
         testimony:
-            "Technology should not become a tool in the hands of the elite and must be used as a weapon in the fight against illiteracy and poverty. A huge shoutout, to IBM and The Coding School for providing free online quantum computing course to 7,000 students across the globe. ",
-        image: "images/testimonials/IMG-6463 2.jpg",
+            "Wednesday night dinners now include a summary of quantum computing lab activities and a preview for my Saturday lab. While our Sunday mornings involve gathering in the living room with our laptops, logging into our Zoom meeting, & furthering our knowledge in quantum computing. This course has created a wonderful opportunity that includes academics and family time.",
+        image: "images/testimonials/Ramirez Family (1).jpg",
     },
     {
         name: "11th grader, Turkey",
