@@ -22,7 +22,6 @@ const Train = (props) => {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="headline" data-aos="zoom-in">
-                                    <a href="https://trains.hailogics.com">
                                         <h1>
                                             <img
                                                 src={require("./images/training-logo.png")}
@@ -35,7 +34,6 @@ const Train = (props) => {
                                             </span>{" "}
                                             LEADERS AND EDUCATORS
                                         </h1>
-                                    </a>
                                 </div>
                                 <div
                                     className="tagline train-page-tagline mt-40"
