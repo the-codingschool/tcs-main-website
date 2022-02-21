@@ -7,6 +7,10 @@
             @media screen and (max-width: 767px) {
                 margin-right: 0px;
                 margin-bottom: 3px;
+                flex: 1 0 100%;
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
             }
             a {
                 border: 1px solid #346e8a;
@@ -23,6 +27,9 @@
                     border-color: transparent;
                     background: #346e8a;
                     color: #fff;
+                }
+                @media (max-width: 767px) {
+                    width: 100%;
                 }
             }
         }
@@ -206,118 +213,6 @@
             }
         }
     }
-    /* the parent */
-
-    // .slick-current {
-    //     opacity: 0.2;
-    //     filter: gray;
-    //     -webkit-filter: grayscale(100%);
-    //     top: 110px;
-    //     position: relative;
-    //     transition: all 0.5s ease;
-    //     @media screen and (max-width: 768px) {
-    //         top: 0px;
-    //         opacity: 1;
-    //         filter: unset;
-    //         -webkit-filter: grayscale(0%);
-    //     }
-    //     h4 {
-    //         font-size: 22px;
-    //         line-height: 30px;
-    //         @media screen and (max-width: 768px) {
-    //             color: #346e8a;
-    //             font-size: 24px;
-    //             line-height: 35px;
-    //         }
-    //     }
-    //     p {
-    //         font-size: 16px;
-    //         @media screen and (max-width: 768px) {
-    //             color: #505050;
-    //             font-size: 19px;
-    //             line-height: 28px;
-    //         }
-    //     }
-    //     .link {
-    //         @media screen and (max-width: 768px) {
-    //             color: #346e8a;
-    //             font-size: 17px;
-    //             line-height: 28px;
-    //         }
-    //     }
-    //     img {
-    //         width: 100%;
-    //         height: 250px;
-    //         object-fit: cover;
-    //         object-position: center;
-    //         object-fit: cover;
-    //         object-position: top center;
-    //         @media screen and (max-width: 768px) {
-    //             height: auto;
-    //         }
-    //     }
-    //     @media screen and (max-width: 767px) {
-    //         opacity: 1;
-    //         filter: unset;
-    //         -webkit-filter: unset;
-    //         padding-top: 0px;
-    //     }
-
-    //     .featuredPost-item {
-    //         border: 1px solid #ace1fb;
-    //         @media screen and (max-width: 767px) {
-    //             border: none;
-    //         }
-    //     }
-    //     & + .slick-active + .slick-active + .slick-active + .slick-active {
-    //         opacity: 0.2;
-    //         filter: gray;
-    //         -webkit-filter: grayscale(100%);
-    //         top: 110px;
-    //         position: relative;
-    //         transition: all 0.5s ease;
-    //         h4 {
-    //             font-size: 22px;
-    //             line-height: 30px;
-    //         }
-    //         p {
-    //             font-size: 16px;
-    //         }
-    //         img {
-    //             width: 100%;
-    //             height: 250px;
-    //             object-fit: cover;
-    //             object-position: center;
-    //         }
-    //         .featuredPost-item {
-    //             border: 1px solid #ace1fb;
-    //         }
-    //     }
-    //     & + .slick-active,
-    //     & + .slick-active + .slick-active,
-    //     & + .slick-active + .slick-active + .slick-active {
-    //         position: relative;
-    //         .featuredPost-item {
-    //             border: 1px solid #ace1fb;
-    //             box-shadow: 0 0 25px -2px #dedede;
-    //             h4 {
-    //                 color: #346e8a;
-    //                 font-size: 24px;
-    //                 line-height: 35px;
-    //             }
-    //             p {
-    //                 color: #505050;
-    //                 font-size: 19px;
-    //                 line-height: 28px;
-    //             }
-    //             .link {
-    //                 color: #346e8a;
-    //                 font-size: 17px;
-    //                 line-height: 28px;
-    //             }
-    //         }
-    //     }
-    // }
     .slick-next {
         right: 18%;
         z-index: 1;
@@ -338,9 +233,13 @@
     }
     .slick-arrow {
         @media screen and (max-width: 768px) {
-            top: -30px;
-            //bottom: -50px;
             bottom: unset;
+            &.slick-next {
+                right: 5%;
+            }
+            &.slick-prev {
+                left: 5%;
+            }
         }
     }
 }

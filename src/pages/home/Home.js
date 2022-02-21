@@ -55,68 +55,163 @@ const users = [
         avatar: "/images/Layer 15 copy 3.png",
     },
 ];
+
 var settings = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    arrows: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
-    centerMode: false,
+    autoplay: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            },
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            },
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            },
+        },
+        {
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            },
+        },
+    ],
 };
 
 const programPost = [
     {
         name: "1",
-        title: "Quantum Computing: summer camps, research opportunities & internships",
-        img: "/images/k12-image-1.jpg",
-        link: "https://www.qubitbyqubit.org",
+        title: "Research Opportunity",
+        list: [
+            { id: "1", listItem: "Columbia University professors" },
+            { id: "2", listItem: "In-depth data science skills" },
+            { id: "3", listItem: "Conduct real-world research" },
+            { id: "4", listItem: "Increase college competitiveness" },
+        ],
+        img: "/images/k-12-research-opportunity.jpg",
+        link: "https://codeconnects.org/research.html",
         isExternal: true,
     },
     {
         name: "2",
-        title: "Introduction to Machine Learning for high school students",
-        img: "/images/upcoming-programs-2.jpg",
+        title: "One-of-a-kind camps",
+        list: [
+            { id: "1", listItem: "Emerging Technologies" },
+            { id: "2", listItem: "Computer Music" },
+            { id: "3", listItem: "Creative Code" },
+            { id: "4", listItem: "AI/Big Data" },
+        ],
+        img: "/images/k-12-emerging-technologies.jpg",
+        link: "https://codeconnects.org/summercamps22.html",
+        isExternal: true,
+    },
+    {
+        name: "3",
+        title: "Artificial Intelligence",
+        list: [
+            { id: "1", listItem: "For-credit course" },
+            { id: "2", listItem: "In-depth skills in AI/ML" },
+            { id: "3", listItem: "National lab tours" },
+            { id: "4", listItem: "Industry expert Q&A’s" },
+        ],
+        img: "/images/k-12-artificial-intelligence.jpg",
         link: "/train",
         isExternal: false,
     },
     {
-        name: "3",
-        title: "Classical coding: 1:1 lessons, camps, research opportunities",
-        img: "/images/upcoming-programs-4.jpg",
-        link: "https://codeconnects.org",
+        name: "4",
+        title: "Quantum Computing",
+        list: [
+            { id: "1", listItem: "Learn real quantum skills" },
+            { id: "2", listItem: "Led by MIT PhD " },
+            {
+                id: "3",
+                listItem: "Industry Expert Q&As",
+            },
+            { id: "4", listItem: "Code in a quantum computer!" },
+        ],
+        img: "/images/TA w circuit board in lab.png",
+        link: "https://www.qubitbyqubit.org/hs-college-camps",
+        isExternal: true,
+    },
+    {
+        name: "5",
+        title: "Personalized Lessons",
+        list: [
+            { id: "1", listItem: "1:1 & Code-with-Friends Lessons" },
+            { id: "2", listItem: "Learn at your own pace" },
+            { id: "3", listItem: "Specialized curriculums" },
+            { id: "4", listItem: "Your own instructor" },
+        ],
+        img: "/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg",
+        link: "https://codeconnects.org/personal-lessons.html",
         isExternal: true,
     },
 ];
 const programPostUniversity = [
     {
         name: "1",
-        title: "Quantum Computing: year-long course, research opportunities, internships",
+        title: "Quantum Computing",
+        list: [
+            { id: "1", listItem: "Learn real quantum skills" },
+            { id: "2", listItem: "Run code in a quantum computer" },
+            { id: "3", listItem: "Year-long course & winter intensives" },
+            { id: "4", listItem: "Conduct Quantum Research & Internships" },
+            { id: "5", listItem: "Corporate Tech Internships" },
+            { id: "6", listItem: "Industry expert Q&As" },
+        ],
         img: "/images/upcoming-programs-5.jpg",
-        link: "https://www.qubitbyqubit.org",
+        link: "https://www.qubitbyqubit.org/programs",
         isExternal: true,
-    },
-    {
-        id: "2",
-        title: "Classical Coding: 1:1 and small group lessons, research opportunities",
-        img: "/images/upcoming-programs-1.jpg",
-        link: "https://codeconnects.org",
-        isExternal: true,
-    },
-    {
-        id: "3",
-        title: "Artificial intelligence: year-long course",
-        img: "/images/up-artificial-intelligence.jpg",
-        link: "/train",
-        isExternal: false,
     },
 ];
 const programPostEducators = [
     {
         name: "1",
-        title: "Educators Programs: Professional Development Training in Artificial Intelligence ",
+        title: "Artificial Intelligence",
+        list: [
+            { id: "1", listItem: "PD in AI/ML" },
+            { id: "2", listItem: "Bring ML into your classroom" },
+            { id: "3", listItem: "CEU opportunity" },
+            { id: "4", listItem: "STEM educators community" },
+        ],
         img: "/images/upcoming-programs-3.jpg",
         link: "/train",
         isExternal: false,
+    },
+    {
+        name: "2",
+        title: "Quantum Computing",
+        list: [
+            { id: "1", listItem: "Bring quantum to your students" },
+            { id: "2", listItem: "K-12 transcript credit" },
+            { id: "3", listItem: "Free for school partners" },
+            { id: "4", listItem: "Learn quantum skills" },
+        ],
+        img: "/images/Alta_Google Quantum Computer3438.jpg",
+        img: "/images/upcoming-programs-3.jpg",
+        link: "https://www.qubitbyqubit.org/",
+        isExternal: true,
     },
 ];
 const keyPost = [
@@ -148,12 +243,16 @@ const keyPost = [
         isExternal: false,
     },
 ];
-const imgContainerStyle = {
-    width: "440px",
-};
-const imageStyle = {
-    maxWidth: "100%",
-};
+function NextArrow(props) {
+    const { className, onClick } = props;
+    return <div className={`${className} up-next-item`} onClick={onClick} />;
+}
+
+function PrevArrow(props) {
+    const { className, onClick } = props;
+    return <div className={`${className} up-prev-item`} onClick={onClick} />;
+}
+
 function Home() {
     // function onLoad() {
     //     var ps = new window.ParticleSlider({
@@ -168,7 +267,6 @@ function Home() {
     // }
 
     //useEffect(onLoad, [])
-
     return (
         <div id="Home">
             <div className="container">
@@ -188,61 +286,73 @@ function Home() {
                                 {
                                     ...(index / 2 ? (
                                         <Fade left>
-                                            <div className="col-md-4 postBox">
-                                                <div className="postBox-wrap">
-                                                    <img
-                                                        src={item["img"]}
-                                                        alt="students"
-                                                    />
-                                                    <h5 className="pbW-sub-title">
-                                                        {item["subTitle"]}
-                                                    </h5>
-                                                    <h6>{item["title"]}</h6>
-                                                    {item["isExternal"] ? (
-                                                        <a
-                                                            href={item["link"]}
-                                                            className="link"
-                                                        >
-                                                            Learn More
-                                                        </a>
-                                                    ) : (
-                                                        <Link
-                                                            to={item["link"]}
-                                                            className="link"
-                                                        >
-                                                            Learn More
-                                                        </Link>
-                                                    )}
+                                            <div className="col-lg-4 mb-30 mb-lg-0">
+                                                <div className="postBox">
+                                                    <div className="postBox-wrap">
+                                                        <img
+                                                            src={item["img"]}
+                                                            alt="students"
+                                                        />
+                                                        <h5 className="pbW-sub-title">
+                                                            {item["subTitle"]}
+                                                        </h5>
+                                                        <h6>{item["title"]}</h6>
+                                                        {item["isExternal"] ? (
+                                                            <a
+                                                                href={
+                                                                    item["link"]
+                                                                }
+                                                                className="link"
+                                                            >
+                                                                Learn More
+                                                            </a>
+                                                        ) : (
+                                                            <Link
+                                                                to={
+                                                                    item["link"]
+                                                                }
+                                                                className="link"
+                                                            >
+                                                                Learn More
+                                                            </Link>
+                                                        )}
+                                                    </div>
                                                 </div>
                                             </div>
                                         </Fade>
                                     ) : (
                                         <Fade right>
-                                            <div className="col-md-4 postBox">
-                                                <div className="postBox-wrap">
-                                                    <img
-                                                        src={item["img"]}
-                                                        alt="students"
-                                                    />
-                                                    <h5 className="pbW-sub-title">
-                                                        {item["subTitle"]}
-                                                    </h5>
-                                                    <h6>{item["title"]}</h6>
-                                                    {item["isExternal"] ? (
-                                                        <a
-                                                            href={item["link"]}
-                                                            className="link"
-                                                        >
-                                                            Learn More
-                                                        </a>
-                                                    ) : (
-                                                        <Link
-                                                            to={item["link"]}
-                                                            className="link"
-                                                        >
-                                                            Learn More
-                                                        </Link>
-                                                    )}
+                                            <div className="col-lg-4 mb-30 mb-lg-0">
+                                                <div className="postBox">
+                                                    <div className="postBox-wrap">
+                                                        <img
+                                                            src={item["img"]}
+                                                            alt="students"
+                                                        />
+                                                        <h5 className="pbW-sub-title">
+                                                            {item["subTitle"]}
+                                                        </h5>
+                                                        <h6>{item["title"]}</h6>
+                                                        {item["isExternal"] ? (
+                                                            <a
+                                                                href={
+                                                                    item["link"]
+                                                                }
+                                                                className="link"
+                                                            >
+                                                                Learn More
+                                                            </a>
+                                                        ) : (
+                                                            <Link
+                                                                to={
+                                                                    item["link"]
+                                                                }
+                                                                className="link"
+                                                            >
+                                                                Learn More
+                                                            </Link>
+                                                        )}
+                                                    </div>
                                                 </div>
                                             </div>
                                         </Fade>
@@ -256,307 +366,256 @@ function Home() {
             <StudentMapCounter></StudentMapCounter>
             <KeyInitiatives></KeyInitiatives>
 
-            <div className="brown-sec">
+            <div className="brown-sec mb-70">
                 <div className="container">
-                    <h2>Upcoming Programs</h2>
+                    <h2>Upcoming Summer Programs</h2>
                 </div>
             </div>
-            <div className="student_programs">
-                <div className="student_programs-wrap">
-                    <div className="row mt-50 ml-0">
-                        <div className="col-lg-6 col-md-12 mb-50 mb-lg-0">
-                            <div
-                                className="k2-collage nav nav-tabs"
-                                role="tablist"
+
+            <div className="upcoming-programs">
+                <div className="container">
+                    <div class="nav upcomingProgramsTab mb-30" role="tablist">
+                        <a
+                            id="k2-pro2-tab"
+                            data-toggle="tab"
+                            href="#k2-pro2"
+                            role="tab"
+                            aria-controls="k2-pro2"
+                            aria-selected="false"
+                        >
+                            <img src="images/k2-2.png" alt="" />
+                            <h6 className="tab-title">University Programs</h6>
+                        </a>
+                        <a
+                            id="k2-pro-tab"
+                            data-toggle="tab"
+                            href="#k2-pro"
+                            role="tab"
+                            aria-controls="k2-pro"
+                            aria-selected="true"
+                            className="active"
+                        >
+                            <img src="images/k2-1.png" alt="" />
+                            <h6 className="tab-title">K-12</h6>
+                        </a>
+                        <a
+                            id="k2-pro3-tab"
+                            data-toggle="tab"
+                            href="#k2-pro3"
+                            role="tab"
+                            aria-controls="k2-pro3"
+                            aria-selected="false"
+                        >
+                            <img src="images/k2-3.png" alt="" />
+                            <h6 className="tab-title">Educators</h6>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-content mb-50" id="upcomingProgramsTabContent">
+                    <div
+                        class="tab-pane fade show active"
+                        id="k2-pro"
+                        role="tabpanel"
+                        aria-labelledby="k2-pro-tab"
+                    >
+                        <div className="programPost">
+                            <Slider
+                                {...settings}
+                                className="programPost-Carousel"
                             >
-                                <a
-                                    className="active"
-                                    id="k2-pro-tab"
-                                    data-toggle="tab"
-                                    href="#k2-pro"
-                                    role="tab"
-                                    aria-controls="k2-pro"
-                                    aria-selected="true"
-                                >
-                                    <h6 className="tab-title">K-12</h6>
-                                    <Fade left>
-                                        <img src="images/k2-1.png" alt="" />
-                                    </Fade>
-                                </a>
-                                <a
-                                    className=""
-                                    id="k2-pro2-tab"
-                                    data-toggle="tab"
-                                    href="#k2-pro2"
-                                    role="tab"
-                                    aria-controls="k2-pro2"
-                                    aria-selected="false"
-                                >
-                                    <h6 className="tab-title">
-                                        University Programs
-                                    </h6>
-                                    <Fade right>
-                                        <img src="images/k2-2.png" alt="" />
-                                    </Fade>
-                                </a>
-                                <a
-                                    className=""
-                                    id="k2-pro3-tab"
-                                    data-toggle="tab"
-                                    href="#k2-pro3"
-                                    role="tab"
-                                    aria-controls="k2-pro3"
-                                    aria-selected="false"
-                                >
-                                    <h6 className="tab-title">Educators</h6>
-                                    <Fade top>
-                                        <img src="images/k2-3.png" alt="" />
-                                    </Fade>
-                                </a>
+                                {programPost.map((item, index) => {
+                                    return (
+                                        <Fade bottom>
+                                            <div className="programPost-item">
+                                                <div className="programPost-img">
+                                                    <img
+                                                        src={item["img"]}
+                                                        className="img-fluid"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="programPost-desc">
+                                                    <h4>{item["title"]}</h4>
+                                                    <ul>
+                                                        {item.list.map((i) => {
+                                                            return (
+                                                                <li>
+                                                                    {i.listItem}
+                                                                </li>
+                                                            );
+                                                        })}
+                                                    </ul>
+                                                    {item["isExternal"] ? (
+                                                        <a
+                                                            href={item["link"]}
+                                                            className="btn btn-gradient-2 text-white rounded-0"
+                                                        >
+                                                            Learn More
+                                                        </a>
+                                                    ) : (
+                                                        <Link
+                                                            to={item["link"]}
+                                                            className="btn btn-gradient-2 text-white rounded-0"
+                                                        >
+                                                            Learn More
+                                                        </Link>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </Fade>
+                                    );
+                                })}
+                            </Slider>
+                        </div>
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="k2-pro2"
+                        role="tabpanel"
+                        aria-labelledby="k2-pro2-tab"
+                    >
+                        <div className="programPost">
+                            <div className="row justify-content-center">
+                                {programPostUniversity.map((item, index) => {
+                                    return (
+                                        <Fade bottom>
+                                            <div className="col-12 col-lg-6">
+                                                <div className="programPost-item non-carousel">
+                                                    <div className="programPost-img">
+                                                        <img
+                                                            src={item["img"]}
+                                                            className="img-fluid"
+                                                            alt=""
+                                                        />
+                                                    </div>
+                                                    <div className="programPost-desc">
+                                                        <h4>{item["title"]}</h4>
+                                                        <ul>
+                                                            {item.list.map(
+                                                                (i) => {
+                                                                    return (
+                                                                        <li>
+                                                                            {
+                                                                                i.listItem
+                                                                            }
+                                                                        </li>
+                                                                    );
+                                                                }
+                                                            )}
+                                                        </ul>
+                                                        {item["isExternal"] ? (
+                                                            <a
+                                                                href={
+                                                                    item["link"]
+                                                                }
+                                                                className="btn btn-gradient-2 text-white rounded-0"
+                                                            >
+                                                                Learn More
+                                                            </a>
+                                                        ) : (
+                                                            <Link
+                                                                to={
+                                                                    item["link"]
+                                                                }
+                                                                className="btn btn-gradient-2 text-white rounded-0"
+                                                            >
+                                                                Learn More
+                                                            </Link>
+                                                        )}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Fade>
+                                    );
+                                })}
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 pr-0">
-                            <div class="tab-content" id="myTabContent">
-                                <div
-                                    class="tab-pane fade show active"
-                                    id="k2-pro"
-                                    role="tabpanel"
-                                    aria-labelledby="k2-pro-tab"
-                                >
-                                    <Fade right>
-                                        <div className="visual-text mt-50">
-                                            <h3 className="home-up-title">
-                                                K-12 Programs
-                                            </h3>
-                                        </div>
-                                    </Fade>
-                                    <div className="programPost">
-                                        <div className="programPost-wrap">
-                                            <ul className="programPost-items">
-                                                <Slider {...settings}>
-                                                    {programPost.map(
-                                                        (item, index) => {
-                                                            return (
-                                                                <Fade top>
-                                                                    <li className="programPost-item">
-                                                                        <div className="programPost-img">
-                                                                            <img
-                                                                                src={
-                                                                                    item[
-                                                                                        "img"
-                                                                                    ]
-                                                                                }
-                                                                                className="img-fluid"
-                                                                                alt=""
-                                                                            />
-                                                                        </div>
-                                                                        <div className="programPost-desc">
-                                                                            <h4>
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="k2-pro3"
+                        role="tabpanel"
+                        aria-labelledby="k2-pro3-tab"
+                    >
+                        <div className="programPost">
+                            <div className="row justify-content-center">
+                                {programPostEducators.map(
+                                    (item, index, arr) => {
+                                        return (
+                                            <Fade bottom>
+                                                <div
+                                                    className={`col-12 col-md-6 col-lg-4 col-xl-3 ${
+                                                        index === arr.length - 1
+                                                            ? ""
+                                                            : "mb-30 mb-md-0"
+                                                    } `}
+                                                >
+                                                    <div className="programPost-item">
+                                                        <div className="programPost-img">
+                                                            <img
+                                                                src={
+                                                                    item["img"]
+                                                                }
+                                                                className="img-fluid"
+                                                                alt=""
+                                                            />
+                                                        </div>
+                                                        <div className="programPost-desc">
+                                                            <h4>
+                                                                {item["title"]}
+                                                            </h4>
+                                                            <ul>
+                                                                {item.list.map(
+                                                                    (i) => {
+                                                                        return (
+                                                                            <li>
                                                                                 {
-                                                                                    item[
-                                                                                        "title"
-                                                                                    ]
+                                                                                    i.listItem
                                                                                 }
-                                                                            </h4>
-                                                                            {item[
-                                                                                "isExternal"
-                                                                            ] ? (
-                                                                                <a
-                                                                                    href={
-                                                                                        item[
-                                                                                            "link"
-                                                                                        ]
-                                                                                    }
-                                                                                    className="link"
-                                                                                >
-                                                                                    Learn
-                                                                                    More
-                                                                                </a>
-                                                                            ) : (
-                                                                                <Link
-                                                                                    to={
-                                                                                        item[
-                                                                                            "link"
-                                                                                        ]
-                                                                                    }
-                                                                                    className="link"
-                                                                                >
-                                                                                    Learn
-                                                                                    More
-                                                                                </Link>
-                                                                            )}
-                                                                        </div>
-                                                                    </li>
-                                                                </Fade>
-                                                            );
-                                                        }
-                                                    )}
-                                                </Slider>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="tab-pane fade"
-                                    id="k2-pro2"
-                                    role="tabpanel"
-                                    aria-labelledby="k2-pro2-tab"
-                                >
-                                    <Fade right>
-                                        <div className="visual-text mt-50">
-                                            <h3 className="home-up-title">
-                                                University Programs
-                                            </h3>
-                                        </div>
-                                    </Fade>
-                                    <div className="programPost">
-                                        <div className="programPost-wrap">
-                                            <ul className="programPost-items">
-                                                <Slider {...settings}>
-                                                    {programPostUniversity.map(
-                                                        (item, index) => {
-                                                            return (
-                                                                <Fade top>
-                                                                    <li className="programPost-item">
-                                                                        <div className="programPost-img">
-                                                                            <img
-                                                                                src={
-                                                                                    item[
-                                                                                        "img"
-                                                                                    ]
-                                                                                }
-                                                                                className="img-fluid"
-                                                                                alt=""
-                                                                            />
-                                                                        </div>
-                                                                        <div className="programPost-desc">
-                                                                            <h4>
-                                                                                {
-                                                                                    item[
-                                                                                        "title"
-                                                                                    ]
-                                                                                }
-                                                                            </h4>
-                                                                            {item[
-                                                                                "isExternal"
-                                                                            ] ? (
-                                                                                <a
-                                                                                    href={
-                                                                                        item[
-                                                                                            "link"
-                                                                                        ]
-                                                                                    }
-                                                                                    className="link"
-                                                                                >
-                                                                                    Learn
-                                                                                    More
-                                                                                </a>
-                                                                            ) : (
-                                                                                <Link
-                                                                                    to={
-                                                                                        item[
-                                                                                            "link"
-                                                                                        ]
-                                                                                    }
-                                                                                    className="link"
-                                                                                >
-                                                                                    Learn
-                                                                                    More
-                                                                                </Link>
-                                                                            )}
-                                                                        </div>
-                                                                    </li>
-                                                                </Fade>
-                                                            );
-                                                        }
-                                                    )}
-                                                </Slider>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="tab-pane fade"
-                                    id="k2-pro3"
-                                    role="tabpanel"
-                                    aria-labelledby="k2-pro3-tab"
-                                >
-                                    <Fade right>
-                                        <div className="visual-text mt-50">
-                                            <h3 className="home-up-title">
-                                                Educators Programs
-                                            </h3>
-                                        </div>
-                                    </Fade>
-                                    <div className="programPost">
-                                        <div className="programPost-wrap">
-                                            <ul className="programPost-items row">
-                                                {programPostEducators.map(
-                                                    (item, index) => {
-                                                        return (
-                                                            <Fade top>
-                                                                <li className="programPost-item col-12 col-md-6">
-                                                                    <div className="programPost-img">
-                                                                        <img
-                                                                            src={
-                                                                                item[
-                                                                                    "img"
-                                                                                ]
-                                                                            }
-                                                                            className="img-fluid"
-                                                                            alt=""
-                                                                        />
-                                                                    </div>
-                                                                    <div className="programPost-desc">
-                                                                        <h4>
-                                                                            {
-                                                                                item[
-                                                                                    "title"
-                                                                                ]
-                                                                            }
-                                                                        </h4>
-                                                                        {item[
-                                                                            "isExternal"
-                                                                        ] ? (
-                                                                            <a
-                                                                                href={
-                                                                                    item[
-                                                                                        "link"
-                                                                                    ]
-                                                                                }
-                                                                                className="link"
-                                                                            >
-                                                                                Learn
-                                                                                More
-                                                                            </a>
-                                                                        ) : (
-                                                                            <Link
-                                                                                to={
-                                                                                    item[
-                                                                                        "link"
-                                                                                    ]
-                                                                                }
-                                                                                className="link"
-                                                                            >
-                                                                                Learn
-                                                                                More
-                                                                            </Link>
-                                                                        )}
-                                                                    </div>
-                                                                </li>
-                                                            </Fade>
-                                                        );
-                                                    }
-                                                )}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                                                            </li>
+                                                                        );
+                                                                    }
+                                                                )}
+                                                            </ul>
+                                                            {item[
+                                                                "isExternal"
+                                                            ] ? (
+                                                                <a
+                                                                    href={
+                                                                        item[
+                                                                            "link"
+                                                                        ]
+                                                                    }
+                                                                    className="btn btn-gradient-2 text-white rounded-0"
+                                                                >
+                                                                    Learn More
+                                                                </a>
+                                                            ) : (
+                                                                <Link
+                                                                    to={
+                                                                        item[
+                                                                            "link"
+                                                                        ]
+                                                                    }
+                                                                    className="btn btn-gradient-2 text-white rounded-0"
+                                                                >
+                                                                    Learn More
+                                                                </Link>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </Fade>
+                                        );
+                                    }
+                                )}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div
                 className="eng-bg"
                 style={{ backgroundImage: `url("/images/eng-bg-old-1.png")` }}
@@ -645,6 +704,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+
             <div className="school-partner mb-80">
                 <div className="container container-1660">
                     <div className="row align-items-center">

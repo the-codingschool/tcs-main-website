@@ -25,7 +25,7 @@ const Train = (props) => {
                                     <a href="https://trains.hailogics.com">
                                         <h1>
                                             <img
-                                                src={require("./images/site_logo.png")}
+                                                src={require("./images/training-logo.png")}
                                             />{" "}
                                             <span>The Next Generation of</span>{" "}
                                             AI LEADERS AND EDUCATORS
@@ -180,7 +180,8 @@ const Train = (props) => {
                                         <p className="text-white">
                                             A two-semester, for-credit course
                                             for high school students and
-                                            educators with weekly lecture + lab beginning in September 2022. 
+                                            educators with weekly lecture + lab
+                                            beginning in September 2022.
                                         </p>
                                         <p className="text-white">
                                             Highlights:
