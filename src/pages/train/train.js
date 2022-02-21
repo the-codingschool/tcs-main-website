@@ -27,7 +27,7 @@ const Train = (props) => {
                                             <img
                                                 src={require("./images/training-logo.png")}
                                             />{" "}
-                                            <span className="d-block">
+                                            <span>
                                                 The Next Generation of
                                             </span>{" "}
                                             <span className="text-brand-light d-inline-block">
