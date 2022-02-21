@@ -107,7 +107,7 @@ const programPost = [
     },
     {
         name: "2",
-        title: "One-of-a-kind virtual camps",
+        title: "One-of-a-kind camps",
         list: [
             { id: "1", listItem: "Emerging Technologies" },
             { id: "2", listItem: "Computer Music" },
@@ -139,7 +139,7 @@ const programPost = [
             { id: "2", listItem: "Led by MIT PhD " },
             {
                 id: "3",
-                listItem: "Learn qubits, superposition & teleportation",
+                listItem: "Industry Expert Q&As",
             },
             { id: "4", listItem: "Run code in a quantum computer!" },
         ],
@@ -151,10 +151,10 @@ const programPost = [
         name: "5",
         title: "Personalized Lessons",
         list: [
-            { id: "1", listItem: "1:1 and Code-with-Friends Lessons" },
+            { id: "1", listItem: "1:1 & Code-with-Friends Lessons" },
             { id: "2", listItem: "Learn at your own pace" },
-            { id: "3", listItem: "Specialized curriculum: AI, fintech" },
-            { id: "4", listItem: "cybersecurity, full stack, & more!" },
+            { id: "3", listItem: "Specialized curriculums" },
+            { id: "4", listItem: "Your own instructor" },
         ],
         img: "/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg",
         link: "https://codeconnects.org/personal-lessons.html",
