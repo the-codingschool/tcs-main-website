@@ -1,6 +1,6 @@
 import "./Involved.scss";
 import React, { useEffect, useState } from "react";
-
+import { toast, Toaster } from "react-hot-toast";
 function Involved() {
   const [firstName, setFirstName] = useState();
   const [lastName, setLastName] = useState();
@@ -30,9 +30,13 @@ function Involved() {
   useEffect(onLoad, []);
   const hanldeSubmit = async () => {
     // https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?subject=something?comments=comments?interests=something?email=something@gmail.com?firstName=me?lastName=you
-    const emailSend = await fetch(`
+    const emailSend = await toast.promise( fetch(`
     https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?firstName=${firstName}?lastName=${lastName}}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
-    `);
+    `),{
+      loading: "Processing",
+        error: "Error in sending emeil",
+        success: "Email send successfully...!",
+    })
     console.log({ emailSend });
   };
   return (
@@ -266,6 +270,7 @@ function Involved() {
           </div>
         </form>
       </div>
+      <Toaster position="top-center" />
     </div>
   );
 }
