@@ -97,7 +97,6 @@ var settings = {
         },
     ],
 };
-
 const programPost = [
     {
         name: "1",
@@ -247,26 +246,12 @@ function NextArrow(props) {
     const { className, onClick } = props;
     return <div className={`${className} up-next-item`} onClick={onClick} />;
 }
-
 function PrevArrow(props) {
     const { className, onClick } = props;
     return <div className={`${className} up-prev-item`} onClick={onClick} />;
 }
 
 function Home() {
-    // function onLoad() {
-    //     var ps = new window.ParticleSlider({
-    //         ptlGap: 0,
-    //         mouseForce: 1000,
-    //         monochrome: true,
-    //         color: '#86a1b2',
-    //         ptlSize: 1,
-    //     });
-    //     var ptl = new ps.Particle(ps);
-    //     ptl.ttl = 10;
-    // }
-
-    //useEffect(onLoad, [])
     return (
         <div id="Home">
             <div className="container">
@@ -366,7 +351,7 @@ function Home() {
             <StudentMapCounter></StudentMapCounter>
             <KeyInitiatives></KeyInitiatives>
 
-            <div className="brown-sec mb-70">
+            <div className="brown-sec mb-70" id="upcomingPrograms">
                 <div className="container">
                     <h2>Upcoming Summer Programs</h2>
                 </div>
