@@ -865,7 +865,7 @@ function AboutUs() {
                                         <img
                                             className="avatar Partner"
                                             src={
-                                                "/images/new assets/Sponsors _ Partners/EeroQ_Logo.jpeg" ||
+                                                "/images/new assets/Sponsors _ Partners/IBM.png" ||
                                                 "https://via.placeholder.com/80"
                                             }
                                             alt=""
@@ -885,7 +885,7 @@ function AboutUs() {
                                         <img
                                             className="avatar Partner"
                                             src={
-                                                "/images/new assets/Sponsors _ Partners/IBM.png" ||
+                                                "/images/new assets/Sponsors _ Partners/Q12.png" ||
                                                 "https://via.placeholder.com/80"
                                             }
                                             alt=""
@@ -919,7 +919,7 @@ function AboutUs() {
                                         <img
                                             className="avatar Partner"
                                             src={
-                                                "/images/new assets/Sponsors _ Partners/Q12.png" ||
+                                                "/images/new assets/Sponsors _ Partners/EeroQ_Logo.jpegIBM.pngQ12.png" ||
                                                 "https://via.placeholder.com/80"
                                             }
                                             alt=""
@@ -1029,16 +1029,6 @@ function AboutUs() {
                                     className="avatar"
                                     src={
                                         "/images/SchoolPartners/new/Copy of Elite Open School VS. 1.png" ||
-                                        "https://via.placeholder.com/80"
-                                    }
-                                    alt=""
-                                />
-                            </div>
-                            <div className="PartnerCard">
-                                <img
-                                    className="avatar"
-                                    src={
-                                        "/images/SchoolPartners/new/Copy of EOS_LOGO_H_BLUE (3).png" ||
                                         "https://via.placeholder.com/80"
                                     }
                                     alt=""
