@@ -796,9 +796,9 @@ function AboutUs() {
                         {/*<div className='title'>Our Sponsors and Partners</div>*/}
                         <div>
                             <font size="6.5">
-                                We’re Creating Social Equity
+                                We’re Creating Social Equity 
                             </font>
-                            <font size="5">
+                            <font size="4.5">
                                 There are already so many barriers to learning how to code -- money should not be one of them. At The Coding School we’re dedicated to ensuring all students have access to STEM education. That’s why we’re pushing the boundaries to offer free courses for 10,000+ student-cohorts and more. To join our mission, let’s connect.  
 
                             </font>
@@ -917,7 +917,7 @@ function AboutUs() {
                                         <img
                                             className="avatar Partner"
                                             src={
-                                                "/images/new assets/Sponsors _ Partners/EeroQ_Logo.jpegIBM.pngQ12.png" ||
+                                                "/images/new assets/Sponsors _ Partners/EeroQ_Logo.jpeg" ||
                                                 "https://via.placeholder.com/80"
                                             }
                                             alt=""
