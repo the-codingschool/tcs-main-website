@@ -5,6 +5,32 @@
     background-size: cover;
     margin-top: -210px;
     padding-top: 100px;
+    position: relative;
+    min-height: 600px;
+
+    h1 {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      text-transform: uppercase;
+      font-size: 70px;
+      text-align: center;
+      bottom: 50%;
+      font-family: 'Poppins';
+      font-weight: bold;
+      color: #356e8b;
+    }
+
+    @media only screen and (max-width: 1250px) {
+      h1 {
+        display: block;
+      }
+
+      canvas, .particle-slider {
+        display: none;
+      }
+    }
   }
 
   .involved-row {
@@ -78,6 +104,7 @@
   }
   .buttons {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
 
     .normal {
