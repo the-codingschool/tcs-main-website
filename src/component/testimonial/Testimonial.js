@@ -322,14 +322,6 @@ const featuredPost = [
     },
     {
         name: "1",
-        title: "MIT News",
-        img: "/images/mitnews_logo-color.png",
-        description:
-            "MIT researchers lead high school educational initiative on quantum computing",
-        link: "https://news.mit.edu/2020/mit-researchers-lead-high-school-quantum-computing-educational-initiative-0810",
-    },
-    {
-        name: "1",
         title: "ACE-Ed",
         img: "/images/american-council-on-education-ace-logo-vector.png",
         description:
