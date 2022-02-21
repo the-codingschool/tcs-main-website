@@ -201,10 +201,10 @@ const studentTestimonials = [
         image: "images/testimonials/testimonial-12th grade boy TX.jpg",
     },
     {
-        name: "12th grader, Australia",
+        name: "High school student, USA",
         testimony:
-            "This course is absolutely beautiful, it is pact with the introductory information into the world of quantum.",
-        image: "images/testimonials/E204400A-5814-44A9-BD56-723354D6F74F.jpeg",
+            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. [This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe in this community. ",
+        image: "images/testimonials/Sam - HS non-binary student.jpg",
     },
     {
         name: "12th grader, Arizona",
@@ -213,10 +213,10 @@ const studentTestimonials = [
         image: "images/testimonials/testimonial-12th grade girl AZ.jpg",
     },
     {
-        name: "High school student, USA",
+        name: "12th grader, Australia",
         testimony:
-            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. [This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe in this community. ",
-        image: "images/testimonials/Sam - HS non-binary student.jpg",
+            "This course is absolutely beautiful, it is pact with the introductory information into the world of quantum.",
+        image: "images/testimonials/E204400A-5814-44A9-BD56-723354D6F74F.jpeg",
     },
     {
         name: "High school student, Scotland",
