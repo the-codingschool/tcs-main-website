@@ -179,10 +179,9 @@ const instructorTestimonials = [
 
 const studentTestimonials = [
     {
-        name: "University student, Minnesota",
-        testimony:
-            "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg",
+        name: "11th grader, USA",
+        testimony: "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, I was mentored by a female. Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM inspired me to believe in myself and chase after more complex sciences.",
+        image: "images/testimonials/noora.jpg",
     },
     {
         name: "11th grader, New York",
@@ -191,10 +190,9 @@ const studentTestimonials = [
         image: "images/testimonials/michelle.jpg",
     },
     {
-        name: "12th grader, Australia",
-        testimony:
-            "This program has given me a thorough introductionary understanding of quantum computing and mainly how interesting and fun it is. If the correct opportunity arises in the future, I would be more than happy to join another course/study about quantum computing agian. It would not only be a missed opportunity if I didn't further my knowledge of quantum computing, but also a missed opportunity to enjoy a very fun subject.",
-        image: "images/testimonials/faraz.JPG",
+        name: "High school student, Kenya",
+        testimony: " I will forever be grateful to Qubit by Qubit for giving me a chance to take part in this program, and finally revolutionize African women and their achievements in the scientific and technological community.",
+        image: "images/testimonials/allsmiles._Love_and_smiles. (1).jpg",
     },
     {
         name: "10th grader, Australia",
@@ -209,10 +207,10 @@ const studentTestimonials = [
         image: "images/testimonials/E204400A-5814-44A9-BD56-723354D6F74F.jpeg",
     },
     {
-        name: "University student, Georgia",
+        name: "12th grader, Arizona",
         testimony:
-            "The instructors were passionate, knowledgeable and really cared about helping students understand the material. I loved meeting other students excited about the possibilities of quantum computing, and I've learned many topics that give me ideas about what to learn next! Really grateful to Qubit by Qubit for the experience.",
-        image: "images/testimonials/20220106_180858.jpg",
+            "This camp has honestly been life-changing and eye-opening! I am looking forward to exploring quantum for the rest of my life.",
+        image: "images/testimonials/testimonial-12th grade girl AZ.jpg",
     },
     {
         name: "University student, Virginia",
@@ -221,10 +219,10 @@ const studentTestimonials = [
         image: "images/testimonials/Hasnain_Zane.jpg",
     },
     {
-        name: "University student, Florida",
+        name: "High school student, Scotland",
         testimony:
-            "I have always been passionate about the intersections of business and technology. Qubit by Qubit has opened my eyes on the current and future applications of quantum computing that will push the boundaries of the industries that we know today.",
-        image: "images/testimonials/IMG_4459-min 3.PNG",
+            "I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free. This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
+        image: "images/testimonials/testimonial photo-Scotland boy.png",
     },
     {
         name: "University student, England",
@@ -245,10 +243,9 @@ const studentTestimonials = [
         image: "images/testimonials/IMG-6463 2.jpg",
     },
     {
-        name: "12th grader, Australia",
-        testimony:
-            "Prior to being a part of the course I planned to study quantum engineering in university based on my general understanding of quantum from personal research. Now, having actually gained a better understanding of the fundamentals of quantum computing, I find myself even more curious and excited to learn more!",
-        image: "images/testimonials/IMG_4503.jpg",
+        name: "11th grader, Turkey",
+        testimony: "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. It’s not a 'he thing.' It’s a smart people thing.",
+        image: "images/testimonials/Malak Elghriani.jpg",
     },
     {
         name: "11th grader, Pennsylvania",

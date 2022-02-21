@@ -1289,7 +1289,7 @@ function AboutUs() {
                             </div>
                         </div>
                     </Marquee>
-                    <Marquee direction="right" speed="50">
+                    {/*<Marquee direction="right" speed="50">
                         <div className="d-flex  mt-50 mb-50  justify-content-center">
                             <div className="PartnerCard">
                                 <img
@@ -1542,7 +1542,7 @@ function AboutUs() {
                                 />
                             </div>
                         </div>
-                    </Marquee>
+                    </Marquee> */}
                 </div>
             </div>
         </div>
