@@ -94,19 +94,6 @@ var settings = {
 const programPost = [
     {
         name: "1",
-        title: "One-of-a-kind virtual camps",
-        list: [
-            { id: "1", listItem: "Emerging Technologies" },
-            { id: "2", listItem: "Computer Music" },
-            { id: "3", listItem: "Creative Code" },
-            { id: "4", listItem: "AI/Big Data" },
-        ],
-        img: "/images/k-12-emerging-technologies.jpg",
-        link: "https://codeconnects.org/summercamps22.html",
-        isExternal: true,
-    },
-    {
-        name: "2",
         title: "Research Opportunity",
         list: [
             { id: "1", listItem: "Columbia University professors" },
@@ -116,6 +103,19 @@ const programPost = [
         ],
         img: "/images/k-12-research-opportunity.jpg",
         link: "https://codeconnects.org/research.html",
+        isExternal: true,
+    },
+    {
+        name: "2",
+        title: "One-of-a-kind virtual camps",
+        list: [
+            { id: "1", listItem: "Emerging Technologies" },
+            { id: "2", listItem: "Computer Music" },
+            { id: "3", listItem: "Creative Code" },
+            { id: "4", listItem: "AI/Big Data" },
+        ],
+        img: "/images/k-12-emerging-technologies.jpg",
+        link: "https://codeconnects.org/summercamps22.html",
         isExternal: true,
     },
     {
@@ -143,7 +143,7 @@ const programPost = [
             },
             { id: "4", listItem: "Run code in a quantum computer!" },
         ],
-        img: "/images/upcoming-programs-4.jpg",
+        img: "/images/TA w circuit board in lab.png",
         link: "https://www.qubitbyqubit.org/hs-college-camps",
         isExternal: true,
     },
@@ -156,7 +156,7 @@ const programPost = [
             { id: "3", listItem: "Specialized curriculum: AI, fintech" },
             { id: "4", listItem: "cybersecurity, full stack, & more!" },
         ],
-        img: "/images/upcoming-programs-4.jpg",
+        img: "/images/996F0475-AC41-418B-BF94-0703D5240BA3 (2).jpg",
         link: "https://codeconnects.org/personal-lessons.html",
         isExternal: true,
     },
