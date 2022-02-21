@@ -607,17 +607,6 @@ a#hamburg i {
     text-transform: uppercase;
     margin: auto;
 }
-.banner .headline h1 span {
-    display: block;
-    background: #005d92;
-    background: -webkit-linear-gradient(to right, #005d92 0%, #38b6ff 100%);
-    background: -moz-linear-gradient(to right, #005d92 0%, #38b6ff 100%);
-    background: linear-gradient(to right, #005d92 0%, #38b6ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .banner .desc p {
     font-size: 20px;
@@ -1361,7 +1350,8 @@ footer .logo img {
     color: #fff;
 }
 .banner .headline h1 img {
-    width: 20%;
+    max-width: 300px;
+    width: 100%;
 }
 .section_3 ul.sponsor li:nth-child(2) img {
     opacity: 0.5;

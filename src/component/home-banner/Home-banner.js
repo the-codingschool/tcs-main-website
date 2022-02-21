@@ -62,9 +62,12 @@ function HomeBanner() {
                                 every stage: K-16, educators, and the workforce{" "}
                             </p>
                             <div className="d-flex mb-50">
-                                <button className="btn btn-gradient-2">
+                                <a
+                                    href="#upcomingPrograms"
+                                    className="btn btn-gradient-2"
+                                >
                                     Learn More
-                                </button>
+                                </a>
                                 <a
                                     href="https://codeconnects.org/register.html"
                                     className="btn btn-outline"
