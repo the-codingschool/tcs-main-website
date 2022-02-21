@@ -1,9 +1,18 @@
 @import "../../assets/css/global.scss";
 
 #AboutUs {
+    
+        
+    @media only screen and (max-width: 1000px) {
+        .img-header-right {
+            display: none !important;
+        }      
+    }
+
     // max-width: 1400px;
     width: 100vw;
     margin: auto;
+
     .about-block-image {
         background: url("../../../public/images/about-us-splash-bg.jpg") center
             center;
@@ -14,6 +23,7 @@
 
         position: relative;
         min-height: 600px;
+
 
         h1 {
             display: none;
@@ -29,6 +39,7 @@
             font-weight: bold;
             color: #356e8b;
         }
+
 
         @media only screen and (max-width: 1250px) {
             h1 {
@@ -275,7 +286,7 @@
     .professional-block {
         .block {
             position: relative;
-            max-width: 1200px;
+            // max-width: 1200px;
             margin: auto;
             margin-top: 80px;
             background: #ededed;
@@ -339,6 +350,11 @@
 
 .founder-vertical-text {
     left: -7%;
+
+    
+    @media only screen and (max-width: 1100px) {
+        display: none;
+    }
 }
 
 .founder-photo {

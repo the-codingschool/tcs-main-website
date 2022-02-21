@@ -40,7 +40,7 @@ function AboutUs() {
                 <div className="position-relative">
                     <Fade top>
                         <img
-                            className="position-absolute"
+                            className="position-absolute img-header-right"
                             style={{ top: "-11%", right: "-4%", width: "55px" }}
                             src="/images/about.png"
                             alt=""
@@ -78,7 +78,9 @@ function AboutUs() {
                         </Fade>
                     </div>
                 </div>
+              </div>
 
+              <div className="container">
                 <div className="row align-items-center our-founder-block position-relative">
                     <Fade top>
                         <img
@@ -137,6 +139,7 @@ function AboutUs() {
                         </Fade>
                     </div>
                 </div>
+              </div>
 
                 <div className="mt-80 our-leadership-block background1">
                     <img
@@ -522,10 +525,15 @@ function AboutUs() {
                         alt=""
                     />
                     <div className="block">
-                        <div className="background">
-                            Young Professional Advisory Board
+                        <div className="container">
+                          <div className="background">
+                              Young Professional Advisory Board
+                          </div>
                         </div>
+                        
+                        <div className="container">
                         <div className="row px-25 text-center justify-content-center mt-40">
+                          
                             <div className="col-md-2">
                                 <img
                                     className="avatar Young"
@@ -665,7 +673,7 @@ function AboutUs() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row px-25 text-center justify-content-center mt-40">
+                        <div className="row text-center justify-content-center mt-40" style={{padding: "auto 80px"}}>
                             <div className="col-md-2">
                                 <img
                                     className="avatar Young"
@@ -781,9 +789,9 @@ function AboutUs() {
                                     />
                                 </div>
                             </div>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
 
             <div className="mt-80 our-leadership-block background2">
@@ -815,7 +823,7 @@ function AboutUs() {
             <div className="mt-80 position-relative our-partners-block ">
                 <Fade top>
                     <img
-                        className="position-absolute"
+                        className="position-absolute img-header-right"
                         style={{
                             top: "15%",
                             right: "5%  ",
@@ -989,6 +997,7 @@ function AboutUs() {
                 </div>
             </div>
 
+          <div className="container">
             <div
                 className="mt-80 quantum-block position-relative as-school-partners"
                 id="school-partners"
@@ -1544,6 +1553,7 @@ function AboutUs() {
                         </div>
                     </Marquee> */}
                 </div>
+            </div>
             </div>
         </div>
     );

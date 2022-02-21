@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 991px) {
   .dropDown {
-    position: fixed;
+    position: absolute;
     z-index: 100 !important;
     background-color: white;
   }
