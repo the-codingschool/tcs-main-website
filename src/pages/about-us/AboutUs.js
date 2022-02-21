@@ -796,13 +796,11 @@ function AboutUs() {
                         {/*<div className='title'>Our Sponsors and Partners</div>*/}
                         <div>
                             <font size="6.5">
-                                “Their program was stellar, with some of the
-                                best student engagement I have ever encountered
-                                in my career.”
+                                We’re Creating Social Equity
                             </font>
-                            <font size="4.5">
-                                -Ben Isecke, CSTA NJ President and Computer
-                                Science Teacher
+                            <font size="5">
+                                There are already so many barriers to learning how to code -- money should not be one of them. At The Coding School we’re dedicated to ensuring all students have access to STEM education. That’s why we’re pushing the boundaries to offer free courses for 10,000+ student-cohorts and more. To join our mission, let’s connect.  
+
                             </font>
                         </div>
                     </div>
