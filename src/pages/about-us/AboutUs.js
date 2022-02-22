@@ -112,7 +112,7 @@ function AboutUs() {
                             </div>
                             <div>
                                 <font size="4">
-                                    <b>Kiera Peltz</b> is visionary on a mission
+                                    <b>Kiera Peltz</b> is on a mission
                                     to prepare the next generation for the
                                     future of work. She began learning how to
                                     code while working at the White House on the
@@ -127,8 +127,8 @@ function AboutUs() {
                                     access to high quality, accessible technical
                                     training. She is the lead PI on a 3-year
                                     grant from the U.S. Department of Defense
-                                    NDEP and is on the advisory board for
-                                    NSF-funded QuSTEAM. She graduated magna cum
+                                    NDEP and is on the advisory board for the
+                                    NSF-funded QuSTEAM. She graduated summa cum
                                     laude from Brown University and holds two
                                     master degrees from the University of
                                     Cambridge, where she graduated with
@@ -177,7 +177,7 @@ function AboutUs() {
                                     }
                                     alt=""
                                 />
-                                <div>Eva Manolis II</div>
+                                <div>Eva Manolis</div>
                                 <div>Co Founder of ShutterFly</div>
                             </div>
                             <div className="col-sm-3 col-md-4 col-lg-3 text-center">
@@ -283,7 +283,7 @@ function AboutUs() {
                                 <div>James D. Whitfield</div>
                                 <div>
                                     {" "}
-                                    Assistant Professor of Physics,Dartmouth
+                                    Assistant Professor of Physics, Dartmouth
                                     University{" "}
                                 </div>
                             </div>
@@ -548,7 +548,7 @@ function AboutUs() {
                                     {/* <div>JP Morgan</div> */}
                                     <img
                                         src={
-                                            "/images/new assets/companies/download1.png" ||
+                                            "/images/new assets/companies/JP Morgan logo.png" ||
                                             "https://via.placeholder.com/20"
                                         }
                                         className="mt-10"
@@ -800,7 +800,7 @@ function AboutUs() {
                         {/*<div className='title'>Our Sponsors and Partners</div>*/}
                         <div>
                             <font size="6.5" className="d-block">
-                                “We’re Creating Social Equity”
+                                We’re Creating Social Equity
                             </font>
                             <font size="4.5">
                                 There are already so many barriers to learning
@@ -1041,16 +1041,6 @@ function AboutUs() {
                                     className="avatar"
                                     src={
                                         "/images/SchoolPartners/new/Copy of Elite Open School VS. 1.png" ||
-                                        "https://via.placeholder.com/80"
-                                    }
-                                    alt=""
-                                />
-                            </div>
-                            <div className="PartnerCard">
-                                <img
-                                    className="avatar"
-                                    src={
-                                        "/images/SchoolPartners/new/Copy of EOS_LOGO_H_BLUE (3).png" ||
                                         "https://via.placeholder.com/80"
                                     }
                                     alt=""

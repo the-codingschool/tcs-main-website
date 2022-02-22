@@ -720,6 +720,7 @@ function Testimonial() {
                                         <p>{item["description"]}</p>
                                         <a
                                             className="link p-0"
+                                            target="_blank"
                                             href={item["link"]}
                                         >
                                             Read More

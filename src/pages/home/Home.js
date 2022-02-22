@@ -143,7 +143,7 @@ const programPost = [
         name: "4",
         title: "Artificial Intelligence",
         list: [
-            { id: "1", listItem: "For-credit course" },
+            { id: "1", listItem: "For-credit course funded by the DoD" },
             { id: "2", listItem: "Academic year 2022 - 2023" },
             { id: "3", listItem: "In-depth skills in AI/ML" },
             { id: "4", listItem: "Industry expert Q&A’s" },
@@ -174,7 +174,7 @@ const programPostUniversity = [
             { id: "1", listItem: "Learn real quantum skills" },
             { id: "2", listItem: "Run code in a quantum computer" },
             { id: "3", listItem: "Year-long course & winter intensives" },
-            { id: "4", listItem: "Conduct Quantum Research & Internships" },
+            { id: "4", listItem: "Conduct Quantum Research" },
             { id: "5", listItem: "Corporate Tech Internships" },
             { id: "6", listItem: "Industry expert Q&As" },
         ],
@@ -366,8 +366,7 @@ function Home() {
                             aria-controls="k2-pro2"
                             aria-selected="false"
                         >
-                            <img src="images/k2-2.png" alt="" />
-                            <h6 className="tab-title">University Programs</h6>
+                            <h6 className="tab-title">University</h6>
                         </a>
                         <a
                             id="k2-pro-tab"
@@ -378,7 +377,6 @@ function Home() {
                             aria-selected="true"
                             className="active"
                         >
-                            <img src="images/k2-1.png" alt="" />
                             <h6 className="tab-title">K-12</h6>
                         </a>
                         <a
@@ -389,7 +387,6 @@ function Home() {
                             aria-controls="k2-pro3"
                             aria-selected="false"
                         >
-                            <img src="images/k2-3.png" alt="" />
                             <h6 className="tab-title">Educators</h6>
                         </a>
                     </div>

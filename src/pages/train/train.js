@@ -217,7 +217,7 @@ const Train = (props) => {
                                     data-aos-duration="600"
                                 >
                                     <div className="tagline">
-                                        <h3>Summer Intensive for Educators</h3>
+                                        <h3>Summer Intensive PD for Educators</h3>
                                     </div>
                                     <div className="desc">
                                         <p className="text-white">
@@ -384,7 +384,7 @@ const Train = (props) => {
                                 >
                                     <div className="headline">
                                         <h4>
-                                            Professional Development For
+                                            Professional Development Course For
                                             Educators
                                         </h4>
                                     </div>
