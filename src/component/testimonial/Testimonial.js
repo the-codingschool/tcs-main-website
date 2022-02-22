@@ -203,16 +203,16 @@ const studentTestimonials = [
         image: "images/testimonials/testimonial-12th grade boy TX.jpg",
     },
     {
-        name: "High school student, USA",
-        testimony:
-            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. [This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe in this community. ",
-        image: "images/testimonials/Sam - HS non-binary student.jpg",
-    },
-    {
         name: "12th grader, Arizona",
         testimony:
             "This camp has honestly been life-changing and eye-opening! I am looking forward to exploring quantum for the rest of my life.",
         image: "images/testimonials/testimonial-12th grade girl AZ.jpg",
+    },
+    {
+        name: "High school student, USA",
+        testimony:
+            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. [This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe in this community. ",
+        image: "images/testimonials/Sam - HS non-binary student.jpg",
     },
     {
         name: "12th grader, Australia",
@@ -224,7 +224,7 @@ const studentTestimonials = [
         name: "High school student, Scotland",
         testimony:
             "I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free. This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
-        image: "images/testimonials/testimonial photo-Scotland boy.png",
+        image: "images/testimonials/testimonial photo-Scotland boy (1).png",
     },
     {
         name: "11th grader, USA",
