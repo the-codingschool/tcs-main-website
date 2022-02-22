@@ -34,7 +34,7 @@ function Involved() {
     https://hooks.zapier.com/hooks/catch/11928810/brpz2du?to=${email}?firstName=${firstName}?lastName=${lastName}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
     `))
     const emailSend = await toast.promise( fetch(`
-    https://hooks.zapier.com/hooks/catch/11928810/brpz2du?to=${email}?firstName=${firstName}?lastName=${lastName}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
+    https://hooks.zapier.com/hooks/catch/11928810/brpz2du?to=${email}&firstName=${firstName}&lastName=${lastName}&interests=${interest}&email=${email}&interest=${interest}&partner=${partner}&organization=${organization}&title=${title}&comment=${comment}&phone=${phone}&answer=${answer}
     `),{
       loading: "Processing",
         error: "Error in sending form data",
