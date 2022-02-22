@@ -178,7 +178,7 @@ const programPostUniversity = [
             { id: "5", listItem: "Corporate Tech Internships" },
             { id: "6", listItem: "Industry expert Q&As" },
         ],
-        img: "/images/upcoming-programs-5.jpg",
+        img: "/images/girl w Q computer-lab.png",
         link: "https://www.qubitbyqubit.org/programs",
         isExternal: true,
     },
