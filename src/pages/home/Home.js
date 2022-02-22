@@ -116,7 +116,7 @@ const programPost = [
         title: "Virtual Summer Camps",
         list: [
             { id: "1", listItem: "Skills in emerging technologies" },
-            { id: "2", listItem: "AI, Cybersecurity, Music + Tech, Big Data and more" },
+            { id: "2", listItem: "AI, Cybersecurity, Music + Tech, Big Data, Pre-AP CS and more!" },
             { id: "3", listItem: "Taught by tech professionals" },
         ],
         img: "/images/k-12-emerging-technologies.jpg",

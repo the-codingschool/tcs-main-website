@@ -32,15 +32,15 @@ function Topnav() {
             active: false,
         },
         {
+            label: "Get involved",
+            link: "/involved",
+            active: false,
+        },
+        {
             label: "Donate",
             link: "https://codeconnects.org/donate.html",
             active: false,
             external: true,
-        },
-        {
-            label: "Get involved",
-            link: "/involved",
-            active: false,
         },
     ];
 
