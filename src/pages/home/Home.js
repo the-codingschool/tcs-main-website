@@ -144,7 +144,7 @@ const programPost = [
         title: "Artificial Intelligence",
         list: [
             { id: "1", listItem: "For-credit course" },
-            { id: "2", listItem: "Academic year 2022 - 23" },
+            { id: "2", listItem: "Academic year 2022-23" },
             { id: "3", listItem: "In-depth skills in AI/ML" },
             { id: "4", listItem: "Funded by the DoD" },
         ],
