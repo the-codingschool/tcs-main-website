@@ -113,7 +113,7 @@ const programPost = [
     },
     {
         name: "2",
-        title: "One-of-a-kind camps",
+        title: "Summer Camps",
         list: [
             { id: "1", listItem: "Emerging Technologies" },
             { id: "2", listItem: "Computer Music" },
@@ -128,11 +128,11 @@ const programPost = [
         name: "3",
         title: "Quantum Computing",
         list: [
-            { id: "1", listItem: "Learn real quantum skills" },
-            { id: "2", listItem: "Led by MIT PhD " },
+            { id: "1", listItem: "Summer camps & year-long course" },
+            { id: "2", listItem: "Learn real quantum skills" },
             {
                 id: "3",
-                listItem: "Industry Expert Q&As",
+                listItem: "Led by MIT PhD",
             },
             { id: "4", listItem: "Code in a quantum computer!" },
         ],
@@ -145,8 +145,8 @@ const programPost = [
         title: "Artificial Intelligence",
         list: [
             { id: "1", listItem: "For-credit course" },
-            { id: "2", listItem: "In-depth skills in AI/ML" },
-            { id: "3", listItem: "National lab tours" },
+            { id: "2", listItem: "Academic year 2022 - 2023" },
+            { id: "3", listItem: "In-depth skills in AI/ML" },
             { id: "4", listItem: "Industry expert Q&A’s" },
         ],
         img: "/images/upcoming-programs-1.jpg",
