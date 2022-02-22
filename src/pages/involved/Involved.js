@@ -30,6 +30,7 @@ function Involved() {
   useEffect(onLoad, []);
   const hanldeSubmit = async () => {
     // https://hooks.zapier.com/hooks/catch/11928810/brpz2du/?to=mohsinalisoomro23@gmail.com?subject=something?comments=comments?interests=something?email=something@gmail.com?firstName=me?lastName=you
+    console.log(`https://hooks.zapier.com/hooks/catch/11928810/brpz2du?to=${email}?firstName=${firstName}?lastName=${lastName}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}`)
     const emailSend = await toast.promise( fetch(`
     https://hooks.zapier.com/hooks/catch/11928810/brpz2du?to=${email}?firstName=${firstName}?lastName=${lastName}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
     `),{
