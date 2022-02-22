@@ -115,8 +115,8 @@ const programPost = [
         name: "2",
         title: "Virtual Summer Camps",
         list: [
-            { id: "1", listItem: "Real skills in emerging technologies" },
-            { id: "2", listItem: "AI, Cybersecurity and more" },
+            { id: "1", listItem: "Skills in emerging technologies" },
+            { id: "2", listItem: "AI, Cybersecurity, Music + Tech, Big Data and more" },
             { id: "3", listItem: "Taught by tech professionals" },
         ],
         img: "/images/k-12-emerging-technologies.jpg",
@@ -127,7 +127,7 @@ const programPost = [
         name: "3",
         title: "Quantum Computing",
         list: [
-            { id: "1", listItem: "Summer camps & year-long course" },
+            { id: "1", listItem: "Camps & year-long course" },
             { id: "2", listItem: "Learn real quantum skills" },
             {
                 id: "3",
@@ -135,7 +135,7 @@ const programPost = [
             },
             { id: "4", listItem: "Code in a quantum computer!" },
         ],
-        img: "/images/TA w circuit board in lab.png",
+        img: "/images/upcoming-programs-5.jpg",
         link: "https://www.qubitbyqubit.org/hs-college-camps",
         isExternal: true,
     },
@@ -207,7 +207,6 @@ const programPostEducators = [
             { id: "4", listItem: "Learn quantum skills" },
         ],
         img: "/images/Alta_Google Quantum Computer3438.jpg",
-        img: "/images/upcoming-programs-3.jpg",
         link: "https://www.qubitbyqubit.org/",
         isExternal: true,
     },
