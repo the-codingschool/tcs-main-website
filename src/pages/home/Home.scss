@@ -151,10 +151,22 @@
                 color: #151515;
                 font-size: 20px;
                 font-weight: 700;
-                line-height: 33px;
+                line-height: 26px;
                 text-align: center;
                 @media (min-width: 1200px) and (max-width: 1440px) {
                     font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+            h5 {
+                color: #151515;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22px;
+                text-align: center;
+                @media (min-width: 1200px) and (max-width: 1440px) {
+                    font-size: 14px;
+                    line-height: 20px;
                 }
             }
             ul {
@@ -166,6 +178,7 @@
                     font-size: 14px;
                     line-height: 150%;
                     color: #151515;
+                    display: flex;
                     &:not(:last-child) {
                         margin-bottom: 5px;
                     }

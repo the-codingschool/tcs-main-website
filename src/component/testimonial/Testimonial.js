@@ -178,7 +178,6 @@ const instructorTestimonials = [
 ];
 
 const studentTestimonials = [
-    
     {
         name: "University student, England",
         testimony:
@@ -193,7 +192,8 @@ const studentTestimonials = [
     },
     {
         name: "High school student, Kenya",
-        testimony: " I will forever be grateful to Qubit by Qubit for giving me a chance to take part in this program, and finally revolutionize African women and their achievements in the scientific and technological community.",
+        testimony:
+            " I will forever be grateful to Qubit by Qubit for giving me a chance to take part in this program, and finally revolutionize African women and their achievements in the scientific and technological community.",
         image: "images/testimonials/allsmiles._Love_and_smiles. (1).jpg",
     },
     {
@@ -228,7 +228,8 @@ const studentTestimonials = [
     },
     {
         name: "11th grader, USA",
-        testimony: "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, I was mentored by a female. Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM inspired me to believe in myself and chase after more complex sciences.",
+        testimony:
+            "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, I was mentored by a female. Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM inspired me to believe in myself and chase after more complex sciences.",
         image: "images/testimonials/noora.jpg",
     },
     {
@@ -245,7 +246,8 @@ const studentTestimonials = [
     },
     {
         name: "11th grader, Turkey",
-        testimony: "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. It’s not a 'he thing.' It’s a smart people thing.",
+        testimony:
+            "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. It’s not a 'he thing.' It’s a smart people thing.",
         image: "images/testimonials/Malak Elghriani.jpg",
     },
     {
@@ -491,6 +493,10 @@ function Testimonial() {
                 }}
             >
                 <div className="container">
+                    <img
+                        className="testimonials-quote"
+                        src="images/quotes.png"
+                    />
                     <div class="tab-content">
                         <div id="studenst" class="tab-pane fade in active show">
                             <div className="go-to-slide">

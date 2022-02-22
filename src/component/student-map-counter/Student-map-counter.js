@@ -15,7 +15,9 @@ function StudentMapCounter() {
                     <h3 className="mb-0 text-center">
                         We’re&nbsp;<span> inspiring</span> &nbsp;the next
                         generation of global&nbsp;{" "}
-                        <span className="text-gold">STEM leaders</span>
+                        <span className="text-blue-gold-gradient">
+                            STEM leaders
+                        </span>
                     </h3>
                 </div>
             </div>

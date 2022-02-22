@@ -114,9 +114,14 @@ const programPost = [
     {
         name: "2",
         title: "Virtual Summer Camps",
+        subTitle: "Grades 6 - 12",
         list: [
             { id: "1", listItem: "Skills in emerging technologies" },
-            { id: "2", listItem: "AI, Cybersecurity, Music + Tech, Big Data, Pre-AP CS and more!" },
+            {
+                id: "2",
+                listItem:
+                    "AI, Cybersecurity, Music + Tech, Big Data, Pre-AP CS and more!",
+            },
             { id: "3", listItem: "Taught by tech professionals" },
         ],
         img: "/images/k-12-emerging-technologies.jpg",
@@ -126,6 +131,7 @@ const programPost = [
     {
         name: "3",
         title: "Quantum Computing",
+        subTitle: "Grades 7 - 12",
         list: [
             { id: "1", listItem: "Camps & year-long course" },
             { id: "2", listItem: "Learn real quantum skills" },
@@ -142,6 +148,7 @@ const programPost = [
     {
         name: "4",
         title: "Artificial Intelligence",
+        subTitle: "Grades 9 - 12",
         list: [
             { id: "1", listItem: "For-credit course" },
             { id: "2", listItem: "Academic year 2022-23" },
@@ -155,6 +162,7 @@ const programPost = [
     {
         name: "5",
         title: "Personalized Lessons",
+        subTitle: "Grades 3 - 12",
         list: [
             { id: "1", listItem: "1:1 & Code-with-Friends Lessons" },
             { id: "2", listItem: "Learn at your own pace" },
@@ -417,6 +425,7 @@ function Home() {
                                                 </div>
                                                 <div className="programPost-desc">
                                                     <h4>{item["title"]}</h4>
+                                                    <h5>{item["subTitle"]}</h5>
                                                     <ul>
                                                         {item.list.map((i) => {
                                                             return (
@@ -526,7 +535,7 @@ function Home() {
                                         return (
                                             <Fade bottom>
                                                 <div
-                                                    className={`col-12 col-md-6 col-lg-4 col-xl-3 ${
+                                                    className={`col-12 col-md-6 col-lg-5 ${
                                                         index === arr.length - 1
                                                             ? ""
                                                             : "mb-30 mb-md-0"

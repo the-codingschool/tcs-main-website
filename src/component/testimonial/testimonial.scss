@@ -37,11 +37,16 @@
     .testimonia-sec-bg {
         background-repeat: no-repeat;
         background-size: contain;
-        padding-top: 25rem;
+        padding-top: 23rem;
         background-position: center bottom 20%;
         padding-bottom: 3rem;
         margin-bottom: 3rem;
-
+        .testimonials-quote {
+            display: block;
+            max-width: 100px;
+            width: 100%;
+            margin: 0 auto 30px;
+        }
         .tab-content {
             display: block;
             position: relative;
@@ -106,8 +111,17 @@
             display: block;
         }
     }
-    .slick-arrow:before {
-        color: #346e8a;
+    .slick-arrow {
+        z-index: 9999;
+        &:before {
+            color: #346e8a;
+        }
+        &.slick-prev {
+            left: 0;
+        }
+        &.slick-next {
+            right: 0;
+        }
     }
 }
 
@@ -163,8 +177,6 @@
     padding: 23rem 0 1rem;
     margin-top: -289px;
     display: block;
-    h3 {
-    }
 }
 .featured-logo {
     padding: 40px 0px 0px;
@@ -378,12 +390,14 @@
             border-radius: 50%;
             filter: grayscale(1);
             transform: scale(1);
+            position: relative;
             transition: 0.3s ease all;
         }
         &.active {
             img {
                 filter: grayscale(0);
-                transform: scale(1.2);
+                transform: scale(1.8);
+                z-index: 2;
             }
         }
         &:nth-child(1) {
