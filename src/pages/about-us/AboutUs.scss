@@ -80,9 +80,12 @@
 
     .text-detail {
         max-width: 680px;
-        text-align: justify;
-        text-align-last: center;
+        text-align: center;
         margin: auto;
+        @media (min-width: 768px) {
+            text-align: justify;
+            text-align-last: center;
+        }
     }
 
     .our-founder-block {
@@ -160,7 +163,7 @@
             background: url("../../../public/images/about-us-testimonial.jpg")
                 center center;
             background-size: cover;
-            height: 280px;
+            min-height: 280px;
             color: white;
             display: flex;
             align-items: center;
@@ -173,7 +176,7 @@
                 left: 0;
                 position: absolute;
                 background-color: $btn;
-                opacity: 0.7;
+                opacity: 0.8;
             }
             .detail-block {
                 max-width: 1100px;
@@ -288,17 +291,22 @@
             background: #ededed;
             padding-bottom: 30px;
             .background {
-                background: url("../../../public/images/Advisory Board.png")
+                background: url("../../../public/images/advisory-board.jpg")
                     center/cover;
+                background-repeat: no-repeat;
                 box-shadow: 0px 26px 25px -20px rgba(0, 0, 0, 0.29);
-                padding: 60px 0;
-                height: 300px;
+                padding: 15px;
+                min-height: 300px;
                 margin-top: 200px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 position: relative;
+                @media (max-width: 991px) {
+                    margin-top: 0;
+                    min-height: 200px;
+                }
                 .yab-text {
                     font-size: 26px;
                     font-weight: 600;
@@ -306,14 +314,15 @@
                     text-align: center;
                     position: relative;
                     z-index: 2;
+                    margin-bottom: 0;
                 }
                 &:before {
                     content: "";
                     position: absolute;
-                    width: calc(100% - 48px);
+                    width: 100%;
                     height: 100%;
                     top: 0;
-                    left: 24px;
+                    left: 0;
                     background-color: $btn;
                     opacity: 0.6;
                 }

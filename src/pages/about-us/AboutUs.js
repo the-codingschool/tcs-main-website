@@ -164,11 +164,11 @@ function AboutUs() {
                 />
 
                 <div className="detail-block">
-                    <div className="title text-center">
+                    <div className="title text-center mb-40">
                         <h1>Board & Advisors</h1>
                     </div>
-                    <div className="row mt-40">
-                        <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3 text-center w-100">
+                    <div className="row">
+                        <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3 text-center w-100 mb-20">
                             <img
                                 className="avatar Advisors "
                                 src={
@@ -180,7 +180,7 @@ function AboutUs() {
                             <div>Eva Manolis</div>
                             <div>Co Founder of ShutterFly</div>
                         </div>
-                        <div className="col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className="col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  advisor-pamit"
                                 src={
@@ -192,7 +192,7 @@ function AboutUs() {
                             <div>Pamit Surana</div>
                             <div>Managing Director at Teneo</div>
                         </div>
-                        <div className="col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className="col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors "
                                 src={
@@ -206,7 +206,7 @@ function AboutUs() {
                                 Co-chair of USC STEM Education Consortium{" "}
                             </div>
                         </div>
-                        <div className="col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className="col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors "
                                 src={
@@ -222,9 +222,7 @@ function AboutUs() {
                                 Michigan{" "}
                             </div>
                         </div>
-                    </div>
-                    <div className="row mt-20">
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -240,7 +238,7 @@ function AboutUs() {
                                 USC{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -255,7 +253,7 @@ function AboutUs() {
                                 Director, UT Austin's Quantum Information Center{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -270,7 +268,7 @@ function AboutUs() {
                                 Assistant Professor of ECE, UCLA QuBiT Lab{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -286,9 +284,7 @@ function AboutUs() {
                                 University{" "}
                             </div>
                         </div>
-                    </div>
-                    <div className="row mt-20">
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -304,7 +300,7 @@ function AboutUs() {
                                 Quantum Computing{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -320,7 +316,7 @@ function AboutUs() {
                                 Information and Matter{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -336,7 +332,7 @@ function AboutUs() {
                                 Center{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -351,9 +347,7 @@ function AboutUs() {
                                 Director, MIT's Center for Quantum Engineering{" "}
                             </div>
                         </div>
-                    </div>
-                    <div className="row mt-20">
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -368,7 +362,7 @@ function AboutUs() {
                                 Command Chief, Air Force Research Laboratory{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -384,7 +378,7 @@ function AboutUs() {
                                 AAAI{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -400,7 +394,7 @@ function AboutUs() {
                                 and Chair of AI4K12{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -412,9 +406,7 @@ function AboutUs() {
                             <div>Dr. Polina Golland</div>
                             <div> MIT, CS & EE Professor at MIT </div>
                         </div>
-                    </div>
-                    <div className="row mt-20">
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -429,7 +421,7 @@ function AboutUs() {
                                 Data Science at West Point{" "}
                             </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -441,7 +433,7 @@ function AboutUs() {
                             <div>Dr. Hal Abelson</div>
                             <div> Computer Science Professor at MIT </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -453,7 +445,7 @@ function AboutUs() {
                             <div>Jeremy Howard</div>
                             <div> Co-Founder at fast.ai </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -469,9 +461,7 @@ function AboutUs() {
                                 Initiatives & Professor at USC{" "}
                             </div>
                         </div>
-                    </div>
-                    <div className="row mt-20 justify-content-center">
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
@@ -483,7 +473,7 @@ function AboutUs() {
                             <div>Andrew Oliver</div>
                             <div> Cloud and AI SWE at Microsoft </div>
                         </div>
-                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center">
+                        <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                             <img
                                 className="avatar Advisors  "
                                 src={
