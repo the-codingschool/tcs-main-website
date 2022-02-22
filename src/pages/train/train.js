@@ -24,7 +24,7 @@ const Train = (props) => {
                                 <div className="headline" data-aos="zoom-in">
                                         <h1>
                                             <img
-                                                src={require("./images/training-logo.png")}
+                                                src={require("./images/TRAIN_Logo w faded grey ing.png")}
                                             />{" "}
                                             <span className="d-block">
                                                 The Next Generation of
