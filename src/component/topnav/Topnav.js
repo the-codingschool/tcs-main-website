@@ -106,7 +106,7 @@ function Topnav() {
               />
               <div className={`nav-item pr-8  text-uppercase`}>
                 <li
-                  style={{ cursor: "pointer", marginTop:7 ,display:"flex",justifyContent:"center",alignItems:"center"}}
+                  style={{ cursor: "pointer", marginTop:7 ,display:"flex",alignItems:"center"}}
                   onClick={() => setShow(!show)}
                 >
                   Programs <DropIcon />
