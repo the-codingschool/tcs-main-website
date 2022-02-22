@@ -29,9 +29,9 @@ function Involved() {
 
   useEffect(onLoad, []);
   const hanldeSubmit = async () => {
-    // https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?subject=something?comments=comments?interests=something?email=something@gmail.com?firstName=me?lastName=you
+    // https://hooks.zapier.com/hooks/catch/11928810/brpz2du/?to=mohsinalisoomro23@gmail.com?subject=something?comments=comments?interests=something?email=something@gmail.com?firstName=me?lastName=you
     const emailSend = await toast.promise( fetch(`
-    https://hooks.zapier.com/hooks/catch/11931295/brxzzr7?to=mohsinalisoomro23@gmail.com?firstName=${firstName}?lastName=${lastName}}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
+    https://hooks.zapier.com/hooks/catch/11928810/brpz2du?to=${email}?firstName=${firstName}?lastName=${lastName}?interests=${interest}?email=${email}?interest=${interest}?partner=${partner}?organization=${organization}?title=${title}?comment=${comment}?phone=${phone}?answer=${answer}
     `),{
       loading: "Processing",
         error: "Error in sending form data",
