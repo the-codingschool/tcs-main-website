@@ -113,12 +113,11 @@ const programPost = [
     },
     {
         name: "2",
-        title: "Summer Camps",
+        title: "Virtual Summer Camps",
         list: [
-            { id: "1", listItem: "Emerging Technologies" },
-            { id: "2", listItem: "Computer Music" },
-            { id: "3", listItem: "Creative Code" },
-            { id: "4", listItem: "AI/big data & Pre-AP CS" },
+            { id: "1", listItem: "Real skills in emerging technologies" },
+            { id: "2", listItem: "AI, Cybersecurity and more" },
+            { id: "3", listItem: "Taught by tech professionals" },
         ],
         img: "/images/k-12-emerging-technologies.jpg",
         link: "https://codeconnects.org/summercamps22.html",
