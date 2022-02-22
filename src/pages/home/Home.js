@@ -143,10 +143,10 @@ const programPost = [
         name: "4",
         title: "Artificial Intelligence",
         list: [
-            { id: "1", listItem: "For-credit course funded by the DoD" },
-            { id: "2", listItem: "Academic year 2022 - 2023" },
+            { id: "1", listItem: "For-credit course" },
+            { id: "2", listItem: "Academic year 2022 - 23" },
             { id: "3", listItem: "In-depth skills in AI/ML" },
-            { id: "4", listItem: "Industry expert Q&A’s" },
+            { id: "4", listItem: "Funded by the DoD" },
         ],
         img: "/images/upcoming-programs-1.jpg",
         link: "/train",
