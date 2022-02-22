@@ -67,31 +67,21 @@ var settings = {
     prevArrow: <PrevArrow />,
     responsive: [
         {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 992,
+            breakpoint: 1439,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1,
             },
         },
         {
-            breakpoint: 767,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
             },
         },
         {
             breakpoint: 575,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1,
             },
         },
     ],

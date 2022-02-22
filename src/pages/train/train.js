@@ -22,18 +22,18 @@ const Train = (props) => {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="headline" data-aos="zoom-in">
-                                        <h1>
-                                            <img
-                                                src={require("./images/TRAIN_Logo w faded grey ing (3).png")}
-                                            />{" "}
-                                            <span className="d-block">
-                                                The Next Generation of
-                                            </span>{" "}
-                                            <span className="text-brand-light d-inline-block">
-                                                AI
-                                            </span>{" "}
-                                            LEADERS AND EDUCATORS
-                                        </h1>
+                                    <h1>
+                                        <img
+                                            src={require("./images/train-logo-w-faded-grey-ing.png")}
+                                        />{" "}
+                                        <span className="d-block text-blue-gradient">
+                                            The Next Generation of
+                                        </span>{" "}
+                                        <span className="text-brand-light d-inline-block">
+                                            AI
+                                        </span>{" "}
+                                        LEADERS AND EDUCATORS
+                                    </h1>
                                 </div>
                                 <div
                                     className="tagline train-page-tagline mt-40"
@@ -217,7 +217,9 @@ const Train = (props) => {
                                     data-aos-duration="600"
                                 >
                                     <div className="tagline">
-                                        <h3>Summer Intensive PD for Educators</h3>
+                                        <h3>
+                                            Summer Intensive PD for Educators
+                                        </h3>
                                     </div>
                                     <div className="desc">
                                         <p className="text-white">
@@ -755,7 +757,7 @@ const Train = (props) => {
                                         supported by a three-year grant award
                                         from the United States{" "}
                                         <a
-                                            className="text-blue-gradient-2"
+                                            className="text-blue-gradient-2 self-underlined position-relative d-inline-block"
                                             href="https://dodstem.us/about/partners/?tab=grantees"
                                             target="_blank"
                                         >
@@ -765,7 +767,7 @@ const Train = (props) => {
                                         <a
                                             href="https://www.cto.mil/news/47-million-grants-ndep/"
                                             target="_blank"
-                                            className="text-blue-gradient"
+                                            className="text-blue-gradient self-underlined position-relative d-inline-block"
                                         >
                                             National Defense Education Program
                                         </a>
