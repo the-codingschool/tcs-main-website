@@ -849,10 +849,9 @@ function AboutUs() {
                             It takes a village to develop 21st century education
                             in emerging technologies. We are grateful for the
                             support from our sponsors and partners who believe
-                            in our mission and help us ensure the{" "}
+                            in our mission and help us ensure the future tech-ready workforce is {" "}
                             <span className="highlight-text">
-                                future tech-ready workforce is diverse,
-                                inclusive, and equitable.
+                                diverse, inclusive, and equitable.
                             </span>
                         </h2>
                     </div>
