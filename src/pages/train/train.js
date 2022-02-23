@@ -23,9 +23,20 @@ const Train = (props) => {
                             <div className="col-md-12">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
-                                        <img
-                                            src={require("./images/train-logo-w-faded-grey-ing.png")}
-                                        />{" "}
+                                        <span className="train-logo">
+                                            <span className="tl-gray-dark">
+                                                TR
+                                            </span>
+                                            <span className="text-brand-light">
+                                                AI
+                                            </span>
+                                            <span className="tl-gray-dark">
+                                                N
+                                            </span>
+                                            <span className="tl-gray-light">
+                                                ING
+                                            </span>
+                                        </span>
                                         <span className="d-block text-blue-gradient">
                                             The Next Generation of
                                         </span>{" "}

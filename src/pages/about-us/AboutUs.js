@@ -150,8 +150,8 @@ function AboutUs() {
                 />
                 <Fade top>
                     <img
-                        className="position-absolute"
-                        style={{ right: "-12%", top: "26%", width: "55px" }}
+                        className="position-absolute d-none d-lg-block"
+                        style={{ right: "5%", top: "26%", width: "75px" }}
                         src="/images/leadership.png"
                         alt=""
                     />
@@ -167,7 +167,7 @@ function AboutUs() {
                     <div className="title text-center mb-40">
                         <h1>Board & Advisors</h1>
                     </div>
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div className="col-xs-3 col-sm-3 col-md-4 col-lg-3 text-center w-100 mb-20">
                             <img
                                 className="avatar Advisors "

@@ -16,6 +16,12 @@
         font-weight: bold;
         margin-bottom: 30px;
         margin-bottom: 30px;
+        .home-banner-first {
+            font-size: 130%;
+            @media (min-width: 1199px) {
+                font-size: 120%;
+            }
+        }
         @media (min-width: 767px) {
             font-size: 36px;
         }
@@ -232,10 +238,18 @@ span {
     }
     .eng-bg-bottom {
         h5 {
-            font-size: 32px;
+            font-size: 30px;
             line-height: 38px;
             font-weight: 700;
-            color: #fff;
+            color: $btn;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 10px;
+            background-color: #fff;
+            border-radius: 50%;
         }
     }
 }

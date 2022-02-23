@@ -191,7 +191,7 @@ const programPostEducators = [
             { id: "3", listItem: "CEU opportunity" },
             { id: "4", listItem: "STEM educators community" },
         ],
-        img: "/images/upcoming-programs-3.jpg",
+        img: "/images/upcoming-programs-3-new.jpg",
         link: "/train",
         isExternal: false,
     },
@@ -525,7 +525,7 @@ function Home() {
                                         return (
                                             <Fade bottom>
                                                 <div
-                                                    className={`col-12 col-md-6 col-lg-5 ${
+                                                    className={`col-12 col-md-6 col-lg-5 col-xl-4 ${
                                                         index === arr.length - 1
                                                             ? ""
                                                             : "mb-30 mb-md-0"

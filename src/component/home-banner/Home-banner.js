@@ -52,7 +52,10 @@ function HomeBanner() {
                     <div className="col-lg-7 col-md-12">
                         <Fade left>
                             <h2 className="text-brand">
-                                Training the future workforce in <br />{" "}
+                                <span className="home-banner-first">
+                                    Training the future workforce in
+                                </span>{" "}
+                                <br />{" "}
                                 <span className="d-block text-blue-gold-gradient text-bolder">
                                     emerging technologies
                                 </span>
