@@ -1,8 +1,15 @@
 import "./News.scss";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function News() {
     return (
         <>
+            <Helmet>
+                <meta
+                    name="description"
+                    content="The Coding School awarded $3 million grant"
+                />
+            </Helmet>
             <div className="news-page">
                 <div className="container">
                     <div className="news-1 py-50">

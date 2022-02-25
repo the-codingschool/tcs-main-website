@@ -13,9 +13,17 @@ import "./css/slick-theme.css";
 import "./css/slick.css";
 import "./train.scss";
 
+import { Helmet } from "react-helmet";
+
 const Train = (props) => {
     return (
         <>
+            <Helmet>
+                <meta
+                    name="description"
+                    content="The Coding School, emerging technology 501-3c nonprofit"
+                />
+            </Helmet>
             <div id="trainPage">
                 <section className="banner">
                     <div className="container-fluid">

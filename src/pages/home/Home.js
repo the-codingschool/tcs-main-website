@@ -16,6 +16,7 @@ import HomeBanner from "../../component/home-banner/Home-banner";
 import StudentMapCounter from "../../component/student-map-counter/Student-map-counter";
 import KeyInitiatives from "../../component/key-initiatives/Key-initiatives";
 import Testimonial from "../../component/testimonial/Testimonial";
+import { Helmet } from "react-helmet";
 
 const users = [
     {
@@ -249,219 +250,204 @@ function PrevArrow(props) {
 
 function Home() {
     return (
-        <div id="Home">
-            <div className="container">
-                <HomeBanner></HomeBanner>
-            </div>
-            <div id="" className="KeyInitiatives mb-80">
+        <>
+            <Helmet>
+                <meta
+                    name="description"
+                    content="The Coding School, emerging technology 501-3c nonprofit"
+                />
+            </Helmet>
+            <div id="Home">
                 <div className="container">
-                    <div className="visual-text text-center mb-30">
-                        <h3>Key Initiatives</h3>
-                    </div>
+                    <HomeBanner></HomeBanner>
                 </div>
-                <div className="container container-1660">
-                    <div className="row">
-                        {keyPost.map((item, index) => {
-                            return (
-                                //<li key={index}>{item['title']}</li>
-                                {
-                                    ...(index / 2 ? (
-                                        <Fade left>
-                                            <div className="col-lg-4 mb-30 mb-lg-0">
-                                                <div className="postBox">
-                                                    <div className="postBox-wrap">
-                                                        <img
-                                                            src={item["img"]}
-                                                            alt="students"
-                                                        />
-                                                        <h6>{item["title"]}</h6>
-                                                        <h5 className="pbW-sub-title">
-                                                            {item["subTitle"]}
-                                                        </h5>
-                                                        {item["isExternal"] ? (
-                                                            <a
-                                                                href={
-                                                                    item["link"]
-                                                                }
-                                                                className="link"
-                                                            >
-                                                                Learn More
-                                                            </a>
-                                                        ) : (
-                                                            <Link
-                                                                to={
-                                                                    item["link"]
-                                                                }
-                                                                className="link"
-                                                            >
-                                                                Learn More
-                                                            </Link>
-                                                        )}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Fade>
-                                    ) : (
-                                        <Fade right>
-                                            <div className="col-lg-4 mb-30 mb-lg-0">
-                                                <div className="postBox">
-                                                    <div className="postBox-wrap">
-                                                        <img
-                                                            src={item["img"]}
-                                                            alt="students"
-                                                        />
-                                                        <h6>{item["title"]}</h6>
-                                                        <h5 className="pbW-sub-title">
-                                                            {item["subTitle"]}
-                                                        </h5>
-                                                        {item["isExternal"] ? (
-                                                            <a
-                                                                href={
-                                                                    item["link"]
-                                                                }
-                                                                className="link"
-                                                            >
-                                                                Learn More
-                                                            </a>
-                                                        ) : (
-                                                            <Link
-                                                                to={
-                                                                    item["link"]
-                                                                }
-                                                                className="link"
-                                                            >
-                                                                Learn More
-                                                            </Link>
-                                                        )}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Fade>
-                                    )),
-                                }
-                            );
-                        })}
-                    </div>
-                </div>
-            </div>
-            <StudentMapCounter></StudentMapCounter>
-            <KeyInitiatives></KeyInitiatives>
-
-            <div className="brown-sec mb-70" id="upcomingPrograms">
-                <div className="container">
-                    <h2>Upcoming Summer Programs</h2>
-                </div>
-            </div>
-
-            <div className="upcoming-programs">
-                <div className="container">
-                    <div class="nav upcomingProgramsTab mb-30" role="tablist">
-                        <a
-                            id="k2-pro2-tab"
-                            data-toggle="tab"
-                            href="#k2-pro2"
-                            role="tab"
-                            aria-controls="k2-pro2"
-                            aria-selected="false"
-                        >
-                            <h6 className="tab-title">University</h6>
-                        </a>
-                        <a
-                            id="k2-pro-tab"
-                            data-toggle="tab"
-                            href="#k2-pro"
-                            role="tab"
-                            aria-controls="k2-pro"
-                            aria-selected="true"
-                            className="active"
-                        >
-                            <h6 className="tab-title">K-12</h6>
-                        </a>
-                        <a
-                            id="k2-pro3-tab"
-                            data-toggle="tab"
-                            href="#k2-pro3"
-                            role="tab"
-                            aria-controls="k2-pro3"
-                            aria-selected="false"
-                        >
-                            <h6 className="tab-title">Educators</h6>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="tab-content mb-50" id="upcomingProgramsTabContent">
-                    <div
-                        class="tab-pane fade show active"
-                        id="k2-pro"
-                        role="tabpanel"
-                        aria-labelledby="k2-pro-tab"
-                    >
-                        <div className="programPost">
-                            <Slider
-                                {...settings}
-                                className="programPost-Carousel"
-                            >
-                                {programPost.map((item, index) => {
-                                    return (
-                                        <Fade bottom>
-                                            <div className="programPost-item">
-                                                <div className="programPost-img">
-                                                    <img
-                                                        src={item["img"]}
-                                                        className="img-fluid"
-                                                        alt=""
-                                                    />
-                                                </div>
-                                                <div className="programPost-desc">
-                                                    <h4>{item["title"]}</h4>
-                                                    <h5>{item["subTitle"]}</h5>
-                                                    <ul>
-                                                        {item.list.map((i) => {
-                                                            return (
-                                                                <li>
-                                                                    {i.listItem}
-                                                                </li>
-                                                            );
-                                                        })}
-                                                    </ul>
-                                                    {item["isExternal"] ? (
-                                                        <a
-                                                            href={item["link"]}
-                                                            target="_blank"
-                                                            className="btn btn-gradient-2 text-white rounded-0"
-                                                        >
-                                                            Learn More
-                                                        </a>
-                                                    ) : (
-                                                        <Link
-                                                            to={item["link"]}
-                                                            className="btn btn-gradient-2 text-white rounded-0"
-                                                        >
-                                                            Learn More
-                                                        </Link>
-                                                    )}
-                                                </div>
-                                            </div>
-                                        </Fade>
-                                    );
-                                })}
-                            </Slider>
+                <div id="" className="KeyInitiatives mb-80">
+                    <div className="container">
+                        <div className="visual-text text-center mb-30">
+                            <h3>Key Initiatives</h3>
                         </div>
                     </div>
+                    <div className="container container-1660">
+                        <div className="row">
+                            {keyPost.map((item, index) => {
+                                return (
+                                    //<li key={index}>{item['title']}</li>
+                                    {
+                                        ...(index / 2 ? (
+                                            <Fade left>
+                                                <div className="col-lg-4 mb-30 mb-lg-0">
+                                                    <div className="postBox">
+                                                        <div className="postBox-wrap">
+                                                            <img
+                                                                src={
+                                                                    item["img"]
+                                                                }
+                                                                alt="students"
+                                                            />
+                                                            <h6>
+                                                                {item["title"]}
+                                                            </h6>
+                                                            <h5 className="pbW-sub-title">
+                                                                {
+                                                                    item[
+                                                                        "subTitle"
+                                                                    ]
+                                                                }
+                                                            </h5>
+                                                            {item[
+                                                                "isExternal"
+                                                            ] ? (
+                                                                <a
+                                                                    href={
+                                                                        item[
+                                                                            "link"
+                                                                        ]
+                                                                    }
+                                                                    className="link"
+                                                                >
+                                                                    Learn More
+                                                                </a>
+                                                            ) : (
+                                                                <Link
+                                                                    to={
+                                                                        item[
+                                                                            "link"
+                                                                        ]
+                                                                    }
+                                                                    className="link"
+                                                                >
+                                                                    Learn More
+                                                                </Link>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </Fade>
+                                        ) : (
+                                            <Fade right>
+                                                <div className="col-lg-4 mb-30 mb-lg-0">
+                                                    <div className="postBox">
+                                                        <div className="postBox-wrap">
+                                                            <img
+                                                                src={
+                                                                    item["img"]
+                                                                }
+                                                                alt="students"
+                                                            />
+                                                            <h6>
+                                                                {item["title"]}
+                                                            </h6>
+                                                            <h5 className="pbW-sub-title">
+                                                                {
+                                                                    item[
+                                                                        "subTitle"
+                                                                    ]
+                                                                }
+                                                            </h5>
+                                                            {item[
+                                                                "isExternal"
+                                                            ] ? (
+                                                                <a
+                                                                    href={
+                                                                        item[
+                                                                            "link"
+                                                                        ]
+                                                                    }
+                                                                    className="link"
+                                                                >
+                                                                    Learn More
+                                                                </a>
+                                                            ) : (
+                                                                <Link
+                                                                    to={
+                                                                        item[
+                                                                            "link"
+                                                                        ]
+                                                                    }
+                                                                    className="link"
+                                                                >
+                                                                    Learn More
+                                                                </Link>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </Fade>
+                                        )),
+                                    }
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
+                <StudentMapCounter></StudentMapCounter>
+                <KeyInitiatives></KeyInitiatives>
+
+                <div className="brown-sec mb-70" id="upcomingPrograms">
+                    <div className="container">
+                        <h2>Upcoming Summer Programs</h2>
+                    </div>
+                </div>
+
+                <div className="upcoming-programs">
+                    <div className="container">
+                        <div
+                            class="nav upcomingProgramsTab mb-30"
+                            role="tablist"
+                        >
+                            <a
+                                id="k2-pro2-tab"
+                                data-toggle="tab"
+                                href="#k2-pro2"
+                                role="tab"
+                                aria-controls="k2-pro2"
+                                aria-selected="false"
+                            >
+                                <h6 className="tab-title">University</h6>
+                            </a>
+                            <a
+                                id="k2-pro-tab"
+                                data-toggle="tab"
+                                href="#k2-pro"
+                                role="tab"
+                                aria-controls="k2-pro"
+                                aria-selected="true"
+                                className="active"
+                            >
+                                <h6 className="tab-title">K-12</h6>
+                            </a>
+                            <a
+                                id="k2-pro3-tab"
+                                data-toggle="tab"
+                                href="#k2-pro3"
+                                role="tab"
+                                aria-controls="k2-pro3"
+                                aria-selected="false"
+                            >
+                                <h6 className="tab-title">Educators</h6>
+                            </a>
+                        </div>
+                    </div>
+
                     <div
-                        class="tab-pane fade"
-                        id="k2-pro2"
-                        role="tabpanel"
-                        aria-labelledby="k2-pro2-tab"
+                        class="tab-content mb-50"
+                        id="upcomingProgramsTabContent"
                     >
-                        <div className="programPost">
-                            <div className="row justify-content-center">
-                                {programPostUniversity.map((item, index) => {
-                                    return (
-                                        <Fade bottom>
-                                            <div className="col-12 col-md-8 col-xl-6">
-                                                <div className="programPost-item non-carousel">
+                        <div
+                            class="tab-pane fade show active"
+                            id="k2-pro"
+                            role="tabpanel"
+                            aria-labelledby="k2-pro-tab"
+                        >
+                            <div className="programPost">
+                                <Slider
+                                    {...settings}
+                                    className="programPost-Carousel"
+                                >
+                                    {programPost.map((item, index) => {
+                                        return (
+                                            <Fade bottom>
+                                                <div className="programPost-item">
                                                     <div className="programPost-img">
                                                         <img
                                                             src={item["img"]}
@@ -471,6 +457,9 @@ function Home() {
                                                     </div>
                                                     <div className="programPost-desc">
                                                         <h4>{item["title"]}</h4>
+                                                        <h5>
+                                                            {item["subTitle"]}
+                                                        </h5>
                                                         <ul>
                                                             {item.list.map(
                                                                 (i) => {
@@ -489,6 +478,7 @@ function Home() {
                                                                 href={
                                                                     item["link"]
                                                                 }
+                                                                target="_blank"
                                                                 className="btn btn-gradient-2 text-white rounded-0"
                                                             >
                                                                 Learn More
@@ -505,270 +495,367 @@ function Home() {
                                                         )}
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </Fade>
-                                    );
-                                })}
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="tab-pane fade"
-                        id="k2-pro3"
-                        role="tabpanel"
-                        aria-labelledby="k2-pro3-tab"
-                    >
-                        <div className="programPost">
-                            <div className="row justify-content-center">
-                                {programPostEducators.map(
-                                    (item, index, arr) => {
-                                        return (
-                                            <Fade bottom>
-                                                <div
-                                                    className={`col-12 col-md-6 col-lg-5 col-xl-4 ${
-                                                        index === arr.length - 1
-                                                            ? ""
-                                                            : "mb-30 mb-md-0"
-                                                    } `}
-                                                >
-                                                    <div className="programPost-item">
-                                                        <div className="programPost-img">
-                                                            <img
-                                                                src={
-                                                                    item["img"]
-                                                                }
-                                                                className="img-fluid"
-                                                                alt=""
-                                                            />
-                                                        </div>
-                                                        <div className="programPost-desc">
-                                                            <h4>
-                                                                {item["title"]}
-                                                            </h4>
-                                                            <ul>
-                                                                {item.list.map(
-                                                                    (i) => {
-                                                                        return (
-                                                                            <li>
-                                                                                {
-                                                                                    i.listItem
-                                                                                }
-                                                                            </li>
-                                                                        );
-                                                                    }
-                                                                )}
-                                                            </ul>
-                                                            {item[
-                                                                "isExternal"
-                                                            ] ? (
-                                                                <a
-                                                                    href={
-                                                                        item[
-                                                                            "link"
-                                                                        ]
-                                                                    }
-                                                                    className="btn btn-gradient-2 text-white rounded-0"
-                                                                >
-                                                                    Learn More
-                                                                </a>
-                                                            ) : (
-                                                                <Link
-                                                                    to={
-                                                                        item[
-                                                                            "link"
-                                                                        ]
-                                                                    }
-                                                                    className="btn btn-gradient-2 text-white rounded-0"
-                                                                >
-                                                                    Learn More
-                                                                </Link>
-                                                            )}
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </Fade>
                                         );
-                                    }
-                                )}
+                                    })}
+                                </Slider>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="k2-pro2"
+                            role="tabpanel"
+                            aria-labelledby="k2-pro2-tab"
+                        >
+                            <div className="programPost">
+                                <div className="row justify-content-center">
+                                    {programPostUniversity.map(
+                                        (item, index) => {
+                                            return (
+                                                <Fade bottom>
+                                                    <div className="col-12 col-md-8 col-xl-6">
+                                                        <div className="programPost-item non-carousel">
+                                                            <div className="programPost-img">
+                                                                <img
+                                                                    src={
+                                                                        item[
+                                                                            "img"
+                                                                        ]
+                                                                    }
+                                                                    className="img-fluid"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                            <div className="programPost-desc">
+                                                                <h4>
+                                                                    {
+                                                                        item[
+                                                                            "title"
+                                                                        ]
+                                                                    }
+                                                                </h4>
+                                                                <ul>
+                                                                    {item.list.map(
+                                                                        (i) => {
+                                                                            return (
+                                                                                <li>
+                                                                                    {
+                                                                                        i.listItem
+                                                                                    }
+                                                                                </li>
+                                                                            );
+                                                                        }
+                                                                    )}
+                                                                </ul>
+                                                                {item[
+                                                                    "isExternal"
+                                                                ] ? (
+                                                                    <a
+                                                                        href={
+                                                                            item[
+                                                                                "link"
+                                                                            ]
+                                                                        }
+                                                                        className="btn btn-gradient-2 text-white rounded-0"
+                                                                    >
+                                                                        Learn
+                                                                        More
+                                                                    </a>
+                                                                ) : (
+                                                                    <Link
+                                                                        to={
+                                                                            item[
+                                                                                "link"
+                                                                            ]
+                                                                        }
+                                                                        className="btn btn-gradient-2 text-white rounded-0"
+                                                                    >
+                                                                        Learn
+                                                                        More
+                                                                    </Link>
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Fade>
+                                            );
+                                        }
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="k2-pro3"
+                            role="tabpanel"
+                            aria-labelledby="k2-pro3-tab"
+                        >
+                            <div className="programPost">
+                                <div className="row justify-content-center">
+                                    {programPostEducators.map(
+                                        (item, index, arr) => {
+                                            return (
+                                                <Fade bottom>
+                                                    <div
+                                                        className={`col-12 col-md-6 col-lg-5 col-xl-4 ${
+                                                            index ===
+                                                            arr.length - 1
+                                                                ? ""
+                                                                : "mb-30 mb-md-0"
+                                                        } `}
+                                                    >
+                                                        <div className="programPost-item">
+                                                            <div className="programPost-img">
+                                                                <img
+                                                                    src={
+                                                                        item[
+                                                                            "img"
+                                                                        ]
+                                                                    }
+                                                                    className="img-fluid"
+                                                                    alt=""
+                                                                />
+                                                            </div>
+                                                            <div className="programPost-desc">
+                                                                <h4>
+                                                                    {
+                                                                        item[
+                                                                            "title"
+                                                                        ]
+                                                                    }
+                                                                </h4>
+                                                                <ul>
+                                                                    {item.list.map(
+                                                                        (i) => {
+                                                                            return (
+                                                                                <li>
+                                                                                    {
+                                                                                        i.listItem
+                                                                                    }
+                                                                                </li>
+                                                                            );
+                                                                        }
+                                                                    )}
+                                                                </ul>
+                                                                {item[
+                                                                    "isExternal"
+                                                                ] ? (
+                                                                    <a
+                                                                        href={
+                                                                            item[
+                                                                                "link"
+                                                                            ]
+                                                                        }
+                                                                        className="btn btn-gradient-2 text-white rounded-0"
+                                                                    >
+                                                                        Learn
+                                                                        More
+                                                                    </a>
+                                                                ) : (
+                                                                    <Link
+                                                                        to={
+                                                                            item[
+                                                                                "link"
+                                                                            ]
+                                                                        }
+                                                                        className="btn btn-gradient-2 text-white rounded-0"
+                                                                    >
+                                                                        Learn
+                                                                        More
+                                                                    </Link>
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Fade>
+                                            );
+                                        }
+                                    )}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div
-                className="eng-bg"
-                style={{ backgroundImage: `url("/images/eng-bg-old-1.png")` }}
-            >
-                <div className="container container-1660">
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12">
-                            <Fade left>
-                                <h3>
-                                    We’ve Created a Learning Model That’s{" "}
-                                    <u>Making Real Impact.</u>
-                                </h3>
+                <div
+                    className="eng-bg"
+                    style={{
+                        backgroundImage: `url("/images/eng-bg-old-1.png")`,
+                    }}
+                >
+                    <div className="container container-1660">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 col-md-12">
+                                <Fade left>
+                                    <h3>
+                                        We’ve Created a Learning Model That’s{" "}
+                                        <u>Making Real Impact.</u>
+                                    </h3>
+                                    <p>
+                                        To expand the pool of qualified talent
+                                        and increase diversity in tech, every
+                                        student needs access to high quality
+                                        computer science education. We’re making
+                                        that a reality. Taught by PhD
+                                        researchers and professional software
+                                        engineers, our students gain in-depth
+                                        knowledge and real world skills in
+                                        emerging technologies, such as AI and
+                                        Quantum Computing, that they would not
+                                        otherwise have access to.{" "}
+                                    </p>
+                                    <p>
+                                        Our model offers virtual courses with
+                                        live instruction, teaching nearly 10,000
+                                        students in a single course with
+                                        staggeringly impressive outcomes.
+                                    </p>
+                                    <p>
+                                        Through this model, every student in the
+                                        U.S. can have access to high-quality
+                                        computer science instruction.
+                                    </p>
+                                </Fade>
+                            </div>
+                            <div className="col-lg-6 col-md-12">
+                                <Fade right>
+                                    <img
+                                        className="img-responsive"
+                                        src="/images/eng-bg-hand.png"
+                                        alt=""
+                                    />
+                                </Fade>
+                            </div>
+                        </div>
+                        <div class="row align-items-center mt-50 eng-bg-bottom">
+                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                                <h5>
+                                    <CountUp end={80} duration={3.75} />
+                                    %+
+                                </h5>
                                 <p>
-                                    To expand the pool of qualified talent and
-                                    increase diversity in tech, every student
-                                    needs access to high quality computer
-                                    science education. We’re making that a
-                                    reality. Taught by PhD researchers and
-                                    professional software engineers, our
-                                    students gain in-depth knowledge and real
-                                    world skills in emerging technologies, such
-                                    as AI and Quantum Computing, that they would
-                                    not otherwise have access to.{" "}
+                                    Over 80% completion rate in 8-month virtual
+                                    courses
                                 </p>
+                            </div>
+                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                                <h5>
+                                    <CountUp end={99} duration={3.75} />%
+                                </h5>
                                 <p>
-                                    Our model offers virtual courses with live
-                                    instruction, teaching nearly 10,000 students
-                                    in a single course with staggeringly
-                                    impressive outcomes.
+                                    of students are more likely to take a STEM
+                                    class in college after the course
                                 </p>
+                            </div>
+                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                                <h5>
+                                    <CountUp end={98} duration={3.75} />%
+                                </h5>
                                 <p>
-                                    Through this model, every student in the
-                                    U.S. can have access to high-quality
-                                    computer science instruction.
+                                    of students would recommend the course to
+                                    their friends
                                 </p>
-                            </Fade>
-                        </div>
-                        <div className="col-lg-6 col-md-12">
-                            <Fade right>
-                                <img
-                                    className="img-responsive"
-                                    src="/images/eng-bg-hand.png"
-                                    alt=""
-                                />
-                            </Fade>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mt-50 eng-bg-bottom">
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5>
-                                <CountUp end={80} duration={3.75} />
-                                %+
-                            </h5>
-                            <p>
-                                Over 80% completion rate in 8-month virtual
-                                courses
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5>
-                                <CountUp end={99} duration={3.75} />%
-                            </h5>
-                            <p>
-                                of students are more likely to take a STEM class
-                                in college after the course
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5>
-                                <CountUp end={98} duration={3.75} />%
-                            </h5>
-                            <p>
-                                of students would recommend the course to their
-                                friends
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
-                            <h5>
-                                <CountUp end={95} duration={3.75} />%
-                            </h5>
-                            <p>
-                                of students are more interested in pursuing a
-                                STEM career.
-                            </p>
+                            </div>
+                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                                <h5>
+                                    <CountUp end={95} duration={3.75} />%
+                                </h5>
+                                <p>
+                                    of students are more interested in pursuing
+                                    a STEM career.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="school-partner mb-80">
-                <div className="container container-1660">
-                    <div className="row align-items-center">
-                        <div className="col-lg-5 col-md-12">
-                            <Fade left>
-                                <div className="sp-left">
-                                    <p>Nationally Accredited By: </p>
-                                    <img
-                                        src="/images/wasc.jpg"
-                                        className="mb-50"
-                                        alt="wasc"
-                                    />
-                                    <img
-                                        src="/images/uc-ag-guide.jpg"
-                                        alt="uc-ag-guide"
-                                    />
-                                </div>
-                            </Fade>
-                        </div>
-                        <div className="col-lg-7 col-md-12">
-                            <div className="school-box">
-                                <div className="visual-text">
-                                    <Fade top>
-                                        <h3>
-                                            School{" "}
-                                            <span class="text-gold">
-                                                Partners
-                                            </span>
-                                        </h3>
-                                    </Fade>
-                                    <Fade bottom>
-                                        <p>
-                                            Accredited by the Western
-                                            Association of Schools and Colleges
-                                            (WASC), your K-12 students can earn
-                                            transcript credit in emerging
-                                            technologies such as AI and Quantum
-                                            Computing.{" "}
-                                        </p>
-                                        <p>
-                                            Hundreds of schools and districts
-                                            across the U.S. from the Hawaii
-                                            Department of Education to the
-                                            Cleveland School District have
-                                            partnered with The Coding School to
-                                            ensure their students receive the
-                                            highest quality and most
-                                            cutting-edge STEM education
-                                            possible. The Coding School's Qubit
-                                            by Qubit Introduction to Quantum
-                                            Computing Course is also A-G
-                                            approved by the University of
-                                            California as an accepted college
-                                            preparatory course.{" "}
-                                        </p>
-                                        <div className="row home-banner mt-30 p-0">
-                                            <div className="col-md-6 text-right">
-                                                <Link
-                                                    className="btn btn-outline link"
-                                                    to="/involved"
-                                                >
-                                                    {" "}
-                                                    CONNECT WITH US
-                                                </Link>
+                <div className="school-partner mb-80">
+                    <div className="container container-1660">
+                        <div className="row align-items-center">
+                            <div className="col-lg-5 col-md-12">
+                                <Fade left>
+                                    <div className="sp-left">
+                                        <p>Nationally Accredited By: </p>
+                                        <img
+                                            src="/images/wasc.jpg"
+                                            className="mb-50"
+                                            alt="wasc"
+                                        />
+                                        <img
+                                            src="/images/uc-ag-guide.jpg"
+                                            alt="uc-ag-guide"
+                                        />
+                                    </div>
+                                </Fade>
+                            </div>
+                            <div className="col-lg-7 col-md-12">
+                                <div className="school-box">
+                                    <div className="visual-text">
+                                        <Fade top>
+                                            <h3>
+                                                School{" "}
+                                                <span class="text-gold">
+                                                    Partners
+                                                </span>
+                                            </h3>
+                                        </Fade>
+                                        <Fade bottom>
+                                            <p>
+                                                Accredited by the Western
+                                                Association of Schools and
+                                                Colleges (WASC), your K-12
+                                                students can earn transcript
+                                                credit in emerging technologies
+                                                such as AI and Quantum
+                                                Computing.{" "}
+                                            </p>
+                                            <p>
+                                                Hundreds of schools and
+                                                districts across the U.S. from
+                                                the Hawaii Department of
+                                                Education to the Cleveland
+                                                School District have partnered
+                                                with The Coding School to ensure
+                                                their students receive the
+                                                highest quality and most
+                                                cutting-edge STEM education
+                                                possible. The Coding School's
+                                                Qubit by Qubit Introduction to
+                                                Quantum Computing Course is also
+                                                A-G approved by the University
+                                                of California as an accepted
+                                                college preparatory course.{" "}
+                                            </p>
+                                            <div className="row home-banner mt-30 p-0">
+                                                <div className="col-md-6 text-right">
+                                                    <Link
+                                                        className="btn btn-outline link"
+                                                        to="/involved"
+                                                    >
+                                                        {" "}
+                                                        CONNECT WITH US
+                                                    </Link>
+                                                </div>
+                                                <div className="col-md-6 text-left">
+                                                    <HashLink
+                                                        className="btn btn-outline link"
+                                                        to="/about_us#school-partners"
+                                                    >
+                                                        {" "}
+                                                        SEE OUR SCHOOL PARTNERS
+                                                    </HashLink>
+                                                </div>
                                             </div>
-                                            <div className="col-md-6 text-left">
-                                                <HashLink
-                                                    className="btn btn-outline link"
-                                                    to="/about_us#school-partners"
-                                                >
-                                                    {" "}
-                                                    SEE OUR SCHOOL PARTNERS
-                                                </HashLink>
-                                            </div>
-                                        </div>
-                                    </Fade>
+                                        </Fade>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <Testimonial />
             </div>
-            <Testimonial />
-        </div>
+        </>
     );
 }
 

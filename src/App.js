@@ -18,6 +18,7 @@ import Footer from "./component/footer/Footer";
 import Involved from "./pages/involved/Involved";
 import Home from "./pages/home/Home";
 import Train from "./pages/train/train";
+import Donate from "./pages/donate/Donate";
 import News from "./pages/news/News";
 import ScrollToTop from "./component/global/scrollToTop";
 
