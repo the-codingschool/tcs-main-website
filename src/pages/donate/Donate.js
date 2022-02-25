@@ -59,7 +59,7 @@ function Donate() {
             <Helmet>
                 <meta
                     name="description"
-                    content="The Coding School, emerging technology 501-3c nonprofit"
+                    content="The Coding School awarded $3 million grant"
                 />
             </Helmet>
             <div id="Donate">

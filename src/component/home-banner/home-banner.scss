@@ -221,6 +221,13 @@ span {
         font-size: 18px;
         color: #fff;
         line-height: 24px;
+        margin-bottom: 0;
+        @media (min-width: 992px) and (max-width: 1199px) {
+            min-height: 96px;
+        }
+        @media (min-width: 1200px) and (max-width: 1440px) {
+            min-height: 72px;
+        }
     }
     img {
         max-width: 100%;

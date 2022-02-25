@@ -1,7 +1,6 @@
 import "./News.scss";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-var ReactDOMServer = require("react-dom/server");
 function News() {
     return (
         <>
