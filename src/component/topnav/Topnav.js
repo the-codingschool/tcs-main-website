@@ -37,15 +37,15 @@ function Topnav() {
             active: false,
         },
         {
-            label: "News",
-            link: "/news",
-            active: false,
-        },
-        {
             label: "Donate",
             link: "https://codeconnects.org/donate.html",
             active: false,
             external: true,
+        },
+        {
+            label: "News",
+            link: "/news",
+            active: false,
         },
     ];
 
@@ -153,16 +153,23 @@ function Topnav() {
                                 external={Items[3].external}
                                 p="pr-12"
                             />
+                            <Element
+                                label={Items[4].label}
+                                active={Items[4].active}
+                                link={Items[4].link}
+                                external={Items[4].external}
+                                p="pr-12"
+                            />
                             {/* {Items.map((item, idx) => {
-                return (
-                  <Element
-                    label={item.label}
-                    active={item.active}
-                    link={item.link}
-                    external={item.external}
-                  />
-                );
-              })} */}
+                                return (
+                                <Element
+                                    label={item.label}
+                                    active={item.active}
+                                    link={item.link}
+                                    external={item.external}
+                                />
+                                );
+                            })} */}
 
                             <a
                                 className={`ml-4 btn btn-gradient-2 rounded-0 text-white d-inline-block `}
