@@ -96,7 +96,7 @@ const instructorTestimonials = [
     {
         name: "Anthony, Google",
         testimony:
-            "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
+            "“<span class='text-bold'>I wish</span> I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
         image: "images/testimonials/anthony-mirand.jpeg",
     },
     {
@@ -525,7 +525,13 @@ function Testimonial() {
                                     {studentTestimonials.map((item, index) => {
                                         return (
                                             <li>
-                                                <p>{item["testimony"]}</p>
+                                                <p
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: item[
+                                                            "testimony"
+                                                        ],
+                                                    }}
+                                                />
                                                 <img src={`${item["image"]}`} />
                                                 <h6>{item["name"]}</h6>
                                             </li>
@@ -565,7 +571,13 @@ function Testimonial() {
                                         (item, index) => {
                                             return (
                                                 <li>
-                                                    <p>{item["testimony"]}</p>
+                                                    <p
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: item[
+                                                                "testimony"
+                                                            ],
+                                                        }}
+                                                    />
                                                     <h6>{item["name"]}</h6>
                                                 </li>
                                             );
@@ -606,7 +618,13 @@ function Testimonial() {
                                         (item, index) => {
                                             return (
                                                 <li>
-                                                    <p>{item["testimony"]}</p>
+                                                    <p
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: item[
+                                                                "testimony"
+                                                            ],
+                                                        }}
+                                                    />
                                                     <h6>{item["name"]}</h6>
                                                 </li>
                                             );
