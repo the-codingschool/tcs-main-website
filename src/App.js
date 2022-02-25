@@ -21,6 +21,7 @@ import Train from "./pages/train/train";
 import Donate from "./pages/donate/Donate";
 import News from "./pages/news/News";
 import ScrollToTop from "./component/global/scrollToTop";
+import { Helmet } from "react-helmet";
 
 function App() {
     useEffect(() => {
@@ -29,6 +30,12 @@ function App() {
 
     return (
         <BrowserRouter>
+            <Helmet>
+                <meta
+                    name="description"
+                    content="The Coding School, emerging technology 501-3c nonprofit"
+                />
+            </Helmet>
             <ScrollToTop />
             <Topnav />
             <Switch>
