@@ -18,6 +18,7 @@ import Footer from "./component/footer/Footer";
 import Involved from "./pages/involved/Involved";
 import Home from "./pages/home/Home";
 import Train from "./pages/train/train";
+import News from "./pages/news/News";
 import ScrollToTop from "./component/global/scrollToTop";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
                 <Route path={"/"} component={Home} exact={true} />
                 <Route path={"/about_us"} component={AboutUs} />
                 <Route path={"/train"} component={Train} />
+                <Route path={"/news"} component={News} />
             </Switch>
             <Footer />
         </BrowserRouter>

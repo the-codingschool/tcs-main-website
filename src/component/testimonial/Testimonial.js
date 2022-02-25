@@ -674,41 +674,84 @@ function Testimonial() {
 
             <div className="news-sec">
                 <div className="visual-text text-center mb-30">
-                    <h3>In the News</h3>
+                    <h3 className="pt-50 mb-30"> Latest TCS News</h3>
+                </div>
+
+                <div className="latest-tcs-news">
+                    <div className="container">
+                        <div className="ltcsn-wrap py-50">
+                            <div className="row">
+                                <div className="col-12 col-md-11 mx-auto">
+                                    <div className="ltcsn-card">
+                                        <img src="/images/latest-news-img.jpg" />
+                                        <div className="ltcsn-card-content">
+                                            <h5 className="ltcsn-cc-title">
+                                                <Link to="/news">
+                                                    The coding school awarded
+                                                    $3m grant from department of
+                                                    defense through national
+                                                    defense education program to
+                                                    empower next generation of
+                                                    artificial intelligence (ai)
+                                                    leaders
+                                                </Link>
+                                            </h5>
+                                            <h6 className="ltcsn-cc-subtitle">
+                                                In collaboration with University
+                                                of Southern California&#39;s
+                                                Viterbi School of Engineering,
+                                                The Coding School will develop
+                                                an in-depth AI course for high
+                                                school students and educators
+                                                across the United States
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div className="featured-logo">
                 <div className="featured-in-section container-1920">
                     <div className="visual-text text-center mb-30">
-                        <h4>Featured In</h4>
+                        <h3>In the News</h3>
                     </div>
 
-                    <ul className="featuredLogo">
+                    <ul className="featuredLogo row align-items-center">
                         {featuredLogo.map((item, index) => {
-                            return {
-                                ...(index / 2 ? (
-                                    <Fade top>
-                                        <li
-                                            className={
-                                                index >= 5 ? "hide" : "show"
-                                            }
-                                        >
-                                            <img src={item["src"]} />
-                                        </li>
-                                    </Fade>
-                                ) : (
-                                    <Fade bottom>
-                                        <li
-                                            className={
-                                                index >= 5 ? "hide" : "show"
-                                            }
-                                        >
-                                            <img src={item["src"]} />
-                                        </li>
-                                    </Fade>
-                                )),
-                            };
+                            return (
+                                <Fade bottom>
+                                    <li className="col-4 col-lg">
+                                        <img src={item["src"]} />
+                                    </li>
+                                </Fade>
+                            );
+                            // return {
+                            //     ...(index / 2 ? (
+                            //         <Fade top>
+                            //             <li
+                            //                 className={
+                            //                     index >= 5 ? "hide" : "show"
+                            //                 }
+                            //             >
+                            //                 <img src={item["src"]} />
+                            //             </li>
+                            //         </Fade>
+                            //     ) : (
+                            //         <Fade bottom>
+                            //             <li
+                            //                 className={
+                            //                     index >= 5 ? "hide" : "show"
+                            //                 }
+                            //             >
+                            //                 <img src={item["src"]} />
+                            //             </li>
+                            //         </Fade>
+                            //     )),
+                            // };
                         })}
                     </ul>
                 </div>

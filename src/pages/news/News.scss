@@ -1,0 +1,48 @@
+@import "../../assets/css/global.scss";
+
+.news-page {
+    .news-banner {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 30px;
+    }
+    .news-title {
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .news-subtitle {
+        text-align: center;
+        color: $paragraph;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .small-title {
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 10px 0 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    p:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .info-box {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        li {
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+            a {
+                color: $btn;
+            }
+        }
+    }
+}
