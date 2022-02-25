@@ -41,11 +41,20 @@ function Footer() {
             external: true,
         },
         {
+<<<<<<< Updated upstream
             label: "Train",
             link: "/train",
             active: false,
         },
     ];
+=======
+            label  : 'Train',
+            link   : 'https://the-cs.org/train',
+            active : false,
+            external: true
+        }
+    ]
+>>>>>>> Stashed changes
 
     return (
         <div id="Footer">
