@@ -37,6 +37,7 @@ function App() {
                 <Route path={"/about_us"} component={AboutUs} />
                 <Route path={"/train"} component={Train} />
                 <Route path={"/news"} component={News} />
+                <Route path={"/donate"} component={Donate} />
             </Switch>
             <Footer />
         </BrowserRouter>
