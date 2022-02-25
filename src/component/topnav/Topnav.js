@@ -64,9 +64,8 @@ function Topnav() {
         },
         {
             label: "Train",
-            link: "https://the-cs.org/train",
+            link: "train",
             active: false,
-            external: true,
         },
     ];
 
