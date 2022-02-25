@@ -41,11 +41,12 @@ function Footer() {
             external: true,
         },
         {
-            label: "Train",
-            link: "/train",
-            active: false,
-        },
-    ];
+            label  : 'Train',
+            link   : 'https://the-cs.org/train',
+            active : false,
+            external: true
+        }
+    ]
 
     return (
         <div id="Footer">
