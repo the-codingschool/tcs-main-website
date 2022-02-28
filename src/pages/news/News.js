@@ -13,17 +13,17 @@ function News() {
             <div className="news-page">
                 <div className="container">
                     <div className="news-1 py-50">
-                        <img
-                            className="news-banner"
-                            src="/images/news-1-bg.jpg"
-                        />
-                        <p>February 24, 2022</p>
                         <h1 className="text-center news-title">
                             The coding school awarded $3m grant from department
                             of defense through national defense education
                             program to empower next generation of artificial
                             intelligence (ai) leaders
                         </h1>
+                        <img
+                            className="news-banner"
+                            src="/images/news-1-bg.jpg"
+                        />
+                        <p>February 24, 2022</p>
 
                         <p className="news-subtitle">
                             In collaboration with University of Southern

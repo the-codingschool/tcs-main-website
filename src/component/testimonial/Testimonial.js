@@ -193,25 +193,25 @@ const studentTestimonials = [
     {
         name: "High school student, Kenya",
         testimony:
-            " I will forever be grateful to Qubit by Qubit for giving me a chance to take part in this program, and finally revolutionize African women and their achievements in the scientific and technological community.",
+            " I will forever be <span class='text-bold'>grateful to Qubit by Qubit</span> for giving me a chance to take part in this program, and finally <span class='text-bold'>revolutionize African women and their achievements in the scientific and technological community.</span>",
         image: "images/testimonials/allsmiles._Love_and_smiles. (1).jpg",
     },
     {
         name: "12th grader, Texas",
         testimony:
-            "I LOVED THE CAMP! There are many students such as myself whether that be minority, low income, etc. who, by nature of social and systematic marginalization, lack many opportunities and chances of exposure...I had never heard of Quantum Coding before this camp, let alone thought that I would enjoy it! This camp and this scholarship gave me an opportunity and a new liking for another field of STEM study that without it, I would not have known anything about!",
+            "<span class='text-bold'>I LOVED THE CAMP!</span> There are many students such as myself whether that be minority, low income, etc. who, by nature of social and systematic marginalization, lack many opportunities and chances of exposure...I had never heard of Quantum Coding before this camp, let alone thought that I would enjoy it! <span class='text-bold'>This camp and this scholarship gave me an opportunity and a new liking for another field of STEM study that without it, I would not have known anything about!</span>",
         image: "images/testimonials/testimonial-12th grade boy TX.jpg",
     },
     {
         name: "12th grader, Arizona",
         testimony:
-            "This camp has honestly been life-changing and eye-opening! I am looking forward to exploring quantum for the rest of my life.",
+            "This camp has honestly been <span class='text-bold'>life-changing</span> and <span class='text-bold'>eye-opening!</span> I am looking forward to exploring quantum for the rest of my life.",
         image: "images/testimonials/testimonial-12th grade girl AZ.jpg",
     },
     {
         name: "High school student, USA",
         testimony:
-            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. [This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe in this community. ",
+            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. <span class='text-bold'>[This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe</span> in this community. ",
         image: "images/testimonials/Sam - HS non-binary student.jpg",
     },
     {
@@ -223,13 +223,13 @@ const studentTestimonials = [
     {
         name: "High school student, Scotland",
         testimony:
-            "I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free. This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
+            "<span class='text-bold'>I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free.</span> This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
         image: "images/testimonials/testimonial photo-Scotland boy (1).png",
     },
     {
         name: "11th grader, USA",
         testimony:
-            "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, I was mentored by a female. Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM inspired me to believe in myself and chase after more complex sciences.",
+            "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, <span class='text-bold'>I was mentored by a female.</span> Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM <span class='text-bold'>inspired me to believe in myself</span> and chase after more complex sciences.",
         image: "images/testimonials/noora.jpg",
     },
     {
@@ -241,13 +241,13 @@ const studentTestimonials = [
     {
         name: "High school student family, California",
         testimony:
-            "Wednesday night dinners now include a summary of quantum computing lab activities and a preview for my Saturday lab. While our Sunday mornings involve gathering in the living room with our laptops, logging into our Zoom meeting, & furthering our knowledge in quantum computing. This course has created a wonderful opportunity that includes academics and family time.",
+            "Wednesday night dinners now include a summary of quantum computing lab activities and a preview for my Saturday lab. While our Sunday mornings involve gathering in the living room with our laptops, logging into our Zoom meeting, & furthering our knowledge in quantum computing. <span class='text-bold'>This course has created a wonderful opportunity that includes academics and family time.</span>",
         image: "images/testimonials/Ramirez Family (1).jpg",
     },
     {
         name: "11th grader, Turkey",
         testimony:
-            "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. It’s not a 'he thing.' It’s a smart people thing.",
+            "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. <span class='text-bold'>It’s not a 'he thing.' It’s a smart people thing.</span>",
         image: "images/testimonials/Malak Elghriani.jpg",
     },
     {
@@ -282,7 +282,7 @@ var FeaturedSettings = {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     centerMode: true,
     centerPadding: 0,
     responsive: [
@@ -431,8 +431,27 @@ var settings = {
     centerMode: false,
 };
 
+const testimonialsTab = [
+    {
+        href: "#students",
+        testifierText: "Students",
+        text: "Students",
+    },
+    {
+        href: "#partner-school",
+        testifierText: "Partners",
+        text: "Partner Schools",
+    },
+    {
+        href: "#instructors",
+        testifierText: "Instructors",
+        text: "Instructors",
+    },
+];
+
 function Testimonial() {
     const [isActive, setIsActive] = useState(0);
+    const [testifier, setTestifier] = useState("Students");
 
     const sliderRefStudent = useRef();
     const sliderRefPartners = useRef();
@@ -443,15 +462,21 @@ function Testimonial() {
         sliderRefStudent.current.slickGoTo(e.target.dataset.slide);
         setIsActive(e.target.dataset.slide);
     }
+
     function handleOnClickPartners(e) {
         e.preventDefault();
         sliderRefPartners.current.slickGoTo(e.target.dataset.slide);
         setIsActive(e.target.dataset.slide);
     }
+
     function handleOnClickInstructors(e) {
         e.preventDefault();
         sliderRefInstructors.current.slickGoTo(e.target.dataset.slide);
         setIsActive(e.target.dataset.slide);
+    }
+
+    function handleTestifierName(e) {
+        setTestifier(e.target.dataset.testifier);
     }
 
     return (
@@ -459,29 +484,25 @@ function Testimonial() {
             <Fade top>
                 <div className="container">
                     <div className="visual-text text-center mb-30">
-                        <h3>Testimonials</h3>
+                        <h3>A lot of Happy {testifier}</h3>
                     </div>
 
                     <ul class="nav nav-tabs">
-                        <li class="active">
-                            <a
-                                data-toggle="tab"
-                                href="#studenst"
-                                className="active"
-                            >
-                                Students
-                            </a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#partner-school">
-                                Partner Schools
-                            </a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#instructors">
-                                Instructors
-                            </a>
-                        </li>
+                        {testimonialsTab.map((e, i) => {
+                            return (
+                                <li className={i == "0" ? "active" : null}>
+                                    <a
+                                        className={i == "0" ? "active" : null}
+                                        data-toggle="tab"
+                                        href={e["href"]}
+                                        data-testifier={e["testifierText"]}
+                                        onClick={handleTestifierName}
+                                    >
+                                        {e["text"]}
+                                    </a>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
             </Fade>
@@ -498,7 +519,7 @@ function Testimonial() {
                         src="images/quotes.png"
                     />
                     <div class="tab-content">
-                        <div id="studenst" class="tab-pane fade in active show">
+                        <div id="students" class="tab-pane fade in active show">
                             <div className="go-to-slide">
                                 {studentTestimonials.map((item, index) => {
                                     return (

@@ -80,7 +80,7 @@ function Donate() {
                         <div className="payment-text-col">
                             <img
                                 src="/images/TCS_logo-1 copy.png"
-                                class="rounded-circle"
+                                className="rounded-circle"
                                 alt="the code school"
                             />
                             <p className="sub-title">
