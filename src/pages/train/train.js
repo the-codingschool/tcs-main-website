@@ -261,10 +261,10 @@ const Train = (props) => {
                                         </ul>
                                         <a
                                             className="btn btn-gradient-2 text-white"
-                                            href="https://airtable.com/shrIu7KQDjx1Tgvjz"
+                                            href="https://airtable.com/shr4CIVyf5KoYVZZF"
                                             target="_blank"
                                         >
-                                            Sign Up For More Information
+                                            Apply
                                         </a>
                                     </div>
                                 </div>
@@ -438,10 +438,10 @@ const Train = (props) => {
                                     </div>
                                     <a
                                         class="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
-                                        href="https://airtable.com/shrIu7KQDjx1Tgvjz"
+                                        href="https://airtable.com/shr4CIVyf5KoYVZZF"
                                         target="_blank"
                                     >
-                                        Connect with Us
+                                        Apply
                                     </a>
                                 </div>
                             </div>

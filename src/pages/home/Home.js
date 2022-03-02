@@ -1,6 +1,5 @@
 import "./Home.scss";
-//import React, { useEffect } from 'react';
-import Marquee from "react-fast-marquee";
+
 import CountUp from "react-countup";
 
 import Fade from "react-reveal/Fade";
@@ -17,6 +16,7 @@ import StudentMapCounter from "../../component/student-map-counter/Student-map-c
 import KeyInitiatives from "../../component/key-initiatives/Key-initiatives";
 import Testimonial from "../../component/testimonial/Testimonial";
 import { Helmet } from "react-helmet";
+import DropIcon from "../../component/topnav/DropIcon";
 
 const users = [
     {
@@ -671,6 +671,53 @@ function Home() {
                                             );
                                         }
                                     )}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="container d-none">
+                        <div id="past-programs">
+                            <div className="card">
+                                <div className="card-header" id="headingOne">
+                                    <h5 className="mb-0">
+                                        <button
+                                            className="btn btn-link"
+                                            data-toggle="collapse"
+                                            data-target="#collapseOne"
+                                            aria-expanded="false"
+                                            aria-controls="collapseOne"
+                                        >
+                                            View Past Programs
+                                            <DropIcon />
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div
+                                    id="collapseOne"
+                                    className="collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-parent="#accordion"
+                                >
+                                    <div className="card-body">
+                                        Anim pariatur cliche reprehenderit, enim
+                                        eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia
+                                        aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt
+                                        laborum eiusmod. Brunch 3 wolf moon
+                                        tempor, sunt aliqua put a bird on it
+                                        squid single-origin coffee nulla
+                                        assumenda shoreditch et. Nihil anim
+                                        keffiyeh helvetica, craft beer labore
+                                        wes anderson cred nesciunt sapiente ea
+                                        proident. Ad vegan excepteur butcher
+                                        vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth
+                                        nesciunt you probably haven't heard of
+                                        them accusamus labore sustainable VHS.
+                                    </div>
                                 </div>
                             </div>
                         </div>

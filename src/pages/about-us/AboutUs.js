@@ -147,7 +147,7 @@ function AboutUs() {
                                         on a 3-year grant from the U.S.
                                         Department of Defense NDEP and is on the
                                         advisory board for the NSF-funded
-                                        QuSTEAM. She graduated summa cum laude
+                                        QuSTEAM. She graduated magna cum laude
                                         from Brown University and holds two
                                         master degrees from the University of
                                         Cambridge, where she graduated with
