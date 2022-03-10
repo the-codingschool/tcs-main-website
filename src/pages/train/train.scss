@@ -31,6 +31,12 @@
                 color: #c5c8cb;
             }
         }
+        h1 {
+            @media (max-width: 991.9px) {
+                font-size: 45px;
+                line-height: 51px;
+            }
+        }
     }
     .train-banner-below {
         .tagline {

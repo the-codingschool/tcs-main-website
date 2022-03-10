@@ -31,7 +31,7 @@ const Train = (props) => {
                             <div className="col-12 col-lg-7 mb-30 mb-lg-0 text-center text-lg-left">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
-                                        <span className="train-logo">
+                                        <span className="train-logo text-center">
                                             <span className="tl-gray-dark">
                                                 TR
                                             </span>
