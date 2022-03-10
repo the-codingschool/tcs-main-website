@@ -40,6 +40,9 @@
         font-size: 66px;
         line-height: 76px;
     }
+    .banner .headline h1 {
+        font-size: 80px;
+    }
     .banner:after {
         width: 500px;
         height: 500px;
@@ -149,9 +152,7 @@
     .section_3 .desc p {
         padding-right: 15%;
     }
-
-    .section_3 .headline h2,
-    .section_3 .tagline h2 {
+    .section_3 .headline h2, .section_3 .tagline h2 {
         font-size: 50px;
     }
 
@@ -248,8 +249,7 @@
         padding-right: 15%;
     }
 
-    .section_3 .headline h2,
-    .section_3 .tagline h2 {
+    .section_3 .headline h2, .section_3 .tagline h2 {
         font-size: 40px;
     }
 
@@ -278,11 +278,7 @@
         font-size: 50px;
         line-height: 60px;
     }
-    .section_3 ul.sponsor li img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
+    .section_3 ul.sponsor li img {width: 100%;height: 100%;object-fit: contain;}
 }
 
 /* / / Ipad - 768px and Landspace Mode : 820px / / */
@@ -370,8 +366,7 @@
         padding-right: 15%;
     }
 
-    .section_3 .headline h2,
-    .section_3 .tagline h2 {
+    .section_3 .headline h2, .section_3 .tagline h2 {
         font-size: 30px;
         line-height: 40px;
     }
@@ -386,6 +381,11 @@
         background-size: 28%;
     }
 
+    .banner .headline h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
     .banner .tagline h6 {
         max-width: 80%;
     }
@@ -397,14 +397,8 @@
         font-size: 40px;
         line-height: 40px;
     }
-    .section_3 ul.sponsor li img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
-    .section_1 .offset-md-4,
-    .section_1 .col-md-4 {
-    }
+    .section_3 ul.sponsor li img {width: 100%;height: 100%;object-fit: contain;}
+    .section_1 .offset-md-4, .section_1 .col-md-4 {}
 
     .section_4 .desc p {
         font-size: 13px;
@@ -487,12 +481,8 @@
     .section_4 {
         text-align: center;
         padding: 30px 0;
-        background: rgb(0, 93, 146) !important;
-        background: radial-gradient(
-            circle,
-            rgba(0, 93, 146, 1) 0%,
-            rgba(56, 182, 255, 1) 78%
-        ) !important;
+        background: rgb(0,93,146) !important;
+         background: radial-gradient(circle, rgba(0,93,146,1) 0%, rgba(56,182,255,1) 78%) !important;
     }
 
     .section_5 {
