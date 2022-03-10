@@ -27,8 +27,8 @@ const Train = (props) => {
             <div id="trainPage">
             <section className="banner">
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-md-12">
+                        <div className="row align-items-center">
+                            <div className="col-12 col-lg-6 mb-30 mb-lg-0 text-center text-lg-left">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
                                         <span className="train-logo">
