@@ -26,9 +26,9 @@ const Train = (props) => {
             </Helmet>
             <div id="trainPage">
                 <section className="banner">
-                    <div className="container-fluid">
+                    <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-12 col-lg-6 mb-30 mb-lg-0 text-center text-lg-left">
+                            <div className="col-12 col-lg-7 mb-30 mb-lg-0 text-center text-lg-left">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
                                         <span className="train-logo">
@@ -69,7 +69,7 @@ const Train = (props) => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6">
+                            <div className="col-12 col-lg-5 train-lottier-player">
                                 <Player
                                     autoplay={true}
                                     loop={true}

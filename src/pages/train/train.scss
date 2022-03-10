@@ -90,6 +90,16 @@
             }
         }
     }
+    .train-lottier-player {
+        .lf-player-container {
+            width: 46vw;
+            z-index: 9;
+            position: relative;
+            @media (max-width: 991.9px) {
+                width: 100%;
+            }
+        }
+    }
 }
 span {
     &.highlight-underline-green {
