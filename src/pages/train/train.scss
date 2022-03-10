@@ -14,14 +14,14 @@
         }
         .train-logo {
             font-size: 90px;
-             @media (max-width: 575px) {
-                 font-size: 25px;
-                 line-height: 35px;
-             }
-             @media (max-width: 1199px) {
+            @media (max-width: 575px) {
+                font-size: 25px;
+                line-height: 35px;
+            }
+            @media (max-width: 1199px) {
                 font-size: 50px;
                 line-height: 60px;
-             }
+            }
             .tl-gray-dark {
                 color: #6d6d6d;
             }
@@ -85,16 +85,6 @@
                     font-size: 15px;
                     font-weight: 100;
                 }
-            }
-        }
-    }
-    .train-lottier-player {
-        .lf-player-container {
-            width: 46vw;
-            z-index: 9;
-            position: relative;
-            @media (max-width: 991.9px) {
-                width: 100%;
             }
         }
     }

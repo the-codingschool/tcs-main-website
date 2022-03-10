@@ -12,8 +12,8 @@ import "./css/rwd.css";
 import "./css/slick-theme.css";
 import "./css/slick.css";
 import "./train.scss";
+
 import { Helmet } from "react-helmet";
-import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 const Train = (props) => {
     return (
@@ -25,10 +25,10 @@ const Train = (props) => {
                 />
             </Helmet>
             <div id="trainPage">
-            <section className="banner">
+                <section className="banner">
                     <div className="container-fluid">
                         <div className="row">
-                             <div className="col-md-12">
+                            <div className="col-md-12">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
                                         <span className="train-logo">
@@ -104,7 +104,7 @@ const Train = (props) => {
                                         data-aos="fade-up"
                                         data-aos-duration="600"
                                     >
-                                        <p className="text-dark">
+                                        <p class="text-dark">
                                             Artificial Intelligence (AI) will
                                             change the world as we know it,
                                             shaping how business is done, how
@@ -152,7 +152,7 @@ const Train = (props) => {
                                 >
                                     <h2>
                                         FUTURE AI LEADERS{" "}
-                                        <span className="bar-overline">
+                                        <span class="bar-overline">
                                             <span className="bo-text">
                                                 PROGRAM
                                             </span>
@@ -164,7 +164,7 @@ const Train = (props) => {
                                     data-aos="fade-up"
                                     data-aos-duration="1000"
                                 >
-                                    {/* <p className="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence. Main components of our program include:</p> */}
+                                    {/* <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence. Main components of our program include:</p> */}
                                     <p>
                                         In collaboration with USC’s Viterbi
                                         School of Engineering, we’re offering
@@ -279,7 +279,7 @@ const Train = (props) => {
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    <p className="text-dark text-center">
+                                    <p class="text-dark text-center">
                                         To ensure{" "}
                                         <span className="text-bold">
                                             accessibility
@@ -312,9 +312,7 @@ const Train = (props) => {
                                 >
                                     <h2>
                                         BRING{" "}
-                                        <span className="text-brand-light">
-                                            AI
-                                        </span>{" "}
+                                        <span class="text-brand-light">AI</span>{" "}
                                         TO YOUR SCHOOL
                                     </h2>
                                 </div>
@@ -367,7 +365,7 @@ const Train = (props) => {
                                     </div>
                                     <div className="desc">
                                         <p>
-                                            <span className="text-bold">
+                                            <span class="text-bold">
                                                 Nationally accredited by WASC
                                             </span>
                                             , we offer our two-semester
@@ -391,7 +389,7 @@ const Train = (props) => {
                                         </p>
                                     </div>
                                     <a
-                                        className="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
+                                        class="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
                                         href="https://airtable.com/shrtYbn1ghbtxvOdM"
                                         target="_blank"
                                     >
@@ -439,7 +437,7 @@ const Train = (props) => {
                                         </p>
                                     </div>
                                     <a
-                                        className="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
+                                        class="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
                                         href="https://airtable.com/shr4CIVyf5KoYVZZF"
                                         target="_blank"
                                     >
