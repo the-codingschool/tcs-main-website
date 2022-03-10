@@ -25,13 +25,13 @@ const Train = (props) => {
                 />
             </Helmet>
             <div id="trainPage">
-                <section className="banner">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-12 col-lg-7 mb-30 mb-lg-0 text-center text-lg-left">
+            <section className="banner">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-md-12">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
-                                        <span className="train-logo text-center">
+                                        <span className="train-logo">
                                             <span className="tl-gray-dark">
                                                 TR
                                             </span>
@@ -55,7 +55,7 @@ const Train = (props) => {
                                     </h1>
                                 </div>
                                 <div
-                                    className="tagline train-page-tagline mt-40 justify-content-center justify-content-lg-start"
+                                    className="tagline train-page-tagline mt-40"
                                     data-aos="fade-up"
                                     data-aos-duration="500"
                                 >
@@ -68,14 +68,6 @@ const Train = (props) => {
                                         alt=""
                                     />
                                 </div>
-                            </div>
-                            <div className="col-12 col-lg-5 train-lottier-player">
-                                <Player
-                                    autoplay={true}
-                                    loop={true}
-                                    controls={true}
-                                    src="https://assets2.lottiefiles.com/packages/lf20_wjngbsl7.json"
-                                ></Player>
                             </div>
                         </div>
                     </div>
