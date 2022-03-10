@@ -100,8 +100,12 @@ function HomeBanner() {
                                     <rect width="818" height="882" />
                                 </clipPath>
                             </defs>
-                            <g id="Canvas" class="cls-1">
-                                <rect class="cls-3" width="818" height="882" />
+                            <g id="Canvas" className="cls-1">
+                                <rect
+                                    className="cls-3"
+                                    width="818"
+                                    height="882"
+                                />
                                 <image
                                     id="Background"
                                     width="818"
@@ -111,7 +115,7 @@ function HomeBanner() {
                                 <path
                                     id="Shape_1"
                                     data-name="Shape 1"
-                                    class="cls-2"
+                                    className="cls-2"
                                     d="M3.268,592.233v14.584L467.5,881.646,815.3,670.878l2.182-395.662L333.522.023l.164,15.891,1,378.914-62.916,58.552S3.268,577.728,3.268,592.233Z"
                                 />
                                 <image

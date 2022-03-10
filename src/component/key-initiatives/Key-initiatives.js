@@ -98,7 +98,7 @@ function KeyInitiatives() {
             <div className="container KeyInitiatives-content">
                 <div className="row">
                     {/* <div className="col-12 col-md-4 mb-30 mb-md-0">
-                    <img src="images/boy-future quantum leader.jpg" class="w-100" />
+                    <img src="images/boy-future quantum leader.jpg" className="w-100" />
                 </div> */}
                     <div className="col-12">
                         <div className="visual-text text-center">

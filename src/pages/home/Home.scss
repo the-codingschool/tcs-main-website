@@ -241,3 +241,70 @@
         }
     }
 }
+
+#past-programs {
+    margin-bottom: 30px;
+    .card-header {
+        button {
+            padding: 10px;
+            width: 100%;
+            background: linear-gradient(
+                to right,
+                #005d92 0%,
+                #38b6ff 78%
+            ) !important;
+            color: #fff;
+            svg {
+                transform: rotate(0deg);
+                transition: 0.3s ease all;
+                path {
+                    fill: #fff;
+                }
+            }
+            &[aria-expanded="true"] {
+                svg {
+                    transform: rotate(180deg);
+                }
+            }
+            outline: 0;
+            box-shadow: none;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .card-body {
+        background-color: #f5f5f5;
+    }
+    .pp-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .ppImg {
+            max-width: 215px;
+            width: 100%;
+            @media (max-width: 768px) {
+                margin: auto;
+            }
+        }
+        .ppCont {
+            margin-left: 20px;
+            max-width: calc(100% - 235px);
+            @media (max-width: 768px) {
+                max-width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .ppc-title {
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+        &:not(:last-child) {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #c1c1c1;
+        }
+    }
+}

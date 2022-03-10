@@ -12,8 +12,8 @@ import "./css/rwd.css";
 import "./css/slick-theme.css";
 import "./css/slick.css";
 import "./train.scss";
-
 import { Helmet } from "react-helmet";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 const Train = (props) => {
     return (
@@ -27,8 +27,8 @@ const Train = (props) => {
             <div id="trainPage">
                 <section className="banner">
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-md-12">
+                        <div className="row align-items-center">
+                            <div className="col-12 col-lg-6 mb-30 mb-lg-0 text-center text-lg-left">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
                                         <span className="train-logo">
@@ -55,7 +55,7 @@ const Train = (props) => {
                                     </h1>
                                 </div>
                                 <div
-                                    className="tagline train-page-tagline mt-40"
+                                    className="tagline train-page-tagline mt-40 justify-content-center justify-content-lg-start"
                                     data-aos="fade-up"
                                     data-aos-duration="500"
                                 >
@@ -68,6 +68,14 @@ const Train = (props) => {
                                         alt=""
                                     />
                                 </div>
+                            </div>
+                            <div className="col-12 col-lg-6">
+                                <Player
+                                    autoplay={true}
+                                    loop={true}
+                                    controls={true}
+                                    src="https://assets2.lottiefiles.com/packages/lf20_wjngbsl7.json"
+                                ></Player>
                             </div>
                         </div>
                     </div>
@@ -104,7 +112,7 @@ const Train = (props) => {
                                         data-aos="fade-up"
                                         data-aos-duration="600"
                                     >
-                                        <p class="text-dark">
+                                        <p className="text-dark">
                                             Artificial Intelligence (AI) will
                                             change the world as we know it,
                                             shaping how business is done, how
@@ -152,7 +160,7 @@ const Train = (props) => {
                                 >
                                     <h2>
                                         FUTURE AI LEADERS{" "}
-                                        <span class="bar-overline">
+                                        <span className="bar-overline">
                                             <span className="bo-text">
                                                 PROGRAM
                                             </span>
@@ -164,7 +172,7 @@ const Train = (props) => {
                                     data-aos="fade-up"
                                     data-aos-duration="1000"
                                 >
-                                    {/* <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence. Main components of our program include:</p> */}
+                                    {/* <p className="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence. Main components of our program include:</p> */}
                                     <p>
                                         In collaboration with USC’s Viterbi
                                         School of Engineering, we’re offering
@@ -279,7 +287,7 @@ const Train = (props) => {
                                     data-aos="fade-up"
                                     data-aos-duration="700"
                                 >
-                                    <p class="text-dark text-center">
+                                    <p className="text-dark text-center">
                                         To ensure{" "}
                                         <span className="text-bold">
                                             accessibility
@@ -312,7 +320,9 @@ const Train = (props) => {
                                 >
                                     <h2>
                                         BRING{" "}
-                                        <span class="text-brand-light">AI</span>{" "}
+                                        <span className="text-brand-light">
+                                            AI
+                                        </span>{" "}
                                         TO YOUR SCHOOL
                                     </h2>
                                 </div>
@@ -365,7 +375,7 @@ const Train = (props) => {
                                     </div>
                                     <div className="desc">
                                         <p>
-                                            <span class="text-bold">
+                                            <span className="text-bold">
                                                 Nationally accredited by WASC
                                             </span>
                                             , we offer our two-semester
@@ -389,7 +399,7 @@ const Train = (props) => {
                                         </p>
                                     </div>
                                     <a
-                                        class="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
+                                        className="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
                                         href="https://airtable.com/shrtYbn1ghbtxvOdM"
                                         target="_blank"
                                     >
@@ -437,7 +447,7 @@ const Train = (props) => {
                                         </p>
                                     </div>
                                     <a
-                                        class="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
+                                        className="btn btn-primary-gradient text-upper text-white text-bold py-10 mt-20 rounded-0"
                                         href="https://airtable.com/shr4CIVyf5KoYVZZF"
                                         target="_blank"
                                     >

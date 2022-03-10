@@ -201,14 +201,27 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            @media (max-width: 768px) {
+                padding: 0;
+            }
             img {
                 max-width: 230px;
                 width: 100%;
                 height: auto;
+                @media (max-width: 768px) {
+                    max-width: 100%;
+                }
             }
             .ltcsn-card-content {
                 margin-left: 15px;
                 width: calc(100% - 245px);
+                @media (max-width: 768px) {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-top: 15px;
+                    padding: 15px;
+                    text-align: center;
+                }
                 .ltcsn-cc-title {
                     margin-bottom: 0;
                     a {

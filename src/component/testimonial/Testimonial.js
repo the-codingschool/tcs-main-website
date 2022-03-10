@@ -487,7 +487,7 @@ function Testimonial() {
                         <h3>A lot of Happy {testifier}</h3>
                     </div>
 
-                    <ul class="nav nav-tabs">
+                    <ul className="nav nav-tabs">
                         {testimonialsTab.map((e, i) => {
                             return (
                                 <li className={i == "0" ? "active" : null}>
@@ -518,8 +518,11 @@ function Testimonial() {
                         className="testimonials-quote"
                         src="images/quotes.png"
                     />
-                    <div class="tab-content">
-                        <div id="students" class="tab-pane fade in active show">
+                    <div className="tab-content">
+                        <div
+                            id="students"
+                            className="tab-pane fade in active show"
+                        >
                             <div className="go-to-slide">
                                 {studentTestimonials.map((item, index) => {
                                     return (
@@ -562,7 +565,7 @@ function Testimonial() {
                             </ul>
                         </div>
 
-                        <div id="partner-school" class="tab-pane fade">
+                        <div id="partner-school" className="tab-pane fade">
                             <div className="go-to-slide">
                                 {schoolPartnersTestimonials.map(
                                     (item, index) => {
@@ -608,7 +611,7 @@ function Testimonial() {
                             </ul>
                         </div>
 
-                        <div id="instructors" class="tab-pane fade">
+                        <div id="instructors" className="tab-pane fade">
                             <div className="go-to-slide">
                                 {instructorTestimonials.map((item, index) => {
                                     return (
@@ -687,8 +690,8 @@ function Testimonial() {
                             })}
                         </ul>
 
-                        <div class="row home-banner mt-30 p-0">
-                            <div class="col-md-6 text-right">
+                        <div className="row home-banner mt-30 p-0">
+                            <div className="col-md-6 text-right">
                                 <HashLink
                                     className="btn btn-outline link"
                                     to="/about_us#partners"
@@ -697,7 +700,7 @@ function Testimonial() {
                                     SEE MORE
                                 </HashLink>
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div className="col-md-6 text-left">
                                 <Link
                                     className="btn btn-outline link"
                                     to="/involved"

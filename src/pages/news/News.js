@@ -34,8 +34,8 @@ function News() {
                         </p>
 
                         <p>
-                            <span class="text-bold">(Los Angeles, CA)</span> -
-                            <Link to="/">The Coding School (TCS)</Link>, a tech
+                            <span className="text-bold">(Los Angeles, CA)</span>{" "}
+                            -<Link to="/">The Coding School (TCS)</Link>, a tech
                             education nonprofit organization dedicated to
                             empowering the next generation through emerging
                             technology education, announced today that the U.S.

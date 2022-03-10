@@ -41,11 +41,11 @@ function Footer() {
             external: true,
         },
         {
-            label  : 'Train',
-            link   : '/train',
-            active : false,
-        }
-    ]
+            label: "Train",
+            link: "/train",
+            active: false,
+        },
+    ];
 
     return (
         <div id="Footer">
@@ -79,8 +79,8 @@ function Footer() {
                         <div className="fs-16 fw-6 text-uppercase mb-10">
                             Useful Links
                         </div>
-                        {footerLinks.map((item) => (
-                            <div className="mt-10 cp">
+                        {footerLinks.map((item, index) => (
+                            <div className="mt-10 cp" key={index}>
                                 {item.external ? (
                                     <a href={item.link} target="_blank">
                                         {item.label}

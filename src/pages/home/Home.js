@@ -87,6 +87,7 @@ var settings = {
         },
     ],
 };
+
 const programPost = [
     {
         name: "1",
@@ -165,6 +166,7 @@ const programPost = [
         isExternal: true,
     },
 ];
+
 const programPostUniversity = [
     {
         name: "1",
@@ -182,6 +184,7 @@ const programPostUniversity = [
         isExternal: true,
     },
 ];
+
 const programPostEducators = [
     {
         name: "1",
@@ -210,6 +213,7 @@ const programPostEducators = [
         isExternal: true,
     },
 ];
+
 const keyPost = [
     {
         name: "1",
@@ -239,6 +243,42 @@ const keyPost = [
         isExternal: false,
     },
 ];
+
+const pastPrograms = [
+    {
+        ppImg: "/images/quantum-computing.png",
+        ppTitle:
+            "Introduction to Quantum Computing for High School Students 2020-2021",
+        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
+        ppLink: "/",
+        isExternal: false,
+    },
+    {
+        ppImg: "/images/quantum-computing.png",
+        ppTitle:
+            "Introduction to Quantum Computing for High School Students 2020-2021",
+        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
+        ppLink: "/",
+        isExternal: false,
+    },
+    {
+        ppImg: "/images/quantum-computing.png",
+        ppTitle:
+            "Introduction to Quantum Computing for High School Students 2020-2021",
+        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
+        ppLink: "/",
+        isExternal: false,
+    },
+    {
+        ppImg: "/images/quantum-computing.png",
+        ppTitle:
+            "Introduction to Quantum Computing for High School Students 2020-2021",
+        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
+        ppLink: "/",
+        isExternal: false,
+    },
+];
+
 function NextArrow(props) {
     const { className, onClick } = props;
     return <div className={`${className} up-next-item`} onClick={onClick} />;
@@ -392,7 +432,7 @@ function Home() {
                 <div className="upcoming-programs">
                     <div className="container">
                         <div
-                            class="nav upcomingProgramsTab mb-30"
+                            className="nav upcomingProgramsTab mb-30"
                             role="tablist"
                         >
                             <a
@@ -430,11 +470,11 @@ function Home() {
                     </div>
 
                     <div
-                        class="tab-content mb-50"
+                        className="tab-content mb-50"
                         id="upcomingProgramsTabContent"
                     >
                         <div
-                            class="tab-pane fade show active"
+                            className="tab-pane fade show active"
                             id="k2-pro"
                             role="tabpanel"
                             aria-labelledby="k2-pro-tab"
@@ -502,7 +542,7 @@ function Home() {
                             </div>
                         </div>
                         <div
-                            class="tab-pane fade"
+                            className="tab-pane fade"
                             id="k2-pro2"
                             role="tabpanel"
                             aria-labelledby="k2-pro2-tab"
@@ -585,7 +625,7 @@ function Home() {
                             </div>
                         </div>
                         <div
-                            class="tab-pane fade"
+                            className="tab-pane fade"
                             id="k2-pro3"
                             role="tabpanel"
                             aria-labelledby="k2-pro3-tab"
@@ -677,46 +717,101 @@ function Home() {
                     </div>
 
                     <div className="container d-none">
-                        <div id="past-programs">
-                            <div className="card">
-                                <div className="card-header" id="headingOne">
-                                    <h5 className="mb-0">
-                                        <button
-                                            className="btn btn-link"
-                                            data-toggle="collapse"
-                                            data-target="#collapseOne"
-                                            aria-expanded="false"
-                                            aria-controls="collapseOne"
-                                        >
-                                            View Past Programs
-                                            <DropIcon />
-                                        </button>
-                                    </h5>
-                                </div>
+                        <div className="row">
+                            <div className="col-12 col-md-10 mx-auto">
+                                <div id="past-programs">
+                                    <div id="accordion">
+                                        <div className="card">
+                                            <div
+                                                className="card-header p-0"
+                                                id="headingOne"
+                                            >
+                                                <h5 className="mb-0">
+                                                    <button
+                                                        className="btn btn-link"
+                                                        data-toggle="collapse"
+                                                        data-target="#pastPrograms"
+                                                        aria-expanded="false"
+                                                        aria-controls="pastPrograms"
+                                                    >
+                                                        View Past Programs
+                                                        <DropIcon />
+                                                    </button>
+                                                </h5>
+                                            </div>
 
-                                <div
-                                    id="collapseOne"
-                                    className="collapse show"
-                                    aria-labelledby="headingOne"
-                                    data-parent="#accordion"
-                                >
-                                    <div className="card-body">
-                                        Anim pariatur cliche reprehenderit, enim
-                                        eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia
-                                        aute, non cupidatat skateboard dolor
-                                        brunch. Food truck quinoa nesciunt
-                                        laborum eiusmod. Brunch 3 wolf moon
-                                        tempor, sunt aliqua put a bird on it
-                                        squid single-origin coffee nulla
-                                        assumenda shoreditch et. Nihil anim
-                                        keffiyeh helvetica, craft beer labore
-                                        wes anderson cred nesciunt sapiente ea
-                                        proident. Ad vegan excepteur butcher
-                                        vice lomo. Leggings occaecat craft beer
-                                        farm-to-table, raw denim aesthetic synth
-                                        nesciunt you probably haven't heard of
-                                        them accusamus labore sustainable VHS.
+                                            <div
+                                                id="pastPrograms"
+                                                className="collapse"
+                                                aria-labelledby="headingOne"
+                                                data-parent="#accordion"
+                                            >
+                                                <div className="card-body">
+                                                    {pastPrograms.map(
+                                                        (e, i) => {
+                                                            return (
+                                                                <div className="pp-wrap">
+                                                                    <div className="ppImg">
+                                                                        <img
+                                                                            src={
+                                                                                e[
+                                                                                    "ppImg"
+                                                                                ]
+                                                                            }
+                                                                            className="img-fluid"
+                                                                        />
+                                                                    </div>
+                                                                    <div className="ppCont">
+                                                                        <h5 className="ppc-title">
+                                                                            {
+                                                                                e[
+                                                                                    "ppTitle"
+                                                                                ]
+                                                                            }
+                                                                        </h5>
+                                                                        <p className="ppc-desc">
+                                                                            {
+                                                                                e[
+                                                                                    "ppDesc"
+                                                                                ]
+                                                                            }
+                                                                        </p>
+                                                                        {e[
+                                                                            "isExternal"
+                                                                        ] ? (
+                                                                            <a
+                                                                                href={
+                                                                                    e[
+                                                                                        "ppLink"
+                                                                                    ]
+                                                                                }
+                                                                                target="_blank"
+                                                                                className="text-blue-gradient"
+                                                                            >
+                                                                                Learn
+                                                                                More
+                                                                            </a>
+                                                                        ) : (
+                                                                            <Link
+                                                                                to={
+                                                                                    e[
+                                                                                        "ppLink"
+                                                                                    ]
+                                                                                }
+                                                                                className="text-blue-gradient"
+                                                                            >
+                                                                                Learn
+                                                                                More
+                                                                            </Link>
+                                                                        )}
+                                                                    </div>
+                                                                </div>
+                                                            );
+                                                        }
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -774,8 +869,8 @@ function Home() {
                                 </Fade>
                             </div>
                         </div>
-                        <div class="row align-items-center mt-50 eng-bg-bottom">
-                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                        <div className="row align-items-center mt-50 eng-bg-bottom">
+                            <div className="col-6 col-lg-3 text-center mb-30 mb-lg-0">
                                 <h5>
                                     <CountUp end={80} duration={3.75} />
                                     %+
@@ -785,7 +880,7 @@ function Home() {
                                     courses
                                 </p>
                             </div>
-                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <div className="col-6 col-lg-3 text-center mb-30 mb-lg-0">
                                 <h5>
                                     <CountUp end={99} duration={3.75} />%
                                 </h5>
@@ -794,7 +889,7 @@ function Home() {
                                     class in college after the course
                                 </p>
                             </div>
-                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <div className="col-6 col-lg-3 text-center mb-30 mb-lg-0">
                                 <h5>
                                     <CountUp end={98} duration={3.75} />%
                                 </h5>
@@ -803,7 +898,7 @@ function Home() {
                                     their friends
                                 </p>
                             </div>
-                            <div class="col-6 col-lg-3 text-center mb-30 mb-lg-0">
+                            <div className="col-6 col-lg-3 text-center mb-30 mb-lg-0">
                                 <h5>
                                     <CountUp end={95} duration={3.75} />%
                                 </h5>
@@ -841,7 +936,7 @@ function Home() {
                                         <Fade top>
                                             <h3>
                                                 School{" "}
-                                                <span class="text-gold">
+                                                <span className="text-gold">
                                                     Partners
                                                 </span>
                                             </h3>

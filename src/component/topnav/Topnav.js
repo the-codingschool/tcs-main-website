@@ -79,7 +79,7 @@ function Topnav() {
         <ClickAwayListener onClickAway={() => setShow(false)}>
             <nav id="Topnav" className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
-                    <Link class="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/">
                         <img
                             src={
                                 "/images/TCS_logo-1 copy.png" ||
@@ -96,7 +96,7 @@ function Topnav() {
                         }`}
                         type="button"
                     >
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div
