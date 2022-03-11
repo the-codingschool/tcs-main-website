@@ -38,20 +38,13 @@ function Topnav() {
         },
         {
             label: "Donate",
-            link: "https://codeconnects.org/donate.html",
-            active: false,
-            external: true,
+            link: "/donate",
+            external: false,
         },
         {
             label: "News",
             link: "/news",
             active: false,
-        },
-        {
-            label: "Donate",
-            link: "https://codeconnects.org/donate.html",
-            active: false,
-            external: true,
         },
     ];
 
