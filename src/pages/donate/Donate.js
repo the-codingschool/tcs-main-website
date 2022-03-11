@@ -1,59 +1,9 @@
 import "./Donate.scss";
-import React, { useEffect } from "react";
-import Marquee from "react-fast-marquee";
-
-import Fade from "react-reveal/Fade";
+import React from "react";
 import Stripe_payment from "../../component/stripe-payment/Stripe-payment";
 import { Helmet } from "react-helmet";
 
-// import {loadStripe} from '@stripe/react-stripe-js';
-// import {
-//   CardElement,
-//   Elements,
-//   useStripe,
-//   useElements,
-// } from '@stripe/react-stripe-js';
-
-//import StripeCheckout from 'react-stripe-checkout';
-// const onToken = (token) => {
-//     fetch('/save-stripe-token', {
-//       method: 'POST',
-//       body: JSON.stringify(token),
-//     }).then(response => {
-//       response.json().then(data => {
-//         alert(`We are in business, ${data.email}`);
-//       });
-//     });
-// }
-
 function Donate() {
-    // const CheckoutForm = () => {
-    //     const stripe = useStripe();
-    //     const elements = useElements();
-
-    //     const handleSubmit = async (event) => {
-    //       event.preventDefault();
-
-    //       if (elements == null) {
-    //         return;
-    //       }
-
-    //       const {error, paymentMethod} = await stripe.createPaymentMethod({
-    //         type: 'card',
-    //         card: elements.getElement(CardElement),
-    //       });
-    //     };
-    //     return (
-    //         <form onSubmit={handleSubmit}>
-    //           <CardElement />
-    //           <button type="submit" disabled={!stripe || !elements}>
-    //             Pay
-    //           </button>
-    //         </form>
-    //       );
-    // };
-    // const stripePromise = loadStripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
-
     return (
         <>
             <Helmet>
@@ -61,6 +11,9 @@ function Donate() {
                     name="description"
                     content="The Coding School awarded $3 million grant"
                 />
+                <script>
+                    gl=document.createElement('script');gl.src='https://secure.givelively.org/widgets/simple_donation/coding-school.js?show_suggested_amount_buttons=true&show_in_honor_of=true&address_required=false&has_required_custom_question=null&suggested_donation_amounts[]=25&suggested_donation_amounts[]=50&suggested_donation_amounts[]=100&suggested_donation_amounts[]=250';document.getElementsByTagName('head')[0].appendChild(gl);
+                </script>
             </Helmet>
             <div id="Donate">
                 <div className="Donate-image">
@@ -91,51 +44,11 @@ function Donate() {
                             </p>
                         </div>
                         <div className="payment-col">
-                            {/* <Elements stripe={stripePromise}>
-                        <CheckoutForm />
-                    </Elements> */}
-
-                            <Stripe_payment></Stripe_payment>
-                            {/* <StripeCheckout
-                        //token={this.onToken}
-                        stripeKey="my_PUBLISHABLE_stripekey"
-                    /> */}
-                            {/* <StripeCheckout
-                        name="Three Comma Co." // the pop-in header title
-                        description="Big Data Stuff" // the pop-in header subtitle
-                        image="https://www.vidhub.co/assets/logos/vidhub-icon-2e5c629f64ced5598a56387d4e3d0c7c.png" // the pop-in header image (default none)
-                        ComponentClass="div"
-                        panelLabel="Give Money" // prepended to the amount in the bottom pay button
-                        amount={1000000} // cents
-                        currency="USD"
-                        stripeKey="..."
-                        locale="zh"
-                        email="info@vidhub.co"
-                        // Note: Enabling either address option will give the user the ability to
-                        // fill out both. Addresses are sent as a second parameter in the token callback.
-                        shippingAddress
-                        billingAddress={false}
-                        // Note: enabling both zipCode checks and billing or shipping address will
-                        // cause zipCheck to be pulled from billing address (set to shipping if none provided).
-                        zipCode={false}
-                        alipay // accept Alipay (default false)
-                        bitcoin // accept Bitcoins (default false)
-                        allowRememberMe // "Remember Me" option (default true)
-                        token={this.onToken} // submit callback
-                        //opened={this.onOpened} // called when the checkout popin is opened (no IE6/7)
-                        //closed={this.onClosed} // called when the checkout popin is closed (no IE6/7)
-                        // Note: `reconfigureOnUpdate` should be set to true IFF, for some reason
-                        // you are using multiple stripe keys
-                        reconfigureOnUpdate={false}
-                        // Note: you can change the event to `onTouchTap`, `onClick`, `onTouchStart`
-                        // useful if you're using React-Tap-Event-Plugin
-                        triggerEvent="onTouchTap"
-                        >
-                        <button className="btn btn-primary">
-                            Use your own child component, which gets wrapped in whatever
-                            component you pass into as "ComponentClass" (defaults to span)
-                        </button>
-                    </StripeCheckout> */}
+                            <div
+                                id="give-lively-widget"
+                                class="gl-simple-donation-widget"
+                            ></div>
+                            {/* <Stripe_payment></Stripe_payment> */}
                         </div>
                     </div>
                 </div>

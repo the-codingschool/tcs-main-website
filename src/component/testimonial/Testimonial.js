@@ -484,7 +484,10 @@ function Testimonial() {
             <Fade top>
                 <div className="container">
                     <div className="visual-text text-center mb-30">
-                        <h3>A lot of Happy {testifier}</h3>
+                        <h3>Testimonials</h3>
+                        <h5 className="text-thin">
+                            A lot of Happy {testifier}
+                        </h5>
                     </div>
 
                     <ul className="nav nav-tabs">

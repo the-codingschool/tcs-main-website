@@ -12,8 +12,8 @@ import "./css/rwd.css";
 import "./css/slick-theme.css";
 import "./css/slick.css";
 import "./train.scss";
-
 import { Helmet } from "react-helmet";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const Train = (props) => {
     return (
@@ -27,8 +27,8 @@ const Train = (props) => {
             <div id="trainPage">
                 <section className="banner">
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-md-12">
+                        <div className="row align-items-center">
+                            <div className="col-12 col-xl-7">
                                 <div className="headline" data-aos="zoom-in">
                                     <h1>
                                         <span className="train-logo">
@@ -68,6 +68,14 @@ const Train = (props) => {
                                         alt=""
                                     />
                                 </div>
+                            </div>
+                            <div className="col-8 col-lg-6 col-xl-5 train-lottier-player mx-auto">
+                                <Player
+                                    autoplay={true}
+                                    loop={true}
+                                    controls={true}
+                                    src="https://assets2.lottiefiles.com/packages/lf20_wjngbsl7.json"
+                                ></Player>
                             </div>
                         </div>
                     </div>

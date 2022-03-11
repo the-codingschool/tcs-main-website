@@ -786,7 +786,7 @@ function Home() {
                                                                                     ]
                                                                                 }
                                                                                 target="_blank"
-                                                                                className="text-blue-gradient"
+                                                                                className="text-blue-gradient-2"
                                                                             >
                                                                                 Learn
                                                                                 More
@@ -798,7 +798,7 @@ function Home() {
                                                                                         "ppLink"
                                                                                     ]
                                                                                 }
-                                                                                className="text-blue-gradient"
+                                                                                className="text-blue-gradient-2"
                                                                             >
                                                                                 Learn
                                                                                 More

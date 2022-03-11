@@ -21,7 +21,6 @@
     .payment-text-col {
         // text-align: center;
         img {
-            background-color: #fff;
             border-radius: 0px !important;
         }
         .sub-title {
@@ -83,6 +82,9 @@
                 width: 100%;
                 padding-top: 50px;
                 padding-bottom: 50px;
+            }
+            #give-lively-widget {
+                flex: 0 0 80%;
             }
         }
     }

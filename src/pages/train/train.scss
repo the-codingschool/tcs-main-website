@@ -2,8 +2,10 @@
 
 #trainPage {
     .banner {
-        // background: url("../../../public/images/flag.jpg") center center;
-        // background-size: cover;
+        // background: linear-gradient(to right, #01a2ff 0%, #5bc0fa 100%);
+        // background: #2980B9;  /* fallback for old browsers */
+        // background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #f1f1f1;
         margin-top: -128px;
         padding-top: 128px;
         padding-bottom: 50px;
@@ -14,13 +16,13 @@
         }
         .train-logo {
             font-size: 90px;
-            @media (max-width: 575px) {
-                font-size: 25px;
-                line-height: 35px;
-            }
             @media (max-width: 1199px) {
                 font-size: 50px;
                 line-height: 60px;
+            }
+            @media (max-width: 575px) {
+                font-size: 30px;
+                line-height: 36px;
             }
             .tl-gray-dark {
                 color: #6d6d6d;

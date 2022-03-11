@@ -599,9 +599,9 @@ a#hamburg i {
 }
 
 .banner .headline h1 {
-    font-size: 70px;
+    font-size: 55px;
+    line-height: 61px;
     text-align: center;
-    line-height: 80px;
     color: #000000;
     font-family: "seguibl" !important;
     text-transform: uppercase;
@@ -960,7 +960,8 @@ a#hamburg i {
 .banner:after {
     position: absolute;
     content: "";
-    right: -395px;
+    right: auto;
+    left: -395px;
     bottom: -560px;
     width: 680px;
     height: 758px;
@@ -1413,4 +1414,16 @@ footer .logo img {
     text-align: center;
     margin-right: 20px;
     max-width: 70%;
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .banner .headline h1 {
+        font-size: 45px;
+        line-height: 51px;
+    }
+
+    #trainPage .headline .train-logo {
+        font-size: 70px;
+        line-height: 76px;
+    }
 }

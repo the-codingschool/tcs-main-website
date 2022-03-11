@@ -47,12 +47,12 @@ function Topnav() {
             link: "/news",
             active: false,
         },
-        // {
-        //     label: "Donate",
-        //     link: "https://codeconnects.org/donate.html",
-        //     active: false,
-        //     external: true,
-        // },
+        {
+            label: "Donate",
+            link: "https://codeconnects.org/donate.html",
+            active: false,
+            external: true,
+        },
     ];
 
     const dropItems = [

@@ -62,6 +62,9 @@ a:hover {
     &brand {
         color: $btn !important;
     }
+    &thin {
+        font-weight: 300;
+    }
     &bold {
         font-weight: bold !important;
     }
