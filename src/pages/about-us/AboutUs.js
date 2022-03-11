@@ -814,7 +814,7 @@ function AboutUs() {
                             {/*<div className='title'>Our Sponsors and Partners</div>*/}
                             <div>
                                 <font size="6.5" className="d-block">
-                                    We’re Creating Social Equity
+                                    We’re Helping Ensure Social Equity
                                 </font>
                                 <font size="4.5">
                                     There are already so many barriers to
