@@ -1,28 +1,31 @@
 #Topnav {
-  z-index: 9999;
-  width: 100vw !important;
-  background-color: white;
-  .register-btn {
-    background-color: #356e8b;
-    border-radius: 0;
-    color: white;
-    padding: 5px 25px;
-    height: 40px;
-  }
+    z-index: 9999;
+    width: 100vw !important;
+    background-color: white;
+    .register-btn {
+        background-color: #356e8b;
+        border-radius: 0;
+        color: white;
+        padding: 5px 25px;
+        height: 40px;
+    }
+    &.train-page {
+        background-color: transparent;
+    }
 }
 
 .navbar-light {
-  .navbar-nav {
-    .nav-link {
-      color: #000;
+    .navbar-nav {
+        .nav-link {
+            color: #000;
+        }
     }
-  }
 }
 
 @media screen and (min-width: 991px) {
-  .dropDown {
-    position: absolute;
-    z-index: 100 !important;
-    background-color: white;
-  }
+    .dropDown {
+        position: absolute;
+        z-index: 100 !important;
+        background-color: white;
+    }
 }

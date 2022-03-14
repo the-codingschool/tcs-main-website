@@ -16,6 +16,8 @@ function Topnav() {
     const location = useLocation();
     console.log("LOC: ", location);
 
+    let route = location.pathname.slice(1);
+
     React.useEffect(() => {
         setShow(false);
     }, [location?.pathname]);
@@ -70,7 +72,13 @@ function Topnav() {
 
     return (
         <ClickAwayListener onClickAway={() => setShow(false)}>
-            <nav id="Topnav" className="navbar navbar-expand-lg navbar-light">
+            <nav
+                id="Topnav"
+                className={
+                    "navbar navbar-expand-lg navbar-light" +
+                    (route === "train" ? " train-page" : "")
+                }
+            >
                 <div className="container">
                     <Link className="navbar-brand" to="/">
                         <img
