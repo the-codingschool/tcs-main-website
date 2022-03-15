@@ -485,9 +485,9 @@ function Testimonial() {
                 <div className="container">
                     <div className="visual-text text-center mb-30">
                         <h3>Testimonials</h3>
-                        <h5 className="text-thin">
-                            A lot of Happy {testifier}
-                        </h5>
+                        {/* <h5 className="text-thin">
+                            A lot of Happy {testi   fier}
+                        </h5> */}
                     </div>
 
                     <ul className="nav nav-tabs">
