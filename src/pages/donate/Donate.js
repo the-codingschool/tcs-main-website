@@ -43,12 +43,17 @@ function Donate() {
                                 code.
                             </p>
                         </div>
-                        <div className="payment-col">
-                            <div
-                                id="give-lively-widget"
-                                class="gl-simple-donation-widget"
-                            ></div>
-                            {/* <Stripe_payment></Stripe_payment> */}
+                        <div className="payment-col payment-widget-area">
+                            <div className="pwa-wrap">
+                                <div
+                                    id="give-lively-widget"
+                                    className="gl-simple-donation-widget"
+                                ></div>
+                                <div className="pwa-header">
+                                    <h3>Make a Donation</h3>
+                                    <h2>The Coding School</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

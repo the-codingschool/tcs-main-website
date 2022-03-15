@@ -1,5 +1,6 @@
+@import "../../assets/css/helpers/variables.scss";
+
 #Donate {
-    // max-width: 1400px;
     margin: auto;
     .Donate-image {
         background: url("../../../public/images/donate-bg.png") center center;
@@ -19,7 +20,6 @@
     .Donate-payment {
     }
     .payment-text-col {
-        // text-align: center;
         img {
             border-radius: 0px !important;
         }
@@ -85,6 +85,31 @@
             }
             #give-lively-widget {
                 flex: 0 0 80%;
+            }
+            &.payment-widget-area {
+                flex-wrap: wrap;
+                .pwa-wrap {
+                    width: 80%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column-reverse;
+                    .pwa-header {
+                        text-align: center;
+                        margin-bottom: 30px;
+                        h2 {
+                            font-size: 24px;
+                            font-weight: 500;
+                        }
+                        h3 {
+                            font-size: 14px;
+                            color: $paragraph;
+                            line-height: 1.4;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            margin-bottom: 0.25rem;
+                        }
+                    }
+                }
             }
         }
     }
