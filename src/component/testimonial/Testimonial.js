@@ -5,90 +5,189 @@ import Slider from "react-slick";
 import "./testimonial.scss";
 import Fade from "react-reveal/Fade";
 
+const studentTestimonials = [
+    {
+        name: "University student, England",
+        testimony:
+            "My time at QxQ has been nothing short of a truly incredible experience.",
+        image: "images/testimonials/student/1.jpg",
+    },
+    {
+        name: "11th grader, New York",
+        testimony:
+            "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
+        image: "images/testimonials/student/2.jpg",
+    },
+    {
+        name: "High school student, Kenya",
+        testimony:
+            " I will forever be <span class='text-bold'>grateful to Qubit by Qubit</span> for giving me a chance to take part in this program, and finally <span class='text-bold'>revolutionize African women and their achievements in the scientific and technological community.</span>",
+        image: "images/testimonials/student/3.jpg",
+    },
+    {
+        name: "12th grader, Texas",
+        testimony:
+            "<span class='text-bold'>I LOVED THE CAMP!</span> There are many students such as myself whether that be minority, low income, etc. who, by nature of social and systematic marginalization, lack many opportunities and chances of exposure...I had never heard of Quantum Coding before this camp, let alone thought that I would enjoy it! <span class='text-bold'>This camp and this scholarship gave me an opportunity and a new liking for another field of STEM study that without it, I would not have known anything about!</span>",
+        image: "images/testimonials/student/4.jpg",
+    },
+    {
+        name: "12th grader, Arizona",
+        testimony:
+            "This camp has honestly been <span class='text-bold'>life-changing</span> and <span class='text-bold'>eye-opening!</span> I am looking forward to exploring quantum for the rest of my life.",
+        image: "images/testimonials/student/5.jpg",
+    },
+    {
+        name: "High school student, USA",
+        testimony:
+            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. <span class='text-bold'>[This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe</span> in this community. ",
+        image: "images/testimonials/student/6.jpg",
+    },
+    {
+        name: "12th grader, Australia",
+        testimony:
+            "This course is absolutely beautiful, it is pact with the introductory information into the world of quantum.",
+        image: "images/testimonials/student/7.jpg",
+    },
+    {
+        name: "High school student, Scotland",
+        testimony:
+            "<span class='text-bold'>I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free.</span> This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
+        image: "images/testimonials/student/8.jpg",
+    },
+    {
+        name: "11th grader, USA",
+        testimony:
+            "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, <span class='text-bold'>I was mentored by a female.</span> Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM <span class='text-bold'>inspired me to believe in myself</span> and chase after more complex sciences.",
+        image: "images/testimonials/student/9.jpg",
+    },
+    {
+        name: "10th grader, Massachusetts",
+        testimony:
+            "Qubit by Qubit with IBM really changed my life! The course strengthened my math skills, increased my desire to explore STEM and hopefully one day become an Engineer or a student in college studying some type of math or programming heavy field!",
+        image: "images/testimonials/student/10.jpg",
+    },
+    {
+        name: "High school student family, California",
+        testimony:
+            "Wednesday night dinners now include a summary of quantum computing lab activities and a preview for my Saturday lab. While our Sunday mornings involve gathering in the living room with our laptops, logging into our Zoom meeting, & furthering our knowledge in quantum computing. <span class='text-bold'>This course has created a wonderful opportunity that includes academics and family time.</span>",
+        image: "images/testimonials/student/11.jpg",
+    },
+    {
+        name: "11th grader, Turkey",
+        testimony:
+            "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. <span class='text-bold'>It’s not a 'he thing.' It’s a smart people thing.</span>",
+        image: "images/testimonials/student/12.jpg",
+    },
+    {
+        name: "11th grader, Pennsylvania",
+        testimony:
+            "When I heard about the Qubit by Qubit course, I knew I had to apply. This course has challenged my intuitions and exposed me to new realities of the micro-world. I love how this course and the field of quantum computing connect all of my favorite subjects: math; physics; and computer science.",
+        image: "images/testimonials/student/13.jpg",
+    },
+    {
+        name: "University student, Minnesota",
+        testimony:
+            "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
+        image: "images/testimonials/student/14.jpg",
+    },
+    {
+        name: "10th grader, Canada",
+        testimony:
+            "As I attended lectures and participated in labs, my excitement for quantum computing only grew.",
+        image: "images/testimonials/student/15.jpg",
+    },
+    {
+        name: "12th grader, Maryland",
+        testimony:
+            "This year of learning quantum computing changed my college plans. This course cemented my love for physics, and has made me pivot to pursue this in higher education through undergrad, through a masters and even a PhD. ",
+        image: "images/testimonials/student/16.jpg",
+    },
+];
+
 const schoolPartnersTestimonials = [
     {
         name: "Nimmi Arunachalam, Palm Beach County, Florida",
         testimony:
             " I highly recommend this opportunity to all students and teachers who are curious about the role of quantum computing in our futures.",
-        image: "images/testimonials/Nimmi Photo new (6).jpg",
+        image: "images/testimonials/partner/1.jpg",
     },
     {
         name: "Heather Pereira",
         testimony:
             "Qubit by Qubit has been a wonderful partner to work with. From assisting with ensuring that the course is approved by the University of California to providing a streamlined and straightforward enrollment process, the management of the course has been great.",
-        image: "images/testimonials/heather.jpeg",
+        image: "images/testimonials/partner/2.jpg",
     },
     {
         name: "William K. Funderburk",
         testimony:
             "My own participation in this course has resulted in an overall better physics curriculum at my school! and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
-        image: "images/testimonials/william.jpg",
+        image: "images/testimonials/partner/3.jpg",
     },
     {
         name: "Ben Iseke, Bergen County Academies",
         testimony:
             "The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need.",
-        image: "images/testimonials/ben-iseke.jpg",
+        image: "images/testimonials/partner/4.jpg",
     },
     {
         name: "Maajida Murdock, Math instructor, Baltimore County Public School",
         testimony:
             "I have seen how presenting opportunities to a student has broadened their vision of themself in a STEM field with determination. My students' experience with Qubit by Qubit brought out a sense of confidence in their ability as a coder.",
-        image: "images/testimonials/Maajida-nano.png",
+        image: "images/testimonials/partner/5.jpg",
     },
     {
         name: "William K. Funderburk",
         testimony:
             "My own participation in this course has resulted in an overall better physics curriculum at my school! and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
-        image: "images/testimonials/william.jpg",
+        image: "images/testimonials/partner/6.jpg",
     },
     {
         name: "Amanda Giuliani, STEM Coordinator and Teacher, Longmont, Colorado",
         testimony:
             "Time is always of the essence for teachers, and this program provides everything I could possibly need to run the course in my school. The content is presented in an engaging way, and there are ample opportunities to make the online coursework align with my busy schedule. I am so thankful I learned about Qubit x Qubit!",
-        image: "images/testimonials/IMG_0081.jpg",
+        image: "images/testimonials/partner/7.jpg",
     },
     {
         name: "Audrey Wei, CS teacher, Bishop Amat high school",
         testimony:
             "I highly recommend all students all of the world to take the class to help them prepare for the quantum computing world.",
-        image: "images/testimonials/IMG_1363.jpg",
+        image: "images/testimonials/partner/8.jpg",
     },
     {
         name: "Charles Shryock, Assistant Principal, Bishop McNamara High School",
         testimony:
             "The Qubit by Qubit teachers have taken a mysterious, futuristic, complex subject and made it clear and accessible. Students say the pacing, workload, and engaging lectures and activities are perfect for them. I find it tremendously exciting to see their progress, and watch their confidence grow week by week. And I am grateful that Qubit by Qubit made it so easy to enroll and support new students.",
-        image: "images/testimonials/ShryockHeadshot_Qubit.jpg",
+        image: "images/testimonials/partner/9.jpg",
     },
     {
         name: "Brett Tanaka, Computer Science Educational Specialist, Hawaii State Department of Education",
         testimony:
             "We appreciate the Introduction to Quantum Computing virtual learning opportunities by Qubit by Qubit that are accessible to our students. This opportunity is very helpful for our rural schools that may not have the capacity to offer computer science courses in new emerging CS education areas such as quantum computing. Thank you to the Qubit by Qubit Team!",
-        image: "images/testimonials/Brett Tanaka Headshot (1).png",
+        image: "images/testimonials/partner/10.jpg",
     },
     {
         name: "Chris Lynch, STEM Manager, Arkansas Department of Career Education",
         testimony:
             "My students have grown tremendously in understanding quantum circuits, and I enjoy watching them explain concepts during the Zoom class meetings. This program is a very important first step in creating a cadre of quantum programmers and developers as quantum computing becomes moves into the mainstream of information processing.",
-        image: "images/testimonials/chris.jpg",
+        image: "images/testimonials/partner/11.jpg",
     },
     {
         name: "Michelle Fujie",
         testimony:
             "I must admit after experiencing the program, I was envious to see that The Coding School found the perfect mix allowing students to be actively engaged and continuously learning even while on a virtual platform! As a math educator of over 11 years, I found myself eager to be a student again, actively taking notes, and engaging in meaningful conversations while learning something new every day.",
-        image: "images/testimonials/IMG_8696.JPG",
+        image: "images/testimonials/partner/12.jpg",
     },
     {
         name: "Dr. Narineh Makijan, Professor at USC, Rossier School of Education",
         testimony:
             "The Coding School in collaboration with IBM Quantum has created an innovative introduction to quantum computing course for high school students that is taught by esteemed MIT and Oxford quantum scientists.",
-        image: "images/testimonials/Makijan Picture.jpg",
+        image: "images/testimonials/partner/13.jpg",
     },
     {
         name: "Chris Lo, Math, Computer Science, Engineering teacher",
         testimony:
             "The content was thorough, engaging, and very well designed with sparking curiosity and learning in mind. I strongly believe that any visiting teacher to the camp would approve of the pedagogy and method of delivery these lessons demonstrated.",
-        image: "images/testimonials/1516524787342.jpg",
+        image: "images/testimonials/partner/14.jpg",
     },
 ];
 
@@ -97,182 +196,83 @@ const instructorTestimonials = [
         name: "Anthony, Google",
         testimony:
             "“<span class='text-bold'>I wish</span> I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg",
+        image: "images/testimonials/instructor/1.jpg",
     },
     {
         name: "Kelly, Amazon, TCS Advisory Board",
         testimony:
             "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
-        image: "images/testimonials/kelley-ellis.jpeg",
+        image: "images/testimonials/instructor/2.jpg",
     },
     {
         name: "A.J., TCS instructor, JP Morgan Chase",
         testimony:
             "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
-        image: "images/testimonials/AJ DiDonato III - JP Morgan.jpg",
+        image: "images/testimonials/instructor/3.jpg",
     },
     {
         name: "Aziza, QxQ TA, MIT",
         testimony:
             "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
-        image: "images/testimonials/Aziza-e1594246955302-300x300.jpg",
+        image: "images/testimonials/instructor/4.jpg",
     },
     {
         name: "Sanskriti - QxQ TA, North Carolina State University",
         testimony: "I am sure I have multiple Noble Prize winners in my labs.",
-        image: "images/testimonials/Sanskriti.jpg",
+        image: "images/testimonials/instructor/5.jpg",
     },
     {
         name: "Shayda, QxQ TA, MIT",
         testimony:
             "The more time I spent teaching, the more I learned about the impact I can have on someone’s future. I left this summer with a new passion to leverage the power of technology to bring students from diverse backgrounds together and teach each other that we all share so much more in common than we are different.",
-        image: "images/testimonials/Shayda.png",
+        image: "images/testimonials/instructor/6.jpg",
     },
     {
         name: "Ricky, QxQ TA, University of Connecticut",
         testimony:
             "I can’t count how many times a student has asked a question that has me pause and think, ‘I’ve never thought of that.’ They prove to me over and over that they are the future of quantum.",
-        image: "images/testimonials/Ricky.png",
+        image: "images/testimonials/instructor/7.jpg",
     },
     {
         name: "Alev, QxQ TA, University of Waterloo ",
         testimony: "I wish I had this kind of community when I first started.",
-        image: "images/testimonials/Alev.png",
+        image: "images/testimonials/instructor/8.jpg",
     },
     {
         name: "Yao, codeConnects instructor, Harvard",
         testimony:
             "The best part about the codeConnects community is that all of the teaching staff believe in and are passionate about education advocacy and really making computer science accessible to everyone and making it fun at the same time.",
-        image: "images/testimonials/Yao.jpg",
+        image: "images/testimonials/instructor/9.jpg",
     },
     {
         name: "Isabelle, codeConnects instructor, Microsoft",
         testimony:
             "What’s really awesome about the [codeConnects] program is that the instructors are mainly college students or recent grads close to the age of the students. I think it’s really important that students in middle and high school have someone close in age they can look up to as a mentor - especially if that person looks like them, talks like them and has a background similar to them.",
-        image: "images/testimonials/Isabelle.jpg",
+        image: "images/testimonials/instructor/10.jpg",
     },
     {
         name: "Jack, codeConnects instructor, Duke University",
         testimony:
             "I think what The Coding School does with their 1:1 lessons format and having instructors be full time mentors and moving at any pace [for the student] results in learning in the most effective way. It’s something I’ve never experienced before and it’s super refreshing and effective.",
-        image: "images/testimonials/Jack Wood.jpg",
+        image: "images/testimonials/instructor/11.jpg",
     },
     {
         name: "Rishi, codeConnects instructor, Google",
         testimony:
             "I think learning all the [tough] parts of coding and syntax is done better with a friend. I see myself as a friend and a mentor for the students I’ve had a chance to work with. And it’s been a really powerful experience.",
-        image: "images/testimonials/Rishi.jpg",
+        image: "images/testimonials/instructor/12.jpg",
     },
     {
         name: "Aaron, TCS instructor, Microsoft",
         testimony:
             "It’s so exciting for me to be able to teach someone across the country. I see the excitement in his eyes every time he makes a circle bouncing across the screen. It’s immediately rewarding and inspiring. I love it.",
-        image: "images/testimonials/Aaron.png",
+        image: "images/testimonials/instructor/13.jpg",
     },
     {
         name: "Anthony Mirand, Google",
         testimony:
             "“I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
-        image: "images/testimonials/anthony-mirand.jpeg",
-    },
-];
-
-const studentTestimonials = [
-    {
-        name: "University student, England",
-        testimony:
-            "My time at QxQ has been nothing short of a truly incredible experience.",
-        image: "images/testimonials/Image.jpg",
-    },
-    {
-        name: "11th grader, New York",
-        testimony:
-            "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
-        image: "images/testimonials/michelle.jpg",
-    },
-    {
-        name: "High school student, Kenya",
-        testimony:
-            " I will forever be <span class='text-bold'>grateful to Qubit by Qubit</span> for giving me a chance to take part in this program, and finally <span class='text-bold'>revolutionize African women and their achievements in the scientific and technological community.</span>",
-        image: "images/testimonials/allsmiles._Love_and_smiles. (1).jpg",
-    },
-    {
-        name: "12th grader, Texas",
-        testimony:
-            "<span class='text-bold'>I LOVED THE CAMP!</span> There are many students such as myself whether that be minority, low income, etc. who, by nature of social and systematic marginalization, lack many opportunities and chances of exposure...I had never heard of Quantum Coding before this camp, let alone thought that I would enjoy it! <span class='text-bold'>This camp and this scholarship gave me an opportunity and a new liking for another field of STEM study that without it, I would not have known anything about!</span>",
-        image: "images/testimonials/testimonial-12th grade boy TX.jpg",
-    },
-    {
-        name: "12th grader, Arizona",
-        testimony:
-            "This camp has honestly been <span class='text-bold'>life-changing</span> and <span class='text-bold'>eye-opening!</span> I am looking forward to exploring quantum for the rest of my life.",
-        image: "images/testimonials/testimonial-12th grade girl AZ.jpg",
-    },
-    {
-        name: "High school student, USA",
-        testimony:
-            "While I identify as non-binary, I was assigned female at birth, and many individuals perceive me as such. <span class='text-bold'>[This program's] emphasis on diversity and inclusion really makes me feel welcome, and I feel genuinely safe</span> in this community. ",
-        image: "images/testimonials/Sam - HS non-binary student.jpg",
-    },
-    {
-        name: "12th grader, Australia",
-        testimony:
-            "This course is absolutely beautiful, it is pact with the introductory information into the world of quantum.",
-        image: "images/testimonials/E204400A-5814-44A9-BD56-723354D6F74F.jpeg",
-    },
-    {
-        name: "High school student, Scotland",
-        testimony:
-            "<span class='text-bold'>I am so thankful as my family are homeless and I would never have been able to do this course if it wasn't...free.</span> This is the beginning of my journey and future career and it is an amazing and exciting opportunity.",
-        image: "images/testimonials/testimonial photo-Scotland boy (1).png",
-    },
-    {
-        name: "11th grader, USA",
-        testimony:
-            "In regular STEM classes, when I look around the room, I’m one of the only girls. In this class, <span class='text-bold'>I was mentored by a female.</span> Learning quantum computing from someone that I know shared a similar if not more difficult experience in STEM <span class='text-bold'>inspired me to believe in myself</span> and chase after more complex sciences.",
-        image: "images/testimonials/noora.jpg",
-    },
-    {
-        name: "10th grader, Massachusetts",
-        testimony:
-            "Qubit by Qubit with IBM really changed my life! The course strengthened my math skills, increased my desire to explore STEM and hopefully one day become an Engineer or a student in college studying some type of math or programming heavy field!",
-        image: "images/testimonials/07F1A90A-8D94-47DE-AD63-435D496A81B8.jpeg",
-    },
-    {
-        name: "High school student family, California",
-        testimony:
-            "Wednesday night dinners now include a summary of quantum computing lab activities and a preview for my Saturday lab. While our Sunday mornings involve gathering in the living room with our laptops, logging into our Zoom meeting, & furthering our knowledge in quantum computing. <span class='text-bold'>This course has created a wonderful opportunity that includes academics and family time.</span>",
-        image: "images/testimonials/Ramirez Family (1).jpg",
-    },
-    {
-        name: "11th grader, Turkey",
-        testimony:
-            "It’s the small things that make this course feel inclusive… there are so many women here that you don’t feel out of place. <span class='text-bold'>It’s not a 'he thing.' It’s a smart people thing.</span>",
-        image: "images/testimonials/Malak Elghriani.jpg",
-    },
-    {
-        name: "11th grader, Pennsylvania",
-        testimony:
-            "When I heard about the Qubit by Qubit course, I knew I had to apply. This course has challenged my intuitions and exposed me to new realities of the micro-world. I love how this course and the field of quantum computing connect all of my favorite subjects: math; physics; and computer science.",
-        image: "images/testimonials/etwitmyer.jpeg",
-    },
-    {
-        name: "University student, Minnesota",
-        testimony:
-            "I appreciated the opportunity to continue learning during my winter break, interact with diverse students, and engage in material about a topic I would not have the chance to learn about otherwise.",
-        image: "images/testimonials/lucy.jpg",
-    },
-    {
-        name: "10th grader, Canada",
-        testimony:
-            "As I attended lectures and participated in labs, my excitement for quantum computing only grew.",
-        image: "images/testimonials/Ammielle Wambo Becker.jpg",
-    },
-    {
-        name: "12th grader, Maryland",
-        testimony:
-            "This year of learning quantum computing changed my college plans. This course cemented my love for physics, and has made me pivot to pursue this in higher education through undergrad, through a masters and even a PhD. ",
-        image: "images/testimonials/April-Jade-Rossouw-South-Africa-HS.jpg",
+        image: "images/testimonials/instructor/14.jpg",
     },
 ];
 
@@ -304,8 +304,6 @@ var FeaturedSettings = {
         },
     ],
 };
-
-const showMore = true;
 
 const featuredPost = [
     {
@@ -421,7 +419,7 @@ const featuredLogo = [
     },
 ];
 
-var settings = {
+var studentSettings = {
     dots: true,
     arrows: true,
     infinite: true,
@@ -429,6 +427,50 @@ var settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: false,
+    appendDots: (dots) => <ul className="go-to">{dots}</ul>,
+    customPaging: function (i) {
+        return (
+            <a>
+                <img src={`images/testimonials/student/${i + 1}.jpg`} />
+            </a>
+        );
+    },
+};
+
+var partnerSettings = {
+    dots: true,
+    arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: false,
+    appendDots: (dots) => <ul className="go-to">{dots}</ul>,
+    customPaging: function (i) {
+        return (
+            <a>
+                <img src={`images/testimonials/partner/${i + 1}.jpg`} />
+            </a>
+        );
+    },
+};
+
+var instructorSettings = {
+    dots: true,
+    arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: false,
+    appendDots: (dots) => <ul className="go-to">{dots}</ul>,
+    customPaging: function (i) {
+        return (
+            <a>
+                <img src={`images/testimonials/instructor/${i + 1}.jpg`} />
+            </a>
+        );
+    },
 };
 
 const testimonialsTab = [
@@ -451,33 +493,11 @@ const testimonialsTab = [
 
 function Testimonial() {
     const [isActive, setIsActive] = useState(0);
-    const [testifier, setTestifier] = useState("Students");
+    // const [testifier, setTestifier] = useState("Students");
 
     const sliderRefStudent = useRef();
     const sliderRefPartners = useRef();
     const sliderRefInstructors = useRef();
-
-    function handleOnClickStudent(e) {
-        e.preventDefault();
-        sliderRefStudent.current.slickGoTo(e.target.dataset.slide);
-        setIsActive(e.target.dataset.slide);
-    }
-
-    function handleOnClickPartners(e) {
-        e.preventDefault();
-        sliderRefPartners.current.slickGoTo(e.target.dataset.slide);
-        setIsActive(e.target.dataset.slide);
-    }
-
-    function handleOnClickInstructors(e) {
-        e.preventDefault();
-        sliderRefInstructors.current.slickGoTo(e.target.dataset.slide);
-        setIsActive(e.target.dataset.slide);
-    }
-
-    function handleTestifierName(e) {
-        setTestifier(e.target.dataset.testifier);
-    }
 
     return (
         <div id="" className="testimonia-sec">
@@ -485,9 +505,9 @@ function Testimonial() {
                 <div className="container">
                     <div className="visual-text text-center mb-30">
                         <h3>Testimonials</h3>
-                        {/* <h5 className="text-thin">
-                            A lot of Happy {testi   fier}
-                        </h5> */}
+                        <h5 className="text-thin">
+                            {/* A lot of Happy {testifier} */}
+                        </h5>
                     </div>
 
                     <ul className="nav nav-tabs">
@@ -498,8 +518,8 @@ function Testimonial() {
                                         className={i == "0" ? "active" : null}
                                         data-toggle="tab"
                                         href={e["href"]}
-                                        data-testifier={e["testifierText"]}
-                                        onClick={handleTestifierName}
+                                        // data-testifier={e["testifierText"]}
+                                        // onClick={handleTestifierName}
                                     >
                                         {e["text"]}
                                     </a>
@@ -526,29 +546,11 @@ function Testimonial() {
                             id="students"
                             className="tab-pane fade in active show"
                         >
-                            <div className="go-to-slide">
-                                {studentTestimonials.map((item, index) => {
-                                    return (
-                                        <a
-                                            key={index}
-                                            className={
-                                                isActive == index
-                                                    ? "active"
-                                                    : null
-                                            }
-                                            href="#"
-                                            onClick={handleOnClickStudent}
-                                        >
-                                            <img
-                                                src={`${item["image"]}`}
-                                                data-slide={`${index}`}
-                                            />
-                                        </a>
-                                    );
-                                })}
-                            </div>
                             <ul className="testimonials">
-                                <Slider {...settings} ref={sliderRefStudent}>
+                                <Slider
+                                    {...studentSettings}
+                                    ref={sliderRefStudent}
+                                >
                                     {studentTestimonials.map((item, index) => {
                                         return (
                                             <li>
@@ -569,31 +571,11 @@ function Testimonial() {
                         </div>
 
                         <div id="partner-school" className="tab-pane fade">
-                            <div className="go-to-slide">
-                                {schoolPartnersTestimonials.map(
-                                    (item, index) => {
-                                        return (
-                                            <a
-                                                key={index}
-                                                className={
-                                                    isActive == index
-                                                        ? "active"
-                                                        : null
-                                                }
-                                                href="#"
-                                                onClick={handleOnClickPartners}
-                                            >
-                                                <img
-                                                    src={`${item["image"]}`}
-                                                    data-slide={`${index}`}
-                                                />
-                                            </a>
-                                        );
-                                    }
-                                )}
-                            </div>
                             <ul className="testimonials">
-                                <Slider {...settings} ref={sliderRefPartners}>
+                                <Slider
+                                    {...partnerSettings}
+                                    ref={sliderRefPartners}
+                                >
                                     {schoolPartnersTestimonials.map(
                                         (item, index) => {
                                             return (
@@ -615,30 +597,9 @@ function Testimonial() {
                         </div>
 
                         <div id="instructors" className="tab-pane fade">
-                            <div className="go-to-slide">
-                                {instructorTestimonials.map((item, index) => {
-                                    return (
-                                        <a
-                                            key={index}
-                                            className={
-                                                isActive == index
-                                                    ? "active"
-                                                    : null
-                                            }
-                                            href="#"
-                                            onClick={handleOnClickInstructors}
-                                        >
-                                            <img
-                                                src={`${item["image"]}`}
-                                                data-slide={`${index}`}
-                                            />
-                                        </a>
-                                    );
-                                })}
-                            </div>
                             <ul className="testimonials">
                                 <Slider
-                                    {...settings}
+                                    {...instructorSettings}
                                     ref={sliderRefInstructors}
                                 >
                                     {instructorTestimonials.map(
