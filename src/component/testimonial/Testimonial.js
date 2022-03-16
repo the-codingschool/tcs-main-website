@@ -492,22 +492,13 @@ const testimonialsTab = [
 ];
 
 function Testimonial() {
-    const [isActive, setIsActive] = useState(0);
-    // const [testifier, setTestifier] = useState("Students");
-
-    const sliderRefStudent = useRef();
-    const sliderRefPartners = useRef();
-    const sliderRefInstructors = useRef();
-
     return (
         <div id="" className="testimonia-sec">
             <Fade top>
                 <div className="container">
                     <div className="visual-text text-center mb-30">
                         <h3>Testimonials</h3>
-                        <h5 className="text-thin">
-                            {/* A lot of Happy {testifier} */}
-                        </h5>
+                        <h5 className="text-thin"></h5>
                     </div>
 
                     <ul className="nav nav-tabs">
@@ -542,16 +533,10 @@ function Testimonial() {
                         src="images/quotes.png"
                     />
                     <div className="tab-content">
-                        <div
-                            id="students"
-                            className="tab-pane fade in active show"
-                        >
+                        <div id="students" className="tab-pane active">
                             <ul className="testimonials">
-                                <Slider
-                                    {...studentSettings}
-                                    ref={sliderRefStudent}
-                                >
-                                    {studentTestimonials.map((item, index) => {
+                                <Slider {...studentSettings}>
+                                    {studentTestimonials.map((item) => {
                                         return (
                                             <li>
                                                 <p
@@ -570,54 +555,44 @@ function Testimonial() {
                             </ul>
                         </div>
 
-                        <div id="partner-school" className="tab-pane fade">
+                        <div id="partner-school" className="tab-pane">
                             <ul className="testimonials">
-                                <Slider
-                                    {...partnerSettings}
-                                    ref={sliderRefPartners}
-                                >
-                                    {schoolPartnersTestimonials.map(
-                                        (item, index) => {
-                                            return (
-                                                <li>
-                                                    <p
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: item[
-                                                                "testimony"
-                                                            ],
-                                                        }}
-                                                    />
-                                                    <h6>{item["name"]}</h6>
-                                                </li>
-                                            );
-                                        }
-                                    )}
+                                <Slider {...partnerSettings}>
+                                    {schoolPartnersTestimonials.map((item) => {
+                                        return (
+                                            <li>
+                                                <p
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: item[
+                                                            "testimony"
+                                                        ],
+                                                    }}
+                                                />
+                                                <h6>{item["name"]}</h6>
+                                            </li>
+                                        );
+                                    })}
                                 </Slider>
                             </ul>
                         </div>
 
-                        <div id="instructors" className="tab-pane fade">
+                        <div id="instructors" className="tab-pane">
                             <ul className="testimonials">
-                                <Slider
-                                    {...instructorSettings}
-                                    ref={sliderRefInstructors}
-                                >
-                                    {instructorTestimonials.map(
-                                        (item, index) => {
-                                            return (
-                                                <li>
-                                                    <p
-                                                        dangerouslySetInnerHTML={{
-                                                            __html: item[
-                                                                "testimony"
-                                                            ],
-                                                        }}
-                                                    />
-                                                    <h6>{item["name"]}</h6>
-                                                </li>
-                                            );
-                                        }
-                                    )}
+                                <Slider {...instructorSettings}>
+                                    {instructorTestimonials.map((item) => {
+                                        return (
+                                            <li>
+                                                <p
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: item[
+                                                            "testimony"
+                                                        ],
+                                                    }}
+                                                />
+                                                <h6>{item["name"]}</h6>
+                                            </li>
+                                        );
+                                    })}
                                 </Slider>
                             </ul>
                         </div>
@@ -630,7 +605,7 @@ function Testimonial() {
                     <div className="partner-sponsor-wrap">
                         <div className="visual-text text-center mb-30">
                             <Fade top>
-                                <h3>Our Partners & Sponsors</h3>
+                                <h3>Our Partners &amp; Sponsors</h3>
                             </Fade>
                             <Fade bottom>
                                 <p>

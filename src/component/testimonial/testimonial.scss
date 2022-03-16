@@ -52,6 +52,17 @@
         .tab-content {
             display: block;
             position: relative;
+            .tab-pane {
+                display: block;
+                opacity: 0;
+                visibility: hidden;
+                height: 0;
+                &.active {
+                    opacity: 1;
+                    visibility: visible;
+                    height: auto;
+                }
+            }
             @media screen and (max-width: 991px) {
                 margin-top: 0;
             }
