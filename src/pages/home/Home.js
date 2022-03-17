@@ -246,34 +246,34 @@ const keyPost = [
 
 const pastPrograms = [
     {
-        ppImg: "/images/quantum-computing.png",
+        ppImg: "/images/QxQ_NoLastNames_Photo.jpg",
         ppTitle:
             "Introduction to Quantum Computing for High School Students 2020-2021",
         ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
-        ppLink: "/",
-        isExternal: false,
+        ppLink: "https://www.ibm.com/blogs/research/2020/10/quantum-coding-school/",
+        isExternal: true,
     },
     {
-        ppImg: "/images/quantum-computing.png",
+        ppImg: "/images/QxQ_Conference.jpg",
         ppTitle:
-            "Introduction to Quantum Computing for High School Students 2020-2021",
-        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
-        ppLink: "/",
-        isExternal: false,
+            "Diversity in Quantum Conference",
+        ppDesc: "Featuring 21 speakers across 7 panels, the QxQ Diversity in Quantum Computing Conference is a one-day virtual event dedicated to creating an inclusive, diverse, and equitable future of quantum computing. We are proud to say over 2,200 attendees from 65 countries joined us for these important conversations. Conversation topics ranged from actionable inclusion strategies, policy discussions, and educational initiatives to authentic, vulnerable discussions about confidence, allyship, and lifting up others in the space. Educators, tech leaders, policy makers, and researchers took the stage to discuss how we all can work together to make quantum computing diverse and inclusive-- starting today.",
+        ppLink: "https://www.qubitbyqubit.org/conference",
+        isExternal: true,
     },
     {
-        ppImg: "/images/quantum-computing.png",
+        ppImg: "/images/blackboard.jpeg",
         ppTitle:
-            "Introduction to Quantum Computing for High School Students 2020-2021",
-        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
-        ppLink: "/",
-        isExternal: false,
+            "Quantum Computing Summer Camp 2020",
+        ppDesc: "Sponsored by Google AI and IBM Quantum, QxQ developed the first of its kind Quantum Camp for High School Students. With nearly 300 high school students from diverse backgrounds - 53% female; 43% low SES; and 40% students of color - MIT PhD researchers led this intensive week-long camp exposing students to quantum computing and teaching them tangible quantum skills. Students loved the camp: 98% said they would recommend the camp to a friend; 93% liked or loved the camp; and 88% are interested in studying quantum in the future.",
+        ppLink: "https://the-cs.medium.com/preparing-for-the-jobs-of-the-future-mit-physicists-are-making-quantum-computing-accessible-to-230e04fb0ff8",
+        isExternal: true,
     },
     {
-        ppImg: "/images/quantum-computing.png",
+        ppImg: "/images/red_blue_hoodie.jpg",
         ppTitle:
-            "Introduction to Quantum Computing for High School Students 2020-2021",
-        ppDesc: "Partnered with IBM Quantum and taught by MIT and Oxford quantum researchers, Qubit by Qubit led the first ever global quantum computing course for high school students and above. In this year-long course, over 7,500 students from 125 countries learned skills in quantum mechanics, quantum computation, quantum algorithms and even ran code on a real quantum computer!",
+            "Quantum Computing Workshop for Middle School Students",
+        ppDesc: "Be one of the first middle school students in the world to learn quantum computing - the technology that will change the world as we know it today! Join us for a <b style="color: gold;">free</b> "Introduction to Quantum Computing" workshop for middle school students. In this interactive session developed and led by MIT PhD Dr. Sarah Goodman, we'll learn about the quantum world and how it is being used to make the most powerful computers ever - quantum computers!",
         ppLink: "/",
         isExternal: false,
     },
@@ -716,7 +716,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="container d-none">
+                    <div className="container">
                         <div className="row">
                             <div className="col-12 col-md-10 mx-auto">
                                 <div id="past-programs">
