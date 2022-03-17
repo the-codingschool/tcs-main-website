@@ -273,7 +273,7 @@ const pastPrograms = [
         ppImg: "/images/red_blue_hoodie.jpg",
         ppTitle:
             "Quantum Computing Workshop for Middle School Students",
-        ppDesc: "Be one of the first middle school students in the world to learn quantum computing - the technology that will change the world as we know it today! Join us for a <b style="color: gold;">free</b> "Introduction to Quantum Computing" workshop for middle school students. In this interactive session developed and led by MIT PhD Dr. Sarah Goodman, we'll learn about the quantum world and how it is being used to make the most powerful computers ever - quantum computers!",
+        ppDesc: "Be one of the first middle school students in the world to learn quantum computing - the technology that will change the world as we know it today! Join us for a free workshop for middle school students. In this interactive session developed and led by MIT PhD Dr. Sarah Goodman, we'll learn about the quantum world and how it is being used to make the most powerful computers ever - quantum computers!",
         ppLink: "/",
         isExternal: false,
     },
