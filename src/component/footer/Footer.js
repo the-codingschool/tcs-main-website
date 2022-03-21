@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import privacy from "../../assets/privacy.svg"
 import PrivacyIcon from "./PrivacyIcon";
+import privacyPdf from "../../assets/docs/TheCodingSchool-PrivacyPolicy-March-7-2022.pdf";
 
 function Footer() {
     const footerLinks = [
@@ -114,10 +115,7 @@ function Footer() {
                         </div>
                         <div className="mt-10 d-flex align-items-center col-10 px-0">
                             <PrivacyIcon className="mr-20" />
-                            <a href="https://codeconnects.org/TCS_Privacy_Policy.pdf">
-                                {" "}
-                                Privacy Policy
-                            </a>
+                            <a href={privacyPdf}> Privacy Policy</a>
                         </div>
                     </div>
                 </div>
