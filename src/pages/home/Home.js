@@ -218,7 +218,7 @@ const keyPost = [
     {
         name: "1",
         title: "codeConnects empowers K-12 students with classical coding skills from Python to specialized tech areas including AI, cybersecurity, big data and more. ",
-        img: "/images/classical-coding.png",
+        img: "/images/logo blue2.png",
         link: "https://codeconnects.org",
         anim: "left",
         subTitle: "Classical Coding",
