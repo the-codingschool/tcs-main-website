@@ -9,13 +9,13 @@ const studentTestimonials = [
     {
         name: "University student, England",
         testimony:
-            "My time at QxQ has been nothing short of a truly incredible experience.",
+            "My time at QxQ has been nothing short of a <span class='text-bold'>truly incredible experience.</span>",
         image: "images/testimonials/student/1.jpg",
     },
     {
         name: "11th grader, New York",
         testimony:
-            "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. I feel so powerful, and this course further developed my interest in conducting research in the field.”",
+            "“I am so lucky that I am learning quantum computing as a high school student. Having gone through this course, I feel that I can overcome any academic challenge that awaits in my high school, and later college, STEM classes. <span class='text-bold'>I feel so powerful </span>, and this course further developed my interest in conducting research in the field.”",
         image: "images/testimonials/student/2.jpg",
     },
     {
@@ -63,7 +63,7 @@ const studentTestimonials = [
     {
         name: "10th grader, Massachusetts",
         testimony:
-            "Qubit by Qubit with IBM really changed my life! The course strengthened my math skills, increased my desire to explore STEM and hopefully one day become an Engineer or a student in college studying some type of math or programming heavy field!",
+            "<span class='text-bold'>Qubit by Qubit with IBM really changed my life!</span> The course strengthened my math skills, increased my desire to explore STEM and hopefully one day become an Engineer or a student in college studying some type of math or programming heavy field!",
         image: "images/testimonials/student/10.jpg",
     },
     {
@@ -120,13 +120,13 @@ const schoolPartnersTestimonials = [
     {
         name: "William K. Funderburk",
         testimony:
-            "My own participation in this course has resulted in an overall better physics curriculum at my school! and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
+            "<span class='text-bold'>My own participation in this course has resulted in an overall better physics curriculum at my school!</span> and I'm very thankful I met them. I'm so pleased to recommend their high-school course in Quantum Computing to any high school.",
         image: "images/testimonials/partner/3.jpg",
     },
     {
         name: "Ben Iseke, Bergen County Academies",
         testimony:
-            "The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need.",
+            "The program runners at Qubit by Qubit are incredibly devoted educators. Their willingness to engage with feedback showed how much they wanted the program to be deeply excellent, and that dedication showed in every aspect of the program that I got a chance to see. <span class='text-bold'>The program is genuinely incredible, and undoubtedly life-changing for many of the students that they work with. QxQ is creating the future that we need. </span>",
         image: "images/testimonials/partner/4.jpg",
     },
     {
@@ -195,7 +195,7 @@ const instructorTestimonials = [
     {
         name: "Anthony, Google",
         testimony:
-            "“<span class='text-bold'>I wish</span> I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. The beneficial impact this education at a young age will have on them is immeasurable.”",
+            "I wish I had learned coding earlier. In beginning college computer science courses you are thrown in and expected to know so much already. These kids we’re teaching now have a huge advantage -- they’ll have the solid foundation and ability to build their knowledge from the ground up -- helping them understand and learn so much more, so much easier. <span class='text-bold'>The beneficial impact this education at a young age will have on them is immeasurable.</span>",
         image: "images/testimonials/instructor/1.jpg",
     },
     {
@@ -207,7 +207,7 @@ const instructorTestimonials = [
     {
         name: "A.J., TCS instructor, JP Morgan Chase",
         testimony:
-            "I think it’s very important to introduce high school students to this technology. I think this is the way you lower the barrier to entry and get people from many different backgrounds into the field.",
+        "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
         image: "images/testimonials/instructor/3.jpg",
     },
     {
@@ -241,7 +241,7 @@ const instructorTestimonials = [
     {
         name: "Yao, codeConnects instructor, Harvard",
         testimony:
-            "The best part about the codeConnects community is that all of the teaching staff believe in and are passionate about education advocacy and really making computer science accessible to everyone and making it fun at the same time.",
+            "The best part about the codeConnects community is that <span class='text-bold'>all of the teaching staff believe in and are passionate about education advocacy </span>and really making computer science accessible to everyone and making it fun at the same time.",
         image: "images/testimonials/instructor/9.jpg",
     },
     {
@@ -265,7 +265,7 @@ const instructorTestimonials = [
     {
         name: "Aaron, TCS instructor, Microsoft",
         testimony:
-            "It’s so exciting for me to be able to teach someone across the country. I see the excitement in his eyes every time he makes a circle bouncing across the screen. It’s immediately rewarding and inspiring. I love it.",
+            "It’s so exciting for me to be able to teach someone across the country. I see the excitement in his eyes every time he makes a circle bouncing across the screen. <span class='text-bold'>It’s immediately rewarding and inspiring.</span> I love it.",
         image: "images/testimonials/instructor/13.jpg",
     },
     {
