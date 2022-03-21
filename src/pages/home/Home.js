@@ -218,7 +218,7 @@ const keyPost = [
     {
         name: "1",
         title: "codeConnects empowers K-12 students with classical coding skills from Python to specialized tech areas including AI, cybersecurity, big data and more. ",
-        img: "/images/logo blue2.png",
+        img: "/images/code-connects-new.png",
         link: "https://codeconnects.org",
         anim: "left",
         subTitle: "Classical Coding",
@@ -255,24 +255,21 @@ const pastPrograms = [
     },
     {
         ppImg: "/images/QxQ_Conference.jpg",
-        ppTitle:
-            "Diversity in Quantum Conference",
+        ppTitle: "Diversity in Quantum Conference",
         ppDesc: "Featuring 21 speakers across 7 panels, the QxQ Diversity in Quantum Computing Conference is a one-day virtual event dedicated to creating an inclusive, diverse, and equitable future of quantum computing. We are proud to say over 2,200 attendees from 65 countries joined us for these important conversations. Conversation topics ranged from actionable inclusion strategies, policy discussions, and educational initiatives to authentic, vulnerable discussions about confidence, allyship, and lifting up others in the space. Educators, tech leaders, policy makers, and researchers took the stage to discuss how we all can work together to make quantum computing diverse and inclusive-- starting today.",
         ppLink: "https://www.qubitbyqubit.org/conference",
         isExternal: true,
     },
     {
         ppImg: "/images/blackboard.jpeg",
-        ppTitle:
-            "Quantum Computing Summer Camp 2020",
+        ppTitle: "Quantum Computing Summer Camp 2020",
         ppDesc: "Sponsored by Google AI and IBM Quantum, QxQ developed the first of its kind Quantum Camp for High School Students. With nearly 300 high school students from diverse backgrounds - 53% female; 43% low SES; and 40% students of color - MIT PhD researchers led this intensive week-long camp exposing students to quantum computing and teaching them tangible quantum skills. Students loved the camp: 98% said they would recommend the camp to a friend; 93% liked or loved the camp; and 88% are interested in studying quantum in the future.",
         ppLink: "https://the-cs.medium.com/preparing-for-the-jobs-of-the-future-mit-physicists-are-making-quantum-computing-accessible-to-230e04fb0ff8",
         isExternal: true,
     },
     {
         ppImg: "/images/red_blue_hoodie.jpg",
-        ppTitle:
-            "Quantum Computing Workshop for Middle School Students",
+        ppTitle: "Quantum Computing Workshop for Middle School Students",
         ppDesc: "Be one of the first middle school students in the world to learn quantum computing - the technology that will change the world as we know it today! Join us for a free workshop for middle school students. In this interactive session developed and led by MIT PhD Dr. Sarah Goodman, we'll learn about the quantum world and how it is being used to make the most powerful computers ever - quantum computers!",
         ppLink: "/",
         isExternal: false,
