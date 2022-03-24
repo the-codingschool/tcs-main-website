@@ -48,6 +48,25 @@ function Footer() {
         },
     ];
 
+    const socialShare = [
+        {
+            socialClass: "fa fa-instagram",
+            socialLink: "https://www.instagram.com/the_coding_school/?hl=en",
+        },
+        {
+            socialClass: "fa fa-linkedin",
+            socialLink: "https://www.linkedin.com/school/3655283/",
+        },
+        {
+            socialClass: "fa fa-facebook",
+            socialLink: "https://www.facebook.com/thecodingschool",
+        },
+        {
+            socialClass: "fa fa-twitter",
+            socialLink: "https://twitter.com/qubitbyqubit",
+        },
+    ];
+
     return (
         <div id="Footer">
             <div className="container">
@@ -67,13 +86,26 @@ function Footer() {
                 </div>
 
                 <div className="row mt-15">
-                    <div
-                        className="col-md-4"
-                        style={{ lineHeight: 2, fontSize: 13 }}
-                    >
-                        The Coding School is a national 501(c)(3) dedicated to
-                        empowering the next generation through code. Our public
-                        charitable registration number is 46-5097610.
+                    <div className="col-md-4">
+                        <p style={{ lineHeight: 2, fontSize: 13 }}>
+                            The Coding School is a national 501(c)(3) dedicated
+                            to empowering the next generation through code. Our
+                            public charitable registration number is 46-5097610.
+                        </p>
+                        <ul className="social-share">
+                            {socialShare.map((e, i) => {
+                                return (
+                                    <li>
+                                        <a href={e.socialLink}>
+                                            <i
+                                                className={e.socialClass}
+                                                aria-hidden="true"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                );
+                            })}
+                        </ul>
                     </div>
 
                     <div className="offset-md-1 col-md-3">
