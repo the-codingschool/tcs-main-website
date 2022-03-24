@@ -1,8 +1,18 @@
 #Footer {
-    background: #346e8a;
-    color: white;
-    margin-top: 80px;
-    padding: 20px 15px;
+    color: #fff;
+    .footer-top {
+        background: #346e8a;
+        margin-top: 80px;
+        padding: 30px 15px;
+    }
+    .footer-bottom {
+        background: #23495c;
+        padding: 15px 0;
+        p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
     .social-share {
         padding: 0;
         margin: 0;
