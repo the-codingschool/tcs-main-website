@@ -276,10 +276,56 @@ const pastPrograms = [
     },
 ];
 
+const homeStories = [
+    {
+        img: "http://blog.the-cs.org/wp-content/uploads/2022/03/women-history.jpg",
+        category: "Test",
+        title: "Guido Imbens wins Nobel in economic sciences",
+        titleLink:
+            "http://blog.the-cs.org/in-the-spotlight/guido-imbens-wins-nobel-in-economic-sciences/",
+    },
+    {
+        img: "http://blog.the-cs.org/wp-content/uploads/2022/03/women-history.jpg",
+        category: "Test",
+        title: "Guido Imbens wins Nobel in economic sciences",
+        titleLink:
+            "http://blog.the-cs.org/in-the-spotlight/guido-imbens-wins-nobel-in-economic-sciences/",
+    },
+    {
+        img: "http://blog.the-cs.org/wp-content/uploads/2022/03/women-history.jpg",
+        category: "Test",
+        title: "Guido Imbens wins Nobel in economic sciences",
+        titleLink:
+            "http://blog.the-cs.org/in-the-spotlight/guido-imbens-wins-nobel-in-economic-sciences/",
+    },
+    {
+        img: "http://blog.the-cs.org/wp-content/uploads/2022/03/women-history.jpg",
+        category: "Test",
+        title: "Guido Imbens wins Nobel in economic sciences",
+        titleLink:
+            "http://blog.the-cs.org/in-the-spotlight/guido-imbens-wins-nobel-in-economic-sciences/",
+    },
+    {
+        img: "http://blog.the-cs.org/wp-content/uploads/2022/03/women-history.jpg",
+        category: "Test",
+        title: "Guido Imbens wins Nobel in economic sciences",
+        titleLink:
+            "http://blog.the-cs.org/in-the-spotlight/guido-imbens-wins-nobel-in-economic-sciences/",
+    },
+    {
+        img: "http://blog.the-cs.org/wp-content/uploads/2022/03/women-history.jpg",
+        category: "Test",
+        title: "Guido Imbens wins Nobel in economic sciences",
+        titleLink:
+            "http://blog.the-cs.org/in-the-spotlight/guido-imbens-wins-nobel-in-economic-sciences/",
+    },
+];
+
 function NextArrow(props) {
     const { className, onClick } = props;
     return <div className={`${className} up-next-item`} onClick={onClick} />;
 }
+
 function PrevArrow(props) {
     const { className, onClick } = props;
     return <div className={`${className} up-prev-item`} onClick={onClick} />;
@@ -417,8 +463,61 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
                 <StudentMapCounter></StudentMapCounter>
+
                 <KeyInitiatives></KeyInitiatives>
+
+                <div className="tcs-stories d-none">
+                    <div className="container">
+                        <header>
+                            <h2>The Coding School Stories</h2>
+                            <h3>The latest stories from The Coding School</h3>
+                        </header>
+                    </div>
+                    <div className="container-fluid">
+                        <div className="row">
+                            {homeStories.map((e, i) => {
+                                return (
+                                    <div
+                                        className={
+                                            "col-12 mb-30 tcs-story-card " +
+                                            (i === 0 || i === 5
+                                                ? "col-md-6 big-card"
+                                                : "col-md-3")
+                                        }
+                                    >
+                                        <div
+                                            className={
+                                                "post-card" +
+                                                (i === 0 || i === 5
+                                                    ? " big-card"
+                                                    : "")
+                                            }
+                                        >
+                                            <a
+                                                href={e.titleLink}
+                                                target="_blank"
+                                            >
+                                                <div className="img-area">
+                                                    <img src={e.img} />
+                                                </div>
+                                                <div className="card-content">
+                                                    <p className="category">
+                                                        {e.category}
+                                                    </p>
+                                                    <p className="title">
+                                                        {e.title}
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
 
                 <div className="brown-sec mb-70" id="upcomingPrograms">
                     <div className="container">
