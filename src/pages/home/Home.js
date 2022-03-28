@@ -475,7 +475,7 @@ function Home() {
                             <h3>The latest stories from The Coding School</h3>
                         </header>
                     </div>
-                    <div className="tcs-container">
+                    <div className="tcs-container mb-30">
                         <div className="tcs-story-wrap">
                             {homeStories.map((e, i) => {
                                 return (
@@ -517,6 +517,14 @@ function Home() {
                                 );
                             })}
                         </div>
+                    </div>
+                    <div className="container text-center">
+                        <a
+                            href="http://blog.the-cs.org/"
+                            className="btn btn-gradient-2 text-white"
+                        >
+                            More TCS Stories
+                        </a>
                     </div>
                 </div>
 
