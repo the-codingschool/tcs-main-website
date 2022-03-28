@@ -309,6 +309,24 @@
     }
 }
 
+.tcs-container {
+    width: 75%;
+    margin: auto;
+}
+.tcs-story-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.tcs-story-card {
+    flex: 0 0 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    &.big-card {
+        flex: 0 0 50%;
+    }
+}
+
 .tcs-stories {
     margin: 50px 0;
     header {
@@ -318,9 +336,24 @@
             font-size: 50px;
             font-weight: bold;
             color: $btn;
+            @media (max-width: 991px) {
+                font-size: 36px;
+            }
+            @media (max-width: 767px) {
+                font-size: 28px;
+            }
+            @media (max-width: 575px) {
+                font-size: 20px;
+            }
         }
         h3 {
             margin-bottom: 0;
+            @media (max-width: 767px) {
+                font-size: 22px;
+            }
+            @media (max-width: 575px) {
+                font-size: 16px;
+            }
         }
     }
     .post-card {
@@ -337,11 +370,13 @@
                 transition: 0.3s ease all;
             }
         }
+
         img,
         &.big-card .card-content {
             transform: scale(1);
             transition: 0.3s ease all;
         }
+
         &:hover {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2),
                 0 7px 10px rgba(0, 0, 0, 0.2);
@@ -353,8 +388,22 @@
 
         &:not(.big-card) {
             .img-area {
-                max-height: calc(100% - 169px);
-                height: 100%;
+                padding-top: 66.6666666667%;
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: auto;
+                    min-width: calc(100% + 1px);
+                    min-height: calc(100% + 1px);
+                    overflow: hidden;
+                    height: auto;
+                    transform: translate3d(-50%, -50%, 0) scale(1);
+                }
             }
             .card-content {
                 padding: 30px;
@@ -366,12 +415,13 @@
                     margin-bottom: 0;
                 }
                 .title {
-                    font-size: 22px;
+                    font-size: calc(18px + (3 * ((100vw - 1024px) / 475)));
                     font-weight: 700;
                     margin-bottom: 0;
                 }
             }
         }
+
         &.big-card {
             .card-content {
                 position: absolute;
@@ -398,9 +448,63 @@
             }
         }
     }
+
+    @media (max-width: 1099px) {
+        .tcs-story-card {
+            &:not(.big-card) {
+                .card-content {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .tcs-container {
+            width: 100%;
+            padding: 0 15px;
+        }
+        .tcs-story-card {
+            &.story-1 {
+                flex: 0 0 66.6666%;
+            }
+            &:not(.story-1) {
+                flex: 0 0 33.3333%;
+            }
+            &.story-6 {
+                display: none;
+            }
+            &:not(.big-card) {
+                .card-content {
+                    .title {
+                        font-size: calc(18px + (3 * ((100vw - 768px) / 768)));
+                    }
+                }
+            }
+        }
+    }
+
     @media (max-width: 767px) {
         .tcs-story-card {
-            &:not(:first-child) {
+            &.story-1 {
+                flex: 0 0 100%;
+            }
+            &:not(.story-1) {
+                flex: 0 0 50%;
+            }
+            &:not(.big-card) {
+                .card-content {
+                    .title {
+                        font-size: calc(18px + (3 * ((100vw - 768px) / 768)));
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 575px) {
+        .tcs-story-card {
+            &:not(.story-1) {
+                flex: 0 0 100%;
                 .img-area {
                     display: none;
                 }
@@ -421,7 +525,7 @@
                     }
                 }
             }
-            &:first-child {
+            &.story-1 {
                 .card-content {
                     position: relative;
                     background: transparent;

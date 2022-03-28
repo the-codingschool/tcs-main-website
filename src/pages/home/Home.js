@@ -475,16 +475,17 @@ function Home() {
                             <h3>The latest stories from The Coding School</h3>
                         </header>
                     </div>
-                    <div className="container-fluid">
-                        <div className="row">
+                    <div className="tcs-container">
+                        <div className="tcs-story-wrap">
                             {homeStories.map((e, i) => {
                                 return (
                                     <div
                                         className={
-                                            "col-12 mb-30 tcs-story-card " +
+                                            "tcs-story-card story-" +
+                                            (i + 1) +
                                             (i === 0 || i === 5
-                                                ? "col-md-6 big-card"
-                                                : "col-md-3")
+                                                ? " big-card"
+                                                : "")
                                         }
                                     >
                                         <div
