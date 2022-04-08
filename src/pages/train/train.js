@@ -739,35 +739,38 @@ const Train = (props) => {
                                         partnered with:{" "}
                                     </p>
                                 </div>
-                                <div
-                                    className="img mb-60"
-                                    data-aos="fade-up"
-                                    data-aos-duration="800"
-                                >
-                                    <ul className="partners">
-                                        <li>
+                                <div className="row">
+                                    <div className="col-12 col-md-10">
+                                        <div
+                                            className="img mb-60"
+                                            data-aos="fade-up"
+                                            data-aos-duration="800"
+                                        >
+                                            <ul className="partners">
+                                                {/* <li>
                                             <img
                                                 src={require("./images/2e77697f538befb44e5e9a40f5775d2a.png")}
                                             />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src={require("./images/partner-1.png")}
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src={require("./images/partner-2.png")}
-                                            />
-                                        </li>
-                                        <li>
-                                            <img
-                                                src={require("./images/Devcom-logo.jpg")}
-                                            />
-                                        </li>
-                                    </ul>
+                                        </li> */}
+                                                <li>
+                                                    <img
+                                                        src={require("./images/partner-1.png")}
+                                                    />
+                                                </li>
+                                                <li>
+                                                    <img
+                                                        src={require("./images/partner-2.png")}
+                                                    />
+                                                </li>
+                                                <li>
+                                                    <img
+                                                        src={require("./images/partner-3.png")}
+                                                    />
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div></div>
                                 <div
                                     className="tagline mb-20"
                                     data-aos="fade-right"
