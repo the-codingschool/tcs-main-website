@@ -638,7 +638,7 @@ const Train = (props) => {
                                             </div>
                                         </div>
                                     </li>
-                                    <li
+                                    {/* <li
                                         data-aos="fade-up"
                                         data-aos-duration="1200"
                                     >
@@ -660,7 +660,7 @@ const Train = (props) => {
                                                 </p>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> */}
                                     <li
                                         data-aos="fade-up"
                                         data-aos-duration="1300"
