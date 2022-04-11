@@ -614,11 +614,14 @@ function Testimonial() {
                                 </p>
                             </Fade>
                         </div>
-                        <ul>
+                        <ul className="row">
                             {partnersLogo.map((item, index) => {
                                 return (
                                     <li
-                                        className={index >= 5 ? "hide" : "show"}
+                                        className={
+                                            "col-6 col-md-3 " +
+                                            (index >= 5 ? "hide" : "show")
+                                        }
                                     >
                                         <img src={item["src"]} />
                                     </li>

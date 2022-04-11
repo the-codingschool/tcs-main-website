@@ -441,22 +441,6 @@ function AboutUs() {
                                 <img
                                     className="avatar Advisors  "
                                     src={
-                                        "/images/Board _ Advisors/Dr. Yolanda Gil.jpg" ||
-                                        "https://via.placeholder.com/80"
-                                    }
-                                    alt=""
-                                />
-                                <div>Dr. Yolanda Gil</div>
-                                <div>
-                                    {" "}
-                                    Director for Strategic AI and Data Science
-                                    Initiatives & Professor at USC{" "}
-                                </div>
-                            </div>
-                            <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
-                                <img
-                                    className="avatar Advisors  "
-                                    src={
                                         "/images/Board _ Advisors/Andrew Oliver.jpeg" ||
                                         "https://via.placeholder.com/80"
                                     }
