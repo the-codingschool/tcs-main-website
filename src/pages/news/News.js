@@ -53,9 +53,7 @@ function News() {
                             first-of-its-kind initiative focused on cultivating
                             a diverse Artificial Intelligence (AI)-literate
                             workforce through high school AI education.
-                            Specifically, the program, in partnership with
-                            University of Southern California&rsquo;s (USC)
-                            Viterbi School of Engineering, aims to establish an
+                            Specifically, the program aims to establish an
                             accessible path for thousands of students in the
                             United States to learn Artificial Intelligence (AI)
                             and Machine Learning (ML) through a two-fold
@@ -108,8 +106,7 @@ function News() {
                             accessible path to AI and ML for thousands of
                             students and educators, the TR
                             <span className="text-bold">AI</span>N program will
-                            enable The Coding School in collaboration with USC
-                            Viterbi to make a bigger impact in underserved
+                            enable The Coding School to make a bigger impact in underserved
                             communities, with the goal of incorporating the
                             course into school curriculums across the country.
                             TR<span className="text-bold">AI</span>N is designed
