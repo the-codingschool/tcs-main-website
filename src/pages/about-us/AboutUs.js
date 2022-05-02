@@ -216,20 +216,6 @@ function AboutUs() {
                                 <img
                                     className="avatar Advisors "
                                     src={
-                                        "/images/Board _ Advisors/Copy of Giselle Ragusa.jpg" ||
-                                        "https://via.placeholder.com/80"
-                                    }
-                                    alt=""
-                                />
-                                <div>Giselle Ragusa</div>
-                                <div>
-                                    Co-chair of USC STEM Education Consortium{" "}
-                                </div>
-                            </div>
-                            <div className="col-sm-3 col-md-4 col-lg-3 text-center mb-20">
-                                <img
-                                    className="avatar Advisors "
-                                    src={
                                         "/images/Board _ Advisors/Copy of Ravi Pendse.jpg" ||
                                         "https://via.placeholder.com/80"
                                     }
@@ -240,22 +226,6 @@ function AboutUs() {
                                     {" "}
                                     CIO and VP of Information Tech at University
                                     of Michigan{" "}
-                                </div>
-                            </div>
-                            <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
-                                <img
-                                    className="avatar Advisors  "
-                                    src={
-                                        "/images/Board _ Advisors/Copy of Mark Redekopp.jpg" ||
-                                        "https://via.placeholder.com/80"
-                                    }
-                                    alt=""
-                                />
-                                <div>Mark Redekopp</div>
-                                <div>
-                                    {" "}
-                                    Associate Professor of Engineering Practice
-                                    at USC{" "}
                                 </div>
                             </div>
                             <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
@@ -466,22 +436,6 @@ function AboutUs() {
                                 />
                                 <div>Jeremy Howard</div>
                                 <div> Co-Founder at fast.ai </div>
-                            </div>
-                            <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
-                                <img
-                                    className="avatar Advisors  "
-                                    src={
-                                        "/images/Board _ Advisors/Dr. Yolanda Gil.jpg" ||
-                                        "https://via.placeholder.com/80"
-                                    }
-                                    alt=""
-                                />
-                                <div>Dr. Yolanda Gil</div>
-                                <div>
-                                    {" "}
-                                    Director for Strategic AI and Data Science
-                                    Initiatives & Professor at USC{" "}
-                                </div>
                             </div>
                             <div className=" col-sm-3 col-md-4 col-lg-3 text-center mb-20">
                                 <img
@@ -925,7 +879,7 @@ function AboutUs() {
                                             <img
                                                 className="avatar Partner"
                                                 src={
-                                                    "/images/new assets/Sponsors _ Partners/Logo-University-of-Arizona.jpeg" ||
+                                                    "/images/new assets/Sponsors _ Partners/quantum-startup-foundary.png" ||
                                                     "https://via.placeholder.com/80"
                                                 }
                                                 alt=""
@@ -995,7 +949,7 @@ function AboutUs() {
                                                 alt=""
                                             />
                                         </div>
-                                        <div className="col-md-3 Sponsor">
+                                        {/* <div className="col-md-3 Sponsor">
                                             <img
                                                 className="avatar Partner"
                                                 src={
@@ -1004,7 +958,7 @@ function AboutUs() {
                                                 }
                                                 alt=""
                                             />
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </Fade>
                             </div>

@@ -1,45 +1,84 @@
 #Footer {
-  background: #346e8a;
-  color: white;
-  margin-top: 80px;
-  padding: 20px 15px;
-  .subscribe-btn {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    color: #fff;
+    .footer-top {
+        background: #346e8a;
+        margin-top: 80px;
+        padding: 30px 15px;
+    }
+    .footer-bottom {
+        background: #23495c;
+        padding: 15px 0;
+        p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+    .social-share {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+            a {
+                font-size: 18px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #fff;
+                color: #346e8a;
+                border-radius: 50px;
+                opacity: 0.9;
+                transition: 0.3s ease all;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
 
-    form {
-      margin: 0;
-      padding: 0;
+    .subscribe-btn {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        form {
+            margin: 0;
+            padding: 0;
+        }
     }
-  }
-  .subscriber-input {
-    position: relative;
-    width: 100%;
-    display: flex;
-    input {
-      border-radius: 0;
-      background: #3f3828;
-      border-color: #816830;
-      color: white;
-      &::placeholder {
-        color: white;
-      }
+    .subscriber-input {
+        position: relative;
+        width: 100%;
+        display: flex;
+        input {
+            border-radius: 0;
+            background: #3f3828;
+            border-color: #816830;
+            color: white;
+            &::placeholder {
+                color: white;
+            }
+        }
+        button {
+            background: #ad8736;
+            position: absolute;
+            right: 3px;
+            bottom: 3px;
+            padding: 0.374rem 0.74rem;
+            border: none;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
     }
-    button {
-      background: #ad8736;
-      position: absolute;
-      right: 3px;
-      bottom: 3px;
-      padding: 0.374rem 0.74rem;
-      border: none;
-      color: white;
-      text-transform: uppercase;
-      font-weight: 500;
+    .cp,
+    span {
+        font-size: 11px;
     }
-  }
-  .cp,
-  span {
-    font-size: 11px;
-  }
 }

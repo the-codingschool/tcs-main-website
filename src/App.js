@@ -30,12 +30,6 @@ function App() {
 
     return (
         <BrowserRouter>
-            <Helmet>
-                <meta
-                    name="description"
-                    content="The Coding School awarded $3 million grant"
-                />
-            </Helmet>
             <ScrollToTop />
             <Topnav />
             <Switch>

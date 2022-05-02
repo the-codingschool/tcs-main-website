@@ -207,7 +207,7 @@ const instructorTestimonials = [
     {
         name: "A.J., TCS instructor, JP Morgan Chase",
         testimony:
-        "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
+            "[At The Coding School] the people who are teaching you are highly qualified people. The best students who came out of the best universities and now working at the best companies and they’re spending their time wanting to help [students] learn more. That’s a resource that not a lot of people could ever find in their normal life.",
         image: "images/testimonials/instructor/3.jpg",
     },
     {
@@ -383,9 +383,6 @@ const partnersLogo = [
     },
     {
         src: "/images/ne.svg",
-    },
-    {
-        src: "/images/usc.svg",
     },
 ];
 
@@ -617,11 +614,14 @@ function Testimonial() {
                                 </p>
                             </Fade>
                         </div>
-                        <ul>
+                        <ul className="row">
                             {partnersLogo.map((item, index) => {
                                 return (
                                     <li
-                                        className={index >= 5 ? "hide" : "show"}
+                                        className={
+                                            "col-6 col-md-3 " +
+                                            (index >= 5 ? "hide" : "show")
+                                        }
                                     >
                                         <img src={item["src"]} />
                                     </li>
