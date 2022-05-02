@@ -26,9 +26,7 @@ function News() {
                         <p>February 24, 2022</p>
 
                         <p className="news-subtitle">
-                            In collaboration with University of Southern
-                            California's Viterbi School of Engineering, The
-                            Coding School will develop an in-depth AI course for
+                            The Coding School will develop an in-depth AI course for
                             high school students and educators across the United
                             States
                         </p>

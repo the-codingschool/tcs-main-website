@@ -175,8 +175,7 @@ const Train = (props) => {
                                 >
                                     {/* <p class="text-dark">In collaboration with USC’s Viterbi School of Engineering, we’re offering two, first-of-its-kind programs for high school students and educators focused on Machine Learning (ML), a subfield of Artificial Intelligence. Main components of our program include:</p> */}
                                     <p>
-                                        In collaboration with USC’s Viterbi
-                                        School of Engineering, we’re offering
+                                        The Coding School is offering
                                         two,{" "}
                                         <span className="text-bold">
                                             first-of-its-kind programs
@@ -420,29 +419,7 @@ const Train = (props) => {
                                     </div>
                                     <div className="desc">
                                         <p>
-                                            High school educators and community
-                                            college faculty have two
-                                            professional development (PD)
-                                            opportunities: a 4-week summer
-                                            intensive or participating in the
-                                            two-semester Introduction to ML
-                                            course, in which educators will have
-                                            a weekly lab section specifically
-                                            designed for teachers. Educators
-                                            will develop in-depth ML knowledge,
-                                            receive curriculum they can
-                                            integrate into their existing
-                                            curricula, and join an online
-                                            community of like-minded educators
-                                            who are bringing AI into their
-                                            classrooms. Teachers will receive
-                                            Continuing Education Units (CEUs)
-                                            from University of Southern
-                                            California (USC) and a stipend upon
-                                            completion of the training and
-                                            integration of curricula into their
-                                            classrooms. The first educator
-                                            cohort will begin in July 2022.
+                                        High school educators and community college faculty have two professional development (PD) opportunities: a 4-week summer intensive or participating in the two-semester Introduction to ML course, in which educators will have a weekly lab section specifically designed for teachers. Educators will develop in-depth ML knowledge, receive curriculum they can integrate into their existing curricula, and join an online community of like-minded educators who are bringing AI into their classrooms. Teachers will receive a stipend upon completion of the training and may have an opportunity to receive Continuing Education Units (CEUs). The first educator cohort will begin in July 2022.
                                         </p>
                                     </div>
                                     <a
