@@ -26,9 +26,9 @@ function News() {
                         <p>February 24, 2022</p>
 
                         <p className="news-subtitle">
-                            The Coding School will develop an in-depth AI course for
-                            high school students and educators across the United
-                            States
+                            The Coding School will develop an in-depth AI course
+                            for high school students and educators across the
+                            United States
                         </p>
 
                         <p>
@@ -53,7 +53,9 @@ function News() {
                             first-of-its-kind initiative focused on cultivating
                             a diverse Artificial Intelligence (AI)-literate
                             workforce through high school AI education.
-                            Specifically, the program aims to establish an
+                            Specifically, the program, in partnership with
+                            University of Southern California&rsquo;s (USC)
+                            Viterbi School of Engineering, aims to establish an
                             accessible path for thousands of students in the
                             United States to learn Artificial Intelligence (AI)
                             and Machine Learning (ML) through a two-fold
@@ -106,7 +108,8 @@ function News() {
                             accessible path to AI and ML for thousands of
                             students and educators, the TR
                             <span className="text-bold">AI</span>N program will
-                            enable The Coding School to make a bigger impact in underserved
+                            enable The Coding School in collaboration with USC
+                            Viterbi to make a bigger impact in underserved
                             communities, with the goal of incorporating the
                             course into school curriculums across the country.
                             TR<span className="text-bold">AI</span>N is designed
@@ -193,7 +196,7 @@ function News() {
                             University.
                         </p>
 
-                        <h3 className="small-title">
+                        {/* <h3 className="small-title">
                             About University of Southern California Viterbi
                             School of Engineering:
                         </h3>
@@ -234,7 +237,7 @@ function News() {
                             engineering (Engineering+) to advance discovery and
                             solutions across all disciplines, to serve
                             California, the nation and the world.
-                        </p>
+                        </p> */}
 
                         <ul className="info-box mb-30">
                             <li className="text-bold">
@@ -248,23 +251,6 @@ function News() {
                             </li>
                             <li>
                                 <a href="tel:8587746999">(858) 774-6999</a>
-                            </li>
-                        </ul>
-
-                        <ul className="info-box">
-                            <li className="text-bold">
-                                USC Viterbi School Press Contact:
-                            </li>
-                            <li>Amy Blumenthal</li>
-                            <li>Director, Media Relations</li>
-                            <li>USC Viterbi School of Engineering</li>
-                            <li>
-                                <a href="mailto:amyblume@usc.edu">
-                                    amyblume@usc.edu
-                                </a>
-                            </li>
-                            <li>
-                                <a href="tel:2138211887">(213) 821-1887</a>
                             </li>
                         </ul>
                     </div>
