@@ -468,7 +468,7 @@ function Home() {
 
                 <KeyInitiatives></KeyInitiatives>
 
-                <div className="tcs-stories">
+                <div className="tcs-stories d-none">
                     <div className="container">
                         <header>
                             <h2>The Coding School Stories</h2>
