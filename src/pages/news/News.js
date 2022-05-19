@@ -33,13 +33,13 @@ function News() {
 
                         <p>
                             <span className="text-bold">(Los Angeles, CA)</span>{" "}
-                            -<Link to="/">The Coding School (TCS)</Link>, a tech
+                            -<Link to="/" className="link-text">The Coding School (TCS)</Link>, a tech
                             education nonprofit organization dedicated to
                             empowering the next generation through emerging
                             technology education, announced today that the U.S.
                             Department of Defense (DoD), through the Office of
                             the Under Secretary of Defense for Research and
-                            Engineering (OUSD(R&amp;E)), has been selected as a
+                            Engineering (OUSD(R&amp;E)), has selected The Coding School as a
                             $3 million grant recipient under the National
                             Defense Education Program (NDEP) in Science,
                             Technology, Engineering, and Mathematics (STEM),
@@ -49,79 +49,23 @@ function News() {
                         <p>
                             The Coding School will receive the funds over a
                             three-year period to develop and implement TR
-                            <span className="text-bold">AI</span>N, a
-                            first-of-its-kind initiative focused on cultivating
-                            a diverse Artificial Intelligence (AI)-literate
-                            workforce through high school AI education.
-                            Specifically, the program, in partnership with
-                            University of Southern California&rsquo;s (USC)
-                            Viterbi School of Engineering, aims to establish an
-                            accessible path for thousands of students in the
-                            United States to learn Artificial Intelligence (AI)
-                            and Machine Learning (ML) through a two-fold
-                            approach.
+                            <span className="text-bold">AI</span>N, a first-of-its-kind initiative focused on cultivating a diverse Artificial Intelligence (AI)-literate workforce through high school AI education. Specifically, the program, aims to establish an accessible path for thousands of students in the United States to learn Artificial Intelligence (AI) and Machine Learning (ML) through a two-fold approach.
                         </p>
 
                         <p>
-                            TR<span className="text-bold">AI</span>N will offer
-                            a two-semester, for credit Introduction to Machine
-                            Learning course for high school students beginning
-                            in Fall 2022. With an inclusive program design, the
-                            course will be held virtually with live instruction
-                            to ensure accessibility and consist of weekly
-                            lectures, labs, and projects. High school STEM
-                            educators will also be able to enroll in the course
-                            or complete a two- or four-week summer intensive for
-                            professional development and will receive continuing
-                            education units (CEUs) through USC&rsquo;s Viterbi
-                            School, in addition to a stipend upon completion.
-                            The Coding School&rsquo;s two-pronged approach
-                            provides STEM educators with in-depth training to
-                            develop comprehensive modules or courses at their
-                            local school, and a for-credit course provides
-                            meaningful AI and ML instruction to students who
-                            otherwise would not have the ability to take an AI
-                            course at their school.
+                            TR<span className="text-bold">AI</span>N will offer a two-semester, for credit Introduction to Machine Learning course for high school students beginning in Fall 2022. With an inclusive program design, the course will be held virtually with live instruction to ensure accessibility and consist of weekly lectures, labs, and projects. High school STEM educators will also be able to enroll in the course or complete a two- or four-week summer intensive for professional development and will receive a stipend upon completion. The Coding School’s two-pronged approach provides STEM educators with in-depth training to develop comprehensive modules or courses at their local school, and a for-credit course provides meaningful AI and ML instruction to students who otherwise would not have the ability to take an AI course at their school.
                         </p>
 
                         <p>
-                            &ldquo;Artificial Intelligence and Machine Learning
-                            will affect nearly every aspect of society - from
-                            how we interact and socialize to how industries run.
-                            Having an AI-literate workforce is not just
-                            important for the U.S. economy but is also an issue
-                            of national security,&rdquo; said Kiera Peltz,
-                            Founder and CEO of The Coding School, as well as
-                            Principal Investigator (PI) on the grant. &ldquo;We
-                            are grateful that this grant will help us ensure
-                            high school students - particularly those who
-                            don&rsquo;t have access to high-quality STEM
-                            education - are prepared with the technical skills
-                            necessary for the future of work.&rdquo;
+                            &ldquo;Artificial Intelligence and Machine Learning will affect nearly every aspect of society - from how we interact and socialize to how industries run. Having an AI-literate workforce is not just important for the U.S. economy but is also an issue of national security,&rdquo; said Kiera Peltz, Founder and CEO of The Coding School, as well as Principal Investigator (PI) on the grant. &ldquo;We are grateful that this grant will help us ensure high school students - particularly those who don’t have access to high-quality STEM education - are prepared with the technical skills necessary for the future of work.&rdquo;
                         </p>
 
                         <p>
-                            As the economic impact of AI is substantially
-                            increasing, TR<span className="text-bold">AI</span>N
-                            is critical to developing the next generation of AI
-                            leaders and changemakers. Through providing an
-                            accessible path to AI and ML for thousands of
-                            students and educators, the TR
-                            <span className="text-bold">AI</span>N program will
-                            enable The Coding School in collaboration with USC
-                            Viterbi to make a bigger impact in underserved
-                            communities, with the goal of incorporating the
-                            course into school curriculums across the country.
-                            TR<span className="text-bold">AI</span>N is designed
-                            to focus on increasing diversity in AI and the
-                            future workforce, and will serve students from
-                            traditionally underrepresented backgrounds,
-                            broadening access to quality STEM education to
-                            ensure future leaders are agile and equipped with
-                            skills and mentorships needed to succeed.
+                            As the economic impact of AI is substantially increasing, TR<span className="text-bold">AI</span>N is critical to developing the next generation of AI leaders and changemakers. Through providing an accessible path to AI and ML for thousands of students and educators, the TR <span className="text-bold">AI</span>N program will enable The Coding School in collaboration with USC Viterbi to make a bigger impact in underserved communities, with the goal of incorporating the course into school curriculums across the country. TR<span className="text-bold">AI</span>N is designed to focus on increasing diversity in AI and the future workforce, and will serve students from traditionally underrepresented backgrounds, broadening access to quality STEM education to ensure future leaders are agile and equipped with skills and mentorships needed to succeed.
+
                         </p>
 
-                        <p>
+                        {/* <p>
                             &ldquo;This important high school program provides
                             the necessary, contemporary AI and machine learning
                             content knowledge that will situate high school
@@ -154,19 +98,16 @@ function News() {
                             range of staff from different laboratories and
                             departments to highlight STEM career paths at the
                             DoD.
+                        </p> */}
+
+                        <p>The Coding School will develop and execute the learning programs and provide the curriculum to schools throughout the country. They will also conduct research, studying multi-dimensional data collected from the program to inform best practices for future AI educational efforts for high school educators and students. Throughout the course, students and educators will have the opportunity to connect with AI experts in academia, government, and industry to raise awareness of careers in AI and ML. Additionally, The Coding School will work with the DoD to include a range of staff from different laboratories and departments to highlight STEM career paths at the DoD</p>
+
+                        <p>
+                            Available through The Coding School&rsquo;s instructor-led virtual course, TRAIN will be accessible to students and high school educators at no cost through either a two-semester course or a four-week summer intensive.
                         </p>
 
                         <p>
-                            Available through The Coding School&rsquo;s online
-                            platform, TR<span className="text-bold">AI</span>N
-                            will be accessible to students and high school
-                            educators at no cost through either a two-semester
-                            course or a four-week summer intensive.
-                        </p>
-
-                        <p>
-                            For more information about The Coding School, visit:
-                            <Link to="/">www.the-cs.org</Link>.
+                            For more information about The Coding School, visit:{" "} <Link to="/" className="link-text">www.the-cs.org</Link>.
                         </p>
 
                         <p>###</p>
@@ -176,24 +117,7 @@ function News() {
                         </h3>
 
                         <p>
-                            The Coding School (TCS) is a 501(c)(3) tech
-                            education nonprofit dedicated to empowering the next
-                            generation through computer science education.
-                            Founded in 2014 by Brown University graduate Kiera
-                            Peltz, TCS has become a global leader in emerging
-                            technology education, teaching over 40,000 students
-                            and teachers in 125 countries with over 50% of
-                            students from traditionally underrepresented
-                            backgrounds. TCS offers a diverse range of program
-                            offerings, including 3-year in-classroom courses,
-                            one-on-one and small group coding lessons, summer
-                            camps, and virtual courses in 16+ specialized tech
-                            fields, such as Cyber Security, Quantum Computing,
-                            and Data Science. TCS is sponsored by IBM Quantum
-                            and Google AI, and partnered with higher educational
-                            institutions, including UCLA, USC Viterbi School of
-                            Engineering, Brown University, and Villanova
-                            University.
+                        The Coding School (TCS) is a 501(c)(3) tech education nonprofit dedicated to empowering the next generation through computer science education. Founded in 2014 by Brown University graduate Kiera Peltz, TCS has become a global leader in emerging technology education, teaching over 40,000 students and teachers in 125 countries with over 50% of students from traditionally underrepresented backgrounds. TCS offers a diverse range of program offerings, including 3-year in-classroom courses, one-on-one and small group coding lessons, summer camps, and virtual courses in 16+ specialized tech fields, such as Cyber Security, Quantum Computing, and Data Science. TCS is sponsored by IBM Quantum and Google AI, and partnered with higher educational institutions, including UCLA, University of Maryland, Brown University, and Villanova University.
                         </p>
 
                         {/* <h3 className="small-title">
