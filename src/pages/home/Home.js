@@ -1,4 +1,5 @@
 import "./Home.scss";
+import React, { useState, useEffect } from 'react';
 
 import CountUp from "react-countup";
 
@@ -17,6 +18,7 @@ import KeyInitiatives from "../../component/key-initiatives/Key-initiatives";
 import Testimonial from "../../component/testimonial/Testimonial";
 import { Helmet } from "react-helmet";
 import DropIcon from "../../component/topnav/DropIcon";
+import { ajaxPrefilter, data } from "jquery";
 
 const users = [
     {
@@ -332,6 +334,14 @@ function PrevArrow(props) {
 }
 
 function Home() {
+    const [posts, setPosts] = useState([]);
+    function fetchPosts() {
+        fetch('http://blog.the-cs.org/wp-json/wp/v2/posts?categories=10').then(res => res.json())
+        .then (data => { return setPosts(data); })
+    }
+    useEffect(() => {
+        fetchPosts();
+    }, [])
     return (
         <>
             <Helmet>
@@ -477,7 +487,7 @@ function Home() {
                     </div>
                     <div className="tcs-container mb-30">
                         <div className="tcs-story-wrap">
-                            {homeStories.map((e, i) => {
+                            {posts.slice(0,6).map((e, i) => {
                                 return (
                                     <div
                                         className={
@@ -497,18 +507,18 @@ function Home() {
                                             }
                                         >
                                             <a
-                                                href={e.titleLink}
+                                                href={e.link}
                                                 target="_blank"
                                             >
                                                 <div className="img-area">
-                                                    <img src={e.img} />
+                                                    <img src={e.fimg_url} />
                                                 </div>
                                                 <div className="card-content">
                                                     <p className="category">
-                                                        {e.category}
+                                                        Featured
                                                     </p>
                                                     <p className="title">
-                                                        {e.title}
+                                                        {e.title.rendered}
                                                     </p>
                                                 </div>
                                             </a>
@@ -1100,6 +1110,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
+               
+
                 <Testimonial />
             </div>
         </>

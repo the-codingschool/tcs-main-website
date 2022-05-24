@@ -13,7 +13,6 @@ function HomeBanner() {
             var thiss = $(this);
             var XX = Math.floor(Math.random() * 200) + 1;
             var YY = Math.floor(Math.random() * 200) + 2;
-            console.log(thiss);
             var idd = $(this).attr("id");
             var tr = $(this).attr("transform");
             $(this).attr("data-transform", tr);
