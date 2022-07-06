@@ -621,7 +621,7 @@ const Train = (props) => {
                                         <div className="main">
                                             <div className="pic">
                                                 <img
-                                                    src={require("./images/team-7.png")}
+                                                    src={require("./images/jeremy-howard.jpg")}
                                                     alt=""
                                                 />
                                             </div>
@@ -672,9 +672,7 @@ const Train = (props) => {
                                             </div>
                                             <div className="position">
                                                 <p>
-                                                    President of CSTA & CS
-                                                    Teacher at Bergen County
-                                                    Academies
+                                                President of NJ CSTA &amp; CS Teacher at Bergen County Academies
                                                 </p>
                                             </div>
                                         </div>

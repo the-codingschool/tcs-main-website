@@ -429,7 +429,7 @@ function AboutUs() {
                                 <img
                                     className="avatar Advisors  "
                                     src={
-                                        "/images/Board _ Advisors/Jeremy Howard.jpg" ||
+                                        "/images/Board _ Advisors/jeremy-howard.jpg" ||
                                         "https://via.placeholder.com/80"
                                     }
                                     alt=""
@@ -461,8 +461,7 @@ function AboutUs() {
                                 <div>Ben Isecke</div>
                                 <div>
                                     {" "}
-                                    President of CSTA & CS Teacher at Bergen
-                                    County Academies{" "}
+                                    President of NJ CSTA &amp; CS Teacher at Bergen County Academies{" "}
                                 </div>
                             </div>
                         </div>
