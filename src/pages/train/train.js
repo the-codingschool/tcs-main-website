@@ -824,75 +824,15 @@ const Train = (props) => {
                         </div>
                     </div>
                 </section>
-            </div>
 
-            {/*<section className="section_6">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="headline" data-aos="fade-up" data-aos-duration="500">
-                                <h2><span>News</span>  Article</h2>
-                            </div>
-                        </div>
+                <section className="section-disclaimer">
+                    <div className="container">
+                        <p className="text-center">
+                            <small>This material is based upon work supported by the National Defense Education Program (NDEP) for Science, Technology, Engineering, and Mathematics (STEM) Education, Outreach, and Workforce Initiative Programs under Grant No. HQ0034-22-1-0006. The views expressed in written materials or publications, and/or made by speakers, moderators, and presenters, do not necessarily reflect the official policies of the Department of Defense nor does mention of trade names, commercial practices, or organizations imply endorsement by the U.S. Government.</small>
+                        </p>
                     </div>
-                    <div className="row">
-                        <div className="col-md-4" data-aos="fade-up" data-aos-duration="600">
-                            <div className="main">
-                                <div className="pic">
-                                    <img src={require('./images/article-1.png')} alt="" />
-                                </div>
-                                <div className="title">
-                                    <h4>News Title Here</h4>
-                                </div>
-                                <div className="date">
-                                    <i className="fa fa-calendar" aria-hidden="true"></i>
-                                    <h6>
-                                        September 1, 2021</h6>
-                                </div>
-                                <div className="desc">
-                                    <p>Lorem Ipsum is simply dummy text of the printing....</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4" data-aos="fade-up" data-aos-duration="700">
-                            <div className="main">
-                                <div className="pic">
-                                    <img src={require('./images/article-2.png')} alt="" />
-                                </div>
-                                <div className="title">
-                                    <h4>News Title Here</h4>
-                                </div>
-                                <div className="date">
-                                    <i className="fa fa-calendar" aria-hidden="true"></i>
-                                    <h6>
-                                        September 1, 2021</h6>
-                                </div>
-                                <div className="desc">
-                                    <p>Lorem Ipsum is simply dummy text of the printing....</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4" data-aos="fade-up" data-aos-duration="800">
-                            <div className="main">
-                                <div className="pic">
-                                    <img src={require('./images/article-3.png')} alt="" />
-                                </div>
-                                <div className="title">
-                                    <h4>News Title Here</h4>
-                                </div>
-                                <div className="date">
-                                    <i className="fa fa-calendar" aria-hidden="true"></i>
-                                    <h6>
-                                        September 1, 2021</h6>
-                                </div>
-                                <div className="desc">
-                                    <p>Lorem Ipsum is simply dummy text of the printing....</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
+                </section>
+            </div>
         </>
     );
 };
